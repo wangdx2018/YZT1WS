@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<DataSourceRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DataSourceName="ds001" DataSourceTypeName="AFC.WS.UI.DataSources.DBDataSource,AFC.WS.UI.DataSources" ComboBoxDataSource="DBDataSource">
-  <PropertyValues>
-    <PropertyValue Value="ds001" Key="DataSourceName" />
-    <PropertyValue Value="select * from dev_info" Key="Sql" />
-    <PropertyValue Value="dev_info" Key="TableName" />
-  </PropertyValues>
-</DataSourceRule>
