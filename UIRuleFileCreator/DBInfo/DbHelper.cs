@@ -127,9 +127,15 @@ namespace AFC.WS.UI.UIRuleFileCreator
         /// <returns>返回 TableFieldProperty集合</returns>
         public List<TableFieldProperty> FieldListByTableName(string tableName)
         {
-            string sqlQuery = string.Format("select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc ");
-            sqlQuery += string.Format("inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME ");
-            sqlQuery += string.Format("where atc.OWNER = '{0}' and atc.TABLE_NAME = '{1}' order by atc.COLUMN_ID", DatabaseOwner, tableName);
+            string sqlQuery = string.Format(@"SELECT
+	table_name as 'TABLE_NAME',
+	column_name as 'COLUMN_NAME',
+	column_comment as 'comments',
+	data_type as 'DATA_TYPE'
+FROM
+	information_schema. COLUMNS
+WHERE
+	table_name='{0}'", tableName);
 
             Utility.Instance.ConsoleWriteLine(sqlQuery, LogFlag.InfoFormat);
 
