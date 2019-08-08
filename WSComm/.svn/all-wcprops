@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/TJ_AFC/!svn/ver/9505/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm
+END
+CommConnection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TJ_AFC/!svn/ver/9505/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommConnection.cs
+END
+BeartHeartData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TJ_AFC/!svn/ver/9102/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/BeartHeartData.cs
+END
+DeviceRange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TJ_AFC/!svn/ver/1310/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/DeviceRange.cs
+END
+SynMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/530/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/SynMessage.cs
+END
+IServerMessageHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/IServerMessageHandler.cs
+END
+CommConection_Extern.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TJ_AFC/!svn/ver/7164/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommConection_Extern.cs
+END
+WinSockErrorCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/WinSockErrorCode.cs
+END
+TJComm.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TJ_AFC/!svn/ver/1308/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/TJComm.csproj
+END
+CommClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TJ_AFC/!svn/ver/7877/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommClient.cs
+END
+PackageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TJ_AFC/!svn/ver/474/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/PackageType.cs
+END
+CommHeaderData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TJ_AFC/!svn/ver/3874/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommHeaderData.cs
+END
+TJCommMsg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/8747/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/TJCommMsg.cs
+END
+CommBodyData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TJ_AFC/!svn/ver/596/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommBodyData.cs
+END
+CommHeader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/713/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommHeader.cs
+END
+CommConfigs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TJ_AFC/!svn/ver/568/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/CommConfigs.cs
+END
+ResultCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/474/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/WSComm/ResultCode.cs
+END

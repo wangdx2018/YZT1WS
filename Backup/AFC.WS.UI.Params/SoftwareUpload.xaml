@@ -1,0 +1,43 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.SoftwareUpload"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController" 
+     xmlns:control="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+                        Background="{DynamicResource MainBackgroundBrush}"
+     >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="10*"></RowDefinition>
+                        <RowDefinition Height="500"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="软件上传" Width="500" Height="500" Grid.Row="1">
+                        <Grid>
+                            <ComboBox Height="23" Margin="140,48,115,0" Name="cmbDevSoftware" VerticalAlignment="Top" SelectedIndex="0">
+                                <ComboBoxItem Content="--请选择--" Tag="0"/>
+                                <ComboBoxItem Content="TVM软件" Tag="4301"/>
+                                <ComboBoxItem Content="AGM软件" Tag="4303"/>
+                                <ComboBoxItem Content="BOM软件" Tag="4302"/>
+                                <ComboBoxItem Content="TCM软件" Tag="4304"/>
+                                <ComboBoxItem Content="SCWS软件" Tag="4310"/>
+                                <ComboBoxItem Content="LCWS软件" Tag="4311"/>
+                                <ComboBoxItem Content="TPU应用" Tag="4306"/>
+                            </ComboBox>
+                            <Label Height="28" HorizontalAlignment="Left" Margin="17,47,0,0" Name="label1" VerticalAlignment="Top" Width="102.89">请选择软件类型</Label>
+                            <TextBox Height="23" Margin="140,106,109,0" Name="txtFilePath" VerticalAlignment="Top" IsEnabled="False" />
+                            <Label Height="28" HorizontalAlignment="Left" Margin="47,106,0,0" Name="label2" VerticalAlignment="Top" Width="64">文件路径</Label>
+                            <Button Height="23" Margin="0,106,15,0" Name="btnBrower" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75">浏览</Button>
+                            <Button Height="28" HorizontalAlignment="Right" Margin="0,0,76,56" Name="btnSoftwareUnload" VerticalAlignment="Bottom" Width="77">软件上传</Button>
+                            <Label Margin="96,230,76,154" Name="labTip"></Label>
+                            <Label Height="28" HorizontalAlignment="Left" Margin="55,166,0,0" Name="labVersionNo" VerticalAlignment="Top" Width="56" Visibility="Hidden">版本号</Label>
+                            <control:TextBoxExtend TextBoxValidate="AllNumbers" Height="23" Margin="140,169,228,0" Name="txtParamVersionNo" VerticalAlignment="Top" Visibility="Hidden" />
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<DataListRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="false" PageRecordCount="20" SelectionMode="MultiChoice" DataSourceName="ds_dev_current_status_alarm" ActionLocation="Bottom" ActionAlign="Left" ButtonStyle="pageButtonStyle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="false" HeaderName="车站编码" BindingField="station_id" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站名称" BindingField="station_cn_name" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="设备编码" BindingField="device_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="设备种类" BindingField="device_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="设备类型" BindingField="device_name" Width="80">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="状态编码" BindingField="status_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="状态名称" BindingField="css_status_id_name" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="状态值" BindingField="status_value" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="状态明细" BindingField="css_status_value_name" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="状态级别编码" BindingField="status_level" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="状态级别" BindingField="status_level_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="是否确认" BindingField="is_confirm" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障发生日期" BindingField="update_date" Width="100" ConvertoTypeName="AFC.WS.UI.Convertors.DateTimeConvert,AFC.WS.UI.FC" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障发生时间" BindingField="update_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="操作员编码" BindingField="confirm_oper" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="操作员名称" BindingField="operator_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="确认日期" BindingField="confirm_date" Width="100" ConvertoTypeName="AFC.WS.UI.Convertors.DateTimeConvert,AFC.WS.UI.FC" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="确认时间" BindingField="confirm_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="是否恢复" BindingField="is_normal" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="恢复正常日期" BindingField="normal_date" Width="100" ConvertoTypeName="AFC.WS.UI.Convertors.DateTimeConvert,AFC.WS.UI.FC" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="恢复正常时间" BindingField="normal_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnConfirm" Content="确认" ActionTypeName="AFC.WS.ModelView.Actions.DeviceMonitor.AlarmStatusAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
+    </ActionProperty>
+  </ActionList>
+</DataListRule>

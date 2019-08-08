@@ -1,0 +1,55 @@
+10
+
+dir
+9870
+http://192.168.1.15/svn/TJ_AFC/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles
+http://192.168.1.15/svn/TJ_AFC
+
+
+
+2013-06-24T02:23:57.215699Z
+9864
+wumeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f3edcb17-46f4-c44a-96dd-14a424d330dc
+
+PassengerFlow
+dir
+
+TickMonyBoxManager
+dir
+
+CashBoxManager
+dir
+
+Params
+dir
+
+DataManager
+dir
+
+Mode
+dir
+
+LogQuery
+dir
+
+DataSource
+dir
+
+Primission
+dir
+

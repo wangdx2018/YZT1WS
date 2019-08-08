@@ -1,0 +1,80 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.CoreUI.MenuControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib" 
+    xmlns:m="clr-namespace:AFC.WS.UI.CoreUI"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:BR="clr-namespace:AFC.WS.BR;assembly=AFC.WS.BR"
+    xmlns:con="clr-namespace:AFC.WS.ModelView.Convetors;assembly=AFC.WS.ModelView"
+                          xmlns:my="clr-namespace:AFC.WS.UI.CoreUI"
+    Background="{DynamicResource MainBackgroundBrush}"
+    Loaded="UserControl_Loaded" 
+    xmlns:d="http://schemas.microsoft.com/expression/interactivedesigner/2006" 
+	mc:Ignorable="d">
+    <local:UserControlBase.Resources>
+        <Storyboard  x:Key="storyBoard"  >
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(UIElement.Opacity)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.6000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:02.6000000" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <my:ImageConvert x:Key="imageConvert"></my:ImageConvert>
+        <con:ConvertorToOperatorName x:Key="nameCon"></con:ConvertorToOperatorName>
+    </local:UserControlBase.Resources>
+        <DockPanel>
+         <StackPanel>
+            <Border   Background="{DynamicResource DiagramGradientBrush}"  BorderThickness="0,0,0,1" Style="{DynamicResource BorderStyle}"></Border>
+            <Border x:Name="MenuBorder"  VerticalAlignment="Top"   Margin="0,0,0,2">
+                <Menu VerticalAlignment="Bottom"   Height="28" Style="{DynamicResource MenuStyle}" x:Name="mainMenu">
+                    <MenuItem Header="系统工具" x:Name="NewMenu" >
+                        <MenuItem Header="隐藏导航" x:Name="hiddenNavigator"  Click="hiddenNavigator_Click" />
+                        <MenuItem Header="显示导航" x:Name="ShowNavigator"  Click="hiddenNavigator_Click"/>
+                        <MenuItem Header="登出系统" x:Name="miExitToLogonUI"  Click="miExitToLogonUI_Click" />
+                        <MenuItem Header="修改系统参数" x:Name="SysConfigRewrite" Click="SysConfigRewrite_Click" />
+                        <MenuItem Header="屏幕打印" x:Name="SaveMenu"  Click="SaveMenu_Click"  />
+                        <MenuItem Header="皮肤管理" x:Name="SkinsMenu" HorizontalContentAlignment="Left" />
+                        <MenuItem Header="关于" x:Name="GedcomMenu"  HorizontalContentAlignment="Left" >
+                            <MenuItem Header="版本信息" x:Name="AboutMenu"   Click="AboutMenu_Click" />
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
+            </Border>
+        <Border   Background="{DynamicResource DiagramGradientBrush}"  BorderThickness="0,0,0,1" Style="{DynamicResource BorderStyle}"></Border>
+        <!-- Header Area-->
+            <Border Height="45"  Grid.Row="1"  BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,0" x:Name="HeaderBorder" Padding="10,0,10,0" >
+                <DockPanel x:Name="Header" >
+                    <Image Source="{Binding Path=Content,ElementName=labMode,Converter={StaticResource imageConvert }}" Height="40" VerticalAlignment="Bottom" ToolTip="{Binding Path=Content,ElementName=labMode}" x:Name="imageMode"></Image>
+                    <TextBlock xml:space="preserve"  Opacity="1" FontFamily="Segoe" FontSize="24" FontStretch="Normal" FontWeight="Light" TextWrapping="Wrap" Foreground="{DynamicResource HeaderFontColor}" VerticalAlignment="Bottom" Margin="0,0,0,5" Text="天津地铁3号线" x:Name="_text"/>
+                </DockPanel>                  
+            </Border>
+            <Border   Background="{DynamicResource DiagramGradientBrush}"  BorderThickness="0,0,0,1" Style="{DynamicResource BorderStyle}"></Border>
+            <Border   x:Name="borderStatus" VerticalAlignment="Bottom" DockPanel.Dock="Top" Margin="0,5,0,5">
+                <DockPanel x:Name="status"  >
+                <Label Content="当前位置：" HorizontalAlignment="Left"></Label>
+                <Label Content="登录" x:Name="labMap" Width="220"></Label>
+                <Label Content="|" x:Name="labSplit"></Label>
+                <Label Content="运营模式：" x:Name="labModeTip"></Label>
+                <Label Content="正常模式" x:Name="labMode"></Label>
+                <Label Content="|"></Label>
+                <Label Content="操作员: "></Label>
+                <Label Content="{Binding Path=CurrentOperatorId,Converter={StaticResource nameCon }}" x:Name="labOperator" ></Label>
+                <Label Content="|"></Label>
+                <Label Content="车站："></Label>
+                <Label Content="苏庄大街"   x:Name="labStation"></Label>
+                <Label Content="|"></Label>
+                    <Label Content="系统类别: "   x:Name="labSystemType"></Label>
+                    <Label Content="LCWS"   x:Name="labSystemTypeContent"></Label>
+                    <Label Content="|"></Label>
+                    <Label Content="时间" Width="45" ></Label>
+                <Label  x:Name="labTime"  Width="180" HorizontalContentAlignment="Left" HorizontalAlignment="Left"></Label>
+            </DockPanel>
+        </Border>
+        <Border   Background="{DynamicResource DiagramGradientBrush}"  BorderThickness="0,0,0,1" Style="{DynamicResource BorderStyle}"></Border>
+    </StackPanel>
+        </DockPanel>
+</local:UserControlBase>

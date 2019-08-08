@@ -1,0 +1,17 @@
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\bin\Debug\TJComm.dll
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\bin\Debug\TJComm.pdb
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\bin\Debug\AFC.BJComm.dll
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\bin\Debug\AFC.BOM2.Common.dll
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\bin\Debug\AFC.BOM2.MessageDispacher.dll
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\bin\Debug\AFC.BJComm.pdb
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\obj\Debug\TJComm.dll
+D:\MYDEVWORK\TJWSCode\TJWS\WSComm\obj\Debug\TJComm.pdb
+F:\TJWS\WSComm\bin\Debug\TJComm.dll
+F:\TJWS\WSComm\bin\Debug\TJComm.pdb
+F:\TJWS\WSComm\bin\Debug\AFC.BJComm.dll
+F:\TJWS\WSComm\bin\Debug\AFC.BOM2.Common.dll
+F:\TJWS\WSComm\bin\Debug\AFC.BOM2.MessageDispacher.dll
+F:\TJWS\WSComm\bin\Debug\AFC.BJComm.pdb
+F:\TJWS\WSComm\obj\Debug\TJComm.csprojResolveAssemblyReference.cache
+F:\TJWS\WSComm\obj\Debug\TJComm.dll
+F:\TJWS\WSComm\obj\Debug\TJComm.pdb

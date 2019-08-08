@@ -1,0 +1,74 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.TicketBoxManager.RfidLabelInit"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:control="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+    xmlns:my="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+                       Background="{DynamicResource MainBackgroundBrush}">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid x:Name="rootLayout">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"></RowDefinition>
+                        <RowDefinition Height="60*"></RowDefinition>
+                        <RowDefinition Height="20*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30*"></ColumnDefinition>
+                        <ColumnDefinition Width="40*"></ColumnDefinition>
+                        <ColumnDefinition Width="30*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="RFID标签初始化" Grid.Row="1" Grid.Column="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"></RowDefinition>
+                                <RowDefinition Height="2*"></RowDefinition>
+                                <RowDefinition Height="2*"></RowDefinition>
+                                <RowDefinition Height="1*"></RowDefinition>
+                                <RowDefinition Height="1.5*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30*"></ColumnDefinition>
+                                <ColumnDefinition Width="70*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Label Content="RFID类型" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom"></Label>
+                            <ComboBox Grid.Row="0" x:Name="cmbRfidType" Grid.Column="1" HorizontalAlignment="Left"  Width="150" Height="25" VerticalAlignment="Bottom"></ComboBox>
+                            
+                            <Label Content="钱/票箱类型" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom"></Label>
+                            <ComboBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" x:Name="cmbBoxType" HorizontalAlignment="Left" Width="150" Height="25" ></ComboBox>
+                            
+                            <Label Content="钱/票箱编号" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Bottom"></Label>
+
+                            <Grid Grid.Row="2" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <control:TextBoxExtend Grid.Column="0" VerticalAlignment="Bottom" x:Name="txtBoxType" HorizontalAlignment="Left" Width="60" Height="25" RegMaxLength="9" RegMinLength="5" TextBoxValidate="AllNumbers"  IsEnabled="False"></control:TextBoxExtend>
+                                <control:TextBoxExtend  Grid.Column="1" VerticalAlignment="Bottom" x:Name="txtBoxId" Width="90" HorizontalAlignment="Left" Height="25" RegMaxLength="4" RegMinLength="4" TextBoxValidate="AllNumbers"  IsEnabled="True"></control:TextBoxExtend>
+                            </Grid>
+
+                            <control:LabelExtend x:Name="labTip" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="请确定RFID连接是否正常..." VerticalAlignment="Bottom" Foreground="Red" HorizontalAlignment="Center" ></control:LabelExtend>
+                            <Grid Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Button x:Name="btnInit" Content="初始化"  Grid.Column="0"></Button>
+                                <Button x:Name="btnConnect" Content="连接" Grid.Column="1"></Button>
+                            </Grid>
+                           
+                            
+                        </Grid>
+                        
+                    </GroupBox>
+
+                
+
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+    </local:UserControlBase>

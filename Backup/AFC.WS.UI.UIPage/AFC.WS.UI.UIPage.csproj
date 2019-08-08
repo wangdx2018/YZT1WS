@@ -1,0 +1,1513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43931580-3E37-4D9B-9D64-AB40E7488F6B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFC.WS.UI.UIPage</RootNamespace>
+    <AssemblyName>AFC.WS.UI.UIPage</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFC.BOM2.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.MessageDispacher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.MessageDispacher.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.UIController, Version=0.1.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.UIController.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="FabTab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=292626629a736ae0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FabTab.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="PresentationFramework.Luna">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.31016.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts, Version=2.2.0.0, Culture=neutral, PublicKeyToken=99d724542e4db593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.DBO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WS.DBO.dll</HintPath>
+    </Reference>
+    <Reference Include="ZonaTools.XPlorerBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\ZonaTools.XPlorerBar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CashManager\BOMSettlementPrintAction.cs" />
+    <Compile Include="CashManager\CashCallIn.xaml.cs">
+      <DependentUpon>CashCallIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashCallOut.xaml.cs">
+      <DependentUpon>CashCallOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashCheckIn.xaml.cs">
+      <DependentUpon>CashCheckIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashCheckInAdjust.xaml.cs">
+      <DependentUpon>CashCheckInAdjust.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashCheckInOutQuery.xaml.cs">
+      <DependentUpon>CashCheckInOutQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashCheckOut.xaml.cs">
+      <DependentUpon>CashCheckOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashDetailsInfo.cs" />
+    <Compile Include="CashManager\CashOperatorLogQuery.xaml.cs">
+      <DependentUpon>CashOperatorLogQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashStorageManage.xaml.cs">
+      <DependentUpon>CashStorageManage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashStoreAdjust.xaml.cs">
+      <DependentUpon>CashStoreAdjust.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\cashStoreLogQuery.xaml.cs">
+      <DependentUpon>cashStoreLogQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashStorePieQuery.xaml.cs">
+      <DependentUpon>CashStorePieQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashStoreQuery.xaml.cs">
+      <DependentUpon>CashStoreQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashTypeAdded.xaml.cs">
+      <DependentUpon>CashTypeAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CashTypeNameUpdate.xaml.cs">
+      <DependentUpon>CashTypeNameUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CoiningStoreLogQuery.xaml.cs">
+      <DependentUpon>CoiningStoreLogQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\CrystalBomSettlementReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalBomSettlementReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashManager\CrystalCashInOutReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalCashInOutReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashManager\CrystalRptData.cs" />
+    <Compile Include="CashManager\CrystalTvmSettlementReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalTvmSettlementReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashManager\DataBomSettlementSet.cs">
+      <DependentUpon>DataBomSettlementSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashManager\DataBomSettlementSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataBomSettlementSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\DataCashInOutSet.cs">
+      <DependentUpon>DataCashInOutSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashManager\DataCashInOutSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataCashInOutSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\DataOperatorSettleQuery.xaml.cs">
+      <DependentUpon>DataOperatorSettleQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\DataTvmSettlementSet.cs">
+      <DependentUpon>DataTvmSettlementSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CashManager\DataTvmSettlementSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataTvmSettlementSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\MoneyTypeCodeManager.xaml.cs">
+      <DependentUpon>MoneyTypeCodeManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CashManager\TVMSettlementPrintAction.cs" />
+    <Compile Include="DataImportExport\DataExport.xaml.cs">
+      <DependentUpon>DataExport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportExport\DataImport.xaml.cs">
+      <DependentUpon>DataImport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportExport\DataImportExport.xaml.cs">
+      <DependentUpon>DataImportExport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataImportExport\InitAuthenticationFile.xaml.cs">
+      <DependentUpon>InitAuthenticationFile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\BussinessDetailInfoQuery.xaml.cs">
+      <DependentUpon>BussinessDetailInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\BussinessQuery.xaml.cs">
+      <DependentUpon>BussinessQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CashBomShiftDateSettlementInfoQuery.xaml.cs">
+      <DependentUpon>CashBomShiftDateSettlementInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CashBomShiftSettlementInfo.xaml.cs">
+      <DependentUpon>CashBomShiftSettlementInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CashDateSettlementHisQuery.xaml.cs">
+      <DependentUpon>CashDateSettlementHisQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CashDateSettlementInfoQuery.xaml.cs">
+      <DependentUpon>CashDateSettlementInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\CrystalCashBomShiftData.cs" />
+    <Compile Include="DataManager\CrystalCashBomShiftSettlementReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalCashBomShiftSettlementReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataManager\DataCashBomShiftSettlementSet.cs">
+      <DependentUpon>DataCashBomShiftSettlementSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataManager\DataCashBomShiftSettlementSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataCashBomShiftSettlementSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\DataUploadRecordsQuery.xaml.cs">
+      <DependentUpon>DataUploadRecordsQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\DataYKTAnnualReviewQuery.xaml.cs">
+      <DependentUpon>DataYKTAnnualReviewQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\DateReUploadRecordsCom.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>DateReUploadRecordsCom.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OperClassSettleDate.xaml.cs">
+      <DependentUpon>OperClassSettleDate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OperClassSettleDateUpdate.xaml.cs">
+      <DependentUpon>OperClassSettleDateUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OperContentRemarkAdd.xaml.cs">
+      <DependentUpon>OperContentRemarkAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\DataFileDealQuery.xaml.cs">
+      <DependentUpon>DataFileDealQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\DataFileUpQuery.xaml.cs">
+      <DependentUpon>DataFileUpQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OperContentAdd.xaml.cs">
+      <DependentUpon>OperContentAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OperContentQuery.xaml.cs">
+      <DependentUpon>OperContentQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\OperContentRemarkUpdate.xaml.cs">
+      <DependentUpon>OperContentRemarkUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\RunParamInfoAdd.xaml.cs">
+      <DependentUpon>RunParamInfoAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\RunParamInfoQuery.xaml.cs">
+      <DependentUpon>RunParamInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\TimeTaskExcute.xaml.cs">
+      <DependentUpon>TimeTaskExcute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\TimeTaskExcuteAdded.xaml.cs">
+      <DependentUpon>TimeTaskExcuteAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataManager\TimeTaskExcuteUpdate.xaml.cs">
+      <DependentUpon>TimeTaskExcuteUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\AgUpsInfoAdd.xaml.cs">
+      <DependentUpon>AgUpsInfoAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\AgUpsStatusQuery.xaml.cs">
+      <DependentUpon>AgUpsStatusQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\BasiHallGroupQuery.xaml.cs">
+      <DependentUpon>BasiHallGroupQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\BasiStationHallQuery.xaml.cs">
+      <DependentUpon>BasiStationHallQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\BasiStatusIdQuery.xaml.cs">
+      <DependentUpon>BasiStatusIdQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\CtlCommLogBrowse.xaml.cs">
+      <DependentUpon>CtlCommLogBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\DevCurrentErrorStatusQuery.xaml.cs">
+      <DependentUpon>DevCurrentErrorStatusQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\DevCurrentStatusAlarmQuery.xaml.cs">
+      <DependentUpon>DevCurrentStatusAlarmQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\DevRunStatusQuery.xaml.cs">
+      <DependentUpon>DevRunStatusQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\DevStatusAlarmHistoryQuery.xaml.cs">
+      <DependentUpon>DevStatusAlarmHistoryQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\SLEGroupControl.xaml.cs">
+      <DependentUpon>SLEGroupControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\UpsOFF.xaml.cs">
+      <DependentUpon>UpsOFF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceMonitor\UpsToDevice.xaml.cs">
+      <DependentUpon>UpsToDevice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogQuery\BomSettleBrowse.xaml.cs">
+      <DependentUpon>BomSettleBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogQuery\DevSettleBrowse.xaml.cs">
+      <DependentUpon>DevSettleBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogQuery\FailLogBrowse.xaml.cs">
+      <DependentUpon>FailLogBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogQuery\LogBrowse.xaml.cs">
+      <DependentUpon>LogBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogQuery\OperDoubleLogBrowse.xaml.cs">
+      <DependentUpon>OperDoubleLogBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogQuery\TvmSettleBrowse.xaml.cs">
+      <DependentUpon>TvmSettleBrowse.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\CrystalMaintainFaultRptStatusReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalMaintainFaultRptStatusReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaintainAreaManager\DevFaultPrintAction.cs" />
+    <Compile Include="MaintainAreaManager\MaintainAreaStationInfo.xaml.cs">
+      <DependentUpon>MaintainAreaStationInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\MaintainAreaStationRelaction.xaml.cs">
+      <DependentUpon>MaintainAreaStationRelaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\MaintainFaultRptStatusQuery.xaml.cs">
+      <DependentUpon>MaintainFaultRptStatusQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\MaintainRptTrackInfoAdded.xaml.cs">
+      <DependentUpon>MaintainRptTrackInfoAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\MaintainRptTrackInfoQuery.xaml.cs">
+      <DependentUpon>MaintainRptTrackInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\MaintainRptTrackInfoUpdate.xaml.cs">
+      <DependentUpon>MaintainRptTrackInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\NoLabelPartsInout.xaml.cs">
+      <DependentUpon>NoLabelPartsInout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\NoLabelPartsReg.xaml.cs">
+      <DependentUpon>NoLabelPartsReg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\PartsInout.xaml.cs">
+      <DependentUpon>PartsInout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\BasiDevPartIdInfoManager.xaml.cs">
+      <DependentUpon>BasiDevPartIdInfoManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\BasiMaintainAreaInfoAdded.xaml.cs">
+      <DependentUpon>BasiMaintainAreaInfoAdded.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaintainAreaManager\BasiMaintainAreaInfoUpdate.xaml.cs">
+      <DependentUpon>BasiMaintainAreaInfoUpdate.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MaintainAreaManager\BasiProviderInfoAdded.xaml.cs">
+      <DependentUpon>BasiProviderInfoAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\BasiProviderInfoManager.xaml.cs">
+      <DependentUpon>BasiProviderInfoManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\BasiProviderInfoUpdate.xaml.cs">
+      <DependentUpon>BasiProviderInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\DelBasiMaintainAreaInfo.xaml.cs">
+      <DependentUpon>DelBasiMaintainAreaInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\DevPartIdAdded.xaml.cs">
+      <DependentUpon>DevPartIdAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\DevPartIdInfoQuery.xaml.cs">
+      <DependentUpon>DevPartIdInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\DevPartIdNameUpdate.xaml.cs">
+      <DependentUpon>DevPartIdNameUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaintainAreaManager\MaintainAreaInfoManager.xaml.cs">
+      <DependentUpon>MaintainAreaInfoManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModeManager\ModeSetting.xaml.cs">
+      <DependentUpon>ModeSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ModeManager\StationModeQuery.xaml.cs">
+      <DependentUpon>StationModeQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Maintenance\PartsInventoryReg.xaml.cs">
+      <DependentUpon>PartsInventoryReg.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerFlow\PassengerFlowFareInfo.xaml.cs">
+      <DependentUpon>PassengerFlowFareInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerFlow\PassengerFlowHistoryInfo.xaml.cs">
+      <DependentUpon>PassengerFlowHistoryInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerFlow\PassengerFlowInfo.xaml.cs">
+      <DependentUpon>PassengerFlowInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerFlow\PassengerFlowParamConfig.xaml.cs">
+      <DependentUpon>PassengerFlowParamConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportManager\AutoPrintReport.xaml.cs">
+      <DependentUpon>AutoPrintReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReportManager\LookHisReport.xaml.cs">
+      <DependentUpon>LookHisReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReportManager\ReportManagerMain.xaml.cs">
+      <DependentUpon>ReportManagerMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\BasiDevInfoQuery.xaml.cs">
+      <DependentUpon>BasiDevInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\BasiDevInfoUpdate.xaml.cs">
+      <DependentUpon>BasiDevInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\BasiHallGroupIdInfoAdded.xaml.cs">
+      <DependentUpon>BasiHallGroupIdInfoAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\BasiHallGroupIdInfoUpdate.xaml.cs">
+      <DependentUpon>BasiHallGroupIdInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\BasiStationHallIdInfoAdded.xaml.cs">
+      <DependentUpon>BasiStationHallIdInfoAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\BasiStationHallIdInfoUpdate.xaml.cs">
+      <DependentUpon>BasiStationHallIdInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\DevResUseInfoQuery.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>DevResUseInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\LCRunEnd.xaml.cs">
+      <DependentUpon>LCRunEnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\LCRunStart.xaml.cs">
+      <DependentUpon>LCRunStart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\SCRunEnd.xaml.cs">
+      <DependentUpon>SCRunEnd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\SCRunStart.xaml.cs">
+      <DependentUpon>SCRunStart.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\StationRunStatusInfoQuery.xaml.cs">
+      <DependentUpon>StationRunStatusInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\SysStartAndCheck.xaml.cs">
+      <DependentUpon>SysStartAndCheck.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RunManager\Welcome.xaml.cs">
+      <DependentUpon>Welcome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\AlarmSetting.xaml.cs">
+      <DependentUpon>AlarmSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\AlarmStyleModify.xaml.cs">
+      <DependentUpon>AlarmStyleModify.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\BoxManager.xaml.cs">
+      <DependentUpon>BoxManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\DevStatusDetail.xaml.cs">
+      <DependentUpon>DevStatusDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\HopperInfo.xaml.cs">
+      <DependentUpon>HopperInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\legendDescription.xaml.cs">
+      <DependentUpon>legendDescription.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\MonitorImageButton.xaml.cs">
+      <DependentUpon>MonitorImageButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\SLEControlSetting.xaml.cs">
+      <DependentUpon>SLEControlSetting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\SLEDeviceMonitorControl.xaml.cs">
+      <DependentUpon>SLEDeviceMonitorControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\SLEMainFrm.xaml.cs">
+      <DependentUpon>SLEMainFrm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\StationTreeViewControl.xaml.cs">
+      <DependentUpon>StationTreeViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\BoxInfo.xaml.cs">
+      <DependentUpon>BoxInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SLEMonitor\StatusLevelModify.xaml.cs">
+      <DependentUpon>StatusLevelModify.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\CrystalTicketBoxInOutReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalTicketBoxInOutReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TicketBoxManager\DataTicketBoxInOutSet.cs">
+      <DependentUpon>DataTicketBoxInOutSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TicketBoxManager\DataTicketBoxInOutSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataTicketBoxInOutSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\EmptyTickBoxCallOut.xaml.cs">
+      <DependentUpon>EmptyTickBoxCallOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TickBoxClear.xaml.cs">
+      <DependentUpon>TickBoxClear.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TickBoxInDevInfo.xaml.cs">
+      <DependentUpon>TickBoxInDevInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TickBoxOperatorInfo.cs" />
+    <Compile Include="TicketBoxManager\TickBoxPutIn.xaml.cs">
+      <DependentUpon>TickBoxPutIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TickBoxReplaceInfo.xaml.cs">
+      <DependentUpon>TickBoxReplaceInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TicketBoxIn.xaml.cs">
+      <DependentUpon>TicketBoxIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TicketBoxQuery.xaml.cs">
+      <DependentUpon>TicketBoxQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TicketBoxRfidInfo.xaml.cs">
+      <DependentUpon>TicketBoxRfidInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\CrystalMoneyBoxInOutReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalMoneyBoxInOutReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\DataMoneyBoxSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataMoneyBoxSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\EmptyMoneyBoxCallOut.xaml.cs">
+      <DependentUpon>EmptyMoneyBoxCallOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\MoneyBoxAdd.xaml.cs">
+      <DependentUpon>MoneyBoxAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\CrystalTickInOutReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalTickInOutReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TickStoreManager\DataTickInOutSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataTickInOutSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\PreTickCheckIn.xaml.cs">
+      <DependentUpon>PreTickCheckIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickCallIn.xaml.cs">
+      <DependentUpon>TickCallIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickCallOut.xaml.cs">
+      <DependentUpon>TickCallOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickCheckIn.xaml.cs">
+      <DependentUpon>TickCheckIn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\CashBoxInDevInfo.xaml.cs">
+      <DependentUpon>CashBoxInDevInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\MoneyBoxClear.xaml.cs">
+      <DependentUpon>MoneyBoxClear.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\CashBoxReplaceInfo.xaml.cs">
+      <DependentUpon>CashBoxReplaceInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\MoneyBoxInOut.xaml.cs">
+      <DependentUpon>MoneyBoxInOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\RFIDConnectTest.xaml.cs">
+      <DependentUpon>RFIDConnectTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\TicketBoxRegister.xaml.cs">
+      <DependentUpon>TicketBoxRegister.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\MoneyBoxPut.xaml.cs">
+      <DependentUpon>MoneyBoxPut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\MoneyBoxRegister.xaml.cs">
+      <DependentUpon>MoneyBoxRegister.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBoxManager\RfidLabelInit.xaml.cs">
+      <DependentUpon>RfidLabelInit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\MoneyBoxStateInfo.xaml.cs">
+      <DependentUpon>MoneyBoxStateInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickCheckInOutQuery.xaml.cs">
+      <DependentUpon>TickCheckInOutQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickCheckOut.xaml.cs">
+      <DependentUpon>TickCheckOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickDispatchInfoQuery.xaml.cs">
+      <DependentUpon>TickDispatchInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TicketStorageManage.xaml.cs">
+      <DependentUpon>TicketStorageManage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TicketTrackingQuery.xaml.cs">
+      <DependentUpon>TicketTrackingQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickStoreAdjust.xaml.cs">
+      <DependentUpon>TickStoreAdjust.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickStoreChangeQuery.xaml.cs">
+      <DependentUpon>TickStoreChangeQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickStoreHistoryPieQuery.xaml.cs">
+      <DependentUpon>TickStoreHistoryPieQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickStoreHistoryQuery.xaml.cs">
+      <DependentUpon>TickStoreHistoryQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickStorePieQuery.xaml.cs">
+      <DependentUpon>TickStorePieQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickStoreQuery.xaml.cs">
+      <DependentUpon>TickStoreQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickValuedProductAdd.xaml.cs">
+      <DependentUpon>TickValuedProductAdd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TickValuedProductManager.xaml.cs">
+      <DependentUpon>TickValuedProductManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TiketTypeAdded.xaml.cs">
+      <DependentUpon>TiketTypeAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickStoreManager\TiketTypeNameUpdate.xaml.cs">
+      <DependentUpon>TiketTypeNameUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TimeSyn\TimeSyn.xaml.cs">
+      <DependentUpon>TimeSyn.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CashManager\CashCallIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashCallOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashCheckIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashCheckInAdjust.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CashManager\CashCheckInOutQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashCheckOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashOperatorLogQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashStorageManage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CashManager\CashStoreAdjust.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\cashStoreLogQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashStorePieQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CashManager\CashStoreQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\CashTypeAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CashManager\CashTypeNameUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CashManager\CoiningStoreLogQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\DataOperatorSettleQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CashManager\MoneyTypeCodeManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataImportExport\DataExport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataImportExport\DataImport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataImportExport\DataImportExport.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataImportExport\InitAuthenticationFile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\BussinessDetailInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\BussinessQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\CashBomShiftDateSettlementInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\CashBomShiftSettlementInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\CashDateSettlementHisQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\CashDateSettlementInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\DataUploadRecordsQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\DataYKTAnnualReviewQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\DateReUploadRecordsCom.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\OperClassSettleDate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\OperClassSettleDateUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\OperContentRemarkAdd.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\DataFileDealQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\DataFileUpQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\OperContentAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\OperContentQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\OperContentRemarkUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\RunParamInfoAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\RunParamInfoQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\TimeTaskExcute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataManager\TimeTaskExcuteAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataManager\TimeTaskExcuteUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\AgUpsInfoAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceMonitor\AgUpsStatusQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\BasiHallGroupQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceMonitor\BasiStationHallQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceMonitor\BasiStatusIdQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\CtlCommLogBrowse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceMonitor\DevCurrentErrorStatusQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\DevCurrentStatusAlarmQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\DevRunStatusQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceMonitor\DevStatusAlarmHistoryQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\SLEGroupControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DeviceMonitor\UpsOFF.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceMonitor\UpsToDevice.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogQuery\BomSettleBrowse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LogQuery\DevSettleBrowse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogQuery\FailLogBrowse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogQuery\LogBrowse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LogQuery\OperDoubleLogBrowse.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LogQuery\TvmSettleBrowse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainAreaStationInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainAreaStationRelaction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainFaultRptStatusQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainRptTrackInfoAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainRptTrackInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainRptTrackInfoUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Maintenance\NoLabelPartsInout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Maintenance\NoLabelPartsReg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Maintenance\PartsInout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MaintainAreaManager\BasiDevPartIdInfoManager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\BasiMaintainAreaInfoAdded.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MaintainAreaManager\BasiMaintainAreaInfoUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MaintainAreaManager\BasiProviderInfoAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\BasiProviderInfoManager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\BasiProviderInfoUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\DelBasiMaintainAreaInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\DevPartIdAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\DevPartIdInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\DevPartIdNameUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MaintainAreaManager\MaintainAreaInfoManager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ModeManager\ModeSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ModeManager\StationModeQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Maintenance\PartsInventoryReg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PassengerFlow\ColorSets.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PassengerFlow\PassengerFlowFareInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PassengerFlow\PassengerFlowHistoryInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PassengerFlow\PassengerFlowInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PassengerFlow\PassengerFlowParamConfig.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReportManager\AutoPrintReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReportManager\LookHisReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ReportManager\ReportManagerMain.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunManager\BasiDevInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\BasiDevInfoUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\BasiHallGroupIdInfoAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\BasiHallGroupIdInfoUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\BasiStationHallIdInfoAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\BasiStationHallIdInfoUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\DevResUseInfoQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunManager\LCRunEnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunManager\LCRunStart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunManager\SCRunEnd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunManager\SCRunStart.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RunManager\StationRunStatusInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\SysStartAndCheck.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RunManager\Welcome.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SLEMonitor\AlarmSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\AlarmStyleModify.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SLEMonitor\BoxManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\DevStatusDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\HopperInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SLEMonitor\legendDescription.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\MonitorImageButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\SLEControlSetting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\SLEDeviceMonitorControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\SLEMainFrm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\StationTreeViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\BoxInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SLEMonitor\StatusLevelModify.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\EmptyTickBoxCallOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TicketBoxManager\TickBoxClear.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TickBoxInDevInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TickBoxPutIn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TickBoxReplaceInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TicketBoxIn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TicketBoxQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TicketBoxRfidInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickMonyBoxManager\EmptyMoneyBoxCallOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickMonyBoxManager\MoneyBoxAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\PreTickCheckIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickCallIn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickCallOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickCheckIn.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickMonyBoxManager\CashBoxInDevInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickMonyBoxManager\MoneyBoxClear.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickMonyBoxManager\CashBoxReplaceInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickMonyBoxManager\MoneyBoxInOut.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\RFIDConnectTest.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TicketBoxManager\TicketBoxRegister.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickMonyBoxManager\MoneyBoxPut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickMonyBoxManager\MoneyBoxRegister.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TicketBoxManager\RfidLabelInit.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickMonyBoxManager\MoneyBoxStateInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickStoreManager\TickCheckInOutQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickCheckOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickDispatchInfoQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TicketStorageManage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickStoreManager\TicketTrackingQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickStoreAdjust.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickStoreChangeQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickStoreHistoryPieQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickStoreHistoryQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickStorePieQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickStoreQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickValuedProductAdd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TickValuedProductManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickStoreManager\TiketTypeAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TickStoreManager\TiketTypeNameUpdate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="TimeSyn\TimeSyn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AFC.WS.BR\AFC.WS.BR.csproj">
+      <Project>{E28F43B6-5132-42D9-B196-519701DC11DA}</Project>
+      <Name>AFC.WS.BR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.ModelView\AFC.WS.ModelView.csproj">
+      <Project>{B791539B-155A-418D-95D8-5FA4470B40C7}</Project>
+      <Name>AFC.WS.ModelView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.Module\AFC.WS.Model.csproj">
+      <Project>{6A225ED0-AA37-4C27-8912-9C8D0843B49F}</Project>
+      <Name>AFC.WS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.FC\AFC.WS.UI.FC.csproj">
+      <Project>{3EF79B35-5D62-4F20-B327-0C0768B61696}</Project>
+      <Name>AFC.WS.UI.FC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.RfidRW\AFC.WS.UI.RfidRW.csproj">
+      <Project>{A80BD73C-8B52-4FA0-A2C4-DACD8866AF6A}</Project>
+      <Name>AFC.WS.UI.RfidRW</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSComm\TJComm.csproj">
+      <Project>{77F5B605-4355-49D0-8BB3-7503524275C6}</Project>
+      <Name>TJComm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CashManager\DataBomSettlementSet.xsc">
+      <DependentUpon>DataBomSettlementSet.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="CashManager\DataBomSettlementSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataBomSettlementSet.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="CashManager\DataBomSettlementSet.xss">
+      <DependentUpon>DataBomSettlementSet.xsd</DependentUpon>
+    </None>
+    <None Include="CashManager\DataCashInOutSet.xsc">
+      <DependentUpon>DataCashInOutSet.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="CashManager\DataCashInOutSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataCashInOutSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="CashManager\DataCashInOutSet.xss">
+      <DependentUpon>DataCashInOutSet.xsd</DependentUpon>
+    </None>
+    <None Include="CashManager\DataTvmSettlementSet.xsc">
+      <DependentUpon>DataTvmSettlementSet.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="CashManager\DataTvmSettlementSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataTvmSettlementSet.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="CashManager\DataTvmSettlementSet.xss">
+      <DependentUpon>DataTvmSettlementSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataManager\DataCashBomShiftSettlementSet.xsc">
+      <DependentUpon>DataCashBomShiftSettlementSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataManager\DataCashBomShiftSettlementSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataCashBomShiftSettlementSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataManager\DataCashBomShiftSettlementSet.xss">
+      <DependentUpon>DataCashBomShiftSettlementSet.xsd</DependentUpon>
+    </None>
+    <None Include="TicketBoxManager\DataTicketBoxInOutSet.xsc">
+      <DependentUpon>DataTicketBoxInOutSet.xsd</DependentUpon>
+    </None>
+    <None Include="TicketBoxManager\DataTicketBoxInOutSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataTicketBoxInOutSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TicketBoxManager\DataTicketBoxInOutSet.xss">
+      <DependentUpon>DataTicketBoxInOutSet.xsd</DependentUpon>
+    </None>
+    <None Include="TickMonyBoxManager\DataMoneyBoxSet.xsc">
+      <DependentUpon>DataMoneyBoxSet.xsd</DependentUpon>
+    </None>
+    <None Include="TickMonyBoxManager\DataMoneyBoxSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataMoneyBoxSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TickMonyBoxManager\DataMoneyBoxSet.xss">
+      <DependentUpon>DataMoneyBoxSet.xsd</DependentUpon>
+    </None>
+    <None Include="TickStoreManager\DataTickInOutSet.xsc">
+      <DependentUpon>DataTickInOutSet.xsd</DependentUpon>
+    </None>
+    <None Include="TickStoreManager\DataTickInOutSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataTickInOutSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="TickStoreManager\DataTickInOutSet.xss">
+      <DependentUpon>DataTickInOutSet.xsd</DependentUpon>
+    </None>
+    <None Include="VersionFile\ParaTemp\WsFileVerInfo.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VersionFile\ParaCurrent\WsFileVerInfo.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CashManager\CrystalBomSettlementReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalBomSettlementReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashManager\CrystalCashInOutReport.resx">
+      <DependentUpon>CrystalCashInOutReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashManager\CrystalCashInOutReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalCashInOutReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashManager\CrystalTvmSettlementReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalTvmSettlementReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataManager\CrystalCashBomShiftSettlementReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalCashBomShiftSettlementReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaintainAreaManager\CrystalMaintainFaultRptStatusReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalMaintainFaultRptStatusReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketBoxManager\CrystalTicketBoxInOutReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalTicketBoxInOutReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TickMonyBoxManager\CrystalMoneyBoxInOutReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalMoneyBoxInOutReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TickStoreManager\CrystalTickInOutReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalTickInOutReport.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

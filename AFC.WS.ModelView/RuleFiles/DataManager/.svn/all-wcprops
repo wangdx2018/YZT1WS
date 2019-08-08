@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager
+END
+list_dataFileDealQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_dataFileDealQuery.xml
+END
+list_operContentQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/9608/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_operContentQuery.xml
+END
+list_dataUploadRecordsQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/9622/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_dataUploadRecordsQuery.xml
+END
+ui_dataFileDealQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_dataFileDealQuery.xml
+END
+ui_dataUploadRecordsQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/9636/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_dataUploadRecordsQuery.xml
+END
+ui_operContentQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_operContentQuery.xml
+END
+list_timeTaskExcute.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_timeTaskExcute.xml
+END
+list_runParamInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_runParamInfo.xml
+END
+ui_timeTaskExcute.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_timeTaskExcute.xml
+END
+ui_runParamInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_runParamInfo.xml
+END
+list_dataFileUpQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9446/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_dataFileUpQuery.xml
+END
+ui_updateOperContent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8215/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_updateOperContent.xml
+END
+ui_dataFileUpQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_dataFileUpQuery.xml
+END
+ui_updateRunParamInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_updateRunParamInfo.xml
+END
+list_dataYKTAnnualReviewQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/list_dataYKTAnnualReviewQuery.xml
+END
+ui_dataYKTAnnualReviewQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_dataYKTAnnualReviewQuery.xml
+END
+ui_addOperContent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8215/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_addOperContent.xml
+END
+ui_addRunParamInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataManager/ui_addRunParamInfo.xml
+END

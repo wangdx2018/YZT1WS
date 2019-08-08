@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" LabWidthPercent="45" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="3" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Right" CanRest="true">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_line_name" BindingField="t.line_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="线路" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value=" select * from basi_line_id_info t" Key="SqlContent" />
+        <PropertyValue Value="line_name" Key="BindDisplayField" />
+        <PropertyValue Value="line_id" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_cn_name" BindingField="t.station_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select * from basi_station_info t where t.line_id='03' and t.location_type in ('1','2') order by t.station_id" Key="SqlContent" />
+        <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
+        <PropertyValue Value="station_id" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_mode_cn_name" BindingField="t.run_mode_code" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="选择模式" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select * from basi_run_mode_code_info t" Key="SqlContent" />
+        <PropertyValue Value="mode_cn_name" Key="BindDisplayField" />
+        <PropertyValue Value="run_mode_code" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnQuery"  Content="查询"   IsDefaultButton="true"  ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="ds_run_mode_status" Key="DataSourceName" />
+        <PropertyValue Key="StartDateControlName" />
+        <PropertyValue Key="EndDateControlName" />
+        <PropertyValue Key="DateTimeFormat" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

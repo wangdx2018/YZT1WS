@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="AFC.WS.UI.CommonControls.DateTimePickerExtend"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:my="http://schemas.microsoft.com/wpf/2008/toolkit" >
+    <UserControl.Resources>
+    </UserControl.Resources>
+    <Grid Name="gridLayout">
+      <my:DatePicker  Name="datePicker" SelectedDateFormat="Long" SelectedDateChanged="datePicker_SelectedDateChanged" />
+    </Grid>
+</UserControl>

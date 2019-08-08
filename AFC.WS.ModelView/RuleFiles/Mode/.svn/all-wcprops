@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/9863/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode
+END
+list_cash_bom_shift_settlement_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/9032/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_cash_bom_shift_settlement_info.xml
+END
+dl_tick_in_operator_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_tick_in_operator_info.xml
+END
+ui_tick_storage_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tick_storage_info.xml
+END
+ui_basi_dev_part_detail_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_dev_part_detail_info.xml
+END
+ui_basi_money_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_money_type_info.xml
+END
+ui_tick_box_in_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tick_box_in_dev_info.xml
+END
+ui_basi_provider_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_provider_info.xml
+END
+ui_maintain_area_station_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_maintain_area_station_info.xml
+END
+ui_tick_box_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9774/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tick_box_status.xml
+END
+dl_maintain_rpt_track_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_maintain_rpt_track_info.xml
+END
+ui_tick_box_replace_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9774/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tick_box_replace_info.xml
+END
+ui_run_mode_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_run_mode_status.xml
+END
+dl_cash_in_operator_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_cash_in_operator_info.xml
+END
+ui_cash_storage_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_storage_info.xml
+END
+ui_dev_status_alarm_history.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9863/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_dev_status_alarm_history.xml
+END
+ui_tickOperReturnLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tickOperReturnLog.xml
+END
+list_sys_buss_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9679/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_sys_buss_info.xml
+END
+ui_maintain_fault_rpt_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_maintain_fault_rpt_status.xml
+END
+dl_basi_money_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_basi_money_type_info.xml
+END
+dl_tick_box_in_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8238/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_tick_box_in_dev_info.xml
+END
+ui_cash_box_in_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_box_in_dev_info.xml
+END
+dl_basi_provider_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_basi_provider_info.xml
+END
+dl_maintain_area_station_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_maintain_area_station_info.xml
+END
+list_cash_date_settlement_info_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_cash_date_settlement_info_his.xml
+END
+ui_cash_box_replace_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_box_replace_info.xml
+END
+dl_tick_storage_history_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8229/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_tick_storage_history_info.xml
+END
+dl_alarm_message_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_alarm_message_info.xml
+END
+ui_cash_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9795/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_box_status_info.xml
+END
+list_basi_status_id_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9820/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_basi_status_id_info.xml
+END
+ui_tick_in_operator_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9774/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tick_in_operator_info.xml
+END
+dl_cash_box_in_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8238/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_cash_box_in_dev_info.xml
+END
+dl_para_4042_device_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_para_4042_device_info.xml
+END
+dl_basi_dev_part_id_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_basi_dev_part_id_info.xml
+END
+list_dev_status_alarm_history.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9862/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_dev_status_alarm_history.xml
+END
+list_tick_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_tick_box_status_info.xml
+END
+dl_basi_maintain_area_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_basi_maintain_area_info.xml
+END
+ui_maintain_rpt_track_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_maintain_rpt_track_info.xml
+END
+ui_sys_buss_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_sys_buss_info.xml
+END
+list_dev_run_status_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_dev_run_status_detail.xml
+END
+dl_cash_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_cash_box_status_info.xml
+END
+list_cash_date_settlement_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_cash_date_settlement_info.xml
+END
+ui_cash_in_operator_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9774/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_in_operator_info.xml
+END
+ui_cash_date_settlement_info_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_date_settlement_info_his.xml
+END
+ui_basi_status_id_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9826/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_status_id_info.xml
+END
+ui_tick_storage_history_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_tick_storage_history_info.xml
+END
+dl_tick_storage_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9488/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_tick_storage_info.xml
+END
+ui_cash_money_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_money_box_status_info.xml
+END
+ui_dev_res_use_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_dev_res_use_info.xml
+END
+dl_basi_dev_part_detail_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_basi_dev_part_detail_info.xml
+END
+ui_para_4042_device_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8253/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_para_4042_device_info.xml
+END
+ui_cash_bom_shift_settlement_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_bom_shift_settlement_info.xml
+END
+ui_dev_run_status_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_dev_run_status_detail.xml
+END
+ui_basi_dev_part_id_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_dev_part_id_info.xml
+END
+dl_tick_box_replace_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_tick_box_replace_info.xml
+END
+ui_cash_date_settlement_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_cash_date_settlement_info.xml
+END
+dl_cash_money_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9533/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_cash_money_box_status_info.xml
+END
+dl_cash_storage_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_cash_storage_info.xml
+END
+ui_basi_tick_mana_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_tick_mana_type_info.xml
+END
+ui_basi_maintain_area_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/ui_basi_maintain_area_info.xml
+END
+dl_maintain_fault_rpt_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_maintain_fault_rpt_status.xml
+END
+list_run_mode_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_run_mode_status.xml
+END
+list_dev_res_use_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8412/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_dev_res_use_info.xml
+END
+dl_cash_box_replace_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_cash_box_replace_info.xml
+END
+list_tickOperReturnLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/list_tickOperReturnLog.xml
+END
+dl_basi_tick_mana_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Mode/dl_basi_tick_mana_type_info.xml
+END

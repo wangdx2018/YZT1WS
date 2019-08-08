@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/8735/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/CommonActions
+END
+IDoublePrimissionHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/CommonActions/IDoublePrimissionHandler.cs
+END
+ParamDataQueryAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/CommonActions/ParamDataQueryAction.cs
+END
+DoublePrimissionAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8735/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/CommonActions/DoublePrimissionAction.cs
+END
+ShowWindowAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/CommonActions/ShowWindowAction.cs
+END

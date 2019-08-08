@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext
+END
+UIMessageHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/9885/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext/UIMessageHandle.cs
+END
+UIOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/8232/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext/UIOperation.cs
+END
+MessageCfg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8156/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext/MessageCfg.cs
+END
+FunctionCfg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext/FunctionCfg.cs
+END
+AutoLogoutTrigger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/979/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext/AutoLogoutTrigger.cs
+END
+MessageConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/1538/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/UIContext/MessageConfig.cs
+END

@@ -1,0 +1,86 @@
+10
+
+dir
+9870
+http://192.168.1.15/svn/TJ_AFC/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC
+http://192.168.1.15/svn/TJ_AFC
+
+
+
+2012-10-11T10:03:25.223250Z
+9313
+wumeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f3edcb17-46f4-c44a-96dd-14a424d330dc
+
+Actions
+dir
+
+AFC.WS.UI.FC.csproj
+file
+
+
+
+
+2012-11-08T07:58:24.900057Z
+12a804449900a9bd9ae9f93f9f921d25
+2012-01-10T08:47:10.939375Z
+7702
+wangdx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19231
+
+Convertors
+dir
+
+Components
+dir
+
+Config
+dir
+
+Common
+dir
+
+CommonControls
+dir
+
+Properties
+dir
+
+DataSources
+dir
+

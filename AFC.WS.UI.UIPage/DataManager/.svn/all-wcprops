@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager
+END
+CashBomShiftDateSettlementInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9266/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashBomShiftDateSettlementInfoQuery.xaml
+END
+CashDateSettlementHisQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashDateSettlementHisQuery.xaml.cs
+END
+CrystalCashBomShiftSettlementReport.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CrystalCashBomShiftSettlementReport.rpt
+END
+DataCashBomShiftSettlementSet.xsc
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8664/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataCashBomShiftSettlementSet.xsc
+END
+TimeTaskExcuteAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/TimeTaskExcuteAdded.xaml
+END
+DataCashBomShiftSettlementSet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataCashBomShiftSettlementSet.xsd
+END
+CashDateSettlementInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8660/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashDateSettlementInfoQuery.xaml
+END
+DataFileDealQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataFileDealQuery.xaml
+END
+OperContentQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentQuery.xaml
+END
+DataUploadRecordsQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9620/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataUploadRecordsQuery.xaml
+END
+RunParamInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/RunParamInfoQuery.xaml
+END
+DataCashBomShiftSettlementSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8664/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataCashBomShiftSettlementSet.cs
+END
+OperContentQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentQuery.xaml.cs
+END
+DateReUploadRecordsCom.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9621/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DateReUploadRecordsCom.xaml
+END
+DataUploadRecordsQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9620/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataUploadRecordsQuery.xaml.cs
+END
+CashBomShiftSettlementInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashBomShiftSettlementInfo.xaml
+END
+DateReUploadRecordsCom.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9622/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DateReUploadRecordsCom.xaml.cs
+END
+TimeTaskExcute.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/7208/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/TimeTaskExcute.xaml
+END
+DataCashBomShiftSettlementSet.xss
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8664/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataCashBomShiftSettlementSet.xss
+END
+BussinessQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/9678/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/BussinessQuery.xaml
+END
+DataFileUpQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataFileUpQuery.xaml
+END
+OperContentRemarkUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9565/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentRemarkUpdate.xaml
+END
+BussinessDetailInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9679/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/BussinessDetailInfoQuery.xaml.cs
+END
+BussinessQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/9678/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/BussinessQuery.xaml.cs
+END
+DataFileUpQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/5926/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataFileUpQuery.xaml.cs
+END
+CrystalCashBomShiftData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8664/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CrystalCashBomShiftData.cs
+END
+OperClassSettleDate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperClassSettleDate.xaml
+END
+CashDateSettlementHisQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8953/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashDateSettlementHisQuery.xaml
+END
+OperContentAdd.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/6591/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentAdd.xaml.cs
+END
+OperClassSettleDate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9711/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperClassSettleDate.xaml.cs
+END
+OperContentRemarkAdd.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9815/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentRemarkAdd.xaml.cs
+END
+OperClassSettleDateUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperClassSettleDateUpdate.xaml.cs
+END
+CrystalCashBomShiftSettlementReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CrystalCashBomShiftSettlementReport.cs
+END
+CashBomShiftDateSettlementInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashBomShiftDateSettlementInfoQuery.xaml.cs
+END
+TimeTaskExcuteAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/6506/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/TimeTaskExcuteAdded.xaml.cs
+END
+CashDateSettlementInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashDateSettlementInfoQuery.xaml.cs
+END
+DataCashBomShiftSettlementSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataCashBomShiftSettlementSet.Designer.cs
+END
+DataFileDealQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/5926/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataFileDealQuery.xaml.cs
+END
+RunParamInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/6488/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/RunParamInfoQuery.xaml.cs
+END
+CashBomShiftSettlementInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9266/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/CashBomShiftSettlementInfo.xaml.cs
+END
+TimeTaskExcuteUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/TimeTaskExcuteUpdate.xaml
+END
+TimeTaskExcute.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/6623/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/TimeTaskExcute.xaml.cs
+END
+BussinessDetailInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9679/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/BussinessDetailInfoQuery.xaml
+END
+TimeTaskExcuteUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/6506/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/TimeTaskExcuteUpdate.xaml.cs
+END
+DataYKTAnnualReviewQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataYKTAnnualReviewQuery.xaml
+END
+OperContentRemarkUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9816/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentRemarkUpdate.xaml.cs
+END
+OperContentAdd.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/6591/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentAdd.xaml
+END
+RunParamInfoAdd.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/6488/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/RunParamInfoAdd.xaml
+END
+OperContentRemarkAdd.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9564/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperContentRemarkAdd.xaml
+END
+DataYKTAnnualReviewQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/DataYKTAnnualReviewQuery.xaml.cs
+END
+OperClassSettleDateUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8686/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/OperClassSettleDateUpdate.xaml
+END
+RunParamInfoAdd.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/6488/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/DataManager/RunParamInfoAdd.xaml.cs
+END

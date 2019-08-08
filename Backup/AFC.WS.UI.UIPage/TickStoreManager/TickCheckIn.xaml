@@ -1,0 +1,141 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.TickStoreManager.TickCheckIn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:control="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+                        Background="{DynamicResource MainBackgroundBrush}" >
+
+    <local:UserControlBase.Resources>
+
+        <Style TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </local:UserControlBase.Resources>
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <GroupBox Header="操作员散票归还" >
+                    <Grid x:Name="rootLayout">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2"></RowDefinition>
+                            <RowDefinition Height="30*"></RowDefinition>
+                            <RowDefinition Height="50*"></RowDefinition>
+                            <RowDefinition Height="2"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2"></ColumnDefinition>
+                            <ColumnDefinition Width="50*"></ColumnDefinition>
+
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <GroupBox Header="散票归还信息" Grid.Row="1" Grid.Column="1" >
+                            <Grid >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="10*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5"></ColumnDefinition>
+                                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                                    <ColumnDefinition Width="30*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Content="票卡种类" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right"  />
+                                <ComboBox  x:Name="cmbTickStoreType" Grid.Row="1" Grid.Column="2" Height="25" Width="180" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                                <Label Content="票卡状态" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right"  />
+                                <ComboBox  x:Name="cmbTickStatus" SelectedIndex="0" Grid.Row="2" Grid.Column="2" Height="25" Width="180" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                    <ComboBoxItem Content="正常票" Tag="00"/>
+                                    <ComboBoxItem Content="废票" Tag="01"/>
+                                </ComboBox>
+                            
+
+
+
+                                <Label Content="在库张数" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                                <TextBox  x:Name="txtTickNo" Grid.Row="3" Grid.Column="2" Width="180" Height="25" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                                <Label Content="归还张数" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                                <TextBox  x:Name="txtRealNo" Grid.Row="4" Grid.Column="2" Width="180" Height="25" IsEnabled="True" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+
+                                <Label x:Name="labWasteSource" Grid.Row="5" Grid.Column="1" Content="票卡来源" HorizontalAlignment="Right" Visibility="{Binding Path =Visibility,ElementName=wasteTicketSource}"/>
+                                <Grid Grid.Column="2" Grid.Row="5"  x:Name="wasteTicketSource" Visibility="Collapsed">
+                                    <Grid.ColumnDefinitions>
+                                       
+                                        <ColumnDefinition Width="35*"></ColumnDefinition>
+                                        <ColumnDefinition Width="35*"></ColumnDefinition>
+                                        <ColumnDefinition Width="20*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <RadioButton Content="操作员" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" GroupName="rbGroup" x:Name="rdBom"/>
+                                    <RadioButton Content="回收盒" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" GroupName="rbGroup" x:Name="rdWasteBox"/>
+                                </Grid>
+
+                                <Button x:Name="btnAdd" Content="添加明细" HorizontalAlignment="Left"  Grid.Row="6"  Grid.Column="2" Width="60" Margin="127,7,0,3"  />
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox Header="操作员归还散票明细" Grid.Column="1" Grid.Row="2">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0*"></RowDefinition>
+                                    <RowDefinition Height="60*"></RowDefinition>
+                                    <RowDefinition Height="10*"></RowDefinition>
+                                    <RowDefinition Height="15*"></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <ListView  Name="listView1" Grid.Row="1" Grid.RowSpan="2" >
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridViewColumn Header="选择" Width="40" >
+                                                <GridViewColumn.CellTemplate>
+                                                    <DataTemplate>
+                                                        <CheckBox IsChecked="{Binding Path=IsChecked }" x:Name="cb"/>
+                                                    </DataTemplate>
+                                                </GridViewColumn.CellTemplate>
+                                            </GridViewColumn>
+      
+                                            <GridViewColumn Header ="票卡种类" DisplayMemberBinding="{Binding TickStoreTypeName}" Width="100"  ></GridViewColumn>
+                                            <GridViewColumn Header ="票卡状态" DisplayMemberBinding="{Binding TickStatusName}" Width="100"  ></GridViewColumn>
+                                            <GridViewColumn Header ="来源" DisplayMemberBinding="{Binding SourceName}" Width="100"  ></GridViewColumn>
+                                            <GridViewColumn Header ="操作日期" DisplayMemberBinding="{Binding UpdateDate}" Width="100" ></GridViewColumn>
+                                            <GridViewColumn Header ="操作时间" DisplayMemberBinding="{Binding UpdateTime}" Width="100" ></GridViewColumn>
+                                            <GridViewColumn Header ="张数" DisplayMemberBinding="{Binding TickNum}" Width="50" ></GridViewColumn>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+
+
+                                <StackPanel Grid.Row="3" Orientation="Horizontal">
+                                    <Label Content="归还操作员" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                                    <control:TextBoxExtend TextBoxValidate="AllNumbers" RegMaxLength="8" HorizontalAlignment="Left" Margin="10,0,0,0" Width="80" Height="25" x:Name="txtOperatorId"/>
+                                    <Label Content="归还操作员姓名" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0"/>
+                                    <control:TextBoxExtend  RegMaxLength="8" HorizontalAlignment="Left" Margin="10,0,0,0" Width="80" x:Name="txtOperatorName" IsEnabled="False" Height="25"/>
+                                    <Button x:Name="btnDelete" Content="删除明细"  VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20,5,0,0"  Width="60"/>
+                                    <Button x:Name="btnCallOut" Content="确认归还"  Margin="50,5,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="60"/>
+                                    <Label x:Name="labTotalTip" Content="合计张数"  Margin="60,5,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="70"/>
+                                    <Label x:Name="labTotal" Content=""  Margin="0,5,10,0" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="40"/>
+                                </StackPanel>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </GroupBox>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

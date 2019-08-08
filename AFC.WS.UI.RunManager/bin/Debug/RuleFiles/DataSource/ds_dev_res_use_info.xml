@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_dev_res_use_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select drui.device_id,
+       drui.total_disk_volume,
+       drui.used_disk_volume,
+       drui.db_file_volume,
+       drui.mem_volume,
+       drui.cpu_volume,
+       drui.update_date,
+       drui.update_time
+  from dev_res_use_info drui" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="drui.update_date desc,drui.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

@@ -1,0 +1,118 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.BlackListParamQuery"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+                       xmlns:my="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+                       Background="{DynamicResource MainBackgroundBrush}"
+     >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid x:Name="rootLayout">
+                    <Grid.RowDefinitions>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="黑名单参数查询" Grid.Row="1">
+                        <TabControl>
+                           
+                            <TabItem Header="一票通全部黑名单">
+                           
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="18*"></RowDefinition>
+
+                                        <RowDefinition Height="82*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <GroupBox Header="查询条件" Grid.Row="0">
+                                         <my:InteractiveControl x:Name="uIyptFulBlackList"></my:InteractiveControl>
+                                    </GroupBox>
+                                    <GroupBox Header="查询结果" Grid.Row="2">
+                                        <my:DataListControl x:Name="listyptFulBlackList"></my:DataListControl>
+                                    </GroupBox>
+                                    
+                                </Grid>
+                            </TabItem>
+                            
+                            <TabItem Header="一票通增量黑名单">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="18*"></RowDefinition>
+
+                                        <RowDefinition Height="82*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <GroupBox Header="查询条件" Grid.Row="0">
+                                        <my:InteractiveControl x:Name="uIyptIncBlackList"></my:InteractiveControl>
+                                    </GroupBox>
+                                    <GroupBox Header="查询结果" Grid.Row="2">
+                                        <my:DataListControl x:Name="listyptIncBlackList"></my:DataListControl>
+                                    </GroupBox>
+
+                                </Grid>
+                            </TabItem>
+                            
+                            <TabItem Header="一票通号段黑名单">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="18*"></RowDefinition>
+
+                                        <RowDefinition Height="82*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <GroupBox Header="查询条件" Grid.Row="0">
+                                        <my:InteractiveControl x:Name="uiyptSectionBlackList"></my:InteractiveControl>
+                                    </GroupBox>
+                                    <GroupBox Header="查询结果" Grid.Row="2">
+                                        <my:DataListControl x:Name="listyptSectionBlackList"></my:DataListControl>
+                                    </GroupBox>
+
+                                </Grid>
+
+                            </TabItem>
+                            
+                            <TabItem Header="一卡通黑名单">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="18*"></RowDefinition>
+
+                                        <RowDefinition Height="82*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <GroupBox Header="查询条件" Grid.Row="0">
+                                        <my:InteractiveControl x:Name="uiyktBlackList"></my:InteractiveControl>
+                                    </GroupBox>
+                                    <GroupBox Header="查询结果" Grid.Row="2">
+                                   <my:DataListControl x:Name="listyktBlackList"/>
+                                    </GroupBox>
+
+                                </Grid>
+                                
+                            </TabItem>
+
+                            <TabItem Header="员工卡黑名单">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="18*"></RowDefinition>
+
+                                        <RowDefinition Height="82*"></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <GroupBox Header="查询条件" Grid.Row="0">
+                                        <my:InteractiveControl x:Name="uiStaffBlackList"></my:InteractiveControl>
+                                    </GroupBox>
+                                    <GroupBox Header="查询结果" Grid.Row="2">
+                                        <my:DataListControl x:Name="listStaffBlackList"/>
+                                    </GroupBox>
+                                </Grid>
+                             
+                            </TabItem>
+
+                        </TabControl>
+                    </GroupBox>
+
+
+                </Grid>
+
+
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>
+
+

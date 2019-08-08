@@ -1,0 +1,119 @@
+10
+
+dir
+9870
+http://192.168.1.15/svn/TJ_AFC/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage
+http://192.168.1.15/svn/TJ_AFC
+
+
+
+2013-06-24T06:58:08.161522Z
+9870
+zhangyg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+f3edcb17-46f4-c44a-96dd-14a424d330dc
+
+PassengerFlow
+dir
+
+ModeManager
+dir
+
+Maintenance
+dir
+
+MaintainAreaManager
+dir
+
+VersionFile
+dir
+
+TicketBoxManager
+dir
+
+TimeSyn
+dir
+
+SLEMonitor
+dir
+
+Properties
+dir
+
+RunManager
+dir
+
+Style
+dir
+
+TickMonyBoxManager
+dir
+
+TickStoreManager
+dir
+
+DataManager
+dir
+
+AFC.WS.UI.UIPage.csproj
+file
+
+
+
+
+2013-06-24T05:51:26.069060Z
+b4b5dcc3c368b32bf776ba086e65c79d
+2013-06-21T09:25:06.563226Z
+9852
+wumeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+67018
+
+ReportManager
+dir
+
+DataImportExport
+dir
+
+LogQuery
+dir
+
+DeviceMonitor
+dir
+
+CashManager
+dir
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="CommConfigs" type="TJComm.CommConfigSection,TJComm"/>
+  </configSections>
+  <CommConfigs>
+    <CommConfig name="heartBeatMsgSendInterval" value="1"/>
+    <CommConfig name="isSendHeartBeat" value="true"/>
+    <CommConfig name="unPackMsgHandleType" value="TestComm.UnPackHandle,TestComm"/>
+    <CommConfig name="handleMsgType" value="TestComm.AsynMessageHandle,TestComm"/>
+  </CommConfigs>
+ 
+</configuration>

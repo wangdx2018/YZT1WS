@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="23" TopSpace="10" ColumnCount="2" LayoutMode="Flow" ActionLocation="Bottom" ActionAlign="Right" CanRest="true">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="txtTicketBoxId" BindingField="ticketboxId" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="票箱编码" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="Hex" Key="TextBoxValidate" />
+        <PropertyValue Value="80" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="txtTicketboxRfid" BindingField="ticketboxRfid" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="票箱RFID" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="Hex" Key="TextBoxValidate" />
+        <PropertyValue Value="80" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Value="16" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnReadRfid" Content="读取RFID" ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+      <PropertyValues />
+    </ActionProperty>
+    <ActionProperty ControlName="btnTicketRegister" Content="登记" ActionTypeName="AFC.WS.ModelView.Actions.TicketBoxManager.TickBoxRegisterAction,AFC.WS.ModelView" ComboBoxAction="TicketboxRegAction">
+      <PropertyValues />
+    </ActionProperty>
+    <ActionProperty ControlName="btnTicketConnect" Content="连接测试" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="TicketboxRegAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.TicketBoxManager.RFIDConnectTest,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="380" />
+        <PropertyValue Key="Height" Value="250" />
+        <PropertyValue Key="Title" Value="RFID读写器连接测试" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

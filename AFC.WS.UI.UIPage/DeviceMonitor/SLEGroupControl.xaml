@@ -1,0 +1,334 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.DeviceMonitor.SLEGroupControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController" 
+    xmlns:toolKit="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:xpbar="clr-namespace:ZonaTools.XPlorerBar;assembly=ZonaTools.XPlorerBar"
+    xmlns:FC="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" Loaded="UserControlBase_Loaded"
+    >
+
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100*"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="280"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid Grid.Row="0" Grid.Column="0">
+                        
+                        <Grid.RowDefinitions>
+                                <RowDefinition Height="300*"/>
+                        </Grid.RowDefinitions>
+
+                        <GroupBox Header="选择设备范围" Grid.Row="0" >
+
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="250*"></ColumnDefinition>
+                                    <ColumnDefinition Width="350*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel Orientation="Vertical" Grid.Column="0">
+                                    <Grid Height="40">
+                                        <FC:RiadioButtonExtend Grid.Column="0"  Content="全线所有设备" x:Name="AllLine" Checked="AllLine_Checked" x:Uid="0"  GroupName="SelectRange"></FC:RiadioButtonExtend>
+                                    </Grid>
+                                    <Grid Height="40">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="100*"/>
+                                            <ColumnDefinition Width="1"/>
+                                            <ColumnDefinition Width="130*"/>
+                                            <ColumnDefinition Width="20*"/>
+                                        </Grid.ColumnDefinitions>
+                                       
+                                        <FC:RiadioButtonExtend Grid.Column="0"  Content="本站全部设备" x:Name="AllDevice" Checked="AllDevice_Checked" x:Uid="1"   GroupName="SelectRange"></FC:RiadioButtonExtend>
+                                  
+                                        <FC:ComboBoxExtend Grid.Column="2" VerticalAlignment="Top" Height="26"   x:Name="comboxStation" SelectionChanged="comboxStation_SelectionChanged"></FC:ComboBoxExtend>
+                                    </Grid>
+                                    <FC:RiadioButtonExtend Height="45" Content="车站站厅、工作群组与设备类型选择"  x:Name="stationHallAndGroupAndType" GroupName="SelectRange" x:Uid="2" Checked="AllDevice_Checked"></FC:RiadioButtonExtend>
+                                    <DockPanel Height="70">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="80"></ColumnDefinition>
+                                                <ColumnDefinition Width="20"></ColumnDefinition>
+                                                <ColumnDefinition Width="150*"></ColumnDefinition>
+                                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                        <FC:CheckBoxExtend Grid.Column="0" Content="车站站厅" x:Name="checkBoxStationHall" Checked="checkBoxStationHall_Checked" ></FC:CheckBoxExtend>
+                                        <TextBlock Grid.Column="1" />
+                                          <ListBox Grid.Column="2" x:Name="listBoxHall" SelectionChanged="listBoxHall_SelectionChanged" x:Uid="2"></ListBox>
+                                        </Grid>
+                                    </DockPanel>
+                                    <TextBlock Height="2"></TextBlock>
+                                    <DockPanel Grid.Row="3" Height="85">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="80"></ColumnDefinition>
+                                                <ColumnDefinition Width="20"></ColumnDefinition>
+                                                <ColumnDefinition Width="150*"></ColumnDefinition>
+                                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <FC:CheckBoxExtend Grid.Column="0" Content="工作群组" x:Name="checkBoxworkGroup" Checked="checkBoxStationHall_Checked" ></FC:CheckBoxExtend>
+                                        <TextBlock Grid.Column="1" />
+                                        <ListBox Grid.Column="2" x:Name="listBoxGroup" SelectionChanged="listBoxHall_SelectionChanged" x:Uid="2"></ListBox>
+                                            </Grid>
+                                      </DockPanel>
+                                    <TextBlock Height="2"></TextBlock>
+                                    <DockPanel Height="90" >
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="80"></ColumnDefinition>
+                                                <ColumnDefinition Width="20"></ColumnDefinition>
+                                                <ColumnDefinition Width="150*"></ColumnDefinition>
+                                                <ColumnDefinition Width="50*"></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+
+                                            <FC:CheckBoxExtend   Grid.Column="0" Content="设备类型" x:Name="checkBoxdevType"  Checked="checkBoxStationHall_Checked" ></FC:CheckBoxExtend>
+                                            <TextBlock  Grid.Column="1"/>
+                                        <ListBox  Grid.Column="2" x:Name="listBoxDevType" SelectionChanged="listBoxHall_SelectionChanged" x:Uid="2">
+                                        </ListBox>
+                                            </Grid>
+                                    </DockPanel>
+                                </StackPanel>
+
+                                <Grid  Grid.Column="1">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="310*"/>
+                                    </Grid.RowDefinitions>
+                                    <FC:RiadioButtonExtend  Grid.Row="0" Content="单个设备选择"  x:Name="OneDevice" Checked="AllDevice_Checked" GroupName="SelectRange" x:Uid="3"></FC:RiadioButtonExtend>
+                                    <toolKit:DataGrid Grid.Row="1" Name="dgDevInfo" SelectionMode="Single"   SelectionChanged="dgDevInfo_SelectionChanged" >
+                                        <toolKit:DataGrid.Columns>
+                                            <toolKit:DataGridCheckBoxColumn Width="40" IsReadOnly="True"  x:Name="dataColumn2" Header="选择"  CanUserReorder="False" CanUserResize="False" CanUserSort="False">
+
+                                            </toolKit:DataGridCheckBoxColumn>
+                                        </toolKit:DataGrid.Columns>
+                                    </toolKit:DataGrid>
+                                </Grid>
+                            </Grid>
+
+                        </GroupBox>
+                        
+                        <!--<GroupBox Header="控制命令发送结果反馈" Grid.Row="1">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="100*"/>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+                                <toolKit:DataGrid Grid.Row="0" Name="dgCommandResult" 
+                                                  ItemsSource="{Binding Path=CmdResults}" 
+                                                    SelectionMode="Extended" LoadingRow="dgCommandResult_LoadingRow" AutoGenerateColumns="False">                                             
+                                    
+                                    <toolKit:DataGrid.Columns>
+                                        <toolKit:DataGridTemplateColumn Width="60" x:Name="dataColumn"  CanUserReorder="False" CanUserResize="False" CanUserSort="False"> 
+                                         
+                                        </toolKit:DataGridTemplateColumn>
+                                        <toolKit:DataGridTextColumn
+				Header="线路" Width="100" IsReadOnly="True"
+				Binding="{Binding Path=线路}" />
+                                        <toolKit:DataGridTextColumn
+				Header="车站" Width="100" IsReadOnly="True"
+				Binding="{Binding Path=车站}"/>
+                                        <toolKit:DataGridTextColumn
+				Header="设备名称" Width="100" IsReadOnly="True"
+				Binding="{Binding Path=设备名称}"/>                           
+                                        <toolKit:DataGridTextColumn
+				Header="控制设备编码" Width="100" IsReadOnly="True"
+				Binding="{Binding Path=控制设备编码}"/>
+                                        <toolKit:DataGridTextColumn
+				Header="消息发送结果" Width="120" IsReadOnly="True"
+				Binding="{Binding Path=消息发送结果}"/>                   
+                                        <toolKit:DataGridTextColumn
+				Header="发送日期" Width="120" IsReadOnly="True"
+				Binding="{Binding Path=发送日期}"/>
+                                        <toolKit:DataGridTextColumn
+				Header="发送时间" Width="100" IsReadOnly="True"
+				Binding="{Binding Path=发送时间}"/>
+                                    </toolKit:DataGrid.Columns>
+                                </toolKit:DataGrid>
+                                <Button Grid.Row="1"   HorizontalAlignment="Right" Content="重发控制命令" Name="ButtonReset" Click="ButtonReset_Click"></Button>
+                            </Grid>
+                        </GroupBox>-->
+                        
+                    </Grid>
+                    
+                    <GroupBox Header="控制命令信息" HorizontalAlignment="Right" Grid.Row="0" Grid.Column="2" x:Name="groupBoxControl">
+                        <!-- Border shadow -->
+                        <GroupBox.BitmapEffect>
+                            <DropShadowBitmapEffect Color="Black"  Opacity="0.75" ShadowDepth="7"/>
+                        </GroupBox.BitmapEffect>
+                        <DockPanel>
+                            <!-- XPlorerBar -->
+                            <xpbar:XPlorerBar x:Name="BarControlCommand"  Width="auto"
+                        
+                              VerticalAlignment="Stretch"  >
+
+                                <!-- 电源控制 -->
+                                <xpbar:XPlorerSection Header="电源控制" x:Name="powerControl" IsExpanded="False">
+                                    <StackPanel Orientation="Horizontal">
+                                        <FC:RiadioButtonExtend Content="关闭" Foreground="Black"  x:Uid="0101"  x:Name="ElecClose" GroupName="ctrCommand" Checked="RiadioButtonExtend_Checked" ></FC:RiadioButtonExtend>
+                                        <TextBlock Width="10"></TextBlock>
+                                        <!-- FC:RiadioButtonExtend Content="睡眠"  Foreground="Black" x:Uid ="0105" x:Name="ElecSleep" GroupName="ctrCommand" Checked="RiadioButtonExtend_Checked" ></FC:RiadioButtonExtend>
+                                        <TextBlock Width="10"></TextBlock -->
+                                        <FC:RiadioButtonExtend Content="唤醒"  Foreground="Black" x:Uid ="0106" x:Name="ElecWeak" GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked" ></FC:RiadioButtonExtend>
+                                        <TextBlock Width="10"></TextBlock>
+                                        <FC:RiadioButtonExtend Content="重启"  Foreground="Black" x:Uid="0102"  x:Name="ReStart"  GroupName="ctrCommand" Checked="RiadioButtonExtend_Checked" ></FC:RiadioButtonExtend>
+                                    </StackPanel>
+                                </xpbar:XPlorerSection>
+
+
+
+                                <!-- 设备运营设置 -->
+                                <xpbar:XPlorerSection Header="设备运营设置" IsExpanded="False">
+                                    <StackPanel Orientation="Horizontal">
+                                        <FC:RiadioButtonExtend Foreground="Black" Content="设备运营开始" x:Name="devRunStart"  x:Uid="0103"   GroupName="ctrCommand"   Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                        <TextBlock  Width="5"></TextBlock>
+                                        <FC:RiadioButtonExtend Foreground="Black" Content="设备运营结束" x:Name="devRunEnd"    x:Uid="0104"  GroupName="ctrCommand"    Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                    </StackPanel>
+                                </xpbar:XPlorerSection>
+
+                                <!-- 服务控制 -->
+                                <xpbar:XPlorerSection Header="服务控制" x:Name="ServiceControl" IsExpanded="False" 
+                                      >
+                                    <StackPanel Orientation="Horizontal">
+                                        <FC:RiadioButtonExtend Content="开始服务" Foreground="Black" x:Name="StartService" x:Uid="0107"   GroupName="ctrCommand"   Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                        <TextBlock Width="20"></TextBlock>
+                                        <FC:RiadioButtonExtend Content="暂停服务" Foreground="Black" x:Name="StopService"  x:Uid="0108"   GroupName="ctrCommand"   Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                    </StackPanel>
+                                </xpbar:XPlorerSection>
+
+
+                                <!--设置AG的通道方向 -->
+                                <xpbar:XPlorerSection Header="设置AGM的通道方向" x:Name="agRunCtlCommand" IsExpanded="False" >
+
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal">
+                                            <FC:RiadioButtonExtend Content="进站" Foreground="Black" x:Name="Stop" x:Uid="0201"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            <TextBlock Width="10"></TextBlock>
+                                            <FC:RiadioButtonExtend Content="出站"  Foreground="Black" x:Name="Outbound" x:Uid="0202"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            <TextBlock Width="10"></TextBlock>
+                                            <FC:RiadioButtonExtend Content="双向"  Foreground="Black" x:Name="Twoway"  x:Uid="0203"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            <TextBlock Width="10"></TextBlock>                                            
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <FC:RiadioButtonExtend Content="闸门常开"  Foreground="Black" x:Name="Opengate"  x:Uid="0204"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            <TextBlock Width="10"></TextBlock>
+                                            <FC:RiadioButtonExtend Content="闸门常闭"  Foreground="Black" x:Name="Closedgate"  x:Uid="0205"  GroupName="ctrCommand" Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </xpbar:XPlorerSection>
+
+                                <!--设置TVM工作模式 -->
+                                <xpbar:XPlorerSection Header="设置TVM工作模式" x:Name="tvmRunCtlCommand" IsExpanded="False" >
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="45*"/>
+                                                    <ColumnDefinition Width ="5*"/>
+                                                    <ColumnDefinition Width="50*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <FC:RiadioButtonExtend Content="降级运行开" Grid.Column="0"  Foreground="Black" x:Name="Opendegraded" x:Uid="0301"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                                <TextBlock Width="5" Grid.Column="1"></TextBlock>
+                                                <FC:RiadioButtonExtend Content="降级运行关"  Grid.Column="2" Foreground="Black" x:Name="Closedegraded" x:Uid="0302"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Grid>
+                                            <Grid.ColumnDefinitions>
+                                               <ColumnDefinition Width="45*"/>
+                                               <ColumnDefinition Width ="5*"/>
+                                               <ColumnDefinition Width="50*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <FC:RiadioButtonExtend Content="不收纸币模式"  Grid.Column="0" Foreground="Black" x:Name="Noacceptnotes"  x:Uid="0304"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            <TextBlock Width="5" Grid.Column="1"></TextBlock>
+                                            <FC:RiadioButtonExtend Content="无售票模式" Grid.Column ="2" Foreground="Black" x:Name="Noticketmode" x:Uid="0305"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="45*"/>
+                                                    <ColumnDefinition Width ="5*"/>
+                                                    <ColumnDefinition Width="50*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <FC:RiadioButtonExtend Content="无纸币找零" Grid.Column="0" Foreground="Black" x:Name="Nonoteschange" x:Uid="0307"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                                <TextBlock Width="5" Grid.Column="1"></TextBlock>
+                                                <FC:RiadioButtonExtend Content="无硬币找零"  Grid.Column="2" Foreground="Black" x:Name="Nocoinschange"  x:Uid="0308"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked" Visibility="Collapsed"></FC:RiadioButtonExtend>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="45*"/>
+                                                    <ColumnDefinition Width ="5*"/>
+                                                    <ColumnDefinition Width="50*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <FC:RiadioButtonExtend Content="无找零模式"  Grid.Column="0" Foreground="Black" x:Name="Nochangemode" x:Uid="0303"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                                <TextBlock Width="5" Grid.Column="1"></TextBlock>
+                                                <FC:RiadioButtonExtend Content="无打印模式" Grid.Column="2" Foreground="Black" x:Name="Noprintmode" x:Uid="0306"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="45*"/>
+                                                    <ColumnDefinition Width ="5*"/>
+                                                    <ColumnDefinition Width="50*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <FC:RiadioButtonExtend Content="恢复正常模式"  Grid.Column="0" Foreground="Black" x:Name="Returnnormalmode"  x:Uid="0309"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                                <TextBlock Width="5" Grid.Column="1"></TextBlock>
+                                                <FC:RiadioButtonExtend Content="清空纸币"  Grid.Column="2" Foreground="Black" x:Name="Emptycoin" x:Uid="030A"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            </Grid>
+                                        </StackPanel>
+                                        <StackPanel>
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="45*"/>
+                                                    <ColumnDefinition Width ="5*"/>
+                                                    <ColumnDefinition Width="50*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <FC:RiadioButtonExtend Content="不收硬币模式" Grid.Column="0" Foreground="Black" x:Name="Noacceptcoins" x:Uid="030B"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                                <TextBlock Width="5" Grid.Column="1"></TextBlock>
+                                                <!--<FC:RiadioButtonExtend Content="取钱箱随机密码" Grid.Column="2" Foreground="Black" x:Name="Passwordauthentication"  x:Uid="030C"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>-->
+                                                <FC:RiadioButtonExtend Content="清空票箱" Grid.Column="2" Foreground="Black" x:Name="TickClear"  x:Uid="030D"  GroupName="ctrCommand"  Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            </Grid>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </xpbar:XPlorerSection>
+
+                                <xpbar:XPlorerSection Header="设置BOM工作模式" x:Name="bomRunCtlCommand" IsExpanded="False" >
+                                    <StackPanel Orientation="Vertical">
+                                        <StackPanel Orientation="Horizontal">
+                                            <FC:RiadioButtonExtend Foreground="Black" Content="售票模式" x:Name="Ticketmode"  x:Uid="0401"   GroupName="ctrCommand"   Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                            <TextBlock  Width="5"></TextBlock>
+                                            <FC:RiadioButtonExtend Foreground="Black" Content="补票模式" x:Name="Fareadjustmentmode"    x:Uid="0402"  GroupName="ctrCommand"    Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                        </StackPanel>
+                                        <StackPanel>
+                                        <FC:RiadioButtonExtend Foreground="Black" Content="售补票模式" x:Name="Replacementticketmode"    x:Uid="0403"  GroupName="ctrCommand"    Checked="RiadioButtonExtend_Checked"></FC:RiadioButtonExtend>
+                                        <TextBlock  Width="5"></TextBlock>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </xpbar:XPlorerSection>
+                                       
+                            </xpbar:XPlorerBar>
+                            
+                        </DockPanel>
+                    </GroupBox>
+                    <StackPanel Grid.Row="1" HorizontalAlignment="Center" Grid.Column="2" Orientation="Horizontal">
+                        <Button Name="btnSet" Content="重置命令"  Click="btnSet_Click"></Button>
+                        <TextBlock Width="10"/>
+                        <Button Name="btnOk" Content="下发命令"  Click="btnOk_Click"></Button>
+                    </StackPanel>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+    
+</local:UserControlBase>

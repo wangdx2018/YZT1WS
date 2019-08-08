@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/9867/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions
+END
+StatusVisibleSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/9768/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions/StatusVisibleSettingAction.cs
+END
+EQMSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9866/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions/EQMSettingAction.cs
+END
+AGMSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9866/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions/AGMSettingAction.cs
+END
+TVMSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9866/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions/TVMSettingAction.cs
+END
+BOMSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9866/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions/BOMSettingAction.cs
+END
+AlarmLogSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/9867/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/AlarmActions/AlarmLogSettingAction.cs
+END

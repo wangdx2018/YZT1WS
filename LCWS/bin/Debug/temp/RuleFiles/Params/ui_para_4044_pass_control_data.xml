@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" LabWidthPercent="60" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="1" LayoutMode="Stack" ActionLocation="Bottom" ActionAlign="Middle" CanRest="false">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_para_version" BindingField="para_4044_pass_control_data.para_version" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="版本号" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="False" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_max_card_brush_times" BindingField="para_4044_pass_control_data.max_card_brush_times" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="最大刷卡人次" ComboBoxControl="TextBoxExtend" ToolTip="自动检票机允许检了票而不通过的最大人数。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_pass_agm_timeout_time" BindingField="para_4044_pass_control_data.pass_agm_timeout_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="乘客通过闸机超时时间" ComboBoxControl="TextBoxExtend" ToolTip="乘客使用票卡未通过自动检票机的最大停留时间 单位：秒。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_exit_agm_timeout_time" BindingField="para_4044_pass_control_data.exit_agm_timeout_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="乘客离开闸机超时时间" ComboBoxControl="TextBoxExtend" ToolTip="时间段内未离开通道，报警。单位：秒。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_enter_delay_time" BindingField="para_4044_pass_control_data.enter_delay_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="连续进入延迟时间" InitValue="350" ComboBoxControl="TextBoxExtend" ToolTip="两次连续进入自动检票机保持门开的延迟时间。单位：毫秒，默认350毫秒">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_error_auto_reset_time" BindingField="para_4044_pass_control_data.error_auto_reset_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="错误自动重置时间" ComboBoxControl="TextBoxExtend" ToolTip="读到一张无效卡后，允许读下一张卡的间隔时间。单位：秒">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_breakin_cardreader_effect_time" BindingField="para_4044_pass_control_data.breakin_cardreader_effect_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="闯入时读卡器生效延迟时间" ComboBoxControl="TextBoxExtend" ToolTip="单位：秒。发生闯入后TPU暂停工作的时间。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4044_pass_control_data_duplex_ag_delay_time" BindingField="para_4044_pass_control_data.duplex_ag_delay_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="双向AG延迟时间" ComboBoxControl="TextBoxExtend" ToolTip="当某一方向乘客通行后，继续等待该方向的乘客的时间(不处理另一方向的票卡)，单位：毫秒">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnUpdate" Content="修改" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.UpdateParaDraftVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="AFC.WS.Model.DB.Para4044PassControlData,AFC.WS.Model" Key="ClassTypeName" />
+        <PropertyValue Value="para_4044_pass_control_data" Key="TableName" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

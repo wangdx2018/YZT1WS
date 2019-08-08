@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_4037_line_select" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select para_4037_line_select.para_version,para_4037_line_select.line_select_button_id,para_4037_line_select.line_select_left_up_x_index,para_4037_line_select.line_select_left_up_y_index,para_4037_line_select.line_select_wide,para_4037_line_select.line_select_high,para_4037_line_select.line_select_start_flag,para_4037_line_select.line_ch_pic_name,para_4037_line_select.line_en_pic_name,para_4037_line_select.line_left_up_x_index,para_4037_line_select.line_left_up_y_index,para_4037_line_select.line_pic_wide,para_4037_line_select.line_pic_high from para_4037_line_select" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

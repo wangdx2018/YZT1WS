@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_4012_ypt_full_black_list" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.para_version,&#xA;  t.physical_card_no,&#xA;   case t.control_mode&#xA;         when '0' then&#xA;          '不拒绝'&#xA;         when '1' then&#xA;          '出站拒绝'&#xA;         when '2' then&#xA;          '进出站拒绝'&#xA;         when '3' then&#xA;          '出站拒绝并锁卡'&#xA;         when '4' then&#xA;          '进出站拒绝并锁卡'&#xA;       end control_mode  from para_4012_ypt_full_black_list t" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

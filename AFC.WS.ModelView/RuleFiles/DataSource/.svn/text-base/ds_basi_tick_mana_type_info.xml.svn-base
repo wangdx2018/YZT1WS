@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_basi_tick_mana_type_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select basi_tick_mana_type_info.tick_mana_type,basi_tick_mana_type_info.tick_mana_type_name,decode(basi_tick_mana_type_info.ticket_phy_type,'01','Token票','02','一卡通卡','03','CPU票卡','未知票卡') as ticket_phy_type,basi_tick_mana_type_info.ticket_phy_type_name,basi_tick_mana_type_info.ticket_family_type,basi_tick_mana_type_info.ticket_family_type_name,decode(basi_tick_mana_type_info.card_issue_id,'1','ACC','99','一卡通') as card_issue_id from basi_tick_mana_type_info" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

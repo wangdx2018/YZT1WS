@@ -1,0 +1,66 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.CoreUI.StatusBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:gifLib="clr-namespace:GifImageLib;assembly=GifImageLib"
+    xmlns:System="clr-namespace:System;assembly=mscorlib"
+    xmlns:my="clr-namespace:AFC.WS.UI.CoreUI">
+    <local:UserControlBase.Resources>
+        <Storyboard  x:Key="storyBoard"  >
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(UIElement.Opacity)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:02.6000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:02.6000000" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+        <my:NetWorkImageConvert x:Key="imageNetworkStatus"></my:NetWorkImageConvert>
+        <my:NetWorkToolTipConvert x:Key="toolTipNetworkStatus"></my:NetWorkToolTipConvert>
+        <my:DBConnectionImageConvert x:Key="imageDbStatus"></my:DBConnectionImageConvert>
+        <my:DBConnectionToolTipConvert x:Key="toolTipDbStatus"></my:DBConnectionToolTipConvert>
+        <my:OnLineImageConvert  x:Key="imageOnLineStatus"></my:OnLineImageConvert>
+        <my:OnLineToolTipConvert x:Key="toolTIpOnLineStatus"></my:OnLineToolTipConvert>
+        <my:RFIDRWImageConvert x:Key="imageRFIDConnection"></my:RFIDRWImageConvert>
+        <my:RFIDRWToolTipConvert x:Key="toolTipRFIDConnection"></my:RFIDRWToolTipConvert>
+
+    </local:UserControlBase.Resources>
+    <Grid x:Name="rootLayout">
+        <Border x:Name="bor" Grid.Row="0" Height="30" Visibility="Visible"  Background="{DynamicResource MainBackgroundBrush}" Style="{DynamicResource BorderStyle}"  VerticalAlignment="Bottom" DockPanel.Dock="Bottom" Margin="0,3,0,3" >
+            <DockPanel Name="statusBar">
+               <Image Source="{Binding Path=NetworkStatus,Converter={StaticResource imageNetworkStatus }}" ToolTip="{Binding Path=NetworkStatus,Converter={StaticResource toolTipNetworkStatus }}" ></Image>
+                <Label Content=" "></Label>
+                <Image Source="{Binding Path=DbOnLineStatus,Converter={StaticResource imageDbStatus }}" ToolTip="{Binding Path=DbOnLineStatus,Converter={StaticResource toolTipDbStatus }}"></Image>
+                <Label Content=" "></Label>
+                <Image Source="{Binding Path=OnlineStatus,Converter={StaticResource imageOnLineStatus }}" ToolTip="{Binding Path=OnlineStatus,Converter={StaticResource toolTIpOnLineStatus }}"></Image>
+      
+                <Label Content=" "></Label>
+                <Label Content="设备编码:"></Label>
+                <Label Content="13313605" x:Name="labDeviceId"></Label>
+                <Label Content="|"></Label>
+                <Label Content="运营日:"></Label>
+                <Label Content="2009年08月07日" x:Name="labRunDate"></Label>
+                <Label Content="|"></Label>
+                <Label Content="运营状态:"></Label>
+                <Label x:Name="runStatus" Content="已经运营开始"></Label>
+                <Label Content="|"></Label>
+                <Label Content="版本号 V1.0 |" x:Name="labVerNum"></Label>
+                <Label Content="存在新版本" x:Name="labVerWarn"></Label>
+              
+
+                <Image Source="\Image\LocalStatus\alarmMessageQuery.png" ToolTip="单击查看报警历史" x:Name="alarmMessageImage"   Height="20" Visibility="Visible" ></Image>
+                <Image Source="\Image\LocalStatus\alarmMessageQuery.png" ToolTip="单击查看当前设备报警及故障信息" x:Name="alarmMessageCurrentImage"   Height="20" Visibility="Visible" ></Image>
+                <gifLib:GifImage Source="\Image\LocalStatus\alarmTip.gif" ToolTip="双击查看报警详细" x:Name="alarmMessageGif" Height="20" Width="35" HorizontalAlignment="Left" Visibility="Hidden" ></gifLib:GifImage>
+                <Label Content="|"></Label>
+                <Label Content="报警状态:"></Label>
+                <Label x:Name="alarmStatus" Content="报警开始"></Label>
+                <Label Content="|"></Label>
+                <Canvas x:Name="canvas">
+                    <Label x:Name="labTip" Content="{DynamicResource tip}" ToolTip="{DynamicResource tip}" Foreground="{DynamicResource alarmInfo}"/>
+                </Canvas>
+                
+            </DockPanel>
+        </Border>
+    </Grid>
+</local:UserControlBase>

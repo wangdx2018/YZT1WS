@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TJ_AFC/!svn/ver/9854/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI
+END
+AFC.WS.UI.CoreUI.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/9769/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/AFC.WS.UI.CoreUI.csproj
+END
+说明.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/%E8%AF%B4%E6%98%8E.txt
+END
+AlarmWindow.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/8981/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/AlarmWindow.xaml
+END
+afc_1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/8170/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/afc_1.jpg
+END
+AlarmWindow.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/8522/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/AlarmWindow.xaml.cs
+END
+CurrentFunction.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/CurrentFunction.xaml
+END
+StatusBarProperyContent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8170/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/StatusBarProperyContent.cs
+END
+afc_2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/8170/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/afc_2.jpg
+END
+afc_3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/8170/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/afc_3.jpg
+END
+CurrentFunction.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8615/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/CurrentFunction.xaml.cs
+END
+AboutForm.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/3788/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/AboutForm.xaml
+END
+AboutForm.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/7384/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/AboutForm.xaml.cs
+END
+afc.ico
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TJ_AFC/!svn/ver/6605/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/afc.ico
+END
+MenuControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/9132/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/MenuControl.xaml
+END
+SysConfigRewrite.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/8492/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/SysConfigRewrite.xaml
+END
+StatusBar.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/9852/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/StatusBar.xaml
+END
+MenuControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/8709/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/MenuControl.xaml.cs
+END
+SysConfigRewrite.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/SysConfigRewrite.xaml.cs
+END
+StatusBar.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/9884/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.CoreUI/StatusBar.xaml.cs
+END

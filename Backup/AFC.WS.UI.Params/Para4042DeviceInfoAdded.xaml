@@ -1,0 +1,78 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.Para4042DeviceInfoAdded"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:commonControls="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" 
+   xmlns:FC="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+   Background="{DynamicResource MainBackgroundBrush}" >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                    <GroupBox Header="添加设备信息参数" Height="380" Width="600" >
+                    <Grid x:Name="rootLayout" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="10*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                            <ColumnDefinition Width="10*"></ColumnDefinition>
+                            <ColumnDefinition Width="64*" />
+                            <ColumnDefinition Width="48*" />
+                            <ColumnDefinition Width="162*"></ColumnDefinition>
+                            <ColumnDefinition Width="122*"></ColumnDefinition>
+                            <ColumnDefinition Width="162*"></ColumnDefinition>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Label Content="车站" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Height="23.687" Margin="0,0,8.857,0" Grid.ColumnSpan="3" />
+                        <ComboBox  x:Name="station_cn_name" Grid.Row="1" Grid.Column="4" Height="25" IsEnabled="True" VerticalAlignment="Top" Margin="15,0,38,0"/>
+
+                        <Label Content="设备编号" Grid.Row="1" Grid.Column="5" Margin="0,1.313,8.857,13"/>
+                        <commonControls:TextBoxExtend  x:Name="device_id" Grid.Row="1" Grid.Column="6" IsEnabled="True" Margin="20,1.313,33,21.729" RegMinLength="8" RegMaxLength="8" TextBoxValidate="Hex"/>
+
+                        <Label Content="站厅编号" Grid.Row="2" Grid.Column="1" Margin="0,0,10,0" Height="24.828" VerticalAlignment="Top" Grid.ColumnSpan="3" />
+                        <commonControls:TextBoxExtend x:Name="station_hall_id" Grid.Column="4" IsEnabled="True" Margin="14.858,0.172,38.142,22.87" RegMaxLength="2" TextBoxValidate="AllNumbers" Grid.Row="2" />
+
+                        <Label Content="设备组编号" Grid.Row="2" Grid.Column="5" Margin="0,0.172,10,23.042" />
+                        <commonControls:TextBoxExtend x:Name="device_group_id" Grid.Column="6" IsEnabled="True" Margin="20,0.172,33,22.87" RegMaxLength="10" TextBoxValidate="AllNumbers" Grid.Row="2" />
+
+                        <Label Content="设备序列号" Grid.Row="3" Grid.Column="1" Margin="0,0,8.857,0" Height="26.433" VerticalAlignment="Top" Grid.ColumnSpan="3" />
+                        <commonControls:TextBoxExtend x:Name="device_serial_no" Grid.Column="4" IsEnabled="True" Margin="14.858,0,38.142,0" RegMaxLength="10" TextBoxValidate="AllNumbers" Grid.Row="3" Height="25" VerticalAlignment="Top" />
+
+                        <Label Content="设备组序列号" Grid.Row="3" Grid.Column="5" Margin="0,0,8.857,21.608" />
+                        <commonControls:TextBoxExtend x:Name="device_group_serial_no" Grid.Column="6" IsEnabled="True" Margin="20,48.041,33,23.042" RegMaxLength="10" TextBoxValidate="AllNumbers" Grid.Row="2" Grid.RowSpan="2" />
+
+                        <Label Grid.Column="1" Margin="0,0,8.857,0" Height="26.433" Grid.Row="4" VerticalAlignment="Top" Grid.ColumnSpan="3">横轴坐标</Label>
+                        <commonControls:TextBoxExtend x:Name="honri_index" Grid.Column="4" IsEnabled="True" Margin="15,0,38,0" RegMaxLength="16" TextBoxValidate="AllNumbers" Height="25" Grid.Row="4" VerticalAlignment="Top" />
+
+                        <Label Grid.Column="5" Margin="0,1.433,8.857,20.176" Grid.Row="4">纵轴坐标</Label>
+                        <commonControls:TextBoxExtend x:Name="vertical_index" Grid.Column="6" IsEnabled="True" Margin="20,0,33,23.042" RegMaxLength="16" TextBoxValidate="AllNumbers" Grid.Row="4" />
+
+                        <Label Margin="8.857,0,10,0" Height="26.433" Grid.Row="5" VerticalAlignment="Top" Grid.ColumnSpan="4">朝向角度</Label>
+                        <commonControls:TextBoxExtend x:Name="display_angle" Grid.Column="4" IsEnabled="True" Margin="15,0,38,0" RegMaxLength="16" TextBoxValidate="AllNumbers" Height="25" Grid.Row="5" VerticalAlignment="Top" />
+
+                        <Label Margin="0,46.609,8.857,23.042" Grid.Row="4" Grid.Column="5" Grid.RowSpan="2">设备IP</Label>
+                        <commonControls:TextBoxExtend x:Name="device_ip" Grid.Column="6" IsEnabled="True" Margin="20,1.433,33,21.608" RegMaxLength="20" TextBoxValidate="None" Grid.Row="5"/>
+
+                        <Label Margin="0,0.483,8.857,21.126" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3">运行状态</Label>
+                        <ComboBox Grid.Column="4" IsEnabled="True" Margin="14.858,0,38.428,23" Name="start_flag" Grid.Row="6"  VerticalAlignment="Top" SelectedIndex="0">
+                        </ComboBox>
+
+                        <Button Grid.Column="4" Grid.Row="7" Margin="43.429,15,38,9" Name="button1" Click="btnAddProvider_Click">确定</Button>
+                        <Button Grid.Column="5" Grid.Row="7" Margin="38.429,15,0,10.699" Name="button2" Click="btnReset_Click">重置</Button>
+
+                    </Grid>
+                </GroupBox>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

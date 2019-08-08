@@ -1,0 +1,190 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.SLEMonitor.DevStatusDetail"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                          xmlns:toolKit="http://schemas.microsoft.com/wpf/2008/toolkit"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+                     xmlns:sle="clr-namespace:AFC.WS.UI.UIPage.SLEMonitor"
+                       xmlns:basiControl="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" Width="300">
+    <Grid >
+        <Border  HorizontalAlignment="Center" Background="{DynamicResource DiagramGradientBrush}"  Style="{DynamicResource BorderStyle}" >
+            <ScrollViewer x:Name="scloll"  ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" VirtualizingStackPanel.IsVirtualizing="True" ScrollViewer.CanContentScroll="True"  >
+                <Grid  Name="grid2" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="340*" />
+                        <RowDefinition Height="40*"/>
+                    </Grid.RowDefinitions>
+                    <!--<DockPanel Grid.Row="0" Name="PaneSLEStatusAnimation" >-->
+                    <!--<my:SLEStatusAnimation ></my:SLEStatusAnimation>-->
+                    <!--</DockPanel>-->
+                    <DockPanel VerticalAlignment="Stretch" Grid.Row="0" Name="PanelSLEStatusInformation" >
+                        <Grid>
+                            <TabControl Name="TableControl" >
+                                <TabItem Name="baseInfo" Header="基本信息" IsSelected="True" >
+                                    <ScrollViewer x:Name="scroll1"  ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" VirtualizingStackPanel.IsVirtualizing="True" ScrollViewer.CanContentScroll="True"  >
+                                        <StackPanel x:Name="stackPanelBasiInfo" Orientation="Vertical">
+                                            <GroupBox Header="常规">
+                                                <Grid VerticalAlignment="Top" >
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="20*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="60*"></ColumnDefinition>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Label Content="设备类型"  HorizontalContentAlignment="Right"  Height="26.69" VerticalAlignment="Top" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="0" Grid.Column="1" TextWrap="Wrap"  x:Name="txtDevType" Width="150" HorizontalAlignment="Left" />
+                                                    <Label Content="设备编码"   Grid.Row="2" HorizontalContentAlignment="Right"  />
+                                                    <basiControl:TextBoxExtend  CanReadOnly="True" Grid.Row="2" Grid.Column="1" TextWrap="Wrap"  x:Name="txtDeviceId"  Width="150" HorizontalAlignment="Left" />
+                                                    <Label Content="所属站厅"  Grid.Row="4" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="4" Grid.Column="1" TextWrap="Wrap"  x:Name="txtHall"   Width="150" HorizontalAlignment="Left"/>
+                                                    <Label Content="组ID"  Grid.Row="6" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="6" Grid.Column="1" TextWrap="Wrap"  x:Name="txtGroupId" Width="150" HorizontalAlignment="Left"  />
+                                                    <Label Content="组内ID"  Grid.Row="8" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="8" Grid.Column="1" TextWrap="Wrap"  x:Name="txtGroupInterId" Width="150" HorizontalAlignment="Left"  />
+                                                    <Label Content="IP地址"  Grid.Row="10" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="10" Grid.Column="1" TextWrap="Wrap"  x:Name="txtIpAddress"  Width="150" HorizontalAlignment="Left"  />
+                                                </Grid>
+                                            </GroupBox>
+                                            <GroupBox Header="运行">
+                                                <DockPanel>
+                                                    <Grid VerticalAlignment="Top">
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="23*"></RowDefinition>
+                                                            <RowDefinition Height="4"></RowDefinition>
+                                                            <RowDefinition Height="23*"></RowDefinition>
+                                                            <RowDefinition Height="4"></RowDefinition>
+                                                            <RowDefinition Height="23*"></RowDefinition>
+                                                            <RowDefinition Height="4"></RowDefinition>
+                                                            <RowDefinition Height="0*"></RowDefinition>
+                                                            <RowDefinition Height="0*"></RowDefinition>
+                                                            <RowDefinition Height="10"></RowDefinition>
+                                                            <RowDefinition Height="103.277*"></RowDefinition>
+                                                            <RowDefinition Height="80"></RowDefinition>
+                                                            <RowDefinition Height="0*"></RowDefinition>
+                                                        </Grid.RowDefinitions>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="80*"></ColumnDefinition>
+                                                            <ColumnDefinition Width="155*"></ColumnDefinition>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Label Content="运行状态" Grid.Row="4"  Grid.Column="0" HorizontalContentAlignment="Right" Visibility="Hidden"/>
+                                                        <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="4" Grid.Column="1" TextWrap="Wrap"  x:Name="txtRunState" Width="150" HorizontalAlignment="Left" Visibility="Hidden"/>
+                                                        <Label Content="工作模式" Grid.Row="0" HorizontalContentAlignment="Right"  />
+                                                        <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="0" Grid.Column="1" TextWrap="Wrap"  x:Name="txtWork" Width="150" HorizontalAlignment="Left" />
+                                                        <Label Content="服务模式"  Grid.Row="2" HorizontalContentAlignment="Right"  />
+                                                        <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="2" Grid.Column="1" TextWrap="Wrap"  x:Name="txtService" Width="150" HorizontalAlignment="Left"/>
+                                                        <Label Content="所有状态信息>>"  IsEnabled="True" HorizontalAlignment="Right" Grid.Row="9" Grid.Column="1" Name="labTrouble" MouseDown="labTrouble_MouseDown"/>
+                                                        <Button Name="ButtonRefresh" Content="刷新" Click="ButtonRefresh_Click" Grid.Column="1" Height="20.277" Margin="19,0,52,6" Grid.Row="10" VerticalAlignment="Bottom"></Button>
+                                                      
+                                                    </Grid>
+                                                </DockPanel>
+                                            </GroupBox>
+                                        </StackPanel>
+                                    </ScrollViewer>
+                                </TabItem>
+                                <TabItem Name="DevSet" Header="控制" >
+                                 
+                                        <Grid>
+                                            <sle:SLEControlSetting x:Name="sleControl"></sle:SLEControlSetting>
+                                        </Grid>
+                                </TabItem>
+                                <TabItem Name="tabTicketBox"  Header="票箱" >
+                                    
+                                        <StackPanel x:Name="stackPanelTicketInfo"  Orientation="Vertical">
+                                            <GroupBox Header="票箱信息">
+                                                <sle:BoxManager x:Name="tickBoxManager"/>
+                                            </GroupBox>
+                                           
+                                        </StackPanel>
+                                    
+                                </TabItem>
+                                <TabItem Name="tabMoneyBox" Header="钱箱">
+                                   
+                                        <StackPanel x:Name="stackPanelMoneyBox"  >
+                                            <GroupBox Header="钱箱信息"  >
+                                                <sle:BoxManager x:Name="cashBoxManager"/>
+                                            </GroupBox>
+                                        </StackPanel>
+                                </TabItem>
+                                <TabItem Name="tabHopper" Header="Hopper">
+                                    <StackPanel x:Name="stackPanelHopper"  >
+                                        <GroupBox Header="Hopper信息"  >
+                                            <sle:BoxManager x:Name="HopperManager"/>
+                                        </GroupBox>
+                                    </StackPanel>
+                                </TabItem>
+                                <TabItem Name="tabDevResUseInfo" Header="设备资源" Visibility="Hidden">
+
+                                    <StackPanel x:Name="stackPanelDevResUseInfox"  >
+                                        <GroupBox Header="设备资源使用信息"  >
+                                                <Grid VerticalAlignment="Top" >
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                        <RowDefinition Height="21*"></RowDefinition>
+                                                        <RowDefinition Height="4"></RowDefinition>
+                                                </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="20*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="60*"></ColumnDefinition>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Label Content="磁盘总量"  HorizontalContentAlignment="Right"  Height="26.69" VerticalAlignment="Top" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="0" Grid.Column="1" TextWrap="Wrap"  x:Name="totalDiskVolume" Width="150" HorizontalAlignment="Left" />
+                                                    <Label Content="磁盘使用量"   Grid.Row="2" HorizontalContentAlignment="Right"  />
+                                                    <basiControl:TextBoxExtend  CanReadOnly="True" Grid.Row="2" Grid.Column="1" TextWrap="Wrap"  x:Name="usedDiskVolume"  Width="150" HorizontalAlignment="Left" />
+                                                    <Label Content="数据库容量"  Grid.Row="4" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="4" Grid.Column="1" TextWrap="Wrap"  x:Name="dbFileVolume"   Width="150" HorizontalAlignment="Left"/>
+                                                    <Label Content="内存总容量"  Grid.Row="6" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="6" Grid.Column="1" TextWrap="Wrap"  x:Name="memVolume" Width="150" HorizontalAlignment="Left"  />
+                                                    <Label Content="CPU总容量"  Grid.Row="8" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="8" Grid.Column="1" TextWrap="Wrap"  x:Name="cpuVolume" Width="150" HorizontalAlignment="Left"  />
+                                                    <Label Content="磁盘使用状态"  Grid.Row="10" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="10" Grid.Column="1" TextWrap="Wrap"  x:Name="dbStatus" Width="150" HorizontalAlignment="Left"  />
+                                                    <Label Content="更新时间" Grid.Row="12" HorizontalContentAlignment="Right" />
+                                                    <basiControl:TextBoxExtend CanReadOnly="True" Grid.Row="12" Grid.Column="1" TextWrap="Wrap"  x:Name="updateDateTime"  Width="150" HorizontalAlignment="Left"  />
+                                                </Grid>
+                                        </GroupBox>
+                                    </StackPanel>
+                                </TabItem>
+
+                            </TabControl>
+                        </Grid>
+                    </DockPanel>
+
+                    <DockPanel VerticalAlignment="Bottom" Grid.Row="1" Name="Action"  >
+                        <Grid>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" FlowDirection="LeftToRight">
+                                <!--<Button  Name="ButtonWarnEnd"  Content="警报终止" Click="ButtonWarnEnd_Click"></Button>-->
+                                <!--<TextBlock Width="5"></TextBlock>-->
+                                <TextBlock Width="5"></TextBlock>
+                                <!--<TextBlock Width="5"></TextBlock>-->
+                                <!--<Button Name="ButtonMonitorSet"  Content="监视设置" Click="ButtonMonitorSet_Click"></Button>-->
+                            </StackPanel>
+                        </Grid>
+
+                    </DockPanel>
+                </Grid>
+            </ScrollViewer>
+        </Border>
+    </Grid>
+</local:UserControlBase>

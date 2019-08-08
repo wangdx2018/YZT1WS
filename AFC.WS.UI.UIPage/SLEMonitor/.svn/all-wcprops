@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9869/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor
+END
+SLEDeviceMonitorControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9039/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/SLEDeviceMonitorControl.xaml.cs
+END
+SLEControlSetting.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/9707/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/SLEControlSetting.xaml
+END
+StatusLevelModify.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/9792/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/StatusLevelModify.xaml
+END
+BoxManager.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/7639/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/BoxManager.xaml
+END
+AlarmStyleModify.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/9820/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/AlarmStyleModify.xaml
+END
+SLEControlSetting.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8054/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/SLEControlSetting.xaml.cs
+END
+MonitorImageButton.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/8156/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/MonitorImageButton.xaml
+END
+StatusLevelModify.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/9869/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/StatusLevelModify.xaml.cs
+END
+BoxManager.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/9769/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/BoxManager.xaml.cs
+END
+AlarmStyleModify.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/9868/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/AlarmStyleModify.xaml.cs
+END
+MonitorImageButton.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9747/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/MonitorImageButton.xaml.cs
+END
+AlarmSetting.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/9039/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/AlarmSetting.xaml
+END
+SLEMainFrm.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/7651/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/SLEMainFrm.xaml
+END
+StationTreeViewControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/9270/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/StationTreeViewControl.xaml
+END
+AlarmSetting.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/4577/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/AlarmSetting.xaml.cs
+END
+StationTreeViewControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8271/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/StationTreeViewControl.xaml.cs
+END
+SLEMainFrm.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/5444/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/SLEMainFrm.xaml.cs
+END
+legendDescription.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/9746/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/legendDescription.xaml
+END
+BoxInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/9694/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/BoxInfo.xaml
+END
+DevStatusDetail.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/9737/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/DevStatusDetail.xaml
+END
+legendDescription.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/3409/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/legendDescription.xaml.cs
+END
+BoxInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/9694/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/BoxInfo.xaml.cs
+END
+DevStatusDetail.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/9822/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/DevStatusDetail.xaml.cs
+END
+HopperInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/9737/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/HopperInfo.xaml
+END
+SLEDeviceMonitorControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/3185/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/SLEDeviceMonitorControl.xaml
+END
+HopperInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/9737/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/SLEMonitor/HopperInfo.xaml.cs
+END

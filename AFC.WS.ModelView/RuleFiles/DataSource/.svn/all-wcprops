@@ -1,0 +1,731 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/9864/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource
+END
+ds_dataOperatorSettlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dataOperatorSettlement.xml
+END
+ds_cash_date_settlement_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_date_settlement_info.xml
+END
+ds_para_4014_ypt_range_blacklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4014_ypt_range_blacklist.xml
+END
+ds_cashOperatorLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cashOperatorLog.xml
+END
+ds_para_4037_tvm_top_banner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_tvm_top_banner.xml
+END
+ds_para_4013_ypt_incre_black_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4013_ypt_incre_black_list.xml
+END
+ds_para_4037_fare_value_selection.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_fare_value_selection.xml
+END
+ds_ticketboxStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_ticketboxStatus.xml
+END
+ds_tick_dispatch_log_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9430/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_dispatch_log_in.xml
+END
+ds_tick_box_in_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_box_in_dev_info.xml
+END
+ds_basi_money_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_money_type_info.xml
+END
+ds_tvmSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tvmSettleInfo.xml
+END
+ds_para_version_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_version_info.xml
+END
+ds_tick_valued_product_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9381/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_valued_product_info.xml
+END
+ds_cash_money_box_reg_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_money_box_reg_info.xml
+END
+ds_operatorDevInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_operatorDevInfo.xml
+END
+ds_coinStoreLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_coinStoreLog.xml
+END
+ds_AgUpsStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9825/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_AgUpsStatusQuery.xml
+END
+ds_cash_money_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_money_box_status_info.xml
+END
+ds_para_4037_tvm_fare_area.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_tvm_fare_area.xml
+END
+ds_para_4034_point_discount.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4034_point_discount.xml
+END
+ds_dev_status_alarm_history.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9864/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dev_status_alarm_history.xml
+END
+ds_para_4036_fare_tier .xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4036_fare_tier%20.xml
+END
+ds_para_4037_station_in_area.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_station_in_area.xml
+END
+ds_tick_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9774/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_box_status_info.xml
+END
+ds_opeatorUnlocking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_opeatorUnlocking.xml
+END
+ds_maintain_rpt_track_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_maintain_rpt_track_info.xml
+END
+ds_cash_box_in_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_box_in_dev_info.xml
+END
+ds_cash_bom_shift_settlement_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_bom_shift_settlement_info.xml
+END
+ds_operatorRoleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_operatorRoleInfo.xml
+END
+ds_failLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_failLogInfo.xml
+END
+ds_tick_storage_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/9430/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_storage_info.xml
+END
+ds_devLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_devLogInfo.xml
+END
+ds_para_4037_station_in_line.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_station_in_line.xml
+END
+ds_para_4012_ypt_full_black_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4012_ypt_full_black_list.xml
+END
+ds_timeTaskExcute.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_timeTaskExcute.xml
+END
+ds_basi_dev_part_detail_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_dev_part_detail_info.xml
+END
+ds_runParamInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_runParamInfo.xml
+END
+ds_data_ykt_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_data_ykt_his.xml
+END
+ds_AgUpsMapQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9841/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_AgUpsMapQuery.xml
+END
+ds_cash_box_status_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_box_status_info.xml
+END
+ds_para_4037_line_select.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_line_select.xml
+END
+ds_para_4011_ykt_blackList.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4011_ykt_blackList.xml
+END
+ds_basi_status_id_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/9826/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_status_id_info.xml
+END
+ds_tick_box_replace_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_box_replace_info.xml
+END
+ds_para_4036_fare_group .xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4036_fare_group%20.xml
+END
+ds_tick_box_reg_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_box_reg_info.xml
+END
+ds_cash_storage_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_storage_info.xml
+END
+ds_para_4034_multi_trip_discount.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4034_multi_trip_discount.xml
+END
+ds_data_ykt_annual_review.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_data_ykt_annual_review.xml
+END
+ds_tickOperReturnLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/9737/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tickOperReturnLog.xml
+END
+ds_maintain_fault_rpt_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_maintain_fault_rpt_status.xml
+END
+ds_devCurrentErrorStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/9826/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_devCurrentErrorStatusQuery.xml
+END
+ds_tickOperatorInOut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/9737/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tickOperatorInOut.xml
+END
+ds_operContentQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_operContentQuery.xml
+END
+ds_QueryOperatorInfoByRoleId.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_QueryOperatorInfoByRoleId.xml
+END
+ds_basiDevInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basiDevInfo.xml
+END
+ds_cash_box_replace_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/9492/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_box_replace_info.xml
+END
+ds_param_syn_failed.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9046/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_param_syn_failed.xml
+END
+ds_cashStoreLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9258/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cashStoreLog.xml
+END
+ds_OperatorStation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_OperatorStation.xml
+END
+ds_DevStatusInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_DevStatusInfo.xml
+END
+ds_operatorStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_operatorStatus.xml
+END
+ds_dev_current_status_alarm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9862/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dev_current_status_alarm.xml
+END
+ds_prim_para_publish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_prim_para_publish.xml
+END
+ds_tick_dispatch_log_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/9430/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_dispatch_log_out.xml
+END
+ds_basi_maintain_area_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_maintain_area_info.xml
+END
+ds_basi_provider_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_provider_info.xml
+END
+ds_maintain_area_station_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_maintain_area_station_info.xml
+END
+ds_dataFileUpQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dataFileUpQuery.xml
+END
+ds_para_local_full_ver_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_local_full_ver_info.xml
+END
+ds_tick_in_operator_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/9430/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_in_operator_info.xml
+END
+ds_para_4032_station_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4032_station_info.xml
+END
+ds_devStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9826/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_devStatusQuery.xml
+END
+ds_data_ypt_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_data_ypt_his.xml
+END
+ds_para_publish.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_publish.xml
+END
+ds_bomSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9147/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_bomSettleInfo.xml
+END
+ds_devSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_devSettleInfo.xml
+END
+ds_devOperDoubleLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9014/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_devOperDoubleLogInfo.xml
+END
+ds_para_4044_custom_alarm_lamp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TJ_AFC/!svn/ver/9090/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4044_custom_alarm_lamp.xml
+END
+ds_roleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_roleInfo.xml
+END
+ds_dev_res_use_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dev_res_use_info.xml
+END
+ds_para_switch_busi_data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_switch_busi_data.xml
+END
+ds_tickStoreChangeLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9549/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tickStoreChangeLog.xml
+END
+ds_para_4035_time_interval.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4035_time_interval.xml
+END
+ds_para_4033_tick_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4033_tick_type_info.xml
+END
+ds_ctrlLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9024/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_ctrlLogInfo.xml
+END
+ds_stationHall.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_stationHall.xml
+END
+ds_dataFileDealQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dataFileDealQuery.xml
+END
+ds_sys_buss_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9679/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_sys_buss_info.xml
+END
+ds_cash_in_operator_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_in_operator_info.xml
+END
+ds_para_dev_full_ver_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_dev_full_ver_info.xml
+END
+ds_RoleInfoByFunctionId.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_RoleInfoByFunctionId.xml
+END
+ds_para_4035_special_date.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4035_special_date.xml
+END
+ds_hallGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_hallGroup.xml
+END
+ds_cash_date_settlement_info_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_cash_date_settlement_info_his.xml
+END
+ui_para_4042_device_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/6231/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ui_para_4042_device_info.xml
+END
+ds_para_4314.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4314.xml
+END
+ds_basi_tick_mana_type_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_tick_mana_type_info.xml
+END
+ds_functionInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_functionInfo.xml
+END
+ds_para_dload_busi_data.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_dload_busi_data.xml
+END
+ds_Scopeator_locking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_Scopeator_locking.xml
+END
+ds_para_4015_staff_blacklist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4015_staff_blacklist.xml
+END
+ds_OperatorInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_OperatorInfo.xml
+END
+ds_para_4032_exchange_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4032_exchange_info.xml
+END
+ds_tick_storage_history_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/9430/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tick_storage_history_info.xml
+END
+ds_run_mode_status.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_run_mode_status.xml
+END
+ds_para_4032_line_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4032_line_info.xml
+END
+ds_alarmMessageInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_alarmMessageInfo.xml
+END
+ds_para_4037_last_train.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_last_train.xml
+END
+ds_para_4037_tvm_adv.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4037_tvm_adv.xml
+END
+ds_para_4035_max_stay_time .xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4035_max_stay_time%20.xml
+END
+ds_operatorFunctions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_operatorFunctions.xml
+END
+ds_settlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_settlement.xml
+END
+ds_para_4042_device_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4042_device_info.xml
+END
+ds_tickDispatchInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9420/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tickDispatchInfo.xml
+END
+ds_dataUploadRecordsQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/9621/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dataUploadRecordsQuery.xml
+END
+ds_dev_run_status_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8974/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_dev_run_status_detail.xml
+END
+ds_para_4036_fare_value.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_para_4036_fare_value.xml
+END
+ds_tickFare.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8500/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_tickFare.xml
+END
+ds_basi_dev_part_id_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/DataSource/ds_basi_dev_part_id_info.xml
+END

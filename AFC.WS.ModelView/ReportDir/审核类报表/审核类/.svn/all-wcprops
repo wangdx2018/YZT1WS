@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/TJ_AFC/!svn/ver/9821/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB
+END
+BOM现金审核明细表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/TJ_AFC/!svn/ver/9333/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/BOM%E7%8E%B0%E9%87%91%E5%AE%A1%E6%A0%B8%E6%98%8E%E7%BB%86%E8%A1%A8.xls
+END
+BOM现金结算审核明细表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/TJ_AFC/!svn/ver/9739/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/BOM%E7%8E%B0%E9%87%91%E7%BB%93%E7%AE%97%E5%AE%A1%E6%A0%B8%E6%98%8E%E7%BB%86%E8%A1%A8.xls
+END
+TVM现金审核总表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 224
+/svn/TJ_AFC/!svn/ver/9759/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/TVM%E7%8E%B0%E9%87%91%E5%AE%A1%E6%A0%B8%E6%80%BB%E8%A1%A8.xls
+END
+TVM一票通清点差异报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 251
+/svn/TJ_AFC/!svn/ver/9557/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/TVM%E4%B8%80%E7%A5%A8%E9%80%9A%E6%B8%85%E7%82%B9%E5%B7%AE%E5%BC%82%E6%8A%A5%E8%A1%A8.xls
+END
+运营日车票结算单报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/TJ_AFC/!svn/ver/9739/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/%E8%BF%90%E8%90%A5%E6%97%A5%E8%BD%A6%E7%A5%A8%E7%BB%93%E7%AE%97%E5%8D%95%E6%8A%A5%E8%A1%A8.xls
+END
+运营日结算单报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/TJ_AFC/!svn/ver/9603/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/%E8%BF%90%E8%90%A5%E6%97%A5%E7%BB%93%E7%AE%97%E5%8D%95%E6%8A%A5%E8%A1%A8.xls
+END
+TVM现金收支汇总表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/TJ_AFC/!svn/ver/9386/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/TVM%E7%8E%B0%E9%87%91%E6%94%B6%E6%94%AF%E6%B1%87%E6%80%BB%E8%A1%A8.xls
+END
+Token废票库存审核报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/TJ_AFC/!svn/ver/9770/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/Token%E5%BA%9F%E7%A5%A8%E5%BA%93%E5%AD%98%E5%AE%A1%E6%A0%B8%E6%8A%A5%E8%A1%A8.xls
+END
+BOM现金结算审核总表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/TJ_AFC/!svn/ver/9607/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/BOM%E7%8E%B0%E9%87%91%E7%BB%93%E7%AE%97%E5%AE%A1%E6%A0%B8%E6%80%BB%E8%A1%A8.xls
+END
+非正常收支明细表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/TJ_AFC/!svn/ver/9602/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/%E9%9D%9E%E6%AD%A3%E5%B8%B8%E6%94%B6%E6%94%AF%E6%98%8E%E7%BB%86%E8%A1%A8.xls
+END
+AGM审核报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/TJ_AFC/!svn/ver/9738/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/AGM%E5%AE%A1%E6%A0%B8%E6%8A%A5%E8%A1%A8.xls
+END
+TVM一票通审核总表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/TJ_AFC/!svn/ver/9821/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/TVM%E4%B8%80%E7%A5%A8%E9%80%9A%E5%AE%A1%E6%A0%B8%E6%80%BB%E8%A1%A8.xls
+END
+BOM一票通售票审核表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/TJ_AFC/!svn/ver/9485/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/BOM%E4%B8%80%E7%A5%A8%E9%80%9A%E5%94%AE%E7%A5%A8%E5%AE%A1%E6%A0%B8%E8%A1%A8.xls
+END
+TVM现金审核明细表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/TJ_AFC/!svn/ver/9599/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/TVM%E7%8E%B0%E9%87%91%E5%AE%A1%E6%A0%B8%E6%98%8E%E7%BB%86%E8%A1%A8.xls
+END
+Token库存审核报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/TJ_AFC/!svn/ver/9771/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/Token%E5%BA%93%E5%AD%98%E5%AE%A1%E6%A0%B8%E6%8A%A5%E8%A1%A8.xls
+END
+非正常收支汇总表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/TJ_AFC/!svn/ver/9605/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%AE%A1%E6%A0%B8%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%AE%A1%E6%A0%B8%E7%B1%BB/%E9%9D%9E%E6%AD%A3%E5%B8%B8%E6%94%B6%E6%94%AF%E6%B1%87%E6%80%BB%E8%A1%A8.xls
+END

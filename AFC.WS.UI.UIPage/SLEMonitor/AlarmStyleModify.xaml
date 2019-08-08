@@ -1,0 +1,38 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.SLEMonitor.AlarmStyleModify"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+             mc:Ignorable="d" 
+           Background="{DynamicResource MainBackgroundBrush}"  Width="450" Height="200">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <GroupBox Header="{DynamicResource core_Alarm_Set}">
+                    <Grid x:Name="rootLayout">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <CheckBox Content="铃声" Name="radSound" Tag="01" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <CheckBox Content="闪烁" Name="radShakeImage" Tag="01" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <CheckBox Content="提示" Name="radShowDlg" Tag="01" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button x:Name="btnOk" Grid.Row="3" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Content="确定"  Width="82" Height="30"/>
+                    </Grid>
+                </GroupBox>
+              
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>
+
+

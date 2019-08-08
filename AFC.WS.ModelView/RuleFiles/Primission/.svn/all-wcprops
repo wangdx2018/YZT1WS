@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/9368/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission
+END
+list_operatorScEnable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8425/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorScEnable.xml
+END
+list_OperatorroleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_OperatorroleInfo.xml
+END
+ui_operatorScEnable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8677/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_operatorScEnable.xml
+END
+ui_updateFunction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_updateFunction.xml
+END
+list_roleInfoByFunctionId.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_roleInfoByFunctionId.xml
+END
+list_ScoperatorLockStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_ScoperatorLockStatus.xml
+END
+ui_roleManager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_roleManager.xml
+END
+ui_addFunction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_addFunction.xml
+END
+list_opreatorInfoByRoleId.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_opreatorInfoByRoleId.xml
+END
+list_operatorFunction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorFunction.xml
+END
+list_functionInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_functionInfo.xml
+END
+ui_operatorStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8677/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_operatorStatus.xml
+END
+list_operatorEnable.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8819/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorEnable.xml
+END
+ui_functionInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_functionInfo.xml
+END
+list_operatorForceLogOut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorForceLogOut.xml
+END
+list_operatorDevInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorDevInfo.xml
+END
+UI_operatorForceLogOut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/UI_operatorForceLogOut.xml
+END
+ui_addOperator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9368/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_addOperator.xml
+END
+ui_updateRole.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_updateRole.xml
+END
+list_operatorLockStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorLockStatus.xml
+END
+list_operatorStationInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_operatorStationInfo.xml
+END
+ui_Login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_Login.xml
+END
+ui_basicOperatorInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_basicOperatorInfo.xml
+END
+ui_addRole.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/9047/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_addRole.xml
+END
+ui_updateOperatorInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_updateOperatorInfo.xml
+END
+list_roleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/9047/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/list_roleInfo.xml
+END
+ui_operatorChangePwd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_operatorChangePwd.xml
+END
+ui_opeator_locking.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8677/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_opeator_locking.xml
+END
+ui_operatorStatusDetail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/Primission/ui_operatorStatusDetail.xml
+END

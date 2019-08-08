@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ParamConfigs>
+  <ParamConfig  Type="4031" Description="系统控制参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4031_sys_control.xml" Style="Struct" Description="系统控制参数" DataSourceName="ds_para_4031_sys_control" TableName="para_4031_sys_control" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4032" Description="路网信息参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\list_para_4032_line_info.xml" Style="List" Description="线路信息" DataSourceName="ds_para_4032_line_info" TableName="para_4032_line_info" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\list_para_4032_station_info.xml" Style="List" Description="车站信息" DataSourceName="ds_para_4032_station_info" TableName="para_4032_station_info" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\list_para_4032_exchange_info.xml" Style="List" Description="换乘车站信息" DataSourceName="ds_para_4032_exchange_info" TableName="para_4032_exchange_info" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4033" Description="车票参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\list_para_4033_tick_type_info.xml" Style="List" Description="车票参数" DataSourceName="ds_para_4033_tick_type_info" TableName="para_4033_tick_type_info" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4034" Description="车票参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\list_para_4034_multi_trip_discount.xml" Style="List" Description="联乘优惠" DataSourceName="" TableName="ds_para_4034_multi_trip_discount" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\list_para_4034_point_discount.xml" Style="List" Description="累积优惠" DataSourceName="" TableName="ds_para_4034_point_discount" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4035" Description="日历时间参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4035_calendar_systime.xml" Style="Struct" Description="系统时间参数" DataSourceName="" TableName="para_4035_calendar_systime" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\list_para_4035_special_date.xml" Style="List" Description="特殊日期" DataSourceName="para_4035_special_date" TableName="para_4035_special_date" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\list_para_4035_time_interval.xml" Style="List" Description="时间段" DataSourceName="ds_para_4035_time_interval" TableName="para_4035_time_interval" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\list_para_4035_max_stay_time.xml" Style="List" Description="最大滞留时间" DataSourceName="ds_para_4035_max_stay_time" TableName="para_4035_max_stay_time" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4036" Description="费率参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4036_fare_add.xml" Style="Struct" Description="充值参数" DataSourceName="" TableName="para_4036_fare_add" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\list_para_4036_fare_group.xml" Style="List" Description="车票费率组" DataSourceName="ds_para_4036_fare_group" TableName="para_4036_fare_group" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\list_para_4036_fare_tier.xml" Style="List" Description="费率等级" DataSourceName="ds_para_4036_fare_tier" TableName="para_4036_fare_tier" ControlType=""/>
+    <Item ID="4" FileName=".\RuleFiles\Params\list_para_4036_fare_value.xml" Style="List" Description="基本费率" DataSourceName="ds_para_4036_fare_value" TableName="para_4036_fare_value" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4314" Description="自动运行时间表">
+    <Item ID="1" FileName=".\RuleFiles\Params\list_para_4314.xml" Style="List" Description="自动运行时间表" DataSourceName="ds_para_4314" TableName="para_4314_autorun_time" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4037" Description="TVM界面参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4037_tvm_screen_size.xml" Style="Struct" Description="屏幕尺寸" DataSourceName="" TableName="para_4037_tvm_screen_size" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_4037_tvm_start_window.xml" Style="Struct" Description="启动窗口" DataSourceName="" TableName="para_4037_tvm_start_window" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\ui_para_4037_suspend_status.xml" Style="Struct" Description="暂停服务状态" DataSourceName="" TableName="para_4037_suspend_status" ControlType=""/>
+    <Item ID="4" FileName=".\RuleFiles\Params\ui_para_4037_road_network_pic.xml" Style="Struct" Description="路网图片" DataSourceName="" TableName="para_4037_road_network_pic" ControlType=""/>
+    <Item ID="5" FileName=".\RuleFiles\Params\ui_para_4037_tvm_current_location.xml" Style="Struct" Description="当前日期时间和车站的显示位置" DataSourceName="" TableName="para_4037_tvm_current_location" ControlType=""/>
+    <Item ID="6" FileName=".\RuleFiles\Params\list_para_4037_tvm_adv.xml" Style="List" Description="广告内容" DataSourceName="ds_para_4037_tvm_adv" TableName="para_4037_tvm_adv" ControlType=""/>
+    <Item ID="7" FileName=".\RuleFiles\Params\ui_para_4037_adv_play.xml" Style="Struct" Description="广告播放" DataSourceName="ds_para_4037_adv_play" TableName="para_4037_adv_play" ControlType=""/>
+    <Item ID="8" FileName=".\RuleFiles\Params\list_para_4037_tvm_top_banner.xml" Style="List" Description="顶板" DataSourceName="ds_para_4037_tvm_top_banner" TableName="para_4037_tvm_top_banner" ControlType=""/>
+    <Item ID="9" FileName=".\RuleFiles\Params\list_para_4037_last_train.xml" Style="List" Description="末班车 " DataSourceName="ds_para_4037_last_train" TableName="para_4037_last_train" ControlType=""/>
+    <Item ID="10" FileName=".\RuleFiles\Params\list_para_4037_fare_value_selection.xml" Style="List" Description="票价选择按钮" DataSourceName="ds_para_4037_fare_value_selection" TableName="para_4037_fare_value_selection" ControlType=""/>
+    <Item ID="11" FileName=".\RuleFiles\Params\list_para_4037_tvm_fare_area.xml" Style="List" Description="路网区域" DataSourceName="ds_para_4037_tvm_fare_area" TableName="para_4037_tvm_fare_area" ControlType=""/>
+    <Item ID="12" FileName=".\RuleFiles\Params\list_para_4037_station_in_area.xml" Style="List" Description="路网区域中车站按钮 " DataSourceName="ds_para_4037_station_in_area" TableName="para_4037_station_in_area" ControlType=""/>
+    <Item ID="13" FileName=".\RuleFiles\Params\list_para_4037_line_select.xml" Style="List" Description="线路选择按钮" DataSourceName="ds_para_4037_line_select" TableName="para_4037_line_select" ControlType=""/>
+    <Item ID="14" FileName=".\RuleFiles\Params\list_para_4037_station_in_line.xml" Style="List" Description="线路中车站选择按钮" DataSourceName="ds_para_4037_station_in_line" TableName="para_4037_station_in_line" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4042" Description="车站设备节点配置">
+    <Item ID="1" FileName=".\RuleFiles\Params\dl_para_4042_device_info.xml" Style="List" Description="车站设备节点配置" DataSourceName="ds_para_4042_device_info" TableName="para_4042_device_info" ControlType=""/>
+  </ParamConfig>
+
+
+  <ParamConfig  Type="4043" Description="TVM运营参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4043_tvm_tick_read.xml" Style="Struct" Description="TVM票卡读写参数" DataSourceName="" TableName="para_4043_tvm_tick_read" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_4043_maintain_data.xml" Style="Struct" Description="TVM维修登录相关参数" DataSourceName="" TableName="para_4043_maintain_data" ControlType=""/>
+    <Item ID="3" FileName="" Style="Struct" Description="TVM钱箱相关参数" DataSourceName="" TableName="para_4043_tvm_cash_box" ControlType="AFC.WS.UI.Params.Para4043tvmcashboxUpdate,AFC.WS.UI.Params"/>
+    <Item ID="4" FileName=".\RuleFiles\Params\ui_para_4043_tvm_tick_box.xml" Style="Struct" Description="TVM票箱参数" DataSourceName="" TableName="para_4043_tvm_tick_box" ControlType=""/>
+    <Item ID="5" FileName=".\RuleFiles\Params\ui_para_4043_min_query_tran_amoun.xml" Style="Struct" Description="TVM最近可查最小交易数目" DataSourceName="" TableName="para_4043_min_query_tran_amoun" ControlType=""/>
+    <Item ID="6" FileName="" Style="Struct" Description="接受纸币面额种类" DataSourceName="" TableName="para_4043_tvm_cash_box" ControlType="AFC.WS.UI.Params.Para4043CashType,AFC.WS.UI.Params"/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4044" Description="AGM运营参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4043_tvm_tick_read.xml" Style="Struct" Description="AGM票卡读写参数" DataSourceName="" TableName="para_4044_agm_tick_rw" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_4044_main_login.xml" Style="Struct" Description="AGM维修登录相关参数" DataSourceName="" TableName="para_4044_main_login" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\ui_para_4044_agm_tick_box.xml" Style="Struct" Description="AGM票箱参数" DataSourceName="" TableName="para_4044_agm_tick_box" ControlType=""/>
+    <Item ID="4" FileName=".\RuleFiles\Params\ui_para_4044_pass_control_data.xml" Style="Struct" Description="AGM通行控制参数" DataSourceName="" TableName="para_4044_pass_control_data" ControlType=""/>
+    <Item ID="5" FileName="" Style="Struct" Description="AGM警告灯参数" DataSourceName="" TableName="para_4044_alarm_lamp_data" ControlType="AFC.WS.UI.Params.ParamsAGMLightErrorHandleEdit,AFC.WS.UI.Params"/>
+    <Item ID="6" FileName=".\RuleFiles\Params\list_para_4044_custom_alarm_lamp.xml" Style="List" Description="AGM警告灯个性参数" DataSourceName="ds_para_4044_custom_alarm_lamp" TableName="para_4044_custom_alarm_lamp" ControlType=""/>
+    <Item ID="7" FileName=".\RuleFiles\Params\ui_para_4044_min_tran_query.xml" Style="Struct" Description="AGM最近可查最小交易数目" DataSourceName="" TableName="para_4044_min_tran_query" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="4045" Description="BOM运营参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4045_tick_reader_data.xml" Style="Struct" Description="BOM票卡读写参数" DataSourceName="" TableName="para_4045_tick_reader_data" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_4045_bom_main_login.xml" Style="Struct" Description="BOM维修登录相关参数" DataSourceName="" TableName="para_4045_bom_main_login" ControlType=""/>
+    <Item ID="4" FileName=".\RuleFiles\Params\ui_para_4045_min_tran_query.xml" Style="Struct" Description="BOM最近可查最小交易数目" DataSourceName="" TableName="para_4045_min_tran_query" ControlType=""/>
+  </ParamConfig>
+</ParamConfigs>

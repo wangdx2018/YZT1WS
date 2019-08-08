@@ -1,0 +1,155 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxClear"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:FC="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+    xmlns:TC="http://schemas.microsoft.com/wpf/2008/toolkit"  Background="{DynamicResource MainBackgroundBrush}" 
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController">
+    <Grid x:Name="rootLayout">
+        <DockPanel>
+            <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+                <DockPanel>
+                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="450"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="640"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80"/>
+                                <RowDefinition Height="125"/>
+                                <RowDefinition Height="180"/>
+                                <RowDefinition Height="45"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <GroupBox Grid.Row="0" Grid.Column="0" Width="640" Name="gbBaseInfo" >
+                                <Grid >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition Height="26"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="130" />
+                                        <ColumnDefinition Width="90"/>
+                                        <ColumnDefinition Width="90" />
+                                        <ColumnDefinition Width="130" />
+                                    </Grid.ColumnDefinitions>
+                                    <FC:LabelExtend Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Height="40" FontSize="20" Content="请确认RFID读写器连接正常..." Name="lblMessage" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="1" Width="80" Content="钱箱编码"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Right" />
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="2" Width="130" Height="26" Name="txtMoneyBoxID" TextBoxValidate="Hex" RegMaxLength="8" />
+                                    <Button Grid.Row="1" Grid.Column="3" Width="90" Height="26" Name="btnReadRFIDInfo" Content="读取RFID信息" HorizontalAlignment="Left" Click="btnReadRFIDInfo_Click" />
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="4" Width="90" Content="操作员编码"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Right" />
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="5" Width="130" Height="26" Name="txtOperatorID" RegMaxLength="8" TextBoxValidate="AllNumbers" />
+                                </Grid>
+                            </GroupBox>
+                            <GroupBox Grid.Row="1" Grid.Column="0" Width="640" Header="钱箱信息" Name="gbMoneyBoxRFIDInfo">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="14*" />
+                                        <ColumnDefinition Width="27.889*" />
+                                        <ColumnDefinition Width="62.667*" />
+                                        <ColumnDefinition Width="105*" />
+                                        <ColumnDefinition Width="105*" />
+                                        <ColumnDefinition Width="105*" />
+                                        <ColumnDefinition Width="105*" />
+                                        <ColumnDefinition Width="105*" />
+                                        
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="30"/>
+                                        <RowDefinition Height="30"/>
+                                    </Grid.RowDefinitions>
+                                    <FC:LabelExtend Content="设备编码"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,14.298,0" />
+                                    <FC:ComboBoxExtend Grid.Column="3" Width="100" Height="26" Name="txtDeviceID" IsEnabled="True" />
+                                    <FC:LabelExtend Grid.Column="4" Width="90" Content="位置状态"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                                    <FC:TextBoxExtend Grid.Column="5" Width="100" Height="26" Name="txtLocationState" IsEnabled="False" />
+                                    <FC:LabelExtend Grid.Column="6" Width="90" Content="操作状态"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                                    <FC:TextBoxExtend Grid.Column="7" Width="100" Height="26" Name="txtOperatorState" IsEnabled="False" />
+                                    <FC:LabelExtend Grid.Row="1" Content="安装位置"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,14.298,0" />
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="3" Width="100" Height="26" Name="txtInstallLocation" IsEnabled="False" />
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="4" Width="90" Content="最后操作时间"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="5" Width="100" Height="26" Name="txtLastOperatorTime" IsEnabled="False" />
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="6" Width="90" Content="币    种"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="7" Width="100" Height="26" Name="txtMoneyTypeName" IsEnabled="False" />
+
+                                    <FC:LabelExtend Grid.Row="2" Content="总 数 量"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,14.298,0" />
+                                    <FC:TextBoxExtend Grid.Row="2" Grid.Column="3" Width="100" Height="26" Name="txtTotalNumber" IsEnabled="False" />
+                                    <FC:LabelExtend Grid.Row="2" Grid.Column="4" Width="90" Content="总 金 额"  HorizontalContentAlignment="Right" VerticalContentAlignment="Center" HorizontalAlignment="Left" />
+                                    <FC:TextBoxExtend Grid.Row="2" Grid.Column="5" Width="100" Height="26" Name="txtTotalCash" IsEnabled="False" />
+
+                                </Grid>
+                            </GroupBox>
+                            <GroupBox Grid.Column="0" Grid.Row="2" Width="640" Header="清点信息" Name="gbMoneyBoxInInfo">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="120"/>
+                                        <ColumnDefinition Width="90"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="90"/>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="90"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="28"/>
+                                        <RowDefinition Height="28"/>
+                                        <RowDefinition Height="28"/>
+                                        <RowDefinition Height="28"/>
+                                        <RowDefinition Height="28"/>
+                                    </Grid.RowDefinitions>
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="0" Width="70" Content="1元纸币" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="0" Grid.Column="0" Width="70" Content="1元硬币" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="2" Grid.Column="2" Width="50" Content="20元" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="2" Width="50" Content="5元" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="2" Grid.Column="4" Width="50" Content="50元" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="1" Grid.Column="4" Width="50" Content="10元" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="2" Grid.Column="0" Width="70" Content="100元" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:LabelExtend Grid.Row="3" Grid.Column="0" Width="80" Content="多币种" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+
+                                    <FC:TextBoxExtend Grid.Row="0" Grid.Column="1" Width="90" Height="26" Name="txtFact1Coin" Uid="11" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5"  IsEnabled="False"/>
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="1" Width="90" Height="26" Name="txtFact1" Uid="31" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5"  IsEnabled="False"/>
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="3" Width="90" Height="26" Name="txtFact5" Uid="33" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5" IsEnabled="False" />
+                                    <FC:TextBoxExtend Grid.Row="1" Grid.Column="5" Width="90" Height="26" Name="txtFact10" Uid="34" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5" IsEnabled="False"/>
+                                    <FC:TextBoxExtend Grid.Row="2" Grid.Column="3" Width="90" Height="26" Name="txtFact20" Uid="35" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5" IsEnabled="False"/>
+                                    <FC:TextBoxExtend Grid.Row="2" Grid.Column="5" Width="90" Height="26" Name="txtFact50" Uid="36" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5" IsEnabled="False"/>
+                                    <FC:TextBoxExtend Grid.Row="2" Grid.Column="1" Width="90" Height="26" Name="txtFact100" Uid="37" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5" IsEnabled="False"/>
+                                    <FC:TextBoxExtend Grid.Row="3" Grid.Column="1" Width="90" Height="26" Name="txtFact00" Uid="00" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" RegMaxLength="5" />
+
+
+                                    <FC:LabelExtend Grid.Row="4" Grid.Column="0" Width="80" Content="币种总数量" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:TextBoxExtend Grid.Row="4" Grid.Column="1" Width="90" Height="26" Name="txtTotalNumberFact" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" IsEnabled="False" />
+                                    <FC:LabelExtend Grid.Row="4" Grid.Column="2" Width="70" Content="总金额" VerticalContentAlignment="Center" HorizontalAlignment="Right" HorizontalContentAlignment="Right" />
+                                    <FC:TextBoxExtend Grid.Row="4" Grid.Column="3" Width="90" Height="26" Name="txtTotalMoneyFact" HorizontalAlignment="Left" TextBoxValidate="AllNumbers" IsEnabled="False" />
+
+                                </Grid>
+                            </GroupBox>
+                            <GroupBox Grid.Column="0" Grid.Row="3" Width="640">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition Width="20"/>
+                                        <ColumnDefinition Width="100" />
+                                        <ColumnDefinition Width="20"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0" Grid.Row="0" Content="取   消" Name="btnCancel" Height="30" Width="80" HorizontalAlignment="Right" Click="btnCancel_Click" />
+                                    <Button Grid.Column="2" Grid.Row="0" Content="清   点" Name="btnClear" Height="30" Width="80" HorizontalAlignment="Left" Click="btnClear_Click" />
+                                    <Button Grid.Column="4" Grid.Row="0" Content="Rfid连接测试" Name="btnRfidConnectTest" Height="30" Width="80" HorizontalAlignment="Right" Click="btnRfidConnectTest_Click" />
+                                </Grid>
+                            </GroupBox>
+                        </Grid>
+                    </Grid>
+                </DockPanel>
+            </Border>
+        </DockPanel>
+    </Grid>
+</local:UserControlBase>
+

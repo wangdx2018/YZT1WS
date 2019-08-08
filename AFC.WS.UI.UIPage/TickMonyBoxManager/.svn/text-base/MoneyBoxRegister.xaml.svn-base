@@ -1,0 +1,69 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxRegister"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:TC="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:FC="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" 
+    xmlns:control="clr-namespace:AFC.WS.UI.UIPage.TickMonyBoxManager"
+                       Background="{DynamicResource MainBackgroundBrush}" 
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController">
+    <Grid x:Name="rootLayout">
+        <DockPanel>
+            <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+                <DockPanel>
+                    <TabControl>
+                        <TabItem Header="钱箱调入">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="210"/>
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <GroupBox Name="gbMoneyBoxRegister" Header="钱箱登记" Grid.Row="0" Grid.Column="0">
+                                    <Grid  HorizontalAlignment="Center" VerticalAlignment="Center" >
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="155"/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="33"/>
+                                            <RowDefinition Height="33"/>
+                                            <RowDefinition Height="33"/>
+                                            <RowDefinition Height="33"/>
+                                            <RowDefinition Height="40"/>
+                                        </Grid.RowDefinitions>
+                                        <FC:LabelExtend Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" FontSize="20" Content="请确认RFID读写器连接正常..." Name="lblMessage"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                                        <FC:LabelExtend Grid.Row="2" Grid.Column="0" Width="80" Height="23" Content="电子标签" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+                                        <FC:LabelExtend Grid.Row="1" Grid.Column="0"  Width="80" Height="23" Content="钱箱编码" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+                                        <FC:LabelExtend Grid.Row="3" Grid.Column="0" Width="80" Height="23" Content="钱箱类型" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" />
+
+                                        <FC:TextBoxExtend Grid.Row="2" Grid.Column="1" Name="txtRFID" Width="145" Height="23" HorizontalAlignment="Left" RegMaxLength="16" TextBoxValidate="AllNumbers" />
+                                        <FC:TextBoxExtend Grid.Row="1" Grid.Column="1" Name="txtMoneyBoxID" Width="145" Height="23" HorizontalAlignment="Left" TextBoxValidate="Hex" RegMaxLength="8" />
+                                        <FC:ComboBoxExtend Grid.Row="3" Grid.Column="1" Width="145" Height="23" Name="cbbMoenyBoxType"  HorizontalAlignment="Left">
+                                            <ComboBoxItem Uid="11">硬币回收箱</ComboBoxItem>
+                                            <ComboBoxItem Uid="21">纸币补充箱</ComboBoxItem>
+                                            <ComboBoxItem Uid="22">纸币回收箱</ComboBoxItem>
+                                        </FC:ComboBoxExtend>
+
+                                        <Button Grid.Column="2" Grid.Row="1" Width="80" Height="26" Content="读取RFID信息" HorizontalAlignment="Left" Name="btnReadRFIDInfo" Click="btnReadRFIDInfo_Click" />
+                                        <Button Grid.Column="1" Grid.Row="4" Width="60" Height="30" Content="钱箱登记" Click="btnMoneyBoxRegister_Click" Name="btnMoneyBoxRegister"  HorizontalAlignment="Center"/>
+                                        <Button Grid.Column="0" Grid.Row="4" Width="60" Height="30" Content="重  置" Name="btnReset"  HorizontalAlignment="Right" Click="btnReset_Click" />
+                                        <Button Grid.Column="2" Grid.Row="4" Content="Rfid连接测试" Name="btnRfidConnectTest" Height="30" Width="80" HorizontalAlignment="Right" Click="btnRfidConnectTest_Click" />
+                                    </Grid>
+                                </GroupBox>
+                                <GroupBox Name="gbMoneyBoxInfo" Header="钱箱信息" Grid.Row="1" Grid.Column="0">
+                                </GroupBox>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="空钱箱调出">
+                            <control:EmptyMoneyBoxCallOut x:Name="mbCallOut"/>
+                        </TabItem>
+                    </TabControl>
+           
+                </DockPanel>
+            </Border>
+        </DockPanel>
+    </Grid>
+</local:UserControlBase>

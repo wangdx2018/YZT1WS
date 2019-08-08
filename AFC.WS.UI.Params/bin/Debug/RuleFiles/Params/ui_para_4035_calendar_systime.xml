@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" LabWidthPercent="60" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="1" LayoutMode="Stack" ActionLocation="Left" ActionAlign="Left" CanRest="false">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="d" BindingField="para_4035_calendar_systime.para_version" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="版本号" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4035_calendar_systime_time_zone_diff_value" BindingField="para_4035_calendar_systime.time_zone_diff_value" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="本地时区差值" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4035_calendar_systime_system_start_time" BindingField="para_4035_calendar_systime.system_start_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="系统运营日起始时间" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4035_calendar_systime_system_end_time" BindingField="para_4035_calendar_systime.system_end_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="系统运营日结束时间" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+  </ControlList>
+  <ActionList />
+</InteractiveControlRule>

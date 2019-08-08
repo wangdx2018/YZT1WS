@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/9794/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager
+END
+ui_settlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_settlement.xml
+END
+list_basi_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_basi_dev_info.xml
+END
+ui_basi_dev_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_basi_dev_info.xml
+END
+list_dataOperatorSettlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_dataOperatorSettlement.xml
+END
+list_cashOperatorLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_cashOperatorLog.xml
+END
+ui_dataOperatorSettlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_dataOperatorSettlement.xml
+END
+list_cashStoreLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8884/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_cashStoreLog.xml
+END
+list_hallGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_hallGroup.xml
+END
+ui_cashStoreLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9794/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_cashStoreLog.xml
+END
+ui_hallGroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9774/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_hallGroup.xml
+END
+ui_cashOperationLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_cashOperationLog.xml
+END
+list_coinStoreLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9557/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_coinStoreLog.xml
+END
+ui_coinStoreLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9794/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_coinStoreLog.xml
+END
+ds_para_4042_device_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ds_para_4042_device_info.xml
+END
+list_stationHall.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_stationHall.xml
+END
+list_settlement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/list_settlement.xml
+END
+ui_stationHall.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/CashBoxManager/ui_stationHall.xml
+END

@@ -1,0 +1,1322 @@
+$INFO 2011-12-23 10:55:24 390@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-23 10:55:24 593@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-23 10:55:24 593@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-23 10:55:24 593@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-23 10:55:24 593@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-23 10:55:24 796@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-23 10:55:24 796@00000000@0@AFC.WS.UI.CommonControls.MyEventArgs
+$INFO 2011-12-23 10:55:24 796@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerGroupExtend
+$INFO 2011-12-23 10:55:24 796@00000000@0@AFC.WS.UI.CommonControls.BaseWindow+<>c__DisplayClassc
+$INFO 2011-12-23 10:55:24 796@00000000@0@AFC.WS.UI.BR.Convertors.FileTypeConvert
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvertBack
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.ParamStateConvertor
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.ManSuperConvertor
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketOperType
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowFunctionAction
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Actions.UpdateFunctionAction
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Actions.TickStoreAlarmParamsUpdateAction_1081
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.CheckInOutTicketTypeConvert
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.SetServiceVersionParaBackgroud
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaTestState
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvetor
+$INFO 2011-12-23 10:55:25 000@00000000@0@AFC.WS.UI.BR.Convertors.InventoryManagementTypeConvertor
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexDevCode
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalPartCode
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertTickOperateType
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorAction
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelPara
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxStatusConvert
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.SetDeviceSoftwareVersionBackgroud
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.RunStartActiveTypeConvert
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLockStatusConvert
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.LogSubTypeConvert
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.ImportTimeConvert
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToProductType
+$INFO 2011-12-23 10:55:25 203@00000000@0@AFC.WS.UI.BR.Actions.UpdateCashCheckInfo
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Actions.MoneyBoxChangeInfoAction
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Actions.LogInAction
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.LogTypeConvert
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskExcuteAction
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareUpdateLogAction
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Actions.BasicOperatorInfoQueryAction
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.WorkTimeConvert
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.ImportStateConvert
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.SetImportDataBackgroud
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.SetExportDataBackgroud
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.SetAuditCheckBackgroud
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.DataTypeInfoConvert
+$INFO 2011-12-23 10:55:25 406@00000000@0@AFC.WS.UI.BR.Convertors.ConvertIsNeedManSuper
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketPhysicsType
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalTicketCode
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.TickBoxChangeInfoAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.RoleManagerAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareDownloadLogAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.DeleteRoleFunctionRelactionAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.RunStartStateConvert
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.RoleStatusConvert
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.LogLevelConvert
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaFileName
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.OperatorSpareCashInOutDetailAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.ForceLogOutAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Actions.CashCheckSendAction
+$INFO 2011-12-23 10:55:25 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertEditionType
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.PacketTypeConvert
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyOperType
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPartCode
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConverToWarnInfo
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterID
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Actions.UpdateTickAlarmParamAction_1083
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Actions.QueryTicketInOrOutDetailAction
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Actions.AddImportPara
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLogInConvert
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.OperatorForceLogOutConvert
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDateTime
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaVersionState
+$INFO 2011-12-23 10:55:25 812@00000000@0@AFC.WS.UI.BR.Convertors.ConvertFenToYuan
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterStatus
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Actions.OperatorStatusAction
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Actions.DeleteAutoPrintReportAction
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Actions.AddRoleAction
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.ConvertYuanToFen
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalMoneyCode
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.ConverToIssueName
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskStartAction
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Actions.ParamSingleItemUpdateAction
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.TicketboxGetAndReturnStatusConvert
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.DeviceTypeConvert
+$INFO 2011-12-23 10:55:26 015@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToString
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.WeekConvertor
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToPreevaluate
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyBoxInstallLoacation
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDeviceParts
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorOperationAction
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Actions.TicketboxRegAction
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelSoft
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Actions.AddFunction
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Actions.AddDeviceConfigParamsAction_1083
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.StationConvertor
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.OperatorStatusConvert
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTime
+$INFO 2011-12-23 10:55:26 218@00000000@0@AFC.WS.UI.BR.Convertors.WorkGroupConvert
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.CoverRealMoneyToYuan
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToLocationType
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexTicketCode
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPackID
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalDevCode
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskEndAction
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Actions.FunctionManagerAction
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Actions.DeleteOperatorRoleAction
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxLocationConvert
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.AuditCheckStateCovert
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEffectState
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Convertors.ConvertMoneyOperateType
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Actions.ShowRoleInfoByOperatorAction
+$INFO 2011-12-23 10:55:26 421@00000000@0@AFC.WS.UI.BR.Actions.OperatorLockAndUnLockAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.LookDispatchDetailAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelData
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.CashCheckAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.AddOperatorAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Convertors.LogOperatorConvert
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketBoxInstallLocation
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Convertors.ConverToAlarmDate
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.ExitAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.DeleteRunModeLogAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Convertors.ConvertSimpleFenToYuan
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceVersionAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceSoftwareVersionAction
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Convertors.DeviceInfoCovert
+$INFO 2011-12-23 10:55:26 625@00000000@0@AFC.WS.UI.BR.Convertors.WorkTeamIdCovert
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEnableDateTime
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexMoneyCode
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.ConverToMoneyType
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.WorkBalanceAction
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.SoftwareDownloadNotifyAction
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.SimpleObjectUpdateAction
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.AddImportSoft
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCompanyConvert
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCanMulLogInConvert
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.LineInfoConvertor
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyType
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowRoleAction
+$INFO 2011-12-23 10:55:26 828@00000000@0@AFC.WS.UI.BR.Actions.UpdateRoleAction
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.ChangePwdAction
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.AuditCheckAction
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToStation
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.AddImportData
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083+<>c__DisplayClass3
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.LogInAction+<>c__DisplayClassa
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass5
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClassb
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass10
+$INFO 2011-12-23 10:55:27 031@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass1
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass4
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor+<>c__DisplayClass1
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction+<>c__DisplayClass8
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083+<>c__DisplayClass6
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass4
+$INFO 2011-12-23 10:55:27 234@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-23 10:56:27 750@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_READ' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:28 187@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_CASH_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:30 703@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:39 453@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_MIN_QUERY_TRAN_AMOUN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:40 062@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_CASH_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:41 093@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:41 609@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_READ' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:42 140@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:42 640@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:43 062@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_MIN_QUERY_TRAN_AMOUN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:44 703@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_MAINTAIN_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:45 843@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4042_DEVICE_INFO' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:47 343@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_MIN_QUERY_TRAN_AMOUN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:47 953@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_MAINTAIN_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:58 843@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:56:59 500@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_CASH_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:00 203@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4043_TVM_TICK_READ' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:00 843@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_RW' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:01 375@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_ALARM_LAMP_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:02 031@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:02 656@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_RW' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:04 906@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_ALARM_LAMP_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:05 593@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MAIN_LOGIN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:06 312@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:06 812@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MAIN_LOGIN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:07 343@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MIN_TRAN_QUERY' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:08 500@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:08 984@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MAIN_LOGIN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:09 937@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MIN_TRAN_QUERY' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:10 562@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_PASS_CONTROL_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:13 234@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MIN_TRAN_QUERY' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:13 703@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:14 171@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_ALARM_LAMP_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:16 125@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_RW' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:16 546@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:18 265@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:18 671@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MIN_TRAN_QUERY' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:19 765@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:20 218@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MIN_TRAN_QUERY' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:20 578@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_PASS_CONTROL_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:21 000@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MAIN_LOGIN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:21 343@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:21 671@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_ALARM_LAMP_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:22 406@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_RW' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:23 718@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_ALARM_LAMP_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:24 328@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:24 875@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_RW' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:25 265@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:26 593@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MAIN_LOGIN' order by atc.COLUMN_ID
+$INFO 2011-12-23 10:57:27 125@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$WARN 2011-12-23 10:57:35 531@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 10:57:35 546@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 10:57:50 562@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 10:57:50 562@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 10:59:26 687@00000000@0@will create control Instance +[]
+$ERROR 2011-12-23 10:59:26 687@00000000@0@Create control error!
+$INFO 2011-12-23 10:59:26 687@00000000@0@will create control Instance +[]
+$ERROR 2011-12-23 10:59:26 687@00000000@0@Create control error!
+$INFO 2011-12-23 10:59:26 687@00000000@0@will create control Instance +[]
+$ERROR 2011-12-23 10:59:26 687@00000000@0@Create control error!
+$INFO 2011-12-23 10:59:26 687@00000000@0@will create control Instance +[]
+$ERROR 2011-12-23 10:59:26 687@00000000@0@Create control error!
+$INFO 2011-12-23 10:59:26 687@00000000@0@will create control Instance +[]
+$ERROR 2011-12-23 10:59:26 687@00000000@0@Create control error!
+$WARN 2011-12-23 10:59:26 687@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 10:59:26 687@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:01:08 421@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:08 437@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:08 437@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:08 453@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:08 453@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:08 453@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:08 453@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:08 468@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:08 468@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:08 468@00000000@0@Create control error!
+$WARN 2011-12-23 11:01:08 468@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 11:01:08 484@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:01:28 734@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:28 734@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:28 734@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:28 750@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:28 750@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:28 750@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:28 750@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:28 765@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:28 765@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:28 765@00000000@0@Create control error!
+$WARN 2011-12-23 11:01:28 765@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 11:01:28 765@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:01:46 468@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:46 468@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:46 468@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:46 484@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:46 484@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:46 484@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:46 484@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:46 500@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:46 500@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:46 500@00000000@0@Create control error!
+$WARN 2011-12-23 11:01:46 500@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 11:01:46 500@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:01:55 578@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:55 593@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:55 593@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:55 609@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:55 609@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:55 609@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:55 609@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:55 625@00000000@0@Create control error!
+$INFO 2011-12-23 11:01:55 625@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:01:55 625@00000000@0@Create control error!
+$WARN 2011-12-23 11:01:55 625@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 11:01:55 625@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:02:05 671@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:05 687@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:05 687@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:05 687@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:05 687@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:05 703@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:05 703@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:05 718@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:05 718@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:05 718@00000000@0@Create control error!
+$WARN 2011-12-23 11:02:05 718@00000000@0@ style  Key  is null or empty! control name is []
+$WARN 2011-12-23 11:02:05 718@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:02:47 890@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:47 890@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:47 890@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:47 906@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:47 906@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:47 906@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:47 906@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:47 921@00000000@0@Create control error!
+$INFO 2011-12-23 11:02:47 921@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:02:47 937@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:30 015@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:30 031@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:30 031@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:30 046@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:30 046@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:30 046@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:30 046@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:30 062@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:30 062@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:30 062@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:30 062@00000000@0@will create action type name=[AFC.WS.UI.BR.Actions.DeleteSelSoft,AFC.WS.UI.BR]
+$WARN 2011-12-23 11:03:30 062@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:03:43 250@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:43 265@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:43 265@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:43 265@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:43 265@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:43 281@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:43 281@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:43 281@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:43 281@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:03:43 296@00000000@0@Create control error!
+$INFO 2011-12-23 11:03:43 296@00000000@0@will create action type name=[AFC.WS.UI.BR.Actions.DeleteSelSoft,AFC.WS.UI.BR]
+$WARN 2011-12-23 11:03:43 296@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 11:06:51 031@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:06:51 046@00000000@0@Create control error!
+$INFO 2011-12-23 11:06:51 046@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:06:51 046@00000000@0@Create control error!
+$INFO 2011-12-23 11:06:51 046@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:06:51 046@00000000@0@Create control error!
+$INFO 2011-12-23 11:06:51 046@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:06:51 062@00000000@0@Create control error!
+$INFO 2011-12-23 11:06:51 062@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:06:51 062@00000000@0@Create control error!
+$INFO 2011-12-23 11:06:51 062@00000000@0@will create action type name=[AFC.WS.UI.BR.Actions.DeleteSelSoft,AFC.WS.UI.BR]
+$WARN 2011-12-23 11:06:51 062@00000000@0@ style  Key  is null or empty! control name is []
+$ERROR 2011-12-23 11:09:17 390@00000000@0@Message: 类型“System.String”的对象无法转换为类型“System.Boolean”。
+ StackTrace:    在 System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   在 System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 AFC.WS.UI.Config.PropertyHelper.Restore(List`1 PropertyValues, Object targetObj) 位置 D:\xhl\Develop\Trunk\src\TJWS\AFC.WS.UI.FC\Config\PropertyHelper.cs:行号 239
+ Source: mscorlib
+ InnerException: 
+$ERROR 2011-12-23 11:09:17 593@00000000@0@Message: 类型“System.String”的对象无法转换为类型“System.Boolean”。
+ StackTrace:    在 System.RuntimeType.CheckValue(Object value, Binder binder, CultureInfo culture, BindingFlags invokeAttr)
+   在 System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   在 AFC.WS.UI.Config.PropertyHelper.Restore(List`1 PropertyValues, Object targetObj) 位置 D:\xhl\Develop\Trunk\src\TJWS\AFC.WS.UI.FC\Config\PropertyHelper.cs:行号 239
+ Source: mscorlib
+ InnerException: 
+$INFO 2011-12-23 11:17:01 765@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:17:01 781@00000000@0@Create control error!
+$INFO 2011-12-23 11:17:01 781@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:17:01 781@00000000@0@Create control error!
+$INFO 2011-12-23 11:17:01 781@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:17:01 859@00000000@0@获取数据库数据失败
+$ERROR 2011-12-23 11:17:01 859@00000000@0@Create control error!
+$INFO 2011-12-23 11:17:01 859@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:17:01 875@00000000@0@Create control error!
+$INFO 2011-12-23 11:17:01 875@00000000@0@will create control Instance +[AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC]
+$ERROR 2011-12-23 11:17:01 875@00000000@0@Create control error!
+$INFO 2011-12-23 11:17:01 875@00000000@0@will create action type name=[AFC.WS.UI.BR.Actions.DeleteSelSoft,AFC.WS.UI.BR]
+$WARN 2011-12-23 11:17:01 875@00000000@0@ style  Key  is null or empty! control name is []
+$INFO 2011-12-23 13:15:29 250@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-23 13:15:30 640@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-30 14:46:03 296@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$ERROR 2011-12-30 14:46:03 609@00000000@0@XML 文档(13, 2)中有错误。
+$INFO 2011-12-30 14:46:29 312@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$ERROR 2011-12-30 14:46:29 578@00000000@0@XML 文档(13, 2)中有错误。
+$INFO 2011-12-30 14:46:44 093@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$ERROR 2011-12-30 14:46:44 359@00000000@0@XML 文档(13, 2)中有错误。
+$INFO 2011-12-30 14:47:40 921@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-30 14:47:42 468@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-30 16:12:24 781@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-30 16:12:26 187@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.FileTypeConvert
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvertBack
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.ParamStateConvertor
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.ManSuperConvertor
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketOperType
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowFunctionAction
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Actions.UpdateFunctionAction
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Actions.TickStoreAlarmParamsUpdateAction_1081
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.CheckInOutTicketTypeConvert
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.SetServiceVersionParaBackgroud
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaTestState
+$INFO 2011-12-30 16:12:42 609@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvetor
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.InventoryManagementTypeConvertor
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexDevCode
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalPartCode
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.ConvertTickOperateType
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorAction
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelPara
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxStatusConvert
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.SetDeviceSoftwareVersionBackgroud
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.RunStartActiveTypeConvert
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLockStatusConvert
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.LogSubTypeConvert
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.ImportTimeConvert
+$INFO 2011-12-30 16:12:42 625@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToProductType
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Actions.UpdateCashCheckInfo
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Actions.MoneyBoxChangeInfoAction
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Actions.LogInAction
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.LogTypeConvert
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskExcuteAction
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareUpdateLogAction
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Actions.BasicOperatorInfoQueryAction
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.WorkTimeConvert
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.ImportStateConvert
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.SetImportDataBackgroud
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.SetExportDataBackgroud
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.SetAuditCheckBackgroud
+$INFO 2011-12-30 16:12:42 828@00000000@0@AFC.WS.UI.BR.Convertors.DataTypeInfoConvert
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.ConvertIsNeedManSuper
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketPhysicsType
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalTicketCode
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Actions.TickBoxChangeInfoAction
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Actions.RoleManagerAction
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareDownloadLogAction
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Actions.DeleteRoleFunctionRelactionAction
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.RunStartStateConvert
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.RoleStatusConvert
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.LogLevelConvert
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaFileName
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Actions.OperatorSpareCashInOutDetailAction
+$INFO 2011-12-30 16:12:43 031@00000000@0@AFC.WS.UI.BR.Actions.ForceLogOutAction
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Actions.CashCheckSendAction
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConvertEditionType
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.PacketTypeConvert
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyOperType
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPartCode
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConverToWarnInfo
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterID
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Actions.UpdateTickAlarmParamAction_1083
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Actions.QueryTicketInOrOutDetailAction
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Actions.AddImportPara
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLogInConvert
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.OperatorForceLogOutConvert
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDateTime
+$INFO 2011-12-30 16:12:43 234@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaVersionState
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.ConvertFenToYuan
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterStatus
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Actions.OperatorStatusAction
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Actions.DeleteAutoPrintReportAction
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Actions.AddRoleAction
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.ConvertYuanToFen
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalMoneyCode
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.ConverToIssueName
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskStartAction
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Actions.ParamSingleItemUpdateAction
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.TicketboxGetAndReturnStatusConvert
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor
+$INFO 2011-12-30 16:12:43 437@00000000@0@AFC.WS.UI.BR.Convertors.DeviceTypeConvert
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToString
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.WeekConvertor
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToPreevaluate
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyBoxInstallLoacation
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDeviceParts
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorOperationAction
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Actions.TicketboxRegAction
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelSoft
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Actions.AddFunction
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Actions.AddDeviceConfigParamsAction_1083
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.StationConvertor
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.OperatorStatusConvert
+$INFO 2011-12-30 16:12:43 640@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTime
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.WorkGroupConvert
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.CoverRealMoneyToYuan
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToLocationType
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexTicketCode
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPackID
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalDevCode
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskEndAction
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Actions.FunctionManagerAction
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Actions.DeleteOperatorRoleAction
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxLocationConvert
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.AuditCheckStateCovert
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEffectState
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Convertors.ConvertMoneyOperateType
+$INFO 2011-12-30 16:12:43 843@00000000@0@AFC.WS.UI.BR.Actions.ShowRoleInfoByOperatorAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.OperatorLockAndUnLockAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.LookDispatchDetailAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelData
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.CashCheckAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.AddOperatorAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Convertors.LogOperatorConvert
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketBoxInstallLocation
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Convertors.ConverToAlarmDate
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.ExitAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.DeleteRunModeLogAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Convertors.ConvertSimpleFenToYuan
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceVersionAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceSoftwareVersionAction
+$INFO 2011-12-30 16:12:44 046@00000000@0@AFC.WS.UI.BR.Convertors.DeviceInfoCovert
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.WorkTeamIdCovert
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEnableDateTime
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexMoneyCode
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.ConverToMoneyType
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Actions.WorkBalanceAction
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Actions.SoftwareDownloadNotifyAction
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Actions.SimpleObjectUpdateAction
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Actions.AddImportSoft
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCompanyConvert
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCanMulLogInConvert
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.LineInfoConvertor
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyType
+$INFO 2011-12-30 16:12:44 250@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowRoleAction
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.UpdateRoleAction
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.ChangePwdAction
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.AuditCheckAction
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToStation
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.AddImportData
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083+<>c__DisplayClass3
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Actions.LogInAction+<>c__DisplayClassa
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass5
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClassb
+$INFO 2011-12-30 16:12:44 453@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass10
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass1
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass4
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor+<>c__DisplayClass1
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction+<>c__DisplayClass8
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083+<>c__DisplayClass6
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass4
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-30 16:12:44 656@00000000@0@AFC.WS.UI.CommonControls.TimePicker
+$INFO 2011-12-30 16:12:44 671@00000000@0@AFC.WS.UI.CommonControls.NumericUpDownExtend
+$INFO 2011-12-30 16:12:45 218@00000000@0@AFC.WS.UI.CommonControls.NumericUpDownExtend+NumericUpDownSelectDelegate
+$ERROR 2011-12-30 16:12:45 234@Error@0@AFC.WS.UI.CommonControls.NumericUpDownExtend+NumericUpDownSelectDelegate
+$ERROR 2011-12-30 16:12:45 234@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:45 234@00000000@0@AFC.WS.UI.DataSources.AccessDataSource
+$INFO 2011-12-30 16:12:45 250@00000000@0@AFC.WS.UI.CommonControls.ShowDetailsDialog
+$INFO 2011-12-30 16:12:45 250@00000000@0@AFC.WS.UI.DataSources.ComboBoxDataSource
+$INFO 2011-12-30 16:12:45 250@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerExtend
+$INFO 2011-12-30 16:12:45 531@00000000@0@AFC.WS.UI.DataSources.ObjectDataSource
+$INFO 2011-12-30 16:12:45 531@00000000@0@AFC.WS.UI.Convertors.ParamsHeaderConvertor
+$INFO 2011-12-30 16:12:45 531@00000000@0@AFC.WS.UI.CommonControls.RiadioButtonExtend
+$INFO 2011-12-30 16:12:45 531@00000000@0@AFC.WS.UI.CommonControls.LabelExtend
+$INFO 2011-12-30 16:12:45 531@00000000@0@AFC.WS.UI.CommonControls.CheckBoxExtend
+$INFO 2011-12-30 16:12:45 531@00000000@0@AFC.WS.UI.CommonControls.DateRangWindow
+$INFO 2011-12-30 16:12:45 546@00000000@0@AFC.WS.UI.CommonControls.DateRangSelect
+$INFO 2011-12-30 16:12:45 546@00000000@0@AFC.WS.UI.Convertors.SimpleObjectConvertor
+$INFO 2011-12-30 16:12:45 546@00000000@0@AFC.WS.UI.CommonControls.ValidateImage
+$INFO 2011-12-30 16:12:45 546@00000000@0@AFC.WS.UI.CommonControls.DataGridControl
+$INFO 2011-12-30 16:12:45 562@00000000@0@AFC.WS.UI.CommonControls.DataGridControl+SerarchDelegate
+$ERROR 2011-12-30 16:12:45 562@Error@0@AFC.WS.UI.CommonControls.DataGridControl+SerarchDelegate
+$ERROR 2011-12-30 16:12:45 656@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:45 656@00000000@0@AFC.WS.UI.CommonControls.BaseWindow
+$INFO 2011-12-30 16:12:45 859@00000000@0@AFC.WS.UI.CommonControls.PasswordExtend
+$INFO 2011-12-30 16:12:46 015@00000000@0@AFC.WS.UI.CommonControls.CheckBoxGroup
+$INFO 2011-12-30 16:12:46 015@00000000@0@AFC.WS.UI.Actions.DbAction
+$INFO 2011-12-30 16:12:46 015@00000000@0@AFC.WS.UI.CommonControls.ComboBoxExtend
+$INFO 2011-12-30 16:12:46 031@00000000@0@AFC.WS.UI.CommonControls.RadioButtonGroup
+$INFO 2011-12-30 16:12:46 031@00000000@0@AFC.WS.UI.CommonControls.Searching
+$INFO 2011-12-30 16:12:46 031@00000000@0@AFC.WS.UI.CommonControls.RelactionContol
+$INFO 2011-12-30 16:12:46 031@00000000@0@AFC.WS.UI.CommonControls.RelactionContol+FunctionCliecked
+$ERROR 2011-12-30 16:12:46 031@Error@0@AFC.WS.UI.CommonControls.RelactionContol+FunctionCliecked
+$ERROR 2011-12-30 16:12:46 062@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:46 062@00000000@0@AFC.WS.UI.CommonControls.Data
+$INFO 2011-12-30 16:12:46 062@00000000@0@AFC.WS.UI.CommonControls.RelactionEventArgs
+$ERROR 2011-12-30 16:12:46 062@Error@0@AFC.WS.UI.CommonControls.RelactionEventArgs
+$ERROR 2011-12-30 16:12:46 265@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:46 265@00000000@0@AFC.WS.UI.DataSources.DataSourceManager
+$INFO 2011-12-30 16:12:46 265@00000000@0@AFC.WS.UI.CommonControls.DateSelect
+$INFO 2011-12-30 16:12:46 265@00000000@0@AFC.WS.UI.DataSources.ChartDataSource
+$INFO 2011-12-30 16:12:46 265@00000000@0@AFC.WS.UI.CommonControls.MessageDialog
+$INFO 2011-12-30 16:12:46 281@00000000@0@AFC.WS.UI.CommonControls.MessageDialog+MessageBoxClosedDelegate
+$ERROR 2011-12-30 16:12:46 281@Error@0@AFC.WS.UI.CommonControls.MessageDialog+MessageBoxClosedDelegate
+$ERROR 2011-12-30 16:12:46 468@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:46 468@00000000@0@AFC.WS.UI.DataSources.DefaultDataSource
+$INFO 2011-12-30 16:12:46 468@00000000@0@AFC.WS.UI.Convertors.ListObjectConvertor
+$INFO 2011-12-30 16:12:46 468@00000000@0@AFC.WS.UI.Convertors.ComplexDataConvetor
+$INFO 2011-12-30 16:12:46 468@00000000@0@AFC.WS.UI.CommonControls.TextBoxExtend
+$INFO 2011-12-30 16:12:46 468@00000000@0@AFC.WS.UI.Convertors.DateTimeConvert
+$INFO 2011-12-30 16:12:46 468@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions
+$ERROR 2011-12-30 16:12:46 468@Error@0@AFC.WS.UI.CommonControls.DoublePermissions
+$ERROR 2011-12-30 16:12:46 671@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:46 671@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-30 16:12:46 671@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-30 16:12:46 875@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:46 875@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-30 16:12:46 875@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-30 16:12:47 078@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-30 16:12:47 078@00000000@0@AFC.WS.UI.CommonControls.MyEventArgs
+$INFO 2011-12-30 16:12:47 078@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerGroupExtend
+$INFO 2011-12-30 16:12:47 078@00000000@0@AFC.WS.UI.CommonControls.BaseWindow+<>c__DisplayClassc
+$INFO 2011-12-30 17:24:40 250@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-30 17:24:41 687@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-30 17:28:56 781@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-30 17:28:58 218@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-31 08:38:11 265@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-31 08:38:14 359@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:39:24 859@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-31 09:39:27 000@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:12 765@00000000@0@AFC.WS.UI.BR.Convertors.FileTypeConvert
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvertBack
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.ParamStateConvertor
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.ManSuperConvertor
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketOperType
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowFunctionAction
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Actions.UpdateFunctionAction
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Actions.TickStoreAlarmParamsUpdateAction_1081
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.CheckInOutTicketTypeConvert
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.SetServiceVersionParaBackgroud
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaTestState
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvetor
+$INFO 2011-12-31 09:42:12 781@00000000@0@AFC.WS.UI.BR.Convertors.InventoryManagementTypeConvertor
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexDevCode
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalPartCode
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.ConvertTickOperateType
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorAction
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelPara
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxStatusConvert
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.SetDeviceSoftwareVersionBackgroud
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.RunStartActiveTypeConvert
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLockStatusConvert
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.LogSubTypeConvert
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.ImportTimeConvert
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToProductType
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Actions.UpdateCashCheckInfo
+$INFO 2011-12-31 09:42:12 984@00000000@0@AFC.WS.UI.BR.Actions.MoneyBoxChangeInfoAction
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Actions.LogInAction
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.LogTypeConvert
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskExcuteAction
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareUpdateLogAction
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Actions.BasicOperatorInfoQueryAction
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.WorkTimeConvert
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.ImportStateConvert
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.SetImportDataBackgroud
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.SetExportDataBackgroud
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.SetAuditCheckBackgroud
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.DataTypeInfoConvert
+$INFO 2011-12-31 09:42:13 187@00000000@0@AFC.WS.UI.BR.Convertors.ConvertIsNeedManSuper
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketPhysicsType
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalTicketCode
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.TickBoxChangeInfoAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.RoleManagerAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareDownloadLogAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.DeleteRoleFunctionRelactionAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.RunStartStateConvert
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.RoleStatusConvert
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.LogLevelConvert
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaFileName
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.OperatorSpareCashInOutDetailAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.ForceLogOutAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Actions.CashCheckSendAction
+$INFO 2011-12-31 09:42:13 390@00000000@0@AFC.WS.UI.BR.Convertors.ConvertEditionType
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.PacketTypeConvert
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyOperType
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPartCode
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConverToWarnInfo
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterID
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Actions.UpdateTickAlarmParamAction_1083
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Actions.QueryTicketInOrOutDetailAction
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Actions.AddImportPara
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLogInConvert
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.OperatorForceLogOutConvert
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDateTime
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaVersionState
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConvertFenToYuan
+$INFO 2011-12-31 09:42:13 593@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterStatus
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Actions.OperatorStatusAction
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Actions.DeleteAutoPrintReportAction
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Actions.AddRoleAction
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.ConvertYuanToFen
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalMoneyCode
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.ConverToIssueName
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskStartAction
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Actions.ParamSingleItemUpdateAction
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.TicketboxGetAndReturnStatusConvert
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.DeviceTypeConvert
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToString
+$INFO 2011-12-31 09:42:13 796@00000000@0@AFC.WS.UI.BR.Convertors.WeekConvertor
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToPreevaluate
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyBoxInstallLoacation
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDeviceParts
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorOperationAction
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Actions.TicketboxRegAction
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelSoft
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Actions.AddFunction
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Actions.AddDeviceConfigParamsAction_1083
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.StationConvertor
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.OperatorStatusConvert
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTime
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.WorkGroupConvert
+$INFO 2011-12-31 09:42:14 000@00000000@0@AFC.WS.UI.BR.Convertors.CoverRealMoneyToYuan
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToLocationType
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexTicketCode
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPackID
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalDevCode
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskEndAction
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Actions.FunctionManagerAction
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Actions.DeleteOperatorRoleAction
+$INFO 2011-12-31 09:42:14 203@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxLocationConvert
+$INFO 2011-12-31 09:42:14 218@00000000@0@AFC.WS.UI.BR.Convertors.AuditCheckStateCovert
+$INFO 2011-12-31 09:42:14 218@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEffectState
+$INFO 2011-12-31 09:42:14 218@00000000@0@AFC.WS.UI.BR.Convertors.ConvertMoneyOperateType
+$INFO 2011-12-31 09:42:14 218@00000000@0@AFC.WS.UI.BR.Actions.ShowRoleInfoByOperatorAction
+$INFO 2011-12-31 09:42:14 218@00000000@0@AFC.WS.UI.BR.Actions.OperatorLockAndUnLockAction
+$INFO 2011-12-31 09:42:14 218@00000000@0@AFC.WS.UI.BR.Actions.LookDispatchDetailAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelData
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.CashCheckAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.AddOperatorAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.LogOperatorConvert
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketBoxInstallLocation
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.ConverToAlarmDate
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.ExitAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.DeleteRunModeLogAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.ConvertSimpleFenToYuan
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceVersionAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceSoftwareVersionAction
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.DeviceInfoCovert
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.WorkTeamIdCovert
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEnableDateTime
+$INFO 2011-12-31 09:42:14 406@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexMoneyCode
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Convertors.ConverToMoneyType
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.WorkBalanceAction
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.SoftwareDownloadNotifyAction
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.SimpleObjectUpdateAction
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.AddImportSoft
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCompanyConvert
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCanMulLogInConvert
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Convertors.LineInfoConvertor
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyType
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowRoleAction
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.UpdateRoleAction
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083
+$INFO 2011-12-31 09:42:14 609@00000000@0@AFC.WS.UI.BR.Actions.ChangePwdAction
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.AuditCheckAction
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToStation
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.AddImportData
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083+<>c__DisplayClass3
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.LogInAction+<>c__DisplayClassa
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass5
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClassb
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass10
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass1
+$INFO 2011-12-31 09:42:14 812@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass4
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor+<>c__DisplayClass1
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction+<>c__DisplayClass8
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083+<>c__DisplayClass6
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass4
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-31 09:42:15 015@00000000@0@AFC.WS.UI.CommonControls.TimePicker
+$INFO 2011-12-31 09:42:15 031@00000000@0@AFC.WS.UI.CommonControls.NumericUpDownExtend
+$INFO 2011-12-31 09:42:15 609@00000000@0@AFC.WS.UI.CommonControls.NumericUpDownExtend+NumericUpDownSelectDelegate
+$ERROR 2011-12-31 09:42:15 609@Error@0@AFC.WS.UI.CommonControls.NumericUpDownExtend+NumericUpDownSelectDelegate
+$ERROR 2011-12-31 09:42:15 625@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:15 625@00000000@0@AFC.WS.UI.DataSources.AccessDataSource
+$INFO 2011-12-31 09:42:15 640@00000000@0@AFC.WS.UI.CommonControls.ShowDetailsDialog
+$INFO 2011-12-31 09:42:15 640@00000000@0@AFC.WS.UI.DataSources.ComboBoxDataSource
+$INFO 2011-12-31 09:42:15 640@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerExtend
+$INFO 2011-12-31 09:42:15 937@00000000@0@AFC.WS.UI.DataSources.ObjectDataSource
+$INFO 2011-12-31 09:42:15 937@00000000@0@AFC.WS.UI.Convertors.ParamsHeaderConvertor
+$INFO 2011-12-31 09:42:15 937@00000000@0@AFC.WS.UI.CommonControls.RiadioButtonExtend
+$INFO 2011-12-31 09:42:15 937@00000000@0@AFC.WS.UI.CommonControls.LabelExtend
+$INFO 2011-12-31 09:42:15 953@00000000@0@AFC.WS.UI.CommonControls.CheckBoxExtend
+$INFO 2011-12-31 09:42:15 953@00000000@0@AFC.WS.UI.CommonControls.DateRangWindow
+$INFO 2011-12-31 09:42:15 953@00000000@0@AFC.WS.UI.CommonControls.DateRangSelect
+$INFO 2011-12-31 09:42:15 953@00000000@0@AFC.WS.UI.Convertors.SimpleObjectConvertor
+$INFO 2011-12-31 09:42:15 953@00000000@0@AFC.WS.UI.CommonControls.ValidateImage
+$INFO 2011-12-31 09:42:15 968@00000000@0@AFC.WS.UI.CommonControls.DataGridControl
+$INFO 2011-12-31 09:42:15 968@00000000@0@AFC.WS.UI.CommonControls.DataGridControl+SerarchDelegate
+$ERROR 2011-12-31 09:42:15 984@Error@0@AFC.WS.UI.CommonControls.DataGridControl+SerarchDelegate
+$ERROR 2011-12-31 09:42:16 046@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:16 046@00000000@0@AFC.WS.UI.CommonControls.BaseWindow
+$INFO 2011-12-31 09:42:16 250@00000000@0@AFC.WS.UI.CommonControls.PasswordExtend
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.CommonControls.CheckBoxGroup
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.Actions.DbAction
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.CommonControls.ComboBoxExtend
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.CommonControls.RadioButtonGroup
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.CommonControls.Searching
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.CommonControls.RelactionContol
+$INFO 2011-12-31 09:42:16 406@00000000@0@AFC.WS.UI.CommonControls.RelactionContol+FunctionCliecked
+$ERROR 2011-12-31 09:42:16 421@Error@0@AFC.WS.UI.CommonControls.RelactionContol+FunctionCliecked
+$ERROR 2011-12-31 09:42:16 453@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:16 453@00000000@0@AFC.WS.UI.CommonControls.Data
+$INFO 2011-12-31 09:42:16 453@00000000@0@AFC.WS.UI.CommonControls.RelactionEventArgs
+$ERROR 2011-12-31 09:42:16 453@Error@0@AFC.WS.UI.CommonControls.RelactionEventArgs
+$ERROR 2011-12-31 09:42:16 656@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:16 656@00000000@0@AFC.WS.UI.DataSources.DataSourceManager
+$INFO 2011-12-31 09:42:16 656@00000000@0@AFC.WS.UI.CommonControls.DateSelect
+$INFO 2011-12-31 09:42:16 656@00000000@0@AFC.WS.UI.DataSources.ChartDataSource
+$INFO 2011-12-31 09:42:16 656@00000000@0@AFC.WS.UI.CommonControls.MessageDialog
+$INFO 2011-12-31 09:42:16 671@00000000@0@AFC.WS.UI.CommonControls.MessageDialog+MessageBoxClosedDelegate
+$ERROR 2011-12-31 09:42:16 671@Error@0@AFC.WS.UI.CommonControls.MessageDialog+MessageBoxClosedDelegate
+$ERROR 2011-12-31 09:42:16 859@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:16 859@00000000@0@AFC.WS.UI.DataSources.DefaultDataSource
+$INFO 2011-12-31 09:42:16 859@00000000@0@AFC.WS.UI.Convertors.ListObjectConvertor
+$INFO 2011-12-31 09:42:16 859@00000000@0@AFC.WS.UI.Convertors.ComplexDataConvetor
+$INFO 2011-12-31 09:42:16 859@00000000@0@AFC.WS.UI.CommonControls.TextBoxExtend
+$INFO 2011-12-31 09:42:16 859@00000000@0@AFC.WS.UI.Convertors.DateTimeConvert
+$INFO 2011-12-31 09:42:16 859@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions
+$ERROR 2011-12-31 09:42:16 859@Error@0@AFC.WS.UI.CommonControls.DoublePermissions
+$ERROR 2011-12-31 09:42:17 062@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:17 062@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-31 09:42:17 062@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-31 09:42:17 265@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:17 265@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-31 09:42:17 265@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-31 09:42:17 468@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 09:42:17 468@00000000@0@AFC.WS.UI.CommonControls.MyEventArgs
+$INFO 2011-12-31 09:42:17 468@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerGroupExtend
+$INFO 2011-12-31 09:42:17 468@00000000@0@AFC.WS.UI.CommonControls.BaseWindow+<>c__DisplayClassc
+$INFO 2011-12-31 09:42:17 468@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6004_CLEAR_DATA_FILE' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:21 468@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4035_MAX_STAY_TIME' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:23 531@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4041_USER_DEVICE' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:24 765@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_MAIN_LOGIN' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:25 375@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_ALARM_LAMP_DATA' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:25 906@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_AGM_TICK_BOX' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:42:26 593@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'PARA_4044_CUSTOM_ALARM_LAMP' order by atc.COLUMN_ID
+$INFO 2011-12-31 09:49:34 046@00000000@0@select t.tick_product_type,case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       bpti.product_type_name_cn,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_product_type_info bpti on bpti.card_issue_id =
+                                           t.card_issuer_id
+                                       and to_char(bpti.product_type) =
+                                           t.tick_product_type  where rownum < 1 
+$INFO 2011-12-31 09:49:34 062@00000000@0@select atc.owner,atc.table_name,atc.column_name,atc.comments from all_col_comments atc  where atc.comments is not null and  atc.owner = 'TJLC20DB' order by atc.table_name 
+$INFO 2011-12-31 09:49:34 281@00000000@0@select t.tick_product_type,case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       bpti.product_type_name_cn,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_product_type_info bpti on bpti.card_issue_id =
+                                           t.card_issuer_id
+                                       and to_char(bpti.product_type) =
+                                           t.tick_product_type where t.para_version='-1'  where rownum < 1 
+$INFO 2011-12-31 10:20:15 656@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-31 10:20:17 156@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.FileTypeConvert
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvertBack
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.ParamStateConvertor
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.ManSuperConvertor
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketOperType
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowFunctionAction
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Actions.UpdateFunctionAction
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Actions.TickStoreAlarmParamsUpdateAction_1081
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.CheckInOutTicketTypeConvert
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.SetServiceVersionParaBackgroud
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaTestState
+$INFO 2011-12-31 10:20:23 671@00000000@0@AFC.WS.UI.BR.Convertors.TicketOrMoneyBoxIdConvetor
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.InventoryManagementTypeConvertor
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexDevCode
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalPartCode
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.ConvertTickOperateType
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorAction
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelPara
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxStatusConvert
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.SetDeviceSoftwareVersionBackgroud
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.RunStartActiveTypeConvert
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLockStatusConvert
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.LogSubTypeConvert
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.ImportTimeConvert
+$INFO 2011-12-31 10:20:23 703@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToProductType
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Actions.UpdateCashCheckInfo
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Actions.MoneyBoxChangeInfoAction
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Actions.LogInAction
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.LogTypeConvert
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskExcuteAction
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareUpdateLogAction
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Actions.BasicOperatorInfoQueryAction
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.WorkTimeConvert
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.ImportStateConvert
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.SetImportDataBackgroud
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.SetExportDataBackgroud
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.SetAuditCheckBackgroud
+$INFO 2011-12-31 10:20:23 906@00000000@0@AFC.WS.UI.BR.Convertors.DataTypeInfoConvert
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.ConvertIsNeedManSuper
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketPhysicsType
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalTicketCode
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.TickBoxChangeInfoAction
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.RoleManagerAction
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceSoftwareDownloadLogAction
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.DeleteRoleFunctionRelactionAction
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.RunStartStateConvert
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.RoleStatusConvert
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.LogLevelConvert
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaFileName
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.OperatorSpareCashInOutDetailAction
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.ForceLogOutAction
+$INFO 2011-12-31 10:20:24 109@00000000@0@AFC.WS.UI.BR.Actions.CashCheckSendAction
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConvertEditionType
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.PacketTypeConvert
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyOperType
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPartCode
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConverToWarnInfo
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterID
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Actions.UpdateTickAlarmParamAction_1083
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Actions.QueryTicketInOrOutDetailAction
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Actions.AddImportPara
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.OperatorLogInConvert
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.OperatorForceLogOutConvert
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDateTime
+$INFO 2011-12-31 10:20:24 312@00000000@0@AFC.WS.UI.BR.Convertors.ConvertParaVersionState
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.ConvertFenToYuan
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.ConverToRegisterStatus
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Actions.OperatorStatusAction
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Actions.DeleteAutoPrintReportAction
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Actions.AddRoleAction
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.ConvertYuanToFen
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalMoneyCode
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.ConverToIssueName
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskStartAction
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Actions.ParamSingleItemUpdateAction
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.TicketboxGetAndReturnStatusConvert
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor
+$INFO 2011-12-31 10:20:24 515@00000000@0@AFC.WS.UI.BR.Convertors.DeviceTypeConvert
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToString
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.WeekConvertor
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToPreevaluate
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyBoxInstallLoacation
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDeviceParts
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Actions.UpdateOperatorOperationAction
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Actions.TicketboxRegAction
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelSoft
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Actions.AddFunction
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Actions.AddDeviceConfigParamsAction_1083
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.StationConvertor
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.OperatorStatusConvert
+$INFO 2011-12-31 10:20:24 718@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTime
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.WorkGroupConvert
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.CoverRealMoneyToYuan
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToLocationType
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexTicketCode
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexPackID
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToDecimalDevCode
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Actions.TimeTaskEndAction
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Actions.FunctionManagerAction
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Actions.DeleteOperatorRoleAction
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.TicketBoxLocationConvert
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.AuditCheckStateCovert
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEffectState
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Convertors.ConvertMoneyOperateType
+$INFO 2011-12-31 10:20:24 921@00000000@0@AFC.WS.UI.BR.Actions.ShowRoleInfoByOperatorAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.OperatorLockAndUnLockAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.LookDispatchDetailAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.DeleteSelData
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.CashCheckAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.AddOperatorAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Convertors.LogOperatorConvert
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToTicketBoxInstallLocation
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Convertors.ConverToAlarmDate
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.ExitAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.DeleteRunModeLogAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Convertors.ConvertSimpleFenToYuan
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.QueryDeviceVersionAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceSoftwareVersionAction
+$INFO 2011-12-31 10:20:25 125@00000000@0@AFC.WS.UI.BR.Convertors.DeviceInfoCovert
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.WorkTeamIdCovert
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.CovertToEnableDateTime
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToHexMoneyCode
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.ConverToMoneyType
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Actions.WorkBalanceAction
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Actions.SoftwareDownloadNotifyAction
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Actions.SimpleObjectUpdateAction
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Actions.AddImportSoft
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCompanyConvert
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.OperatorCanMulLogInConvert
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.LineInfoConvertor
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToMoneyType
+$INFO 2011-12-31 10:20:25 328@00000000@0@AFC.WS.UI.BR.Actions.UpdateShowRoleAction
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.UpdateRoleAction
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.ChangePwdAction
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.AuditCheckAction
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Convertors.ConvertToStation
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.AddImportData
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.UpdateDeviceConfigParamsAction_1083+<>c__DisplayClass3
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Actions.LogInAction+<>c__DisplayClassa
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass5
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClassb
+$INFO 2011-12-31 10:20:25 531@00000000@0@AFC.WS.UI.BR.Convertors._1094_AutoRunParamDataConvert+<>c__DisplayClass10
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass1
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.ParamsListUpdateAction+<>c__DisplayClass4
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Convertors.SetRunModeStateBackgroundColor+<>c__DisplayClass1
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.ParamsDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.ParameterPublishPlanAction+<>c__DisplayClass8
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.DeleteDeviceConfigParamsAction_1083+<>c__DisplayClass6
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass4
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.BR.Actions.LogInfoDetailQueryAction+<>c__DisplayClass7
+$INFO 2011-12-31 10:20:25 734@00000000@0@AFC.WS.UI.CommonControls.TimePicker
+$INFO 2011-12-31 10:20:25 750@00000000@0@AFC.WS.UI.CommonControls.NumericUpDownExtend
+$INFO 2011-12-31 10:20:26 218@00000000@0@AFC.WS.UI.CommonControls.NumericUpDownExtend+NumericUpDownSelectDelegate
+$ERROR 2011-12-31 10:20:26 234@Error@0@AFC.WS.UI.CommonControls.NumericUpDownExtend+NumericUpDownSelectDelegate
+$ERROR 2011-12-31 10:20:26 234@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:26 234@00000000@0@AFC.WS.UI.DataSources.AccessDataSource
+$INFO 2011-12-31 10:20:26 234@00000000@0@AFC.WS.UI.CommonControls.ShowDetailsDialog
+$INFO 2011-12-31 10:20:26 437@00000000@0@AFC.WS.UI.DataSources.ComboBoxDataSource
+$INFO 2011-12-31 10:20:26 437@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerExtend
+$INFO 2011-12-31 10:20:26 687@00000000@0@AFC.WS.UI.DataSources.ObjectDataSource
+$INFO 2011-12-31 10:20:26 687@00000000@0@AFC.WS.UI.Convertors.ParamsHeaderConvertor
+$INFO 2011-12-31 10:20:26 687@00000000@0@AFC.WS.UI.CommonControls.RiadioButtonExtend
+$INFO 2011-12-31 10:20:26 687@00000000@0@AFC.WS.UI.CommonControls.LabelExtend
+$INFO 2011-12-31 10:20:26 687@00000000@0@AFC.WS.UI.CommonControls.CheckBoxExtend
+$INFO 2011-12-31 10:20:26 687@00000000@0@AFC.WS.UI.CommonControls.DateRangWindow
+$INFO 2011-12-31 10:20:26 703@00000000@0@AFC.WS.UI.CommonControls.DateRangSelect
+$INFO 2011-12-31 10:20:26 703@00000000@0@AFC.WS.UI.Convertors.SimpleObjectConvertor
+$INFO 2011-12-31 10:20:26 703@00000000@0@AFC.WS.UI.CommonControls.ValidateImage
+$INFO 2011-12-31 10:20:26 703@00000000@0@AFC.WS.UI.CommonControls.DataGridControl
+$INFO 2011-12-31 10:20:26 718@00000000@0@AFC.WS.UI.CommonControls.DataGridControl+SerarchDelegate
+$ERROR 2011-12-31 10:20:26 718@Error@0@AFC.WS.UI.CommonControls.DataGridControl+SerarchDelegate
+$ERROR 2011-12-31 10:20:26 843@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:26 843@00000000@0@AFC.WS.UI.CommonControls.BaseWindow
+$INFO 2011-12-31 10:20:27 046@00000000@0@AFC.WS.UI.CommonControls.PasswordExtend
+$INFO 2011-12-31 10:20:27 203@00000000@0@AFC.WS.UI.CommonControls.CheckBoxGroup
+$INFO 2011-12-31 10:20:27 203@00000000@0@AFC.WS.UI.Actions.DbAction
+$INFO 2011-12-31 10:20:27 203@00000000@0@AFC.WS.UI.CommonControls.ComboBoxExtend
+$INFO 2011-12-31 10:20:27 203@00000000@0@AFC.WS.UI.CommonControls.RadioButtonGroup
+$INFO 2011-12-31 10:20:27 203@00000000@0@AFC.WS.UI.CommonControls.Searching
+$INFO 2011-12-31 10:20:27 218@00000000@0@AFC.WS.UI.CommonControls.RelactionContol
+$INFO 2011-12-31 10:20:27 218@00000000@0@AFC.WS.UI.CommonControls.RelactionContol+FunctionCliecked
+$ERROR 2011-12-31 10:20:27 218@Error@0@AFC.WS.UI.CommonControls.RelactionContol+FunctionCliecked
+$ERROR 2011-12-31 10:20:27 250@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:27 250@00000000@0@AFC.WS.UI.CommonControls.Data
+$INFO 2011-12-31 10:20:27 250@00000000@0@AFC.WS.UI.CommonControls.RelactionEventArgs
+$ERROR 2011-12-31 10:20:27 250@Error@0@AFC.WS.UI.CommonControls.RelactionEventArgs
+$ERROR 2011-12-31 10:20:27 453@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:27 453@00000000@0@AFC.WS.UI.DataSources.DataSourceManager
+$INFO 2011-12-31 10:20:27 453@00000000@0@AFC.WS.UI.CommonControls.DateSelect
+$INFO 2011-12-31 10:20:27 453@00000000@0@AFC.WS.UI.DataSources.ChartDataSource
+$INFO 2011-12-31 10:20:27 453@00000000@0@AFC.WS.UI.CommonControls.MessageDialog
+$INFO 2011-12-31 10:20:27 468@00000000@0@AFC.WS.UI.CommonControls.MessageDialog+MessageBoxClosedDelegate
+$ERROR 2011-12-31 10:20:27 468@Error@0@AFC.WS.UI.CommonControls.MessageDialog+MessageBoxClosedDelegate
+$ERROR 2011-12-31 10:20:27 656@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:27 656@00000000@0@AFC.WS.UI.DataSources.DefaultDataSource
+$INFO 2011-12-31 10:20:27 656@00000000@0@AFC.WS.UI.Convertors.ListObjectConvertor
+$INFO 2011-12-31 10:20:27 656@00000000@0@AFC.WS.UI.Convertors.ComplexDataConvetor
+$INFO 2011-12-31 10:20:27 656@00000000@0@AFC.WS.UI.CommonControls.TextBoxExtend
+$INFO 2011-12-31 10:20:27 656@00000000@0@AFC.WS.UI.Convertors.DateTimeConvert
+$INFO 2011-12-31 10:20:27 656@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions
+$ERROR 2011-12-31 10:20:27 656@Error@0@AFC.WS.UI.CommonControls.DoublePermissions
+$ERROR 2011-12-31 10:20:27 859@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:27 859@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-31 10:20:27 859@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+OnDoublePermissionsClosedDelegate
+$ERROR 2011-12-31 10:20:28 062@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:28 062@00000000@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-31 10:20:28 062@Error@0@AFC.WS.UI.CommonControls.DoublePermissions+HandleDoublePrimission
+$ERROR 2011-12-31 10:20:28 265@Error@0@System.MissingMethodException: 没有为该对象定义无参数的构造函数。
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandle& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean fillCache)
+   在 System.RuntimeType.CreateInstanceImpl(Boolean publicOnly, Boolean skipVisibilityChecks, Boolean fillCache)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 System.Activator.CreateInstance(Type type)
+   在 AFC.WS.UI.UIRuleFileCreator.RuleHelper.ReadDllClass(String dllPath) 位置 D:\xhl\Develop\Trunk\src\TJWS\UIRuleFileCreator\RuleHelper.cs:行号 744
+$INFO 2011-12-31 10:20:28 265@00000000@0@AFC.WS.UI.CommonControls.MyEventArgs
+$INFO 2011-12-31 10:20:28 265@00000000@0@AFC.WS.UI.CommonControls.DateTimePickerGroupExtend
+$INFO 2011-12-31 10:20:28 265@00000000@0@AFC.WS.UI.CommonControls.BaseWindow+<>c__DisplayClassc
+$INFO 2011-12-31 10:20:53 750@00000000@0@select t.tick_product_type,case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       bpti.product_type_name_cn,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_product_type_info bpti on bpti.card_issue_id =
+                                           t.card_issuer_id
+                                       and to_char(bpti.product_type) =
+                                           t.tick_product_type  where rownum < 1 
+$INFO 2011-12-31 10:20:53 765@00000000@0@select atc.owner,atc.table_name,atc.column_name,atc.comments from all_col_comments atc  where atc.comments is not null and  atc.owner = 'TJLC20DB' order by atc.table_name 
+$INFO 2011-12-31 10:20:53 968@00000000@0@select t.tick_product_type,case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       bpti.product_type_name_cn,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_product_type_info bpti on bpti.card_issue_id =
+                                           t.card_issuer_id
+                                       and to_char(bpti.product_type) =
+                                           t.tick_product_type where t.para_version='-1'  where rownum < 1 
+$INFO 2011-12-31 10:21:27 421@00000000@0@select t.tick_product_type,
+       case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       t1.tick_mana_type_name,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_tick_mana_type_info t1 on t1.tick_mana_type=t.tick_product_type  where rownum < 1 
+$INFO 2011-12-31 10:21:29 765@00000000@0@select t.tick_product_type,case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       bpti.product_type_name_cn,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_product_type_info bpti on bpti.card_issue_id =
+                                           t.card_issuer_id
+                                       and to_char(bpti.product_type) =
+                                           t.tick_product_type where t.para_version='-1'  where rownum < 1 
+$INFO 2011-12-31 10:21:51 875@00000000@0@select t.tick_product_type,
+       case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       t1.tick_mana_type_name,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_tick_mana_type_info t1 on t1.tick_mana_type=t.tick_product_type  where rownum < 1 
+$INFO 2011-12-31 10:21:54 187@00000000@0@select t.tick_product_type,
+       case t.card_issuer_id
+         when '01' then
+          'ACC'
+         when '99' then
+          '一卡通'
+       end card_issue_id,
+       t1.tick_mana_type_name,
+       t.lamp_control,
+       t.voice_control
+  from para_4044_custom_alarm_lamp t
+  left join basi_tick_mana_type_info t1 on t1.tick_mana_type=t.tick_product_type where t.para_version='-1'  where rownum < 1 
+$INFO 2011-12-31 10:22:29 500@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2011-12-31 10:22:31 062@Info@0@select atc.COLUMN_NAME,atc.DATA_TYPE,acc.comments from all_tab_columns atc inner join all_col_comments acc on atc.OWNER = acc.owner and atc.TABLE_NAME = acc.table_name and acc.column_name = atc.COLUMN_NAME where atc.OWNER = 'TJLC20DB' and atc.TABLE_NAME = 'ACC_6001_YKT_AUDI_RESULT' order by atc.COLUMN_ID
+$INFO 2012-01-04 09:27:05 031@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 
+$INFO 2012-01-04 09:32:41 500@Info@0@select t.table_name from all_tables t where t.owner = 'TJLC20DB' order by t.tablespace_name asc,t.table_name asc 

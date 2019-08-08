@@ -1,0 +1,81 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.ParamsVersionInfoQuery"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"  
+                       xmlns:my="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+                                           xmlns:tab="http://fabtab.codeplex.com"
+    Background="{DynamicResource MainBackgroundBrush}"
+     >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <TabControl >
+
+                    <TabItem Header="本机参数信息查询">
+                        <Grid >
+                      <Grid.RowDefinitions>
+                                <RowDefinition Height="18*"></RowDefinition>
+
+                                <RowDefinition Height="82*"></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                    <GroupBox Header="查询条件" Grid.Row="0">
+                        <my:InteractiveControl x:Name="localParamIc"/>
+                    </GroupBox>
+
+                    <GroupBox Header="查询结果" Grid.Row="2">
+                        <my:DataListControl x:Name="localParamList"/>
+                    </GroupBox>
+
+                    </Grid>
+                    </TabItem>
+
+                    <TabItem Header="设备参数信息查询">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18*"></RowDefinition>
+
+                                <RowDefinition Height="82*"></RowDefinition>
+
+                            </Grid.RowDefinitions>
+
+                            <GroupBox Header="查询条件" Grid.Row="0">
+                                <my:InteractiveControl x:Name="devIc"/>
+                            </GroupBox>
+
+                            <GroupBox Header="查询结果" Grid.Row="2">
+                                <my:DataListControl x:Name="devParamList"/>
+                            </GroupBox>
+
+
+                        </Grid>
+                    </TabItem>
+                 
+                    <TabItem Header="参数版本差异信息查询">
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="18*"></RowDefinition>
+
+                                <RowDefinition Height="82*"></RowDefinition>
+
+                            </Grid.RowDefinitions>
+
+                            <GroupBox Header="查询条件" Grid.Row="0">
+                                <my:InteractiveControl x:Name="ic"/>
+                            </GroupBox>
+
+                            <GroupBox Header="查询结果" Grid.Row="2">
+                                <my:DataListControl x:Name="list"/>
+                            </GroupBox>
+
+
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+               
+
+
+            </DockPanel>
+        </Border>
+    </DockPanel>
+    </local:UserControlBase>

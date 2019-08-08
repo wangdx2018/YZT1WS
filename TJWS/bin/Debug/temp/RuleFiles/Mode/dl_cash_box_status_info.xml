@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None" DataSourceName="ds_cash_box_status_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="线路" BindingField="line_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站" BindingField="station_cn_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱编号" BindingField="money_box_id" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.TicketOrMoneyBoxIdConvetor,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
+      <PropertyValues />
+    </ColumnProperty>
+
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱类型" BindingField="box_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToBoxType,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor"  >
+      <PropertyValues />
+    </ColumnProperty>
+    
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱状态" BindingField="box_position" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="币种名称" BindingField="currency_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="币种当前数量" BindingField="currency_num" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="总金额(元)" BindingField="total_money_value" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="本地处理日期" BindingField="update_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="本地处理时间" BindingField="update_time" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" Width="100" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList />
+</DataListRule>

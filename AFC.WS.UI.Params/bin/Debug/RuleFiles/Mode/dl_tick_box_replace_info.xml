@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None" DataSourceName="ds_tick_box_replace_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="线路" BindingField="line_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站" BindingField="station_cn_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="设备编号" BindingField="device_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+
+    <ColumnProperty IsVisbility="true" HeaderName="票箱编号" BindingField="ticket_box_id" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.TicketOrMoneyBoxIdConvetor,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
+      <PropertyValues />
+    </ColumnProperty>
+
+    <ColumnProperty IsVisbility="true" HeaderName="票箱类型" BindingField="tick_box_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToBoxType,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作类型" BindingField="replace_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    
+    <ColumnProperty IsVisbility="true" HeaderName="安装状态" BindingField="install_status" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="安装位置" BindingField="position_in_dev"  Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTicketBoxPosition,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTicketBoxPosition" >
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="库存管理类型" BindingField="tick_mana_type_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作前张数" BindingField="before_operation_num" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作张数" BindingField="tickets_num" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作员编号" BindingField="operator_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作员名称" BindingField="operator_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更换操作日期" BindingField="occur_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更换操作时间" BindingField="occur_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView">
+      <PropertyValues />
+    </ColumnProperty>
+ 
+  </ColumnList>
+  <ActionList />
+</DataListRule>

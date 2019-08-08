@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/TJ_AFC/!svn/ver/9300/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB
+END
+AFC中心票卡出入库明细报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 269
+/svn/TJ_AFC/!svn/ver/9297/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB/AFC%E4%B8%AD%E5%BF%83%E7%A5%A8%E5%8D%A1%E5%87%BA%E5%85%A5%E5%BA%93%E6%98%8E%E7%BB%86%E6%8A%A5%E8%A1%A8.xls
+END
+线路AFC中心库存月报.xls
+K 25
+svn:wc:ra_dav:version-url
+V 242
+/svn/TJ_AFC/!svn/ver/9297/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB/%E7%BA%BF%E8%B7%AFAFC%E4%B8%AD%E5%BF%83%E5%BA%93%E5%AD%98%E6%9C%88%E6%8A%A5.xls
+END
+线路Token流失统计报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 244
+/svn/TJ_AFC/!svn/ver/9300/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB/%E7%BA%BF%E8%B7%AFToken%E6%B5%81%E5%A4%B1%E7%BB%9F%E8%AE%A1%E6%8A%A5%E8%A1%A8.xls
+END
+一卡通库存报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 230
+/svn/TJ_AFC/!svn/ver/9297/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB/%E4%B8%80%E5%8D%A1%E9%80%9A%E5%BA%93%E5%AD%98%E6%8A%A5%E8%A1%A8.xls
+END
+一票通库存报表.xls
+K 25
+svn:wc:ra_dav:version-url
+V 230
+/svn/TJ_AFC/!svn/ver/9297/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB/%E4%B8%80%E7%A5%A8%E9%80%9A%E5%BA%93%E5%AD%98%E6%8A%A5%E8%A1%A8.xls
+END
+车站Token流失统计.xls
+K 25
+svn:wc:ra_dav:version-url
+V 226
+/svn/TJ_AFC/!svn/ver/9300/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/ReportDir/%E5%BA%93%E5%AD%98%E7%B1%BB%E6%8A%A5%E8%A1%A8/%E5%BA%93%E5%AD%98%E7%B1%BB/%E8%BD%A6%E7%AB%99Token%E6%B5%81%E5%A4%B1%E7%BB%9F%E8%AE%A1.xls
+END

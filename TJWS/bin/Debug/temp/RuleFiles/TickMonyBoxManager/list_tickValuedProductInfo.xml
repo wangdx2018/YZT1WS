@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<DataListRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_tick_valued_product_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="库存管理类型" BindingField="tick_mana_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="库存管理类型名称" BindingField="tick_mana_type_name" Width="150">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票卡发行商" BindingField="card_issue_id">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票产品类型" BindingField="product_type">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="卡内金额" BindingField="pre_store_money" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="卡内押金" BindingField="tick_deposit" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView" Width="100" ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="卡售卖金额" BindingField="tick_sale_value"  ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView" Width="100" ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="update_date"  ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新时间" BindingField="update_time" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" Width="100" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnAddedOperator" Content="添加" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.TickStoreManager.TickValuedProductAdd,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="400" />
+        <PropertyValue Key="Height" Value="600" />
+        <PropertyValue Key="Title" Value="添加库存类型" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
+      </PropertyValues>
+    </ActionProperty> 
+    <ActionProperty ControlName="btnUpdate" Content="编辑" ActionTypeName="AFC.WS.ModelView.Actions.TicketBoxManager.UpdateShowTickValuedAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
+    </ActionProperty>
+  </ActionList>
+</DataListRule>

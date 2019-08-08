@@ -1,0 +1,44 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.CashManager.CashTypeNameUpdate"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:commonControls="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" 
+   
+   Background="{DynamicResource MainBackgroundBrush}" Style="{DynamicResource ucStyle}">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                    <GroupBox Header="修改货币种类" Height="300" Width="300" >
+                    <Grid x:Name="rootLayout" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="10*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                           <ColumnDefinition Width="10"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        
+                        <Label Content="库存编码" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" Height="23.687" Margin="0,0,8.857,4.313"/>
+                        <commonControls:TextBoxExtend  x:Name="CashStoreType" Grid.Row="1" Grid.Column="2" Height="25" IsEnabled="false" VerticalAlignment="Bottom" Margin="3,0,60,3" RegMaxLength="2" TextBoxValidate="AllNumbers"/>
+
+                        <Label Content="库存名称" Grid.Row="2" Grid.Column="1" Margin="0,21.605,10,0"/>
+                        <commonControls:TextBoxExtend  x:Name="txtCashName" Grid.Row="2" Grid.Column="2"  IsEnabled="True" Margin="3,18.646,60,17"/>
+
+                        <Label Content="货币面值" Grid.Row="3" Margin="8.857,16.646,10,12.354" Grid.ColumnSpan="2" />
+                        <commonControls:TextBoxExtend  x:Name="txtIndex" Grid.Row="3" Grid.Column="2" IsEnabled="True" Margin="3,20.292,60,17" RegMaxLength="4" TextBoxValidate="AllNumbers"/>
+                        <Button Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" Margin="50,25,0,14" Name="button1" HorizontalAlignment="Left" Width="74" Click="btnUpdateCashetType_Click">确定</Button>
+                        <Button Grid.Column="2" Grid.Row="4" HorizontalAlignment="Left" Margin="50,25,10,14" Width="74" Name="button2" Click="btnReset_Click">重置</Button>
+                    </Grid>
+                </GroupBox>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

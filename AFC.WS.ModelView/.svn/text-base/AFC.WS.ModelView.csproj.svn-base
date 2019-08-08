@@ -1,0 +1,1774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B791539B-155A-418D-95D8-5FA4470B40C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFC.WS.ModelView</RootNamespace>
+    <AssemblyName>AFC.WS.ModelView</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFC.BOM2.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.MessageDispacher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.MessageDispacher.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.UIController, Version=0.1.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.UIController.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PresentationCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
+    <Reference Include="PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WPFToolkit, Version=3.5.31016.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.DBO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WS.DBO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\AlarmActions\AGMSettingAction.cs" />
+    <Compile Include="Actions\AlarmActions\AlarmLogSettingAction.cs" />
+    <Compile Include="Actions\AlarmActions\BOMSettingAction.cs" />
+    <Compile Include="Actions\AlarmActions\EQMSettingAction.cs" />
+    <Compile Include="Actions\AlarmActions\TVMSettingAction.cs" />
+    <Compile Include="Actions\CashManager\CashCallInAction.cs" />
+    <Compile Include="Actions\CashManager\CashCallOutAction.cs" />
+    <Compile Include="Actions\CashManager\CashCheckInAction.cs" />
+    <Compile Include="Actions\CashManager\CashCheckInAdjustAction.cs" />
+    <Compile Include="Actions\CashManager\CashCheckOutAction.cs" />
+    <Compile Include="Actions\CashManager\CashStoreAdjustAction.cs" />
+    <Compile Include="Actions\CommonActions\DoublePrimissionAction.cs" />
+    <Compile Include="Actions\CommonActions\IDoublePrimissionHandler.cs" />
+    <Compile Include="Actions\CommonActions\ParamDataQueryAction.cs" />
+    <Compile Include="Actions\DataImportExport\BusiDataExportAction.cs" />
+    <Compile Include="Actions\DataImportExport\BusiDataImportAction.cs" />
+    <Compile Include="Actions\DataImportExport\InitAuthenticationFileAction.cs" />
+    <Compile Include="Actions\DataImportExport\ParamExportAction.cs" />
+    <Compile Include="Actions\DataImportExport\ParamImportAction.cs" />
+    <Compile Include="Actions\DataImportExport\SoftwareExportAction.cs" />
+    <Compile Include="Actions\DataImportExport\SoftwareImportAction.cs" />
+    <Compile Include="Actions\DataImportExport\TradeDataExportAction.cs" />
+    <Compile Include="Actions\DataImportExport\TradeDataImportAction.cs" />
+    <Compile Include="Actions\DataManager\AddCashDateSettlementInfoAction.cs" />
+    <Compile Include="Actions\DataManager\AddClassSettlementInfoAction.cs" />
+    <Compile Include="Actions\DataManager\AddOperContentAction.cs" />
+    <Compile Include="Actions\DataManager\AddRunParamAction.cs" />
+    <Compile Include="Actions\DataManager\AddTimeTaskExcute.cs" />
+    <Compile Include="Actions\DataManager\DataFileDownAction.cs" />
+    <Compile Include="Actions\DataManager\DelOperContentAction.cs" />
+    <Compile Include="Actions\DataManager\DelRunParamAction.cs" />
+    <Compile Include="Actions\DataManager\ReUploadRecordsAction.cs" />
+    <Compile Include="Actions\DataManager\UpdateCashDateSettlementInfoAction.cs" />
+    <Compile Include="Actions\DataManager\UpdateOperContent.cs" />
+    <Compile Include="Actions\DataManager\UpdateOperContentAction.cs" />
+    <Compile Include="Actions\DataManager\UpdateRunParamAction.cs" />
+    <Compile Include="Actions\DataManager\UpdateRunParamInfo.cs" />
+    <Compile Include="Actions\DataManager\UpdateTimeTaskExcute.cs" />
+    <Compile Include="Actions\DeviceMonitor\AddAgUpsAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\AgUpsStatusAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\AlarmSettingAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\AlarmStatusAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\CloseAlarmMonitor.cs" />
+    <Compile Include="Actions\DeviceMonitor\DelAgUpsAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\OpenAlarmMonitor.cs" />
+    <Compile Include="Actions\DeviceMonitor\SLEGroupControlAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\UpdateAgUpsAction.cs" />
+    <Compile Include="Actions\DeviceMonitor\UpdateAgUpsInfo.cs" />
+    <Compile Include="Actions\MaintainAreaManager\AddMaintainFaultRptStatus.cs" />
+    <Compile Include="Actions\MaintainAreaManager\CloseMaintainFaultRptStatus.cs" />
+    <Compile Include="Actions\MaintainAreaManager\UpdateMaintainFaultRptStatus.cs" />
+    <Compile Include="Actions\Maintenance\NoLabelPartsOutAction.cs" />
+    <Compile Include="Actions\MaintainAreaManager\BasiMaintainAreaInfoAdd.cs">
+    </Compile>
+    <Compile Include="Actions\MaintainAreaManager\BasiMaintainAreaInfoUpdate.cs">
+    </Compile>
+    <Compile Include="Actions\Maintenance\NoLabelPartsRegAction.cs" />
+    <Compile Include="Actions\Maintenance\PartsInoutAction.cs" />
+    <Compile Include="Actions\MaintainAreaManager\BasiProviderInfoAdd.cs">
+    </Compile>
+    <Compile Include="Actions\MaintainAreaManager\BasiProviderInfoUpdate.cs">
+    </Compile>
+    <Compile Include="Actions\MaintainAreaManager\DelBasiMaintainAreaInfo.cs">
+    </Compile>
+    <Compile Include="Actions\MaintainAreaManager\DevPartIdAdd.cs">
+    </Compile>
+    <Compile Include="Actions\MaintainAreaManager\DevPartIdNameUpdate.cs">
+    </Compile>
+    <Compile Include="Actions\Maintenance\PartsInventoryRegAction.cs" />
+    <Compile Include="Actions\ModeActions\SetModeAction.cs" />
+    <Compile Include="Actions\MoneyStoreActions\CashStoreAdd.cs">
+    </Compile>
+    <Compile Include="Actions\MoneyStoreActions\CashStoreUpdate.cs">
+    </Compile>
+    <Compile Include="Actions\ParamActions\AddPara4042DeviceInfo.cs" />
+    <Compile Include="Actions\ParamActions\AddHandleVersion.cs" />
+    <Compile Include="Actions\ParamActions\AddPara4044AlarmLamp.cs" />
+    <Compile Include="Actions\ParamActions\AddPara4314.cs" />
+    <Compile Include="Actions\ParamActions\AddParaDraftVersion.cs" />
+    <Compile Include="Actions\ParamActions\BlackListQueryAction.cs" />
+    <Compile Include="Actions\ParamActions\BuilderPrimissionParamAction.cs" />
+    <Compile Include="Actions\ParamActions\DelPara4042DeviceInfo.cs" />
+    <Compile Include="Actions\ParamActions\DelPara4044AlarmLamp.cs" />
+    <Compile Include="Actions\ParamActions\DelPara4314Action.cs" />
+    <Compile Include="Actions\ParamActions\DelParaDraftVersion.cs" />
+    <Compile Include="Actions\ParamActions\EditDraftParaAction.cs" />
+    <Compile Include="Actions\ParamActions\ParamsDownLoadNotify.cs" />
+    <Compile Include="Actions\ParamActions\PublishParaDraftVersion.cs" />
+    <Compile Include="Actions\ParamActions\SoftWareUpLoadAction.cs" />
+    <Compile Include="Actions\ParamActions\UpdatePara4042DeviceInfo.cs" />
+    <Compile Include="Actions\ParamActions\UpdatePara4044AlarmLamp.cs" />
+    <Compile Include="Actions\ParamActions\UpdatePara4314Action.cs" />
+    <Compile Include="Actions\ParamActions\UpdateParaAutoTime.cs" />
+    <Compile Include="Actions\ParamActions\UpdateParaDraftVersion.cs" />
+    <Compile Include="Actions\PrimissionActions\AddFunction.cs" />
+    <Compile Include="Actions\PrimissionActions\AddOperator.cs" />
+    <Compile Include="Actions\PrimissionActions\AddRoleAction.cs" />
+    <Compile Include="Actions\PrimissionActions\BasicOperatorInfoQueryAction.cs" />
+    <Compile Include="Actions\PrimissionActions\ChangePwdAction.cs" />
+    <Compile Include="Actions\PrimissionActions\ExitSysAction.cs" />
+    <Compile Include="Actions\PrimissionActions\ForceLogOutAction.cs" />
+    <Compile Include="Actions\PrimissionActions\FunctionManagerAction.cs" />
+    <Compile Include="Actions\PrimissionActions\LoginAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Actions\PrimissionActions\LogoutAction.cs" />
+    <Compile Include="Actions\PrimissionActions\OperatorLockAndUnLockAction.cs" />
+    <Compile Include="Actions\PrimissionActions\OperatorStatusAction.cs" />
+    <Compile Include="Actions\PrimissionActions\RoleManagerAction.cs" />
+    <Compile Include="Actions\PrimissionActions\ShowOperatorInfoByRoleIdAction.cs" />
+    <Compile Include="Actions\PrimissionActions\ShowRoleInfoByFunctionIdAction.cs" />
+    <Compile Include="Actions\PrimissionActions\ShowRoleInfoByOperatorAction.cs" />
+    <Compile Include="Actions\PrimissionActions\UpdateFunctionAction.cs" />
+    <Compile Include="Actions\PrimissionActions\UpdateOperatorAction.cs" />
+    <Compile Include="Actions\PrimissionActions\UpdateOperatorOperationAction.cs" />
+    <Compile Include="Actions\PrimissionActions\UpdateRoleAction.cs" />
+    <Compile Include="Actions\RunManager\BasiDevInfoUpdate.cs" />
+    <Compile Include="Actions\RunManager\BasiHallGroupIdInfoAdd.cs" />
+    <Compile Include="Actions\RunManager\BasiHallGroupIdInfoDel.cs" />
+    <Compile Include="Actions\RunManager\BasiHallGroupIdInfoUpdate.cs" />
+    <Compile Include="Actions\RunManager\BasiStationHallIdInfoAdd.cs" />
+    <Compile Include="Actions\RunManager\BasiStationHallIdInfoDel.cs" />
+    <Compile Include="Actions\RunManager\BasiStationHallIdInfoUpdate.cs" />
+    <Compile Include="Actions\RunManager\LCRunEndAction.cs" />
+    <Compile Include="Actions\RunManager\LCRunStartAction.cs" />
+    <Compile Include="Actions\RunManager\SCDevEndAction.cs" />
+    <Compile Include="Actions\RunManager\SCDevStartAction.cs" />
+    <Compile Include="Actions\RunManager\SCRunEndAction.cs" />
+    <Compile Include="Actions\RunManager\SCRunStartAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\AddTickValuedProductAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\EmptyTickBoxCallOutAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\TickBoxCheckInAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\TickBoxCheckOutAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\TickBoxClearAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\TickBoxPutInAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\UpdateShowTickValuedAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\UpdateTickValuedProductAction.cs" />
+    <Compile Include="Actions\TickMonyBoxManager\EmptyMoneyBoxOutAction.cs" />
+    <Compile Include="Actions\TickMonyBoxManager\MoneyBoxClearAction.cs" />
+    <Compile Include="Actions\TickMonyBoxManager\MoneyBoxInAction.cs" />
+    <Compile Include="Actions\TickMonyBoxManager\MoneyBoxPutAction.cs" />
+    <Compile Include="Actions\TickMonyBoxManager\MoneyBoxRegisterAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\RFIDInitAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\TickBoxRegisterAction.cs" />
+    <Compile Include="Actions\TicketBoxManager\TickStoreAdjustAction.cs" />
+    <Compile Include="Actions\TickStoreActions\TickCallInAction.cs" />
+    <Compile Include="Actions\TickStoreActions\TickCallOutAction.cs" />
+    <Compile Include="Actions\TickStoreActions\TickCheckInAction.cs" />
+    <Compile Include="Actions\TickStoreActions\TickCheckOutAction.cs">
+    </Compile>
+    <Compile Include="Actions\TickStoreActions\TickStoreAdd.cs">
+    </Compile>
+    <Compile Include="Actions\TickStoreActions\TickStoreUpdate.cs">
+    </Compile>
+    <Compile Include="Actions\TimeSyn\TimeSynAction.cs" />
+    <Compile Include="ColorSettiing\ModeInvalidColorSetting.cs" />
+    <Compile Include="ColorSettiing\OperatorStatusColorSetting.cs" />
+    <Compile Include="ColorSettiing\ParamsDownLoadAndSwitchResultColorSetting.cs" />
+    <Compile Include="ColorSettiing\ParamsEditColorSetting.cs" />
+    <Compile Include="ColorSettiing\ParamSynFailedColorSetting.cs" />
+    <Compile Include="ColorSettiing\RoleFunctionStatusColorSetting.cs" />
+    <Compile Include="Convetors\ConvertorToOperatorName.cs" />
+    <Compile Include="Convetors\ConvertSimpleFenToYuan.cs" />
+    <Compile Include="Convetors\ConvertToActionTime.cs" />
+    <Compile Include="Convetors\ConvertToBoxType.cs" />
+    <Compile Include="Convetors\ConvertToCashBoxPosition.cs" />
+    <Compile Include="Convetors\ConvertToDecimalDevCode.cs" />
+    <Compile Include="Convetors\ConvertToDecimalMoneyCode.cs">
+    </Compile>
+    <Compile Include="Convetors\ConvertToHexDevCode.cs" />
+    <Compile Include="Convetors\ConvertToLight.cs" />
+    <Compile Include="Convetors\ConvertToPercent.cs" />
+    <Compile Include="Convetors\ConvertToSound.cs" />
+    <Compile Include="Convetors\ConvertToTicketBoxPosition.cs" />
+    <Compile Include="Convetors\ConvertToTime.cs" />
+    <Compile Include="Convetors\ConvertYuanToFen.cs" />
+    <Compile Include="Convetors\CovertToCtrlCode.cs" />
+    <Compile Include="Convetors\DateTimeConvert.cs" />
+    <Compile Include="Convetors\DeviceTypeConvert.cs" />
+    <Compile Include="Convetors\LineCovert.cs" />
+    <Compile Include="Convetors\OperatorCanMulLogInConvert.cs" />
+    <Compile Include="Convetors\OperatorCompanyConvert.cs" />
+    <Compile Include="Convetors\OperatorLockStatusConvert.cs" />
+    <Compile Include="Convetors\OperatorLogInConvert.cs" />
+    <Compile Include="Convetors\OperatorStatusConvert.cs" />
+    <Compile Include="Convetors\ParamsUseRange.cs" />
+    <Compile Include="Convetors\ParaTypeNameConvert.cs" />
+    <Compile Include="Convetors\PartStatusConvert.cs" />
+    <Compile Include="Convetors\PasswordSetModeConvert.cs" />
+    <Compile Include="Convetors\ResourceKeyMapConvertor.cs" />
+    <Compile Include="Convetors\RoleStatusConvert.cs" />
+    <Compile Include="Convetors\StationCovert.cs" />
+    <Compile Include="Convetors\TicketOrMoneyBoxIdConvert.cs" />
+    <Compile Include="Convetors\TickValuedIssueConvert.cs" />
+    <Compile Include="UIContext\AutoLogoutTrigger.cs" />
+    <Compile Include="UIContext\FunctionCfg.cs" />
+    <Compile Include="UIContext\MessageCfg.cs" />
+    <Compile Include="UIContext\MessageConfig.cs" />
+    <Compile Include="UIContext\UIOperation.cs" />
+    <Compile Include="Actions\CommonActions\ShowWindowAction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIContext\UIMessageHandle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AFC.WS.BR\AFC.WS.BR.csproj">
+      <Project>{E28F43B6-5132-42D9-B196-519701DC11DA}</Project>
+      <Name>AFC.WS.BR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.Module\AFC.WS.Model.csproj">
+      <Project>{6A225ED0-AA37-4C27-8912-9C8D0843B49F}</Project>
+      <Name>AFC.WS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.FC\AFC.WS.UI.FC.csproj">
+      <Project>{3EF79B35-5D62-4F20-B327-0C0768B61696}</Project>
+      <Name>AFC.WS.UI.FC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.RfidRW\AFC.WS.UI.RfidRW.csproj">
+      <Project>{A80BD73C-8B52-4FA0-A2C4-DACD8866AF6A}</Project>
+      <Name>AFC.WS.UI.RfidRW</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSComm\TJComm.csproj">
+      <Project>{77F5B605-4355-49D0-8BB3-7503524275C6}</Project>
+      <Name>TJComm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RuleFiles\Primission\ui_Login.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RuleFiles\Primission\ui_operatorChangePwd.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RuleFiles\DataSource\ds_roleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_roleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_roleManager.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RuleFiles\Primission\list_functionInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_functionInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RuleFiles\DataSource\ds_functionInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReportDir\交易类报表\实时报表\BOM交易明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\实时报表\BOM退票交易明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\实时报表\交易明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\实时报表\按交易类别统计报表%28按类别%29.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\实时报表\按设备统计交易日报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\延迟类\延迟交易按交易类别统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\延迟类\延迟交易按运营日统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\日报表\按交易类别统计日报表%28按类别%29.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\交易类报表\日报表\按票种统计交易日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\TVM吞钱-接受现金记录表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\一卡通平均扣费记录表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\日报报数.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\AFC中心库存台账.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\AGM回收汇总.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\BOM一票通售卖审核表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\BOM现金结算审核明细表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\Token库存审核报表（不含应急票）.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\TVM一票通审核总表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\TVM一票通清点差异报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\TVM吞钱-接受现金记录表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\TVM测试钱票记录表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\TVM现金清点差异报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\一票通废票库存报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\单程票收支统计报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\延迟交易按交易类别统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\延迟交易按运营日统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\现金交易统计实时报表%28按类别%29.xls" />
+    <None Include="ReportDir\备份类\票箱操作明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\票箱更换统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\票箱记录报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\线路AFC中心票卡出入库明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\车站单程票按设备审核.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\钱箱操作明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\钱箱更换统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\钱箱记录报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\非正常收支（乘处单填写）明细表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\备份类\非正常收支（乘处单填写）汇总表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\其它审核\找零失败凭条审核报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\AGM审核报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\BOM一票通售票审核表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\BOM现金审核明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\BOM现金结算审核总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\BOM现金结算审核明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\Token库存审核报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\Token废票库存审核报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\TVM一票通审核总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\TVM一票通清点差异报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\TVM现金审核总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\TVM现金审核明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\TVM现金收支汇总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\运营日结算单报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\运营日车票结算单报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\非正常收支明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\审核类报表\审核类\非正常收支汇总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\Token出站客流明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\全线OD统计分析报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\全线客流收益统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\平均票价表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\票种小时客流报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\车站客流收益统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\车站客流统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\车站小时客流报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\车站票种客流统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\客流类\车站票种收益统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\车站进出站\全线路进出站量分时统计报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\车站进出站\全线路进出站量历史分时统计报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\车站进出站\车站进出站量分时统计报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\客流类报表\车站进出站\车站进出站量统计日报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存台帐类报表\票卡库存报表\库存移动报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存台帐类报表\票卡库存报表\车站每日库存日报.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存类报表\库存类\AFC中心票卡出入库明细报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存类报表\库存类\一卡通库存报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存类报表\库存类\一票通库存报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存类报表\库存类\线路AFC中心库存月报.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存类报表\库存类\线路Token流失统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\库存类报表\库存类\车站Token流失统计.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\BOM操作\BOM配发与结算操作明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\BOM操作\人工录入备注报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\BOM操作\车票清点补充操作明细报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\BOM操作\车站收益及备用金变更操作明细表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\BOM操作\钱币清点补充操作明细报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\TVM营收\钱箱操作明细报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\其它操作\票箱操作明细报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\清分类报表\清分类\TVM现金收支汇总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\清分类报表\清分类\其他收支汇总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\清分类报表\清分类\按票种统计交易日报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\清分类报表\清分类\按设备统计交易日报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\清分类报表\清分类\车站现金收入差异统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\清分类报表\清分类\车站运营收入差异统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\结算类报表\现金结算\BOM结算单报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\结算类报表\现金结算\TVM钱箱清点差异报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\结算类报表\车票结算\TVM票箱清点差异报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\统计类报表\统计类\一卡通平均扣费记录表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\统计类报表\统计类\一票通售卖分票价汇总表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\统计类报表\统计类\平均运距、票价表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\统计类报表\统计类\线路Token流失统计报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\统计类报表\统计类\车站Token流失统计.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_cashOperatorLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_cashStoreLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_dataOperatorSettlement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_hallGroup.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_settlement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_stationHall.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_cashOperationLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_cashStoreLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_dataOperatorSettlement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_hallGroup.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_settlement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_stationHall.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\list_dataFileDealQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\list_dataFileUpQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\list_operContentQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\list_runParamInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_addOperContent.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\list_timeTaskExcute.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_addRunParamInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_dataFileDealQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_dataFileUpQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\一票通售卖分票价汇总表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\员工BOM营收金额统计.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\员工充值金额统计.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\员工售卖车票数量统计.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\结算类报表\现金结算\TVM现金结算单报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\结算类报表\车票结算\TVM车票结算单报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_alarmMessageInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_operContentQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_runParamInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_updateOperContent.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_timeTaskExcute.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_updateRunParamInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basi_dev_part_detail_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basi_dev_part_id_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basi_maintain_area_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basi_money_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basi_provider_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basi_tick_mana_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_bomSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cashOperatorLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cashStoreLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_box_in_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_box_replace_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_in_operator_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_money_box_reg_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_money_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_storage_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_ctrlLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dataFileDealQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dataFileUpQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dataOperatorSettlement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_devLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\员工TVM补充找零金额统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\其它类报表\员工统计\员工TVM补充车票数量统计报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\BOM操作\BOM操作明细报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\TVM营收\TVM营收报表.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ReportDir\操作类报表\其它操作\非法操作报表.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_DevStatusInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_devSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_devStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_failLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_hallGroup.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_maintain_area_station_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_opeatorUnlocking.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_operatorDevInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_operatorFunctions.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_OperatorInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_operatorRoleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_OperatorStation.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_operatorStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_dload_busi_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_local_full_ver_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4032_exchange_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4032_line_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4032_station_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4034_multi_trip_discount.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4034_point_discount.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4035_max_stay_time .xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4035_special_date.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4035_time_interval.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4036_fare_group .xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4036_fare_tier .xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4036_fare_value.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_fare_value_selection.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_last_train.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_line_select.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_station_in_area.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_station_in_line.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_tvm_adv.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_tvm_fare_area.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4037_tvm_top_banner.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4033_tick_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_dev_full_ver_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_param_syn_failed.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4011_ykt_blackList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4012_ypt_full_black_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4013_ypt_incre_black_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4014_ypt_range_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4015_staff_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_operContentQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4314.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ds_para_4042_device_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4042_device_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_switch_busi_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_version_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_prim_para_publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_QueryOperatorInfoByRoleId.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_RoleInfoByFunctionId.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_run_mode_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_runParamInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_Scopeator_locking.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_box_reg_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tickStoreChangeLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_settlement.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_stationHall.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tickDispatchInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_ticketboxStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tickFare.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tickOperatorInOut.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tickOperReturnLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_box_in_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_box_replace_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_dispatch_log_in.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_dispatch_log_out.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_in_operator_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_storage_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_devLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_run_mode_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_run_mode_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_ctrlLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_devLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_failLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_ctrlLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_failLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_timeTaskExcute.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tvmSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_bomSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_devSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_devStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_tvmSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_bomSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_devSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_devStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_tvmSettleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_alarm_message_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_data_ykt_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_data_ypt_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_basi_dev_part_detail_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_basi_dev_part_id_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_basi_maintain_area_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_basi_money_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_basi_provider_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_basi_tick_mana_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_cash_box_in_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_cash_box_replace_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_cash_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_cash_in_operator_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_cash_money_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_cash_storage_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_maintain_area_station_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_para_4042_device_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_tick_box_in_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_tick_box_replace_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_tick_in_operator_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\dl_tick_storage_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_tickOperReturnLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_tick_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_basi_dev_part_detail_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_basi_dev_part_id_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_basi_maintain_area_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_basi_money_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_basi_provider_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_basi_tick_mana_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_box_in_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_box_replace_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_in_operator_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_money_box_status_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_storage_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_maintain_area_station_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tickOperReturnLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tick_box_in_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tick_box_replace_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tick_box_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tick_in_operator_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tick_storage_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\dl_para_4042_device_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\dl_para_4044_custom_alarm_lamp.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_4044_custom_alarm_lamp.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4314.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_param_publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_param_syn_failed.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_param_version.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_dload_busi_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_switch_busi_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_local_full_ver_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4032_exchange_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4032_line_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4032_station_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4034_multi_trip_discount.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4034_point_discount.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4035_max_stay_time.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4035_special_date.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4035_time_interval.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4036_fare_group.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4036_fare_tier.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4036_fare_value.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_fare_value_selection.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_last_train.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_line_select.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_station_in_area.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_station_in_line.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_tvm_adv.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_tvm_fare_area.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4037_tvm_top_banner.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4033_tick_type_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_dev_full_ver_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_param_syn_failed.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4011_ykt_blackList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4012_ypt_full_black_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4013_ypt_incre_black_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4014_ypt_range_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_4015_staff_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_tickFare.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_addPara4314.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4012_ypt_full_black_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_prim_param_publish.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_param_version.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4031_sys_control.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4035_calendar_systime.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4036_fare_add.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4037_adv_play.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4037_road_network_pic.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4037_suspend_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4037_tvm_current_location.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4037_tvm_screen_size.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4037_tvm_start_window.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4011_ykt_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4013_ypt_incre_black_list.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4014_ypt_range_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4015_staff_blacklist.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4042_device_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4043_maintain_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4043_min_query_tran_amoun.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4043_tvm_cash_box.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4043_tvm_tick_box.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4043_tvm_tick_read.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4044_agm_tick_box.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4044_agm_tick_rw.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4044_alarm_lamp_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4044_main_login.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4044_min_tran_query.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4044_pass_control_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4045_tick_reader_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_dload_busi_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_switch_busi_data.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_local_full_ver_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4045_bom_main_login.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4045_bom_tick_box.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_4045_min_tran_query.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_dev_full_ver_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_tickFare.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_updatePara4314.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_basi_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_basi_dev_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_basiDevInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dev_res_use_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dev_run_status_detail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_bom_shift_settlement_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_date_settlement_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_devOperDoubleLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_cash_date_settlement_info_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\list_coinStoreLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\CashBoxManager\ui_coinStoreLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_coinStoreLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\list_dataUploadRecordsQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_dataUploadRecordsQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dataUploadRecordsQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_AgUpsStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\DataSource\ds_AgUpsMapQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\DataManager\list_dataYKTAnnualReviewQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataManager\ui_dataYKTAnnualReviewQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\DataSource\ds_basi_status_id_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\DataSource\ds_data_ykt_annual_review.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\DataSource\ds_devCurrentErrorStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\DataSource\ds_dev_current_status_alarm.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_dev_status_alarm_history.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\DataSource\ds_maintain_fault_rpt_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\DataSource\ds_maintain_rpt_track_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\DataSource\ds_tick_storage_history_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_devOperDoubleLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_devOperDoubleLogInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_tick_valued_product_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_sys_buss_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_AgUpsStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\list_devCurrentErrorStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_AgUpsStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\LogQuery\ui_devCurrentErrorStatusQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\LogQuery\list_AgUpsMapQuery.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\LogQuery\list_dev_current_status_alarm.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\LogQuery\ui_addAgUpsInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\LogQuery\ui_dev_current_status_alarm.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\LogQuery\ui_UpdateAgUpsStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\dl_maintain_fault_rpt_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\dl_maintain_rpt_track_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\Mode\dl_tick_storage_history_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_cash_bom_shift_settlement_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_cash_date_settlement_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_cash_date_settlement_info_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\Mode\list_basi_status_id_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\list_dev_res_use_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\Mode\list_dev_run_status_detail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_bom_shift_settlement_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_date_settlement_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_cash_date_settlement_info_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\list_sys_buss_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\Mode\list_dev_status_alarm_history.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\ui_basi_status_id_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\ui_dev_res_use_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\Mode\ui_dev_run_status_detail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\Mode\ui_dev_status_alarm_history.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\ui_maintain_fault_rpt_status.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Mode\ui_maintain_rpt_track_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\Params\list_para_4044_custom_alarm_lamp.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_para_4042_device_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_tick_storage_history_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Mode\ui_sys_buss_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="RuleFiles\PassengerFlow\PassengerFlowHistoryEntryPie.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\PassengerFlow\PassengerFlowHistoryExitPie.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\PassengerFlow\PassengerFlowHistoryLine.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\PassengerFlow\PassengerFlowParamConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_TickValuedProductUpdate.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_TickValuedProductAdd.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_tickValuedProductInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_tickValuedProductInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_data_ykt_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_data_ypt_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_data_ykt_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_data_ypt_his.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorDevInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorEnable.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorForceLogOut.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorFunction.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorLockStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_OperatorroleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorScEnable.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_operatorStationInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_opreatorInfoByRoleId.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_roleInfoByFunctionId.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\list_ScoperatorLockStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_addFunction.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_addOperator.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_addRole.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_basicOperatorInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_opeator_locking.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\UI_operatorForceLogOut.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_operatorScEnable.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_operatorStatus.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_operatorStatusDetail.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_updateFunction.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_updateOperatorInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Primission\ui_updateRole.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_dispatch_log_in.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_tick_dispatch_log_out.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_tick_dispatch_log_out.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_tick_dis_log_in.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_cash_money_box_reg_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_tickDispatchInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_tickOperatorInOut.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_tickDispachInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_tickOperatorInOut.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_tickStoreChangeLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\ui_tickStoreChangeLog.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\list_tick_box_reg_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\TickMonyBoxManager\UI_TicketboxRegister.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

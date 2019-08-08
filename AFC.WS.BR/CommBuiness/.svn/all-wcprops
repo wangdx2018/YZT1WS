@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/CommBuiness
+END
+HandleServiceMsgHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/9875/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/CommBuiness/HandleServiceMsgHandle.cs
+END
+WSUnpackInstance.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/9620/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/CommBuiness/WSUnpackInstance.cs
+END
+ICommProcess.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/CommBuiness/ICommProcess.cs
+END
+CommBuiness.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/CommBuiness/CommBuiness.cs
+END
+CommBuinessSimulator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/9620/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/CommBuiness/CommBuinessSimulator.cs
+END

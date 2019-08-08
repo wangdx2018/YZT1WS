@@ -1,0 +1,29 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.DeviceMonitor.AgUpsInfoAdd"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:commonControls="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+                       Background="{DynamicResource MainBackgroundBrush}">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid x:Name="rootLayout">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                        <ColumnDefinition Width="80*"></ColumnDefinition>
+                        <ColumnDefinition Width="10*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="5*"/>
+                        <RowDefinition Height="90*"/>
+                        <RowDefinition Height="5*"/>
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="添加AgUps" Grid.Column="1" Grid.Row="1">
+                        <commonControls:InteractiveControl x:Name="ic" />
+                    </GroupBox>
+
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

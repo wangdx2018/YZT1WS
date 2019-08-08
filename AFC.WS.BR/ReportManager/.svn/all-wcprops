@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TJ_AFC/!svn/ver/9501/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager
+END
+ReportStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/5143/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/ReportStatus.cs
+END
+IReportPrint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/5143/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/IReportPrint.cs
+END
+ConvertClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/5143/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/ConvertClass.cs
+END
+DateTimeScope.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/5143/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/DateTimeScope.cs
+END
+ReportManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/9501/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/ReportManager.cs
+END
+ParamCondition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/8229/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/ParamCondition.cs
+END
+ReportEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/5143/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/ReportManager/ReportEventArgs.cs
+END

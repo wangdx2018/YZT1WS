@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_data_ykt_his" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select * from (select t.station_id,t.device_id,t.tran_date,t.tran_time,ba.tran_name,t.tran_value,t.original_value,t.afc_type,t.card_sn from data_ykt_tran_his t left join  basi_tran_type_info ba on t.tran_type = ba.tran_type and t.tran_sub_type = ba.tran_sub_type)" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="tran_date desc,tran_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

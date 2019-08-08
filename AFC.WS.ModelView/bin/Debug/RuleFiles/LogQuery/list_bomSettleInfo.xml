@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_bomSettleInfo" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="结帐单编号" BindingField="busi_udsn"  Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="线路" BindingField="line_id" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.LineCovert,AFC.WS.ModelView">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站" BindingField="station_cn_name"  Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="设备编码" BindingField="device_id" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作员编码" BindingField="operator_id" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="操作员名称" BindingField="operator_name" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="结算日期" BindingField="settlement_date" Width="120" ConvertoTypeName="AFC.WS.UI.Convertors.DateTimeConvert,AFC.WS.UI.FC">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="结算时间" BindingField="occur_date_time" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="售票交易金额（元）" BindingField="SailDanChengTikcetsAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="售票交易张数（张）" BindingField="SailDanChengTikcetsNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通充值交易金额（元）" BindingField="YiPiaoTongChongZhiAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通充值交易张数（张）" BindingField="YiPiaoTongChongZhiNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通补票交易金额（元）" BindingField="TranBuPiaoAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通补票交易张数（张）" BindingField="TranBuPiaoNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="TVM故障退款金额（元）" BindingField="GuZhangTuiKuanAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="TVM故障退款数量（次）" BindingField="GuZhangTuiKuanNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通退票交易金额（元）" BindingField="TranTuiPiaoAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通退票交易张数（张）" BindingField="TranTuiPiaoNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通抵消交易金额（元）" BindingField="TranDiXiaoAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一票通抵消交易张数（张）" BindingField="TranDiXiaoNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通售票交易金额（元）" BindingField="SailYKTAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通售票交易张数（张）" BindingField="SailYKTNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通充值交易金额（元）" BindingField="ChongZhiYKTAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通充值交易张数（张）" BindingField="ChongZhiYKTNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通现金更新金额（元）" BindingField="XianJinBuPiaoAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通现金更新张数（张）" BindingField="XianJinBuPiaoNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通售卡押金金额（元）" BindingField="ShouKaYajinAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="一卡通售卡押金张数（张）" BindingField="ShouKaYajinNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="非营业性收入金额（元）" BindingField="FeiYingYeShouRuAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="非营业性收入数量（张）" BindingField="FeiYingYeShouRuNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="非营业性支出金额（元）" BindingField="FeiYingYeZhiChuAmount" Width="120" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="非营业性支出数量（张）" BindingField="FeiYingYeZhiChuNum" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnAdd" Content="BOM结帐单补打" ActionTypeName="AFC.WS.UI.UIPage.CashManager.BOMSettlementPrintAction,AFC.WS.UI.UIPage" ComboBoxAction="DbAction">
+    </ActionProperty>
+  </ActionList>
+</DataListRule>

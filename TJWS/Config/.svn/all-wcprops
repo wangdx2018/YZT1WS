@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/TJ_AFC/!svn/ver/9831/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config
+END
+SysConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TJ_AFC/!svn/ver/9762/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/SysConfig.xml
+END
+FunctionCfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9831/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/FunctionCfg.xml
+END
+ParamConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9167/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/ParamConfig.xml
+END
+PassengerFlowParamConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/3443/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/PassengerFlowParamConfig.xml
+END
+BuinessControlCfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/BuinessControlCfg.xml
+END
+layoutTemplate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TJ_AFC/!svn/ver/7659/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/layoutTemplate.xml
+END
+logCppConfig.ini
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TJ_AFC/!svn/ver/9651/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/logCppConfig.ini
+END
+MessageConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/MessageConfig.xml
+END
+MonitorImageCfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/9756/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/TJWS/Config/MonitorImageCfg.xml
+END

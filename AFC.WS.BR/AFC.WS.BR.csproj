@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E28F43B6-5132-42D9-B196-519701DC11DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFC.WS.BR</RootNamespace>
+    <AssemblyName>AFC.WS.BR</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFC.BJComm, Version=0.8.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BJComm.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.MessageDispacher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.MessageDispacher.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Tools.Excel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
+    <Reference Include="PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Spire.XLS, Version=2.600.3.0, Culture=neutral, PublicKeyToken=7fdbc5e92357a8da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Spire.XLS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="WPFToolkit, Version=3.5.31016.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts, Version=2.2.0.0, Culture=neutral, PublicKeyToken=99d724542e4db593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.DBO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WS.DBO.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.ExcelReport, Version=1.1.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WS.ExcelReport.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuinessRule.cs" />
+    <Compile Include="BuinessContext.cs" />
+    <Compile Include="BuinessRule_BasiData.cs" />
+    <Compile Include="CommBuiness\CommBuiness.cs" />
+    <Compile Include="CommBuiness\CommBuinessSimulator.cs" />
+    <Compile Include="CommBuiness\HandleServiceMsgHandle.cs" />
+    <Compile Include="CommBuiness\ICommProcess.cs" />
+    <Compile Include="CommBuiness\WSUnpackInstance.cs" />
+    <Compile Include="DataImportExport\AbstractDataExport.cs" />
+    <Compile Include="DataImportExport\AbstractDataImport.cs" />
+    <Compile Include="DataImportExport\AccessDatFile.cs" />
+    <Compile Include="DataImportExport\Body.cs" />
+    <Compile Include="DataImportExport\BusiDataExport.cs" />
+    <Compile Include="DataImportExport\BusiDataImport.cs" />
+    <Compile Include="DataImportExport\ConditionClass.cs" />
+    <Compile Include="DataImportExport\DiskOperation.cs" />
+    <Compile Include="DataImportExport\FTPInfo.cs" />
+    <Compile Include="DataImportExport\Function.cs" />
+    <Compile Include="DataImportExport\GetUSBPhysicalSN.cs" />
+    <Compile Include="DataImportExport\Header.cs" />
+    <Compile Include="DataImportExport\HeaderExtern.cs" />
+    <Compile Include="DataImportExport\IIndexFileHandler.cs" />
+    <Compile Include="DataImportExport\ImportExportManager.cs" />
+    <Compile Include="DataImportExport\IndexFileData.cs" />
+    <Compile Include="DataImportExport\MemIndexFileBody.cs" />
+    <Compile Include="DataImportExport\MemIndexFileHandle.cs" />
+    <Compile Include="DataImportExport\MessageSubscribeID.cs" />
+    <Compile Include="DataImportExport\MessageType.cs" />
+    <Compile Include="DataImportExport\OperateType.cs" />
+    <Compile Include="DataImportExport\ParaIndexFileHandle.cs" />
+    <Compile Include="DataImportExport\ParamDataExport.cs" />
+    <Compile Include="DataImportExport\ParamDataImport.cs" />
+    <Compile Include="DataImportExport\ParamIndexFileBody.cs" />
+    <Compile Include="DataImportExport\SoftwareDataExport.cs" />
+    <Compile Include="DataImportExport\SoftwareDataImport.cs" />
+    <Compile Include="DataImportExport\TradeDataExport.cs" />
+    <Compile Include="DataImportExport\TradeDataImport.cs" />
+    <Compile Include="DataImportExport\USB.cs" />
+    <Compile Include="DataImportExport\ValidateAuthPhysicalSN.cs" />
+    <Compile Include="DataManager\DataManager.cs" />
+    <Compile Include="DeviceMonitor\AgUpsManager.cs" />
+    <Compile Include="DeviceMonitor\SLEGroupControlManager.cs" />
+    <Compile Include="LogManager\LogManager.cs" />
+    <Compile Include="LogManager\Maintenance\DisplayNoLabelParts.cs" />
+    <Compile Include="LogManager\Maintenance\DisplayParts.cs" />
+    <Compile Include="LogManager\Maintenance\MaintenanceManager.cs" />
+    <Compile Include="MessageConfig.cs" />
+    <Compile Include="ParamsManager\Draft4042Add.cs" />
+    <Compile Include="ParamsManager\Draft4042ParaDel.cs" />
+    <Compile Include="ParamsManager\Draft4043ParaAdd.cs" />
+    <Compile Include="ParamsManager\Draft4043ParaDel.cs" />
+    <Compile Include="ParamsManager\Draft4043ParaUpdate.cs" />
+    <Compile Include="ParamsManager\Draft4044ParaAdd.cs" />
+    <Compile Include="ParamsManager\Draft4044ParaDel.cs" />
+    <Compile Include="ParamsManager\Draft4044ParaUpdate.cs" />
+    <Compile Include="ParamsManager\Draft4045ParaAdd.cs" />
+    <Compile Include="ParamsManager\Draft4045ParaDel.cs" />
+    <Compile Include="ParamsManager\Draft4045ParaUpdate.cs" />
+    <Compile Include="ParamsManager\Draft4314Add.cs" />
+    <Compile Include="ParamsManager\Draft4314ParaDel.cs" />
+    <Compile Include="ParamsManager\HandleDraft4043Add.cs" />
+    <Compile Include="ParamsManager\HandleDraft4044Add.cs" />
+    <Compile Include="ParamsManager\HandleDraft4045Add.cs" />
+    <Compile Include="ParamsManager\IParamDataAdded.cs" />
+    <Compile Include="ParamsManager\Para4042Added.cs" />
+    <Compile Include="ParamsManager\Para4045Added.cs" />
+    <Compile Include="ParamsManager\Para4314Added.cs" />
+    <Compile Include="ParamsManager\Param4043Added.cs" />
+    <Compile Include="ParamsManager\Param4044Added.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ParamsManager\ParaManager.cs" />
+    <Compile Include="ParamsManager\ParamConfig.cs" />
+    <Compile Include="ParamsManager\ParaPublishSelDate.cs" />
+    <Compile Include="PassengerFlow\PassengerFlowEntryPie.cs" />
+    <Compile Include="PassengerFlow\PassengerFlowExitPie.cs" />
+    <Compile Include="PassengerFlow\PassengerFlowHelper.cs" />
+    <Compile Include="PassengerFlow\PassengerFlowNumberEventArgs.cs" />
+    <Compile Include="Primission\AutoLogoutTrigger.cs" />
+    <Compile Include="Primission\FunctionManager.cs" />
+    <Compile Include="Primission\OperatorManager.cs" />
+    <Compile Include="Primission\PassWordEncryptDecrypt.cs" />
+    <Compile Include="Primission\PrimissionManager.cs" />
+    <Compile Include="Primission\RoleManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportManager\ConvertClass.cs" />
+    <Compile Include="ReportManager\DateTimeScope.cs" />
+    <Compile Include="ReportManager\IReportPrint.cs" />
+    <Compile Include="ReportManager\ParamCondition.cs" />
+    <Compile Include="ReportManager\ReportEventArgs.cs" />
+    <Compile Include="ReportManager\ReportManager.cs" />
+    <Compile Include="ReportManager\ReportStatus.cs" />
+    <Compile Include="SLEMonitorManager\AlarmMonitor.cs" />
+    <Compile Include="SLEMonitorManager\PositionStatus.cs" />
+    <Compile Include="SLEMonitorManager\RunManager\RunManager.cs" />
+    <Compile Include="SLEMonitorManager\AGImageCfg.cs" />
+    <Compile Include="SLEMonitorManager\DevStatus.cs" />
+    <Compile Include="SLEMonitorManager\ErrorAlarm.cs" />
+    <Compile Include="SLEMonitorManager\ImageCfg.cs" />
+    <Compile Include="SLEMonitorManager\SleImageCfgCollection.cs" />
+    <Compile Include="SLEMonitorManager\SLEMonitorManager.cs" />
+    <Compile Include="SysManager\SysConfigCheck.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SysStart\SoftAndParaUpdate.cs" />
+    <Compile Include="TickMonyBoxManager\DisplayMoneyBox.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TickMonyBoxManager\TickMonyBoxHelp.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TickBoxManager\TickBoxManager.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="TimeSyn\SystemTime.cs" />
+    <Compile Include="TimeSyn\TimeSynManager.cs" />
+    <Compile Include="Wrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AFC.WS.Module\AFC.WS.Model.csproj">
+      <Project>{6A225ED0-AA37-4C27-8912-9C8D0843B49F}</Project>
+      <Name>AFC.WS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.FC\AFC.WS.UI.FC.csproj">
+      <Project>{3EF79B35-5D62-4F20-B327-0C0768B61696}</Project>
+      <Name>AFC.WS.UI.FC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.RfidRW\AFC.WS.UI.RfidRW.csproj">
+      <Project>{A80BD73C-8B52-4FA0-A2C4-DACD8866AF6A}</Project>
+      <Name>AFC.WS.UI.RfidRW</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSComm\TJComm.csproj">
+      <Project>{77F5B605-4355-49D0-8BB3-7503524275C6}</Project>
+      <Name>TJComm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

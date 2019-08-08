@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LabWidthPercent="45" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="3" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Left" CanRest="true">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="txt_css_status_id_name" BindingField="CSS_STATUS_ID_NAME" IsOccupancyRow="false" RowsCount="2"  ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="状态名称"  ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select distinct t.css_status_id_name from basi_status_id_info t" Key="SqlContent" />
+        <PropertyValue Value="CSS_STATUS_ID_NAME" Key="BindDisplayField" />
+        <PropertyValue Value="CSS_STATUS_ID_NAME" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_device_id" BindingField="t.device_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="设备编码" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="Hex" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+	  <ControlProperty Space="5" Symbols="Equal" ControlName="txt_device_type" BindingField="device_type" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="设备类型" ComboBoxControl="ComboBoxExtend">
+		  <PropertyValues>
+			  <PropertyValue Value="DataString" Key="BindType" />
+			  <PropertyValue Key="SqlContent" />
+			  <PropertyValue Value="editon_type" Key="BindDisplayField" />
+			  <PropertyValue Value="editon_type" Key="BindHideField" />
+			  <PropertyValue Value="全部,TVM,AG,BOM,EQM,WS" Key="DataString" />
+			  <PropertyValue Value="99,01,06,02,04,12" Key="HideDataString" />
+			  <PropertyValue Key="StartValue" />
+			  <PropertyValue Key="ComboBoxStyle" />
+			  <PropertyValue Value="0" Key="ControlWidth" />
+			  <PropertyValue Value="0" Key="ControlHeight" />
+			  <PropertyValue Key="BindControlName" />
+			  <PropertyValue Key="UserControlClassName" />
+			  <PropertyValue Value="False" Key="CanReadOnly" />
+			  <PropertyValue Value="Visible" Key="CanVisibility" />
+			  <PropertyValue Value="True" Key="IsAll" />
+		  </PropertyValues>
+		  <TextConvertor />
+	  </ControlProperty>
+	  <ControlProperty Space="5" Symbols="Equal" ControlName="txt_status_level" BindingField="status_level" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="故障级别" ComboBoxControl="ComboBoxExtend">
+		  <PropertyValues>
+			  <PropertyValue Value="DataString" Key="BindType" />
+			  <PropertyValue Key="SqlContent" />
+			  <PropertyValue Value="editon_type" Key="BindDisplayField" />
+			  <PropertyValue Value="editon_type" Key="BindHideField" />
+			  <PropertyValue Value="全部,正常,警告,故障" Key="DataString" />
+			  <PropertyValue Value="99,00,01,02" Key="HideDataString" />
+			  <PropertyValue Key="StartValue" />
+			  <PropertyValue Key="ComboBoxStyle" />
+			  <PropertyValue Value="0" Key="ControlWidth" />
+			  <PropertyValue Value="0" Key="ControlHeight" />
+			  <PropertyValue Key="BindControlName" />
+			  <PropertyValue Key="UserControlClassName" />
+			  <PropertyValue Value="False" Key="CanReadOnly" />
+			  <PropertyValue Value="Visible" Key="CanVisibility" />
+			  <PropertyValue Value="True" Key="IsAll" />
+		  </PropertyValues>
+		  <TextConvertor />
+	  </ControlProperty>
+    <ControlProperty Space="5" Symbols="BetweenAndNotForDate" ControlName="btn_update_date1" BindingField="t.update_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="开始日期" ComboBoxControl="DateTimePickerExtend">
+      <PropertyValues>
+        <PropertyValue Value="Long" Key="DatePickerFormat" />
+        <PropertyValue Key="DatePickerStyle" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Key="ContentDatePicker" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+        <PropertyValue Value="yyyyMMdd" Key="FormatDateTime" />
+        <PropertyValue Value="True" Key="SetIsNull" />
+        <PropertyValue Value="" Key="DatePickerControl" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="BetweenAndNotForDate" ControlName="btn_update_date2" BindingField="t.update_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="结束日期" ComboBoxControl="DateTimePickerExtend">
+      <PropertyValues>
+        <PropertyValue Value="Long" Key="DatePickerFormat" />
+        <PropertyValue Key="DatePickerStyle" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Key="ContentDatePicker" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+        <PropertyValue Value="yyyyMMdd" Key="FormatDateTime" />
+        <PropertyValue Value="True" Key="SetIsNull" />
+        <PropertyValue Value="" Key="DatePickerControl" />
+      </PropertyValues>
+    </ControlProperty>
+  </ControlList>
+	<ActionList>
+		<ActionProperty ControlName="btnQuery" Content="查询" ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+			<PropertyValues>
+				<PropertyValue Value="ds_dev_current_status_alarm" Key="DataSourceName" />
+				<PropertyValue Key="StartDateControlName" />
+				<PropertyValue Key="EndDateControlName" />
+				<PropertyValue Key="DateTimeFormat" />
+			</PropertyValues>
+		</ActionProperty>
+	</ActionList>
+</InteractiveControlRule>

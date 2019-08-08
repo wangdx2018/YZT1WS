@@ -1,0 +1,79 @@
+10
+
+dir
+9870
+http://192.168.1.15/svn/TJ_AFC/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions
+http://192.168.1.15/svn/TJ_AFC
+
+
+
+2013-06-24T05:31:15.498840Z
+9867
+wumeng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f3edcb17-46f4-c44a-96dd-14a424d330dc
+
+ParamActions
+dir
+
+Maintenance
+dir
+
+MaintainAreaManager
+dir
+
+MoneyStoreActions
+dir
+
+TicketBoxManager
+dir
+
+TimeSyn
+dir
+
+TickStoreActions
+dir
+
+RunManager
+dir
+
+TickMonyBoxManager
+dir
+
+DataManager
+dir
+
+ModeActions
+dir
+
+DataImportExport
+dir
+
+DeviceMonitor
+dir
+
+CommonActions
+dir
+
+CashManager
+dir
+
+PrimissionActions
+dir
+
+AlarmActions
+dir
+

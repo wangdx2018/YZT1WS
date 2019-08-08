@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/9823/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors
+END
+PartStatusConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/PartStatusConvert.cs
+END
+ConvertToLight.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToLight.cs
+END
+ParamsUseRange.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ParamsUseRange.cs
+END
+ConvertToCashBoxPosition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/8238/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToCashBoxPosition.cs
+END
+ConvertToHexDevCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToHexDevCode.cs
+END
+OperatorCompanyConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/OperatorCompanyConvert.cs
+END
+ConvertSimpleFenToYuan.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertSimpleFenToYuan.cs
+END
+CovertToCtrlCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/CovertToCtrlCode.cs
+END
+ParaTypeNameConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ParaTypeNameConvert.cs
+END
+ConvertToDecimalDevCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToDecimalDevCode.cs
+END
+ConvertToActionTime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToActionTime.cs
+END
+ConvertorToOperatorName.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/9131/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertorToOperatorName.cs
+END
+DeviceTypeConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/DeviceTypeConvert.cs
+END
+StationCovert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/StationCovert.cs
+END
+ConvertToPercent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/9823/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToPercent.cs
+END
+OperatorLockStatusConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/OperatorLockStatusConvert.cs
+END
+ConvertYuanToFen.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertYuanToFen.cs
+END
+LineCovert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/LineCovert.cs
+END
+TicketOrMoneyBoxIdConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/TicketOrMoneyBoxIdConvert.cs
+END
+PasswordSetModeConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/PasswordSetModeConvert.cs
+END
+OperatorLogInConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/OperatorLogInConvert.cs
+END
+OperatorCanMulLogInConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/OperatorCanMulLogInConvert.cs
+END
+ConvertToTicketBoxPosition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8238/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToTicketBoxPosition.cs
+END
+ConvertToSound.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToSound.cs
+END
+DateTimeConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/DateTimeConvert.cs
+END
+ConvertToBoxType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/9259/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToBoxType.cs
+END
+ResourceKeyMapConvertor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ResourceKeyMapConvertor.cs
+END
+OperatorStatusConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/OperatorStatusConvert.cs
+END
+ConvertToTime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8221/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToTime.cs
+END
+TickValuedIssueConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/9368/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/TickValuedIssueConvert.cs
+END
+ConvertToDecimalMoneyCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/ConvertToDecimalMoneyCode.cs
+END
+RoleStatusConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Convetors/RoleStatusConvert.cs
+END

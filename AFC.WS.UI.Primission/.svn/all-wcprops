@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission
+END
+OperatorStatusInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/951/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorStatusInfo.xaml.cs
+END
+OpeatorStationRelaction.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/9035/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OpeatorStationRelaction.xaml.cs
+END
+OperatorToRole.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/552/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorToRole.xaml
+END
+OperatorFunctionInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/537/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorFunctionInfo.xaml.cs
+END
+RoleAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/358/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/RoleAdded.xaml
+END
+OperatorToRole.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/1954/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorToRole.xaml.cs
+END
+OperatorImport.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8839/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorImport.xaml
+END
+OperatorPrimissionAdjust.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/685/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorPrimissionAdjust.xaml.cs
+END
+OperatorImport.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8858/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorImport.xaml.cs
+END
+RoleManager.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/8211/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/RoleManager.xaml
+END
+OperatorDevTypeRelaction.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/3768/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorDevTypeRelaction.xaml
+END
+OperatorToDevType.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/538/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorToDevType.xaml
+END
+RoleManager.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/980/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/RoleManager.xaml.cs
+END
+OperatorInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorInfoQuery.xaml.cs
+END
+FunctionAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/358/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/FunctionAdded.xaml
+END
+OperatorUnLock.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8211/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorUnLock.xaml
+END
+Login.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/Login.xaml
+END
+RoleToFunction.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/552/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/RoleToFunction.xaml
+END
+OperatorStatusInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/951/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorStatusInfo.xaml
+END
+OperatorChangePwd.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8048/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorChangePwd.xaml
+END
+Login.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/Login.xaml.cs
+END
+OperatorFunctionInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/506/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorFunctionInfo.xaml
+END
+RoleToFunction.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/1959/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/RoleToFunction.xaml.cs
+END
+OperatorChangePwd.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/795/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorChangePwd.xaml.cs
+END
+FunctionManager.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/8211/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/FunctionManager.xaml
+END
+OperatorAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/649/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorAdded.xaml.cs
+END
+OperatorPrimissionAdjust.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/685/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorPrimissionAdjust.xaml
+END
+说明.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/%E8%AF%B4%E6%98%8E.txt
+END
+FunctionManager.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/977/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/FunctionManager.xaml.cs
+END
+RoleAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/8529/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/RoleAdded.xaml.cs
+END
+AFC.WS.UI.Primission.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8820/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/AFC.WS.UI.Primission.csproj
+END
+OperatorToWorkLocation.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8209/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorToWorkLocation.xaml
+END
+OperatorInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8211/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorInfoQuery.xaml
+END
+OperatorPrimissionQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8493/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorPrimissionQuery.xaml
+END
+OperatorToWorkLocation.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/671/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorToWorkLocation.xaml.cs
+END
+OperatorRoles.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/7208/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorRoles.xaml
+END
+OperatorDevTypeRelaction.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/4636/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorDevTypeRelaction.xaml.cs
+END
+OperatorPrimissionQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/1032/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorPrimissionQuery.xaml.cs
+END
+OperatorEnable.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8211/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorEnable.xaml
+END
+OperatorToDevType.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/538/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorToDevType.xaml.cs
+END
+OperatorForceLogOut.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/8211/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorForceLogOut.xaml
+END
+OperatorRoles.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/1033/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorRoles.xaml.cs
+END
+OperatorEnable.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorEnable.xaml.cs
+END
+OperatorBasiInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/951/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorBasiInfo.xaml
+END
+OperatorForceLogOut.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/4135/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorForceLogOut.xaml.cs
+END
+OperatorBasiInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/951/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorBasiInfo.xaml.cs
+END
+FunctionAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/1802/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/FunctionAdded.xaml.cs
+END
+OperatorUnLock.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorUnLock.xaml.cs
+END
+OpeatorStationRelaction.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/3768/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OpeatorStationRelaction.xaml
+END
+OperatorAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/403/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.Primission/OperatorAdded.xaml
+END

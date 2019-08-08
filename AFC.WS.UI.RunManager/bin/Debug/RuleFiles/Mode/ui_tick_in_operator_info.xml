@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+  <InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="30" TopSpace="10" ColumnCount="3" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Left" CanRest="true">
+    <ControlList>
+      <ControlProperty Space="5" Symbols="Equal" ControlName="btn_line_name" BindingField="line_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="线路" ComboBoxControl="ComboBoxExtend">
+        <PropertyValues>
+          <PropertyValue Value="SqlBindData" Key="BindType" />
+          <PropertyValue Value="select t.line_name from basi_line_id_info t order by t.line_name" Key="SqlContent" />
+          <PropertyValue Value="line_name" Key="BindDisplayField" />
+          <PropertyValue Value="line_name" Key="BindHideField" />
+          <PropertyValue Key="DataString" />
+          <PropertyValue Key="HideDataString" />
+          <PropertyValue Key="StartValue" />
+          <PropertyValue Key="ComboBoxStyle" />
+          <PropertyValue Value="100" Key="ControlWidth" />
+          <PropertyValue Value="25" Key="ControlHeight" />
+          <PropertyValue Key="BindControlName" />
+          <PropertyValue Key="UserControlClassName" />
+          <PropertyValue Value="False" Key="CanReadOnly" />
+          <PropertyValue Value="Visible" Key="CanVisibility" />
+        </PropertyValues>
+        <TextConvertor />
+      </ControlProperty>
+      <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_cn_name" BindingField="station_cn_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
+        <PropertyValues>
+          <PropertyValue Value="SqlBindData" Key="BindType" />
+          <PropertyValue Value="select t.station_cn_name from basi_station_info t where t.line_id='03' and t.location_type in ('2') order by t.station_id" Key="SqlContent" />
+          <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
+          <PropertyValue Value="station_cn_name" Key="BindHideField" />
+          <PropertyValue Key="DataString" />
+          <PropertyValue Key="HideDataString" />
+          <PropertyValue Key="StartValue" />
+          <PropertyValue Key="ComboBoxStyle" />
+          <PropertyValue Value="100" Key="ControlWidth" />
+          <PropertyValue Value="25" Key="ControlHeight" />
+          <PropertyValue Key="BindControlName" />
+          <PropertyValue Key="UserControlClassName" />
+          <PropertyValue Value="False" Key="CanReadOnly" />
+          <PropertyValue Value="Visible" Key="CanVisibility" />
+        </PropertyValues>
+        <TextConvertor />
+      </ControlProperty>
+      <ControlProperty Space="5" Symbols="Like" ControlName="btn_operator_id" BindingField="operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="操作员编码" ComboBoxControl="TextBoxExtend">
+        <PropertyValues>
+          <PropertyValue Value="None" Key="TextBoxValidate" />
+          <PropertyValue Value="100" Key="ControlWidth" />
+          <PropertyValue Value="25" Key="ControlHeight" />
+          <PropertyValue Value="9" Key="RegMaxLength" />
+          <PropertyValue Value="1" Key="RegMinLength" />
+          <PropertyValue Value="9999999999" Key="MaxValue" />
+          <PropertyValue Value="0" Key="MinValue" />
+          <PropertyValue Key="RegularExpression" />
+          <PropertyValue Key="TextBoxStyle" />
+          <PropertyValue Key="BorderStyle" />
+          <PropertyValue Value="" Key="Text" />
+          <PropertyValue Value="False" Key="CanReadOnly" />
+          <PropertyValue Value="Visible" Key="CanVisibility" />
+          <PropertyValue Key="UserControlClassName" />
+          <PropertyValue Value="NoWrap" Key="TextWrap" />
+          <PropertyValue Value="False" Key="AcceptReturn" />
+          <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+          <PropertyValue Value="False" Key="IsNull" />
+          <PropertyValue Key="UserDefinedInfo" />
+          <PropertyValue Value="True" Key="CanEnabled" />
+        </PropertyValues>
+      </ControlProperty>
+      <ControlProperty Space="5" Symbols="Equal" ControlName="btn_tick_mana_type_name" BindingField="tioi.tick_mana_type" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="库存管理类型" ComboBoxControl="ComboBoxExtend">
+        <PropertyValues>
+          <PropertyValue Value="SqlBindData" Key="BindType" />
+          <PropertyValue Value="select t.tick_mana_type,t.tick_mana_type_name from basi_tick_mana_type_info t union all select p.tick_mana_type,p.tick_mana_type_name from tick_valued_product_info p" Key="SqlContent" />
+          <PropertyValue Value="tick_mana_type_name" Key="BindDisplayField" />
+          <PropertyValue Value="tick_mana_type" Key="BindHideField" />
+          <PropertyValue Key="DataString" />
+          <PropertyValue Key="HideDataString" />
+          <PropertyValue Key="StartValue" />
+          <PropertyValue Key="ComboBoxStyle" />
+          <PropertyValue Value="100" Key="ControlWidth" />
+          <PropertyValue Value="25" Key="ControlHeight" />
+          <PropertyValue Key="BindControlName" />
+          <PropertyValue Key="UserControlClassName" />
+          <PropertyValue Value="False" Key="CanReadOnly" />
+          <PropertyValue Value="Visible" Key="CanVisibility" />
+        </PropertyValues>
+        <TextConvertor />
+      </ControlProperty>
+    </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnQuery"  Content="查询"   IsDefaultButton="true"  ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction"  >
+      <PropertyValues>
+        <PropertyValue Key="DataSourceName" Value="ds_tick_in_operator_info"/>
+        <PropertyValue Key="StartDateControlName" />
+        <PropertyValue Key="EndDateControlName" />
+        <PropertyValue Key="DateTimeFormat" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

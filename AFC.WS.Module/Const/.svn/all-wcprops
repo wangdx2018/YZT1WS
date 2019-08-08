@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/9865/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const
+END
+BoxOperationType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/4859/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/BoxOperationType.cs
+END
+ControlCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/4379/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/ControlCode.cs
+END
+RunModeStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/5442/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/RunModeStatus.cs
+END
+CtrolCommandCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/9706/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/CtrolCommandCode.cs
+END
+TickStoreChangeType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/3780/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/TickStoreChangeType.cs
+END
+BasiDevType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/3411/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/BasiDevType.cs
+END
+ModeCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/1895/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/ModeCode.cs
+END
+SynMessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/9398/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/SynMessageType.cs
+END
+AsynMessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/9873/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/AsynMessageType.cs
+END
+CSSStatusIDInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/9817/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/CSSStatusIDInfo.cs
+END
+ErrorLogData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/ErrorLogData.cs
+END
+AGDIR.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TJ_AFC/!svn/ver/5305/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/AGDIR.cs
+END
+CssFileType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/8415/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/CssFileType.cs
+END
+OeratorCheckInOutType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/3780/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/OeratorCheckInOutType.cs
+END
+OperationCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/9865/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/OperationCode.cs
+END
+SynMessageSubscribeId.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/9398/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/SynMessageSubscribeId.cs
+END
+OperatorStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/646/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/OperatorStatus.cs
+END
+AlarmStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/9852/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/AlarmStatus.cs
+END
+PwdModifyResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/1489/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/PwdModifyResult.cs
+END
+CommMsgType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/9755/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/CommMsgType.cs
+END
+RoleStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TJ_AFC/!svn/ver/646/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.Module/Const/RoleStatus.cs
+END

@@ -1,0 +1,8 @@
+﻿<UserControl x:Class="AFC.WS.UI.UIPage.SLEMonitor.BoxManager"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  >
+    <Grid x:Name="sp">
+            
+    </Grid>
+</UserControl>

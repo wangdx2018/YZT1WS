@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TemplateCollections>
+  <Template id="001" name="MainTemplate">
+    <Cell id="mainArea" rowCount="3" width="100%" height="100%">
+      <Cell id="topArea" rowIndex="0" height="15%" width="100%" isFixed="true" isCanHide="true"/>
+      <Cell id="middleArea" rowIndex="1" height="82%" width="100%" columnCount="2">
+        <Cell id="leftArea" columnIndex="0" width="18%" height="100%" isFixed="true" isCanHide="true"/>
+        <Cell id="rightArea" columnIndex="1" width="80%" height="100%" isFixed="false" isCanHide="true" />
+      </Cell>
+      <Cell id="bottomArea" rowIndex="2" height="5%" width="100%" isCanHide="true" isFixed="true" />
+    </Cell>
+  </Template>
+</TemplateCollections>
+

@@ -1,0 +1,91 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.DataManager.TimeTaskExcuteUpdate"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:commonControls="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" 
+   
+   Background="{DynamicResource MainBackgroundBrush}" Style="{DynamicResource ucStyle}">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                    <GroupBox Header="更新定时任务信息" Height="380" Width="600" >
+                    <Grid x:Name="rootLayout" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="40*"></RowDefinition>
+                            <RowDefinition Height="10*"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="任务编码" Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Height="25" Margin="0,0,8.857,0"/>
+                        <commonControls:TextBoxExtend  x:Name="task_id" Grid.Row="1" Grid.Column="2" IsEnabled="False" Margin="14.572,1.313,38.428,21.729" RegMinLength="4" RegMaxLength="4" TextBoxValidate="AllNumbers"/>
+
+                        <Label Content="任务名称" Grid.Row="1" Grid.Column="3" Margin="0,1.313,8.857,13"/>
+                        <commonControls:TextBoxExtend  x:Name="task_name" Grid.Row="1" Grid.Column="4" IsEnabled="True" Margin="20,1.313,33,21.729" RegMinLength="8" RegMaxLength="20" TextBoxValidate="None"/>
+
+                        <Label Content="任务执行方式" Grid.Row="2" Grid.Column="1" Margin="0,0,10,0" Height="24.828" VerticalAlignment="Top" />
+                        <ComboBox x:Name="task_execute_way" Grid.Column="2" IsEnabled="True" Margin="14.858,0.172,38.142,22.87" Grid.Row="2" VerticalAlignment="Top" SelectedIndex="0">
+                        <ComboBoxItem Content="任务以函数调用" Tag="1"/>
+                        <ComboBoxItem Content="任务以fork子进程执行" Tag="2"/>
+                        </ComboBox>
+
+                        <Label Content="程序绝对路径" Grid.Row="2" Grid.Column="3" Margin="0,0.172,10,23.042" />
+                        <commonControls:TextBoxExtend x:Name="task_execute_funpro" Grid.Column="4" IsEnabled="True" Margin="20,0.172,33,22.87" RegMaxLength="10" TextBoxValidate="AllNumbers" Grid.Row="2" />
+
+                        <Label Content="任务执行方法" Grid.Row="3" Grid.Column="1" Margin="0,0,8.857,0" Height="26.433" VerticalAlignment="Top" />
+                        <ComboBox x:Name="task_execute_method" Grid.Column="2" IsEnabled="True" Margin="14.858,0,38.142,0" Grid.Row="3" Height="25" VerticalAlignment="Top" SelectedIndex="0">
+                        <ComboBoxItem Content="任务轮询执行" Tag="1"/>
+                        <ComboBoxItem Content="任务明天定点执行" Tag="2"/>
+                        </ComboBox>
+
+                        <Label Content="轮询开始时间" Grid.Row="3" Grid.Column="3" Margin="0,0,8.857,21.608" />
+                        <commonControls:TextBoxExtend x:Name="task_start_executing_time" Grid.Column="4" IsEnabled="True" Margin="20,48.041,33,23.042" RegMaxLength="6" TextBoxValidate="AllNumbers" Grid.Row="2" Grid.RowSpan="2" />
+
+                        <Label Grid.Column="1" Margin="0,0,8.857,0" Height="26.433" Grid.Row="4" VerticalAlignment="Top">轮询结束时间</Label>
+                        <commonControls:TextBoxExtend x:Name="task_end_executing_time" Grid.Column="2" IsEnabled="True" Margin="15,0,38,0" RegMaxLength="6" TextBoxValidate="AllNumbers" Height="25" Grid.Row="4" VerticalAlignment="Top" />
+
+                        <Label Grid.Column="3" Margin="0,1.433,8.857,20.176" Grid.Row="4">任务执行时间</Label>
+                        <commonControls:TextBoxExtend x:Name="task_interval" Grid.Column="4" IsEnabled="True" Margin="20,0,33,23.042" RegMaxLength="6" TextBoxValidate="AllNumbers" Grid.Row="4" />
+
+                        <Label Margin="8.857,0,10,0" Height="26.433" Grid.Row="5" VerticalAlignment="Top" Grid.ColumnSpan="2">任务来源</Label>
+                        <ComboBox x:Name="task_source" Grid.Column="2" IsEnabled="True" Margin="15,0,38,0" Height="25" Grid.Row="5" VerticalAlignment="Top" SelectedIndex="0" >
+                        <ComboBoxItem Content="任务来源为系统内部" Tag="1"/>
+                        <ComboBoxItem Content="任务来源为ACC" Tag="2"/>
+                        </ComboBox>
+
+                        <Label Margin="0,46.609,8.857,23.042" Grid.Row="4" Grid.Column="3" Grid.RowSpan="2">生效状态</Label>
+                        <ComboBox x:Name="task_is_effect" Grid.Column="4" IsEnabled="True" Margin="20,1.433,33,21.608" Grid.Row="5" VerticalAlignment="Top" SelectedIndex="0" Height="25">
+                        <ComboBoxItem Content="生效" Tag="1"/>
+                        <ComboBoxItem Content="未生效" Tag="2"/>
+                        </ComboBox>
+
+                        <Label Margin="0,0,8.857,21.609" Grid.Row="6" Grid.Column="1">运行状态</Label>
+                        <ComboBox x:Name="task_is_related_running_time" Grid.Column="2" IsEnabled="True" Margin="14.858,0,38.428,23" Grid.Row="6" VerticalAlignment="Top" SelectedIndex="0" Height="25">
+                            <ComboBoxItem Content="任务与运行时间表有关" Tag="1"/>
+                            <ComboBoxItem Content="任务与运行时间表无关" Tag="2"/>
+                        </ComboBox>
+                        <Label Grid.Column="2" Margin="0,0,10,21.609" Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="112.857">任务评述</Label>
+                        <commonControls:TextBoxExtend Grid.Column="4" IsEnabled="True" Margin="20,1.431,33.286,21.609" Name="task_remak" RegMaxLength="20" TextBoxValidate="None" Grid.Row="6" />
+
+                        <Button Grid.Column="2" Grid.Row="7" Margin="43.429,15,38,9" Name="button1" Click="btnUpdateProvider_Click">确定</Button>
+                        <Button Grid.Column="3" Grid.Row="7" Margin="38.429,15,0,10.699" Name="button2" Click="btnReset_Click">重置</Button>
+                        </Grid>
+                </GroupBox>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

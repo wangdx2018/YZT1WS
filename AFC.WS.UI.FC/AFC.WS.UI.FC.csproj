@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EF79B35-5D62-4F20-B327-0C0768B61696}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFC.WS.UI.FC</RootNamespace>
+    <AssemblyName>AFC.WS.UI.FC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFC.BJComm, Version=0.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BJComm.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.MessageDispacher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.MessageDispacher.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.UIController, Version=0.1.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.UIController.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data">
+      <HintPath>..\Lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.31016.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts, Version=2.2.0.0, Culture=neutral, PublicKeyToken=99d724542e4db593, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.DBO">
+      <HintPath>..\Lib\WS.DBO.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.FTP, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WS.FTP.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonControls\BaseWindow.xaml.cs">
+      <DependentUpon>BaseWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\DateRangSelect.cs" />
+    <Compile Include="CommonControls\DateRangWindow.xaml.cs">
+      <DependentUpon>DateRangWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonControls\DateSelect.xaml.cs">
+      <DependentUpon>DateSelect.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonControls\DateTimePickerGroupExtend.xaml.cs">
+      <DependentUpon>DateTimePickerGroupExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\DoublePermissions.xaml.cs">
+      <DependentUpon>DoublePermissions.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonControls\MessageDialog.xaml.cs">
+      <DependentUpon>MessageDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\NumericUpDownExtend.xaml.cs">
+      <DependentUpon>NumericUpDownExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Actions\DbAction.cs" />
+    <Compile Include="CommonControls\CheckBoxExtend.xaml.cs">
+      <DependentUpon>CheckBoxExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\CheckBoxGroup.xaml.cs">
+      <DependentUpon>CheckBoxGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\ComboBoxExtend.xaml.cs">
+      <DependentUpon>ComboBoxExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\DataGridControl.xaml.cs">
+      <DependentUpon>DataGridControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\DateTimePickerExtend.xaml.cs">
+      <DependentUpon>DateTimePickerExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\LabelExtend.xaml.cs">
+      <DependentUpon>LabelExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\PasswordExtend.xaml.cs">
+      <DependentUpon>PasswordExtend.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonControls\RadioButtonGroup.xaml.cs">
+      <DependentUpon>RadioButtonGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\RadioButtonExtend.xaml.cs">
+      <DependentUpon>RadioButtonExtend.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\RelactionContol.xaml.cs">
+      <DependentUpon>RelactionContol.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\Searching.xaml.cs">
+      <DependentUpon>Searching.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\ShowDetailsDialog.xaml.cs">
+      <DependentUpon>ShowDetailsDialog.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonControls\TextBoxExtend.xaml.cs">
+      <DependentUpon>TextBoxExtend.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommonControls\TimePicker.xaml.cs">
+      <DependentUpon>TimePicker.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\ValidateImage.xaml.cs">
+      <DependentUpon>ValidateImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Common\AttributeFilter.cs" />
+    <Compile Include="Common\DBCommon.cs" />
+    <Compile Include="Common\FTPCommon.cs" />
+    <Compile Include="Common\IAction.cs" />
+    <Compile Include="Common\IChartDataSource.cs" />
+    <Compile Include="Common\IComboBoxDataSource.cs" />
+    <Compile Include="Common\ICommonEdit.cs" />
+    <Compile Include="Common\IConvertor.cs" />
+    <Compile Include="Common\ICrystalRptData.cs" />
+    <Compile Include="Common\IDataGridSelectionChangeHandle.cs" />
+    <Compile Include="Common\IDataProviderInterface.cs" />
+    <Compile Include="Common\IDataSource.cs" />
+    <Compile Include="Common\IDataSourceClient.cs" />
+    <Compile Include="Common\IListValueConvertor.cs" />
+    <Compile Include="Common\IObjectConvetor.cs" />
+    <Compile Include="Common\ISetGirdRowColor.cs" />
+    <Compile Include="Common\LogCommon.cs" />
+    <Compile Include="Common\NTPClient.cs" />
+    <Compile Include="Common\ObjectConvertUtil.cs" />
+    <Compile Include="Common\QueryCondition.cs" />
+    <Compile Include="Common\ResultStatus.cs" />
+    <Compile Include="Common\ScreenPrint.cs" />
+    <Compile Include="Common\SysConfig.cs" />
+    <Compile Include="Common\Util.cs" />
+    <Compile Include="Common\WriteLogComm.cs" />
+    <Compile Include="Common\WriteLogApiComm.cs" />
+    <Compile Include="Common\WriteLog\WriteLog.cs" />
+    <Compile Include="Common\WriteLog\WriteLogApi.cs" />
+    <Compile Include="Components\ActionManager.cs" />
+    <Compile Include="Components\ChartControl.xaml.cs">
+      <DependentUpon>ChartControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ControlInfo.cs" />
+    <Compile Include="Components\DataListControl.xaml.cs">
+      <DependentUpon>DataListControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\InteractiveControl.xaml.cs">
+      <DependentUpon>InteractiveControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ISysConfig.cs" />
+    <Compile Include="Components\UIHelper.cs" />
+    <Compile Include="Config\ComboBoxTypeConvert.cs" />
+    <Compile Include="Config\Common.cs" />
+    <Compile Include="Config\PropertyHelper.cs" />
+    <Compile Include="Config\Property\ActionProperty.cs" />
+    <Compile Include="Config\Property\ChartProperty.cs" />
+    <Compile Include="Config\Property\ColumnProperty.cs" />
+    <Compile Include="Config\Property\ControlProperty.cs" />
+    <Compile Include="Config\Property\DataSeriesProperty.cs" />
+    <Compile Include="Config\Property\DllClassProperty.cs" />
+    <Compile Include="Config\Property\DllProperty.cs" />
+    <Compile Include="Config\Property\PropertyValue.cs" />
+    <Compile Include="Config\Rule\ChartRule.cs" />
+    <Compile Include="Config\Rule\DataListRule.cs" />
+    <Compile Include="Config\Rule\DataSourceRule.cs" />
+    <Compile Include="Config\Rule\InteractiveControlRule.cs" />
+    <Compile Include="Config\SqlSentenceEventArgs.cs" />
+    <Compile Include="Config\TypeConvertPropertyGrid.cs" />
+    <Compile Include="Convertors\CommBRConvetor.cs" />
+    <Compile Include="Convertors\ComplexDataConvetor.cs" />
+    <Compile Include="Convertors\DateTimeConvert.cs" />
+    <Compile Include="Convertors\ParamsHeaderConvertor.cs" />
+    <Compile Include="DataSources\AccessDataSource.cs" />
+    <Compile Include="DataSources\ChartDataSource.cs" />
+    <Compile Include="DataSources\ComboBoxDataSource.cs" />
+    <Compile Include="DataSources\DataSourceManager.cs" />
+    <Compile Include="DataSources\DefaultDataSource.cs" />
+    <Compile Include="Convertors\ListObjectConvertor.cs" />
+    <Compile Include="DataSources\ObjectDataSource.cs" />
+    <Compile Include="Convertors\SimpleObjectConvertor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CommonControls\BaseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\CheckBoxExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\CheckBoxGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\ComboBoxExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\DataGridControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\DateRangWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\DateSelect.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\DateTimePickerExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\DateTimePickerGroupExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\DoublePermissions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\LabelExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\MessageDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\NumericUpDownExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\PasswordExtend.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\RadioButtonGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\RadioButtonExtend.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\RelactionContol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\Searching.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommonControls\ShowDetailsDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\TextBoxExtend.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\TimePicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\ValidateImage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\ChartControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\DataListControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\InteractiveControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CommonControls\image\afc.ico">
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\aerobg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\error.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\info.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\key-1.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\question.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\warning.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="CommonControls\image\MessageDialog\close.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\closeMouseOver.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\Maximize.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\MaximizeMouseOver.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\Minimize.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="CommonControls\image\MessageDialog\MinimizeMouseOver.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

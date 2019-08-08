@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_operContentQuery" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select *
+  from (select t.content_sn,
+               t.project_name,
+               t.content,
+               t.update_date,
+               t.update_time,
+               t.operator_id,
+               poi.operator_name,
+               m.line_name,
+               n.station_cn_name
+          from oper_content_log_info t
+          left join basi_line_id_info m on t.line_id = m.line_id
+          left join basi_station_info n on t.station_id = n.station_id
+          left join priv_operator_info poi on poi.operator_id =
+		                                                      t.operator_id)" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="update_date desc,update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

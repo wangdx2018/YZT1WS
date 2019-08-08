@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" LabWidthPercent="45" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="0" LayoutMode="Flow" ActionLocation="Left" ActionAlign="Left" CanRest="true">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_maintain_area_name" BindingField="maintain_area_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="维修工区名称" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select distinct bmai.maintain_area_name from basi_maintain_area_info bmai" Key="SqlContent" />
+        <PropertyValue Value="maintain_area_name" Key="BindDisplayField" />
+        <PropertyValue Value="maintain_area_name" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_cn_name" BindingField="station_cn_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select distinct bsi.station_cn_name from basi_station_info bsi where bsi.line_id='03'" Key="SqlContent" />
+        <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
+        <PropertyValue Value="station_cn_name" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_update_operator" BindingField="update_operator" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="更新操作员" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnQuery"  Content="查询"   IsDefaultButton="true"  ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="ds_maintain_area_station_info" Key="DataSourceName" />
+        <PropertyValue Key="StartDateControlName" />
+        <PropertyValue Key="EndDateControlName" />
+        <PropertyValue Key="DateTimeFormat" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

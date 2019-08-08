@@ -1,0 +1,42 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.sellPaperAmountType"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:FC="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+  xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+                        xmlns:my="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+                       xmlns:m="clr-namespace:AFC.WS.UI.Params">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <StackPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <GroupBox Header="售票接受的纸币面额种类" x:Name="groupBoxHeader">
+                            <Grid Name="gExportQuery">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="10*"/>
+                                    <RowDefinition Height="80*"/>
+                                    <RowDefinition Height="10*"/>
+                                </Grid.RowDefinitions>
+                                <StackPanel Name="checkPanel" Orientation="Vertical" Grid.Row="1">
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="5角" x:Name="checkBoxType0"  VerticalContentAlignment="Center"  VerticalAlignment="Center" Width="50" Grid.Row="0" Grid.Column="1"></FC:CheckBoxExtend>
+
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="1元" x:Name="checkBoxType1" VerticalContentAlignment="Center" VerticalAlignment="Center" Width="50" Grid.Row="0" Grid.Column="2"></FC:CheckBoxExtend>
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="5元" x:Name="checkBoxType2" VerticalContentAlignment="Center"   VerticalAlignment="Center" Width="50"  Grid.Row="1" Grid.Column="1"></FC:CheckBoxExtend>
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="10元" x:Name="checkBoxType3" VerticalContentAlignment="Center"   VerticalAlignment="Center" Width="50"  Grid.Row="1" Grid.Column="2"></FC:CheckBoxExtend>
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="20元" x:Name="checkBoxType4" VerticalContentAlignment="Center"   VerticalAlignment="Center" Width="50"  Grid.Row="2" Grid.Column="1"></FC:CheckBoxExtend>
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="50元" x:Name="checkBoxType5" VerticalContentAlignment="Center"   VerticalAlignment="Center" Width="50"  Grid.Row="2" Grid.Column="2"></FC:CheckBoxExtend>
+                                    <FC:CheckBoxExtend Margin="0,10,0,0" Content="100元" x:Name="checkBoxType6" VerticalContentAlignment="Center"   VerticalAlignment="Center" Width="50"  Grid.Row="3" Grid.Column="1"></FC:CheckBoxExtend>
+                                    <Button Name="btnGetValue" Margin="0,10,0,10" Grid.Column="2" Grid.Row="2" Width="80" Content="更新" Click="btnGetValue_Click"  />
+                                </StackPanel>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+            </Grid>
+            </StackPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

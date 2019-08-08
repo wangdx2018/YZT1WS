@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TJ_AFC/!svn/ver/9175/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager
+END
+BasiDevInfoUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9175/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiDevInfoUpdate.cs
+END
+BasiStationHallIdInfoUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8227/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiStationHallIdInfoUpdate.cs
+END
+BasiHallGroupIdInfoAdd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiHallGroupIdInfoAdd.cs
+END
+BasiStationHallIdInfoDel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiStationHallIdInfoDel.cs
+END
+LCRunStartAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/LCRunStartAction.cs
+END
+SCRunEndAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/SCRunEndAction.cs
+END
+SCDevStartAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/SCDevStartAction.cs
+END
+BasiStationHallIdInfoAdd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiStationHallIdInfoAdd.cs
+END
+SCRunStartAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/SCRunStartAction.cs
+END
+BasiHallGroupIdInfoUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8227/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiHallGroupIdInfoUpdate.cs
+END
+LCRunEndAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/LCRunEndAction.cs
+END
+SCDevEndAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/SCDevEndAction.cs
+END
+BasiHallGroupIdInfoDel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/RunManager/BasiHallGroupIdInfoDel.cs
+END

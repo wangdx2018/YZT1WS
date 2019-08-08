@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="23" TopSpace="10" ColumnCount="4" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Right" CanRest="false">
+  <ControlList>
+  
+    <ControlProperty Space="5" Symbols="Like" ControlName="txtOperatorId" BindingField="operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="编码" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="90" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Like" ControlName="txtOperatorName" BindingField="operator_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="姓名" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="90" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="20" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="cmbStatus" BindingField="validity_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="状态" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="DataString" Key="BindType" />
+        <PropertyValue Key="SqlContent" />
+        <PropertyValue Value="validity_status" Key="BindDisplayField" />
+        <PropertyValue Value="validity_status" Key="BindHideField" />
+        <PropertyValue Value="全部,正常,密码终止,停用,强制修改密码,未启用" Key="DataString" />
+        <PropertyValue Value="99,00,01,02,04,05" Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="90" Key="ControlWidth" />
+        <PropertyValue Value="23" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnOpeation"  Content="查询"   IsDefaultButton="true"  ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="DataSourceName" Value="ds_operatorStatus" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

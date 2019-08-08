@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9095/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls
+END
+ComboBoxExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/ComboBoxExtend.xaml
+END
+DataGridControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DataGridControl.xaml
+END
+DateSelect.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateSelect.xaml.cs
+END
+DateTimePickerGroupExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateTimePickerGroupExtend.xaml.cs
+END
+ComboBoxExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/848/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/ComboBoxExtend.xaml.cs
+END
+DataGridControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DataGridControl.xaml.cs
+END
+DateRangSelect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateRangSelect.cs
+END
+LabelExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/LabelExtend.xaml.cs
+END
+CheckBoxGroup.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/CheckBoxGroup.xaml
+END
+RelactionContol.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/7114/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/RelactionContol.xaml.cs
+END
+MessageDialog.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8978/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/MessageDialog.xaml
+END
+TextBoxExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/TextBoxExtend.xaml
+END
+DoublePermissions.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/9095/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DoublePermissions.xaml
+END
+Searching.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/Searching.xaml.cs
+END
+RadioButtonGroup.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/RadioButtonGroup.xaml
+END
+NumericUpDownExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/NumericUpDownExtend.xaml
+END
+MessageDialog.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/7190/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/MessageDialog.xaml.cs
+END
+DoublePermissions.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DoublePermissions.xaml.cs
+END
+DateSelect.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateSelect.xaml
+END
+DateTimePickerGroupExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateTimePickerGroupExtend.xaml
+END
+DateRangWindow.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateRangWindow.xaml.cs
+END
+LabelExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8036/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/LabelExtend.xaml
+END
+TimePicker.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/TimePicker.xaml
+END
+ValidateImage.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/ValidateImage.xaml
+END
+CheckBoxExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/CheckBoxExtend.xaml
+END
+RelactionContol.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/7114/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/RelactionContol.xaml
+END
+TimePicker.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/3989/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/TimePicker.xaml.cs
+END
+ValidateImage.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/ValidateImage.xaml.cs
+END
+DateTimePickerExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateTimePickerExtend.xaml
+END
+RadioButtonExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/RadioButtonExtend.xaml
+END
+BaseWindow.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/1315/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/BaseWindow.xaml
+END
+CheckBoxExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/CheckBoxExtend.xaml.cs
+END
+Searching.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/Searching.xaml
+END
+RadioButtonExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/RadioButtonExtend.xaml.cs
+END
+DateTimePickerExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/3807/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateTimePickerExtend.xaml.cs
+END
+BaseWindow.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/1315/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/BaseWindow.xaml.cs
+END
+ShowDetailsDialog.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/ShowDetailsDialog.xaml
+END
+CheckBoxGroup.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/3441/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/CheckBoxGroup.xaml.cs
+END
+TextBoxExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8964/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/TextBoxExtend.xaml.cs
+END
+PasswordExtend.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/PasswordExtend.xaml
+END
+ShowDetailsDialog.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/ShowDetailsDialog.xaml.cs
+END
+NumericUpDownExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/NumericUpDownExtend.xaml.cs
+END
+RadioButtonGroup.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/RadioButtonGroup.xaml.cs
+END
+DateRangWindow.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/DateRangWindow.xaml
+END
+PasswordExtend.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/CommonControls/PasswordExtend.xaml.cs
+END

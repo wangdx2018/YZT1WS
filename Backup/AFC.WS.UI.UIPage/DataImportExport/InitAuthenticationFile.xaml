@@ -1,0 +1,32 @@
+﻿
+<local:UserControlBase x:Class="AFC.WS.UI.UIPage.DataImportExport.InitAuthenticationFile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController" 
+    xmlns:toolKit="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:my="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" >
+    <Grid>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder" >
+            <GroupBox Header="初始化USB" Height="220" Width="390">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="25*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="请插入移动硬盘：" Grid.Row="0" Grid.Column="0"  HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                    <DockPanel HorizontalAlignment="Center" Grid.Row="1">
+                        <Label Content="序列号:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <my:TextBoxExtend  Width="180" Height="28"   x:Name="txtPhysicalSN" CanReadOnly="True" />
+                    </DockPanel>
+                    <Label Name="lblResult" Content=""  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <StackPanel HorizontalAlignment="Center" Grid.Row="3" Orientation="Horizontal">
+                        <Button Content="初始化" x:Name="btuInit" Click="btuInit_Click"></Button>
+                    </StackPanel>
+                </Grid>
+            </GroupBox>
+        </Border>
+    </Grid>
+         
+</local:UserControlBase>

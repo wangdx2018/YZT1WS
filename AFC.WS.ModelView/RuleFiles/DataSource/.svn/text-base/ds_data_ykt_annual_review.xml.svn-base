@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_data_ykt_annual_review" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select blii.line_name,
+       t.station_id,
+       bsi.station_cn_name,
+       t.device_id,
+       t.busi_udsn,
+       t.operator_id,
+       poi.operator_name,
+       (to_date(t.occur_date_time, 'YYYYMMDDHH24MISS')) occur_date_time,
+       t.card_sn,
+       btmt.tick_mana_type_name,
+       t.tran_value,
+       t.run_date,
+       t.update_date,
+       t.update_time
+  from data_ykt_annual_review t
+  left join basi_line_id_info blii on blii.line_id = t.line_id
+  left join basi_station_info bsi on bsi.station_id = t.station_id
+  left join basi_tick_mana_type_info btmt on btmt.tick_mana_type =
+                                             t.ticket_type
+  left join priv_operator_info poi on poi.operator_id = t.operator_id" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

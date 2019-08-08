@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" LabWidthPercent="60" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="1" LayoutMode="Stack" ActionLocation="Bottom" ActionAlign="Middle" CanRest="false">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4045_bom_main_login_para_version" BindingField="para_4045_bom_main_login.para_version" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" IsOccupancyRow="false" RowsCount="2" Lable="版本号">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4045_bom_main_login_pass_input_time" BindingField="para_4045_bom_main_login.pass_input_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="密码输入时间" ComboBoxControl="TextBoxExtend" ToolTip="密码输入操作的时限，超过该时间未输入密码，自动退出登录界面。单位秒">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4045_bom_main_login_login_try_times" BindingField="para_4045_bom_main_login.login_try_times" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="登录尝试次数"  InitValue="3" ComboBoxControl="TextBoxExtend" ToolTip="操作员登录设备次数限制。默认值：3次。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_para_4045_bom_main_login_no_oper_logout_time" BindingField="para_4045_bom_main_login.no_oper_logout_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="无操作自动登出时间" InitValue="120" ComboBoxControl="TextBoxExtend" ToolTip="单位秒，默认值：120秒。0表示该值无效。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" InitValue="0" ControlName="btn_para_4045_bom_main_login_main_door_unclose_alarm_time" BindingField="para_4045_bom_main_login.main_door_unclose_alarm_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC"  Lable="维修门未关闭报警时间" ComboBoxControl="TextBoxExtend" ToolTip="BOM预留此字段，填0。">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="150" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="0" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="False" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnUpdate" Content="修改" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.UpdateParaDraftVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="AFC.WS.Model.DB.Para4045BomMainLogin,AFC.WS.Model" Key="ClassTypeName" />
+        <PropertyValue Value="para_4045_bom_main_login" Key="TableName" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

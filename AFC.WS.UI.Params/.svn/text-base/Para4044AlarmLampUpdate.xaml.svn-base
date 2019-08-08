@@ -1,0 +1,93 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.Para4044AlarmLampUpdate"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="clr-namespace:AFC.WS.UI.Params"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+     Background="{DynamicResource MainBackgroundBrush}">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid x:Name="rootLayout"  >
+                    <Grid >
+                        <GroupBox Header="AGM警告灯个性参数"  Name="groupBox1" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <!--<ColumnDefinition Width="201*">
+                    </ColumnDefinition>
+                    <ColumnDefinition Width="309*">
+                    </ColumnDefinition>-->
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="39*"></RowDefinition>
+                                    <RowDefinition Height="39*"></RowDefinition>
+                                    <RowDefinition Height="39*"></RowDefinition>
+                                    <RowDefinition Height="10*"></RowDefinition>
+                                    <RowDefinition Height="134*"></RowDefinition>
+                                    <RowDefinition Height="104.309*"></RowDefinition>
+                                    <RowDefinition Height="39*"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="101*">
+                                        </ColumnDefinition>
+                                        <ColumnDefinition Width="235*">
+                                        </ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label  Name="label1" HorizontalAlignment="Right" VerticalAlignment="Center" Width="67" Grid.Column="0" Height="23.687">参数版本</Label>
+                                    <TextBox Grid.Column="1" IsReadOnly="True" IsEnabled="False" HorizontalAlignment="Left" Width="150" Height="28" Name="txtParaVersion" VerticalAlignment="Center">-1</TextBox>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="101*">
+                                        </ColumnDefinition>
+                                        <ColumnDefinition Width="235*">
+                                        </ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label  Name="label2" VerticalAlignment="Center" Grid.Column="0" HorizontalAlignment="Right">票卡发行商</Label>
+                                    <ComboBox Grid.Column="1" IsReadOnly="True"  IsEnabled="False" Width="150" Height="28" HorizontalAlignment="Left" Name="cmbIssuerID" VerticalAlignment="Center" SelectionChanged="cmbIssuerID_SelectionChanged" DropDownClosed="cmbIssuerID_DropDownClosed">
+                                        <ComboBoxItem>ACC</ComboBoxItem>
+                                        <ComboBoxItem>一卡通</ComboBoxItem>
+                                    </ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="101*">
+                                        </ColumnDefinition>
+                                        <ColumnDefinition Width="235*">
+                                        </ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label VerticalAlignment="Center" Name="label3" Grid.Column="0" HorizontalAlignment="Right"  >车票产品类型</Label>
+                                    <ComboBox  Name="cmbTickProType" IsReadOnly="True" IsEnabled="False" HorizontalAlignment="Left" Width="150" Height="28" Grid.Column="1" VerticalAlignment="Center" />
+
+
+                                </Grid>
+
+                                <Grid Grid.Row="4">
+                                    <my:ParamAGMLightEdit x:Name="ctrLightEdit"></my:ParamAGMLightEdit>
+                                </Grid>
+
+                                <Grid Grid.Row="5">
+                                    <my:ParamAGMSoundEdit  x:Name="ctrVoiceEdit"></my:ParamAGMSoundEdit>
+                                </Grid>
+
+                                <Button  Grid.Row="6" Margin="0,8,5.5,2" Name="btnUpdate" Click="btnUpdate_Click" HorizontalAlignment="Right" Width="85">更新</Button>
+                                <!--<Label Margin="97,18,37,25" Name="label1">参数版本：</Label>
+                <Label Margin="87,17,37,26" Name="label2" Grid.Row="1">票卡发行商：</Label>
+                <Label Margin="69,20,46,23" Name="label3" Grid.Row="2">车票产品类型：</Label>
+                <Label Margin="0,23,43,20" Name="label4" Grid.Row="3" HorizontalAlignment="Right" Width="57">灯处理：</Label>
+                <Label Margin="89,26,46,17" Name="label5" Grid.Row="4">声音处理：</Label>
+                <TextBox Grid.Column="1" Margin="22,19,45,29" Name="txtParaVersion" />
+                <ComboBox Grid.Column="1" Grid.Row="1" Margin="22,22,45,26" Name="cmbIssuerID" />
+                <ComboBox Margin="22,24,45,24" Name="cmbTickProType" Grid.Column="1" Grid.Row="2" />-->
+                            </Grid>
+                        </GroupBox>
+
+                    </Grid>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+
+
+    </local:UserControlBase>
+

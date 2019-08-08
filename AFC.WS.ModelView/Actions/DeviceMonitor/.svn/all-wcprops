@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/9865/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor
+END
+AlarmStatusAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9865/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/AlarmStatusAction.cs
+END
+UpdateAgUpsInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9825/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/UpdateAgUpsInfo.cs
+END
+SLEGroupControlAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/SLEGroupControlAction.cs
+END
+UpdateAgUpsAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9823/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/UpdateAgUpsAction.cs
+END
+AgUpsStatusAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9843/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/AgUpsStatusAction.cs
+END
+DelAgUpsAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9838/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/DelAgUpsAction.cs
+END
+AddAgUpsAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9838/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/AddAgUpsAction.cs
+END
+OpenAlarmMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9853/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/OpenAlarmMonitor.cs
+END
+AlarmSettingAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9865/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/AlarmSettingAction.cs
+END
+CloseAlarmMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9853/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/DeviceMonitor/CloseAlarmMonitor.cs
+END

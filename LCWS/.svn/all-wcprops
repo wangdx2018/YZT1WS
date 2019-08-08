@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/TJ_AFC/!svn/ver/9830/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS
+END
+App.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/App.xaml
+END
+App.config
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TJ_AFC/!svn/ver/9345/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/App.config
+END
+App.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/App.xaml.cs
+END
+LCWS.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TJ_AFC/!svn/ver/9350/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/LCWS.csproj
+END
+Window1.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Window1.xaml
+END
+LcwsMakeNewVersion.bat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9354/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/LcwsMakeNewVersion.bat
+END
+Window1.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/TJ_AFC/!svn/ver/7748/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Window1.xaml.cs
+END

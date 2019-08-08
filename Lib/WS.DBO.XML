@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WS.DBO</name>
+    </assembly>
+    <members>
+        <member name="T:AFC.WorkStation.DB.DBO">
+            <summary>
+            本类提供了MySql查询数据库的方法。
+            </summary>
+        </member>
+        <member name="F:AFC.WorkStation.DB.DBO.dbconn">
+            <summary>
+            定义数据库连接
+            </summary>
+        </member>
+        <member name="F:AFC.WorkStation.DB.DBO.log">
+            <summary>
+            定义日志类变量
+            </summary>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.SqlConnect">
+            <summary>
+            建立数据库连接
+            </summary>
+            <returns>-1:操作失败 ,0:操作成功</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.SqlQuery(System.Int32@,System.String,System.Object[])">
+            <summary>
+            执行有返回结果的sql查询语句
+            </summary>
+            <param name="retcode">输出结果0：操作成功，-1：操作失败</param>
+            <param name="sqlString">带参数的sql字符串,例如：string sql = "select * from tab where a = {0} and b = {1}" </param>
+            <param name="args">参数列表</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.SqlQuery(System.Int32@,System.String)">
+            <summary>
+            执行无返回结果的sql查询语句
+            </summary>
+            <param name="retcode">输出结果0：操作成功，-1：操作失败</param>
+            <param name="sqlString">完整的sql字符串</param>
+            <returns>查询结果DataSet</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.SqlClose">
+            <summary>
+            关闭数据库连接
+            </summary>
+            <returns>0:操作成功 ,-1:操作失败</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.SqlCommand(System.Int32@,System.String,System.Object[])">
+             <summary>
+            执行带参数的sql字符串操作（例如：插入/删除/更新）
+             </summary>
+             <param name="retcode">输出结果0：操作成功，-1：操作失败</param>
+             <param name="sqlString">带参数的sql字符串,例如：string sql = "select * from tab where a = {0} and b = {1}" </param>
+             <param name="args">参数列表</param>
+             <returns>查询结果:受影响的行数</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.SqlCommand(System.Int32@,System.String)">
+            <summary>
+            执行无参数的sql字符串操作（例如：插入/删除/更新）
+            </summary>
+            <param name="retcode">输出结果0：操作成功，-1：操作失败</param>
+            <param name="sqlString">完整的sql字符串</param>
+            <returns>查询结果:受影响的行数</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.GetSequenceNextVal(System.Int32@,System.String)">
+            <summary>
+            取得某一个sequence的下一个值
+            </summary>
+            <param name="retcode">输出结果0：操作成功，-1：操作失败</param>
+            <param name="sequenceName">sequence名称</param>
+            <returns>结果：sequence的下一个值</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.Transaction(System.Collections.ArrayList)">
+            <summary>
+            执行事务（参数为一个sql命令字符串列表）
+            </summary>
+            <param name="sqlStringArraylist">sql命令字符串列表</param>
+            <returns>输出结果0：操作成功，-1：操作失败</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.BeginTransaction">
+            <summary>
+            开始事务
+            </summary>
+            <returns>输出结果0：操作成功，-1：操作失败</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.Commit">
+            <summary>
+            提交事务
+            </summary>
+            <returns>输出结果0：操作成功，-1：操作失败</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.Rollback">
+            <summary>
+            回滚事务
+            </summary>
+            <returns>输出结果0：操作成功，-1：操作失败</returns>
+        </member>
+        <member name="M:AFC.WorkStation.DB.DBO.TransferStoredProcedure(System.Int32@,System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+            <summary>
+            调用存储过程访问数据库。
+            </summary>
+            <param name="strStoredProcedureName">存储过程名</param>
+            <param name="parameterCollection">参数集合</param>
+            <param name="retcode">输出结果0：操作成功，-1：操作失败</param>
+            <returns>输出结果0：操作成功，-1：操作失败</returns>
+        </member>
+    </members>
+</doc>

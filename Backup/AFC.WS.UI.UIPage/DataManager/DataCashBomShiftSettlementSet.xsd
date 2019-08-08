@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataCashBomShiftSettlementSet" targetNamespace="http://tempuri.org/DataCashBomShiftSettlementSet.xsd" xmlns:mstns="http://tempuri.org/DataCashBomShiftSettlementSet.xsd" xmlns="http://tempuri.org/DataCashBomShiftSettlementSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataCashBomShiftSettlementSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataCashBomShiftSettlementSet" msprop:Generator_DataSetName="DataCashBomShiftSettlementSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataCashBomShiftSettlementTable" msprop:Generator_UserTableName="DataCashBomShiftSettlementTable" msprop:Generator_RowDeletedName="DataCashBomShiftSettlementTableRowDeleted" msprop:Generator_RowChangedName="DataCashBomShiftSettlementTableRowChanged" msprop:Generator_RowClassName="DataCashBomShiftSettlementTableRow" msprop:Generator_RowChangingName="DataCashBomShiftSettlementTableRowChanging" msprop:Generator_RowEvArgName="DataCashBomShiftSettlementTableRowChangeEvent" msprop:Generator_RowEvHandlerName="DataCashBomShiftSettlementTableRowChangeEventHandler" msprop:Generator_TableClassName="DataCashBomShiftSettlementTableDataTable" msprop:Generator_TableVarName="tableDataCashBomShiftSettlementTable" msprop:Generator_RowDeletingName="DataCashBomShiftSettlementTableRowDeleting" msprop:Generator_TablePropName="DataCashBomShiftSettlementTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TICK_MANA_TYPE" msprop:Generator_UserColumnName="TICK_MANA_TYPE" msprop:Generator_ColumnVarNameInTable="columnTICK_MANA_TYPE" msprop:Generator_ColumnPropNameInRow="TICK_MANA_TYPE" msprop:Generator_ColumnPropNameInTable="TICK_MANA_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IN_STORE_NUM" msprop:Generator_UserColumnName="IN_STORE_NUM" msprop:Generator_ColumnVarNameInTable="columnIN_STORE_NUM" msprop:Generator_ColumnPropNameInRow="IN_STORE_NUM" msprop:Generator_ColumnPropNameInTable="IN_STORE_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL_NUM" msprop:Generator_UserColumnName="TOTAL_NUM" msprop:Generator_ColumnVarNameInTable="columnTOTAL_NUM" msprop:Generator_ColumnPropNameInRow="TOTAL_NUM" msprop:Generator_ColumnPropNameInTable="TOTAL_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CURRENCY_CODE" msprop:Generator_UserColumnName="CURRENCY_CODE" msprop:Generator_ColumnVarNameInTable="columnCURRENCY_CODE" msprop:Generator_ColumnPropNameInRow="CURRENCY_CODE" msprop:Generator_ColumnPropNameInTable="CURRENCY_CODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CURRENCY_NUM" msprop:Generator_UserColumnName="CURRENCY_NUM" msprop:Generator_ColumnVarNameInTable="columnCURRENCY_NUM" msprop:Generator_ColumnPropNameInRow="CURRENCY_NUM" msprop:Generator_ColumnPropNameInTable="CURRENCY_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL_CURRENCY_NUM" msprop:Generator_UserColumnName="TOTAL_CURRENCY_NUM" msprop:Generator_ColumnVarNameInTable="columnTOTAL_CURRENCY_NUM" msprop:Generator_ColumnPropNameInRow="TOTAL_CURRENCY_NUM" msprop:Generator_ColumnPropNameInTable="TOTAL_CURRENCY_NUMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CURRENCY_TOTAL_VALUE" msprop:Generator_UserColumnName="CURRENCY_TOTAL_VALUE" msprop:Generator_ColumnPropNameInRow="CURRENCY_TOTAL_VALUE" msprop:Generator_ColumnVarNameInTable="columnCURRENCY_TOTAL_VALUE" msprop:Generator_ColumnPropNameInTable="CURRENCY_TOTAL_VALUEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TICKET_STATUS" msprop:Generator_UserColumnName="TICKET_STATUS" msprop:Generator_ColumnPropNameInRow="TICKET_STATUS" msprop:Generator_ColumnVarNameInTable="columnTICKET_STATUS" msprop:Generator_ColumnPropNameInTable="TICKET_STATUSColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

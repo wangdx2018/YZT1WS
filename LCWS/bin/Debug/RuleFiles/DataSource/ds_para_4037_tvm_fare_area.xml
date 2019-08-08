@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_4037_tvm_fare_area" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select para_4037_fare_value_selection.para_version,para_4037_fare_value_selection.fare_value_selection_id,para_4037_fare_value_selection.fare_display_value,para_4037_fare_value_selection.fare_group_level,para_4037_fare_value_selection.fare_left_up_x_index,para_4037_fare_value_selection.fare_left_up_y_value,para_4037_fare_value_selection.fare_button_wide,para_4037_fare_value_selection.fare_button_high from para_4037_fare_value_selection" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

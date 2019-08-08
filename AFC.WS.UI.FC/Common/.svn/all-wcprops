@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/9313/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common
+END
+QueryCondition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/QueryCondition.cs
+END
+Util.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9025/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/Util.cs
+END
+IDataProviderInterface.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IDataProviderInterface.cs
+END
+IDataGridSelectionChangeHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IDataGridSelectionChangeHandle.cs
+END
+ResultStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/ResultStatus.cs
+END
+IListValueConvertor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IListValueConvertor.cs
+END
+IChartDataSource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IChartDataSource.cs
+END
+IAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IAction.cs
+END
+IConvertor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IConvertor.cs
+END
+LogCommon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/LogCommon.cs
+END
+IComboBoxDataSource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IComboBoxDataSource.cs
+END
+ScreenPrint.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/3436/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/ScreenPrint.cs
+END
+DBCommon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/9313/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/DBCommon.cs
+END
+IObjectConvetor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IObjectConvetor.cs
+END
+NTPClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TJ_AFC/!svn/ver/1933/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/NTPClient.cs
+END
+ISetGirdRowColor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/ISetGirdRowColor.cs
+END
+IDataSourceClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IDataSourceClient.cs
+END
+FTPCommon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TJ_AFC/!svn/ver/8214/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/FTPCommon.cs
+END
+WriteLogApiComm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/717/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/WriteLogApiComm.cs
+END
+IDataSource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/IDataSource.cs
+END
+SysConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TJ_AFC/!svn/ver/8214/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/SysConfig.cs
+END
+ObjectConvertUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/ObjectConvertUtil.cs
+END
+ICommonEdit.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/ICommonEdit.cs
+END
+WriteLogComm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/708/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/WriteLogComm.cs
+END
+AttributeFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/AttributeFilter.cs
+END
+ICrystalRptData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/5494/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Common/ICrystalRptData.cs
+END

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<functionCollection>
+
+  <function id="1" text="权限" buinessControlId="PremissionManager" IsVisable="true">
+    <function id="1001"  parentId="1" text="操作员管理" buinessControlId="OperatorEnable" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="1002"  parentId="1" text="操作员解锁" buinessControlId="OperatorUnLock" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="1003"  parentId="1" text="操作员密码修改" buinessControlId="OperatorChangePwd" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="1004"  parentId="1" text="角色管理" buinessControlId="RoleManager" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="1005"  parentId="1" text="功能管理" buinessControlId="FunctionManager" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="1006"  parentId="1" text="操作员强制登出" buinessControlId="OperatorForceLogOut" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  <function id="2" text="参数" buinessControlId="ParamsDataManager" IsVisable="true" >
+    <function id="2001"  parentId="2" text="参数版本信息查询" buinessControlId="ParamsVersionInfoQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2002"  parentId="2" text="参数编辑" buinessControlId="ParaDraftVersionQuery"  IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2003"  parentId="2" text="软件上传" buinessControlId="SoftwareUpload"  IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2004"  parentId="2" text="参数发布" buinessControlId="ParaPublish" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2005"  parentId="2" text="参数下载通知" buinessControlId="ParamDownLoadNotify" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2007"  parentId="2" text="参数下载/切换结果查询" buinessControlId="ParamDownLoadResultQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2009"  parentId="2" text="黑名单参数查询" buinessControlId="BlackListParamQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2010"  parentId="2" text="票价表参数查询" buinessControlId="TickFareParamQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="2011"  parentId="2" text="自定义票卡管理" buinessControlId="tickValuedManager" IsVisable="true" SysFunctionId="00000000"/>
+
+  </function>
+
+  <function id="3" text="运营" buinessControlId="RunManager" IsVisable="true" >
+    <function id="3001"  parentId="3" text="运营开始" buinessControlId="LCRunStart" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3002"  parentId="3" text="运营结束" buinessControlId="LCRunEnd" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3003"  parentId="3" text="设备监视" buinessControlId="SLEMainFrm" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3004"  parentId="3" text="监视图例" buinessControlId="LegendDescription" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3005"  parentId="3" text="群组控制" buinessControlId="DeviceMonitor2" IsVisable="true" SysFunctionId="00000000"  />
+    <function id="3007"  parentId="3" text="客流监视" buinessControlId="PassengerFlowInfo" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3008"  parentId="3" text="票价客流监视" buinessControlId="PassengerFlowFareInfo" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3009"  parentId="3" text="客流历史查询" buinessControlId="PassengerFlowHistoryInfo" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3010"  parentId="3" text="报警设置" buinessControlId="AlarmSetting" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3011"  parentId="3" text="车站信息查询" buinessControlId="BasiStationHall" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3012"  parentId="3" text="设备状态监控管理" buinessControlId="BasiStatusIdQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="3013"  parentId="3" text="设备报警历史查询" buinessControlId="DevStatusAlarmHistoryQuery" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+    <function id="4" text="日志" buinessControlId="LogDataManager" IsVisable="true" >
+    <function id="4001"  parentId="4" text="操作日志查询" buinessControlId="LogBrowse" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="4002"  parentId="4" text="错误日志查询" buinessControlId="FailLogBrowse" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="4003"  parentId="4" text="控制命令日志查询" buinessControlId="CtrlCommLogBrowse" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="4004"  parentId="4" text="双权限操作日志查询" buinessControlId="DoubleOperLogBrowse" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  <function id="5" text="模式" buinessControlId="ModeManager" IsVisable="true" >
+    <function id="5001"  parentId="5" text="模式设置" buinessControlId="ModeSet" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="5002"  parentId="5" text="模式查询" buinessControlId="StationModeQuery" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  <function id="6" text="时钟" buinessControlId="TimeManager" IsVisable="true" >
+    <function id="6001"  parentId="6" text="时钟同步" buinessControlId="TimeSyn" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  
+
+  <function id="8" text="钱票箱" buinessControlId="TickBoxManager" IsVisable="true" >
+    <function id="8001"  parentId="8" text="钱票箱初始化" buinessControlId="RfidLabelInit" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="8002"  parentId="8" text="票箱调配" buinessControlId="TicketBoxRegister" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="8003"  parentId="8" text="钱箱调配" buinessControlId="moneyBoxRegister" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="8004"  parentId="8" text="票箱状态查询" buinessControlId="TickBoxReplaceInfo" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="8005"  parentId="8" text="钱箱状态查询" buinessControlId="MoneyBoxStateInfo" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  
+
+  <function id="10" text="票务" buinessControlId="TickManager" IsVisable="true" >
+    <function id="10002"  parentId="10" text="票卡调配" buinessControlId="TickCallIn" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="10005"  parentId="10" text="票卡库存查询" buinessControlId="TicketStorageQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="10006"  parentId="10" text="票卡库存台账查询" buinessControlId="TicketStorageHistoryQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="10007"  parentId="10" text="库存变化履历查询" buinessControlId="TickStoreChangeQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="10009"  parentId="10" text="票卡交易跟踪查询" buinessControlId="TicketTrackingQuery" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  <function id="11" text="现金" buinessControlId="CashManager" IsVisable="true" >
+    <function id="11001"  parentId="11" text="现金调配" buinessControlId="CashCallIn" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="11009"  parentId="11" text="现金库存查询" buinessControlId="CashQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="11011"  parentId="11" text="库存变化履历查询" buinessControlId="CashStoreLogQuery" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+  <function id="12" text="报表" buinessControlId="ReportManager" IsVisable="true" >
+    <function id="12001"  parentId="12" text="报表打印" buinessControlId="ReportManagerMain" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+
+  <function id="13" text="数据维护" buinessControlId="DataManager" IsVisable="true" >
+    <function id="13001"  parentId="13" text="数据文件处理查看" buinessControlId="DataFileDealQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="13002"  parentId="13" text="数据文件上传查看" buinessControlId="DataFileUpQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="13003"  parentId="13" text="运营参数维护" buinessControlId="RunParamQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="13004"  parentId="13" text="定时任务表维护" buinessControlId="TimeTaskExcute" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="13005"  parentId="13" text="备注录入维护" buinessControlId="OperContentQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="13006"  parentId="13" text="票卡激活业务查询" buinessControlId="DataYKTAnnualReviewQuery" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+
+  <function id="14" text="现金票卡结算" buinessControlId="CashTicketsManager" IsVisable="true" >
+    <function id="14001"  parentId="14" text="运营日结算" buinessControlId="CashDateSettlement" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="14003"  parentId="14" text="运营日结算信息查询" buinessControlId="CashBomShiftDateSettlementInfoQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="14004"  parentId="14" text="设备结算单补打" buinessControlId="TvmSettleQuery" IsVisable="true" SysFunctionId="00000000"/>
+    <function id="14005"  parentId="14" text="系统交易信息查询" buinessControlId="BussinessQuery" IsVisable="true" SysFunctionId="00000000"/>
+  </function>
+
+
+</functionCollection>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_tick_box_status_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select * from (select tl.line_name,
+       sta.station_cn_name,
+       t.ticket_box_id,
+       subStr(t.ticket_box_id,1,4) tick_box_type,
+       tmti.tick_mana_type_name,
+       t.tickets_num,
+       case t.box_position
+         when '01' then
+          '在库'
+         when '02' then
+          '在操作员'
+         when '03' then
+          '在设备'
+         when 'FF' then
+          '未启用'
+       end box_position,
+       decode(t.box_position,
+              '01',
+              '清点',
+              'FF',
+              '清点',
+              '02',
+              '未清点',
+              '03',
+              '未清点') as box_check,
+       t.update_date,
+       t.update_time
+  from tick_box_status_info t
+  left join basi_station_info sta on sta.station_id = t.station_id
+  left join basi_line_id_info tl on tl.line_id = t.line_id
+  left join basi_tick_mana_type_info tmti on tmti.tick_mana_type =
+                                             t.tick_mana_type)" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="update_date desc,update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

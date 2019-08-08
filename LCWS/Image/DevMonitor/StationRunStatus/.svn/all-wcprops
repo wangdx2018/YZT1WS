@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/8418/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus
+END
+Station_emergency.gif
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8177/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus/Station_emergency.gif
+END
+Station_downLevel.gif
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8177/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus/Station_downLevel.gif
+END
+Station_offLine.gif
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8418/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus/Station_offLine.gif
+END
+Station_trainFailed.gif
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/TJ_AFC/!svn/ver/8418/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus/Station_trainFailed.gif
+END
+Station_close.gif
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8418/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus/Station_close.gif
+END
+Station_normal.gif
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/8177/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/StationRunStatus/Station_normal.gif
+END

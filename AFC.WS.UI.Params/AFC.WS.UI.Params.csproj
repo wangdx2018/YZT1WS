@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BCA49F47-6BEF-4B4A-9EEB-204F9586704C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFC.WS.UI.Params</RootNamespace>
+    <AssemblyName>AFC.WS.UI.Params</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFC.BOM2.MessageDispacher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AFC.WS.UI.FC\bin\Debug\AFC.BOM2.MessageDispacher.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.UIController, Version=0.1.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.UIController.dll</HintPath>
+    </Reference>
+    <Reference Include="FabTab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=292626629a736ae0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FabTab.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.31016.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WS.DBO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\WS.DBO.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlackListParamQuery.xaml.cs">
+      <DependentUpon>BlackListParamQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4042DeviceInfoAdded.xaml.cs">
+      <DependentUpon>Para4042DeviceInfoAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4042DeviceInfoUpdate.xaml.cs">
+      <DependentUpon>Para4042DeviceInfoUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4043CashType.xaml.cs">
+      <DependentUpon>Para4043CashType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4043tvmcashboxUpdate.xaml.cs">
+      <DependentUpon>Para4043tvmcashboxUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4043ValueAddAmountType.xaml.cs">
+      <DependentUpon>Para4043ValueAddAmountType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4044AlarmLampUpdate.xaml.cs">
+      <DependentUpon>Para4044AlarmLampUpdate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4314Added.xaml.cs">
+      <DependentUpon>Para4314Added.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Para4314Query.xaml.cs">
+      <DependentUpon>Para4314Query.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceInfoParamQuery.xaml.cs">
+      <DependentUpon>DeviceInfoParamQuery.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ParaDraftVersionPublish.xaml.cs">
+      <DependentUpon>ParaDraftVersionPublish.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParaDraftVersionQuery.xaml.cs">
+      <DependentUpon>ParaDraftVersionQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Param4044AlarmLamp.xaml.cs">
+      <DependentUpon>Param4044AlarmLamp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamAGMLightEdit.xaml.cs">
+      <DependentUpon>ParamAGMLightEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamAGMSoundEdit.xaml.cs">
+      <DependentUpon>ParamAGMSoundEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamDetailQuery.xaml.cs">
+      <DependentUpon>ParamDetailQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamDownLoadNotify.xaml.cs">
+      <DependentUpon>ParamDownLoadNotify.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamDownLoadNotify1313.xaml.cs">
+      <DependentUpon>ParamDownLoadNotify1313.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamDownLoadResultQuery.xaml.cs">
+      <DependentUpon>ParamDownLoadResultQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamsAGMLightErrorHandleEdit.xaml.cs">
+      <DependentUpon>ParamsAGMLightErrorHandleEdit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamsVersionInfoQuery.xaml.cs">
+      <DependentUpon>ParamsVersionInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ParamSwitchStatusQuery.xaml.cs">
+      <DependentUpon>ParamSwitchStatusQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PrimParamPublish.xaml.cs">
+      <DependentUpon>PrimParamPublish.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sellPaperAmountType.xaml.cs">
+      <DependentUpon>sellPaperAmountType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SoftwareUpload.xaml.cs">
+      <DependentUpon>SoftwareUpload.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialParamsVersionDownLoadNotify.xaml.cs">
+      <DependentUpon>SpecialParamsVersionDownLoadNotify.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TickFareParamQuery.xaml.cs">
+      <DependentUpon>TickFareParamQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="valueAddAmountType.xaml.cs">
+      <DependentUpon>valueAddAmountType.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="BlackListParamQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DeviceInfoParamQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4042DeviceInfoAdded.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4042DeviceInfoUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4043CashType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4043tvmcashboxUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4043ValueAddAmountType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4044AlarmLampUpdate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4314Added.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para4314Query.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParaDraftVersionPublish.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParaDraftVersionQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Param4044AlarmLamp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamAGMLightEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamAGMSoundEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamDetailQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamDownLoadNotify.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamDownLoadNotify1313.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamDownLoadResultQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamsAGMLightErrorHandleEdit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamsVersionInfoQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ParamSwitchStatusQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PrimParamPublish.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sellPaperAmountType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SoftwareUpload.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SpecialParamsVersionDownLoadNotify.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TickFareParamQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="valueAddAmountType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AFC.WS.BR\AFC.WS.BR.csproj">
+      <Project>{E28F43B6-5132-42D9-B196-519701DC11DA}</Project>
+      <Name>AFC.WS.BR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.ModelView\AFC.WS.ModelView.csproj">
+      <Project>{B791539B-155A-418D-95D8-5FA4470B40C7}</Project>
+      <Name>AFC.WS.ModelView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.Module\AFC.WS.Model.csproj">
+      <Project>{6A225ED0-AA37-4C27-8912-9C8D0843B49F}</Project>
+      <Name>AFC.WS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.FC\AFC.WS.UI.FC.csproj">
+      <Project>{3EF79B35-5D62-4F20-B327-0C0768B61696}</Project>
+      <Name>AFC.WS.UI.FC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.SmartClient\AFC.WS.UI.SmartClient.csproj">
+      <Project>{087EE8BA-2000-49E4-A150-19FDE46AC82B}</Project>
+      <Name>AFC.WS.UI.SmartClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSComm\TJComm.csproj">
+      <Project>{77F5B605-4355-49D0-8BB3-7503524275C6}</Project>
+      <Name>TJComm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DataSourceName="ds_dev_status_alarm_history" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+   <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+     <PropertyValue Value="select t.station_id,
+       bsi.station_cn_name,
+       t.device_id,
+       bdt.device_type,
+       bdt.device_name,
+       t.status_id,
+       bsii.css_status_id_name,
+       t.status_value,
+       bsii.is_alarm,
+       bsii.css_status_value_name,
+       bsii.status_level,
+       decode(bsii.status_level,
+              '00',
+              '正常',
+              '01',
+              '警告',
+              '02',
+              '故障',
+              '未知') as status_level_name,
+       t.update_date,
+       t.update_time,
+       t.confirm_oper,
+       poi.operator_name,
+       decode(t.is_confirm,'00','已确认','01','未确认','未知') as is_confirm,
+       t.confirm_date,
+       t.confirm_time,
+       decode(t.is_normal,'00','是','01','否','未知') as is_normal,
+       t.normal_date,
+       t.normal_time
+  from dev_status_alarm_history t
+  left join basi_station_info bsi on bsi.station_id = t.station_id
+  left join basi_status_id_info bsii on bsii.status_id = t.status_id
+                                    and bsii.status_value = t.status_value
+  left join basi_dev_type_info bdt on bdt.device_type = substr(t.device_id,5,2)
+  left join priv_operator_info poi on poi.operator_id = t.confirm_oper" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="bsii.status_level desc,t.update_date desc, t.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

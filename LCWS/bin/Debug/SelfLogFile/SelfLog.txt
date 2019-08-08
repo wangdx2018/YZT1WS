@@ -1,0 +1,144 @@
+$ERROR 2013-02-06 14:02:27 940@00000000@0@[]time out messageType=[1390] no receive data
+$ERROR 2013-02-06 14:02:27 940@00000000@0@[]Disconnect Server [10.15.121.11:7757].
+$ERROR 2013-02-06 14:02:27 979@00000000@0@[CommServerMessageThread]Unexpected Error in ReadingServer ().未将对象引用设置到对象的实例。
+$ERROR 2013-02-06 14:02:27 987@00000000@0@[CommServerMessageThread]Disconnect Server [10.15.121.11:7757].
+$ERROR 2013-02-06 14:02:27 993@00000000@0@Read Server request error.正在中止线程。
+$ERROR 2013-02-06 14:02:27 997@00000000@0@[CommListenThread]Unknown Error正在中止线程。
+$ERROR 2013-02-06 14:02:28 001@00000000@0@[CommListenThread]Unexpected Error in RequestListen ()正在中止线程。
+$INFO 2013-02-06 14:02:28 046@00000000@0@[connectInBackThread]Start Background connecting thread ...
+$ERROR 2013-02-06 14:02:28 046@00000000@0@[]Background connecting thread already started.
+$ERROR 2013-02-06 14:02:28 046@00000000@0@[]Disconnect Server [10.15.121.11:7757].
+$ERROR 2013-02-06 14:02:28 056@00000000@0@[]Background connecting thread already started.
+$INFO 2013-02-06 14:02:28 096@00000000@0@Connect to Server(0) ...
+$INFO 2013-02-06 14:02:28 096@00000000@0@[connectInBackThread]Connect to Server [10.15.121.11:7757] ...
+$INFO 2013-02-06 14:02:28 097@00000000@0@[connectInBackThread]Connect to Server [10.15.121.11:7757] done.
+$INFO 2013-02-06 14:02:28 106@00000000@0@[connectInBackThread]Background connecting thread complete.
+$INFO 2013-02-06 14:02:28 131@00000000@0@[]Send Message Size: 76
+            00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+0000000000: 00 00 00 48 00 00 13 90 00 01 01 00 03 0C 12 04 ***H************
+0000000010: 03 0B 11 01 00 00 00 0A 00 00 00 00 03 0C 12 04 ****************
+0000000020: 00 00 03 0C 00 00 00 00 51 11 F1 F4 00 00 00 00 ********Q*??****
+0000000030: 00 00 13 90 00 00 00 00 00 00 00 00 0A 70 64 68 *************pdh
+0000000040: 62 DA 8E 03 7A 6D 1E 1D 2D 27 A8 71             bú**zm*****q----
+
+$INFO 2013-02-06 14:02:28 132@00000000@0@[]has send data:
+fieldName=[header],type=[TJComm.CommHeader]  
+**************header value list*************
+fieldName=[packetLength],type=[System.Int32],value=[48]
+fieldName=[messageType],type=[System.UInt16],value=[1390]
+fieldName=[protocalVersion],type=[System.UInt32],value=[10100]
+fieldName=[senderId],type=[System.UInt32],value=[30c1204]
+fieldName=[receiveId],type=[System.UInt32],value=[30b1101]
+fieldName=[sessionId],type=[System.UInt32],value=[0a]
+fieldName=[sessionFlagMap],type=[TJComm.CommandType],value=[RESQUEST]
+**************header end value list*******************
+fieldName=[packageBody],type=[System.Object]  
+**************packageBody value list*************
+fieldName=[remark],type=[System.UInt32],value=[00]
+fieldName=[headerData],type=[TJComm.CommHeaderData]  
+**************headerData value list*************
+fieldName=[deviceId],type=[System.UInt32],value=[30c1204]
+fieldName=[stationId],type=[System.UInt16],value=[30c]
+fieldName=[opeatorId],type=[System.UInt32],value=[00]
+fieldName=[occurTime],type=[System.UInt32],value=[5111f1f4]
+fieldName=[deviceRange],type=[System.Collections.Generic.List`1[TJComm.DeviceRange]] 
+ list count is 0!
+**************headerData end value list*******************
+fieldName=[commBody],type=[TJComm.CommBodyData]  
+**************commBody value list*************
+fieldName=[messageType],type=[System.UInt16],value=[1390]
+fieldName=[sessionFlag],type=[TJComm.CommandType],value=[RESQUEST]
+**************commBody end value list*******************
+**************packageBody end value list*******************
+fieldName=[md5],type=[System.Byte[]],value=[1011210010498218142312210930294539168113]
+
+
+$INFO 2013-02-06 14:02:28 132@00000000@0@msg has put the synQueuee type=[1390]
+$INFO 2013-02-06 14:02:30 183@00000000@0@[SendAliveMsgThread]Remove timeout msg:
+fieldName=[header],type=[TJComm.CommHeader]  
+**************header value list*************
+fieldName=[packetLength],type=[System.Int32],value=[48]
+fieldName=[messageType],type=[System.UInt16],value=[1390]
+fieldName=[protocalVersion],type=[System.UInt32],value=[10100]
+fieldName=[senderId],type=[System.UInt32],value=[30c1204]
+fieldName=[receiveId],type=[System.UInt32],value=[30b1101]
+fieldName=[sessionId],type=[System.UInt32],value=[09]
+fieldName=[sessionFlagMap],type=[TJComm.CommandType],value=[RESQUEST]
+**************header end value list*******************
+fieldName=[packageBody],type=[System.Object]  
+**************packageBody value list*************
+fieldName=[remark],type=[System.UInt32],value=[00]
+fieldName=[headerData],type=[TJComm.CommHeaderData]  
+**************headerData value list*************
+fieldName=[deviceId],type=[System.UInt32],value=[30c1204]
+fieldName=[stationId],type=[System.UInt16],value=[30c]
+fieldName=[opeatorId],type=[System.UInt32],value=[00]
+fieldName=[occurTime],type=[System.UInt32],value=[5111f1e9]
+fieldName=[deviceRange],type=[System.Collections.Generic.List`1[TJComm.DeviceRange]] 
+ list count is 0!
+**************headerData end value list*******************
+fieldName=[commBody],type=[TJComm.CommBodyData]  
+**************commBody value list*************
+fieldName=[messageType],type=[System.UInt16],value=[1390]
+fieldName=[sessionFlag],type=[TJComm.CommandType],value=[RESQUEST]
+**************commBody end value list*******************
+**************packageBody end value list*******************
+fieldName=[md5],type=[System.Byte[]],value=[4115213011159492225513122115120110092504]
+
+dateTime is20130206140217
+$ERROR 2013-02-06 14:02:38 133@00000000@0@[]time out messageType=[1390] no receive data
+$ERROR 2013-02-06 14:02:38 133@00000000@0@[]Disconnect Server [10.15.121.11:7757].
+$ERROR 2013-02-06 14:02:38 150@00000000@0@[CommServerMessageThread]Unexpected Error in ReadingServer ().未将对象引用设置到对象的实例。
+$ERROR 2013-02-06 14:02:38 158@00000000@0@[CommServerMessageThread]Disconnect Server [10.15.121.11:7757].
+$ERROR 2013-02-06 14:02:38 164@00000000@0@Read Server request error.正在中止线程。
+$ERROR 2013-02-06 14:02:38 166@00000000@0@[CommListenThread]Unknown Error正在中止线程。
+$ERROR 2013-02-06 14:02:38 170@00000000@0@[CommListenThread]Unexpected Error in RequestListen ()正在中止线程。
+$INFO 2013-02-06 14:02:38 216@00000000@0@[connectInBackThread]Start Background connecting thread ...
+$ERROR 2013-02-06 14:02:38 219@00000000@0@[]Background connecting thread already started.
+$ERROR 2013-02-06 14:02:38 220@00000000@0@[]Disconnect Server [10.15.121.11:7757].
+$ERROR 2013-02-06 14:02:38 226@00000000@0@[]Background connecting thread already started.
+$INFO 2013-02-06 14:02:38 267@00000000@0@Connect to Server(0) ...
+$INFO 2013-02-06 14:02:38 267@00000000@0@[connectInBackThread]Connect to Server [10.15.121.11:7757] ...
+$INFO 2013-02-06 14:02:38 268@00000000@0@[connectInBackThread]Connect to Server [10.15.121.11:7757] done.
+$INFO 2013-02-06 14:02:38 297@00000000@0@[connectInBackThread]Background connecting thread complete.
+$INFO 2013-02-06 14:02:38 304@00000000@0@[]Send Message Size: 76
+            00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+0000000000: 00 00 00 48 00 00 13 90 00 01 01 00 03 0C 12 04 ***H************
+0000000010: 03 0B 11 01 00 00 00 0B 00 00 00 00 03 0C 12 04 ****************
+0000000020: 00 00 03 0C 00 00 00 00 51 11 F1 FE 00 00 00 00 ********Q*?t****
+0000000030: 00 00 13 90 00 00 00 00 00 00 00 00 B3 A9 03 BF ****************
+0000000040: 57 90 51 E4 75 4C E4 49 2B 33 0C D3             W*Q?uL?I*3*ó----
+
+$INFO 2013-02-06 14:02:38 305@00000000@0@[]has send data:
+fieldName=[header],type=[TJComm.CommHeader]  
+**************header value list*************
+fieldName=[packetLength],type=[System.Int32],value=[48]
+fieldName=[messageType],type=[System.UInt16],value=[1390]
+fieldName=[protocalVersion],type=[System.UInt32],value=[10100]
+fieldName=[senderId],type=[System.UInt32],value=[30c1204]
+fieldName=[receiveId],type=[System.UInt32],value=[30b1101]
+fieldName=[sessionId],type=[System.UInt32],value=[0b]
+fieldName=[sessionFlagMap],type=[TJComm.CommandType],value=[RESQUEST]
+**************header end value list*******************
+fieldName=[packageBody],type=[System.Object]  
+**************packageBody value list*************
+fieldName=[remark],type=[System.UInt32],value=[00]
+fieldName=[headerData],type=[TJComm.CommHeaderData]  
+**************headerData value list*************
+fieldName=[deviceId],type=[System.UInt32],value=[30c1204]
+fieldName=[stationId],type=[System.UInt16],value=[30c]
+fieldName=[opeatorId],type=[System.UInt32],value=[00]
+fieldName=[occurTime],type=[System.UInt32],value=[5111f1fe]
+fieldName=[deviceRange],type=[System.Collections.Generic.List`1[TJComm.DeviceRange]] 
+ list count is 0!
+**************headerData end value list*******************
+fieldName=[commBody],type=[TJComm.CommBodyData]  
+**************commBody value list*************
+fieldName=[messageType],type=[System.UInt16],value=[1390]
+fieldName=[sessionFlag],type=[TJComm.CommandType],value=[RESQUEST]
+**************commBody end value list*******************
+**************packageBody end value list*******************
+fieldName=[md5],type=[System.Byte[]],value=[179169319187144812281177622873435112211]
+
+
+$INFO 2013-02-06 14:02:38 305@00000000@0@msg has put the synQueuee type=[1390]

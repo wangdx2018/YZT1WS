@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/TJ_AFC/!svn/ver/9666/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery
+END
+FailLogBrowse.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/FailLogBrowse.xaml
+END
+BomSettleBrowse.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/BomSettleBrowse.xaml
+END
+DevSettleBrowse.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/DevSettleBrowse.xaml
+END
+FailLogBrowse.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/FailLogBrowse.xaml.cs
+END
+LogBrowse.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8213/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/LogBrowse.xaml
+END
+BomSettleBrowse.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/BomSettleBrowse.xaml.cs
+END
+OperDoubleLogBrowse.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/9666/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/OperDoubleLogBrowse.xaml
+END
+DevSettleBrowse.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/DevSettleBrowse.xaml.cs
+END
+LogBrowse.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/LogBrowse.xaml.cs
+END
+OperDoubleLogBrowse.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/8694/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/OperDoubleLogBrowse.xaml.cs
+END
+TvmSettleBrowse.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8695/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/TvmSettleBrowse.xaml
+END
+TvmSettleBrowse.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8793/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/LogQuery/TvmSettleBrowse.xaml.cs
+END

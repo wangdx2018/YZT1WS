@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BuinessControlCollection>
+  <Control id="SysStartAndCheck" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.RunManager.SysStartAndCheck,AFC.WS.UI.UIPage" isCreateNew="false">
+  </Control>
+
+  <Control id="Login" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.Login,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="OperatorUnLock" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.OperatorUnLock,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="Welcome" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.RunManager.Welcome,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="OperatorChangePwd" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.OperatorChangePwd,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="ParaDraftVersionQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParaDraftVersionQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="SpecialParamDownLoadNotify" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParamDownLoadNotify1313,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="PassengerFlowFareInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.PassengerFlow.PassengerFlowFareInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="OperatorForceLogOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.OperatorForceLogOut,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="RoleManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.RoleManager,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="FunctionManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.FunctionManager,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="OperatorEnable" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.OperatorEnable,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="OperatorQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.OperatorInfoQuery,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="ParaFullVerInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParaFullVerInfoQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="ParamsVersionInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParamsVersionInfoQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="ParamDownLoadResultQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParamDownLoadResultQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="BlackListParamQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.BlackListParamQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickFareParamQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.TickFareParamQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="Para4314Query" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.Para4314Query,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="LogBrowse" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.LogQuery.LogBrowse,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="FailLogBrowse" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.LogQuery.FailLogBrowse,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="CtrlCommLogBrowse" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DeviceMonitor.CtlCommLogBrowse,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="ParamSwitchStatusQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParamSwitchStatusQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="ParamDownLoadNotify" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParamDownLoadNotify,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="LCRunStart" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.RunManager.LCRunStart,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="LCRunEnd" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.RunManager.LCRunEnd,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="SLEMainFrm" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.SLEMonitor.SLEMainFrm,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="LegendDescription" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.SLEMonitor.LegendDescription,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="SoftwareUpload" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.SoftwareUpload,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="ModeSet" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.ModeManager.ModeSetting,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="StationModeQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.ModeManager.StationModeQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TimeSyn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TimeSyn.TimeSyn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+
+
+
+  <Control id="PassengerFlowInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.PassengerFlow.PassengerFlowInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="PassengerFlowHistoryInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.PassengerFlow.PassengerFlowHistoryInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+
+  <Control id="ParaPublish" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.ParaDraftVersionPublish,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="PrimParamPublish" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.PrimParamPublish,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="Para4314Query" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.Para4314Query,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+
+  <Control id="DeviceMonitor2" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DeviceMonitor.SLEGroupControl,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+
+  <Control id="BasiStationHall" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DeviceMonitor.BasiStationHallQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="BasiHallGroup" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DeviceMonitor.BasiHallGroupQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="devStatusQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DeviceMonitor.DevRunStatusQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="PartsInvertReg" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.Maintenance.PartsInventoryReg,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="PartsManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.Maintenance.PartsInout,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="NoLabelPartsInvertReg" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.Maintenance.NoLabelPartsReg,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="NoLabelPartsManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.Maintenance.NoLabelPartsInout,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="DevPartIdInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.DevPartIdInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="AlarmSetting" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.SLEMonitor.AlarmSetting,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="BasiDevPartIdInfoManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.BasiDevPartIdInfoManager,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="BasiProviderInfoManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.BasiProviderInfoManager,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="MaintainAreaInfoManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.MaintainAreaInfoManager,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="MaintainAreaStationInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.MaintainAreaStationInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+
+  <Control id="RfidLabelInit" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.RfidLabelInit,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="TicketBoxRegister" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TicketBoxRegister,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickBoxPutIn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TickBoxPutIn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickBoxClear" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TickBoxClear,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="EmptyTickBoxCallOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.EmptyTickBoxCallOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickStoreAdjust" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickStoreAdjust,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="CashOperatorQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashOperatorLogQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashStoreQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashStoreLogQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashStoreLogQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashStoreLogQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="TickCallIn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickCallIn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickCallOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickCallOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickCheckOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickCheckOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickCheckIn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickCheckIn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickCallOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickCallOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="TicketBoxIn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TicketBoxIn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="emptyMoneyBoxOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.EmptyMoneyBoxCallOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="MoneyBoxStateInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxStateInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TicketBoxQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TicketBoxQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashBoxReplaceInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.CashBoxReplaceInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickBoxReplaceInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TickBoxReplaceInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashBoxInDevInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.CashBoxInDevInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickBoxInDevInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.TickBoxInDevInfo,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="moneyBoxRegister" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxRegister,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="moneyBoxInOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxInOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="moneyBoxPut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxPut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="moneyBoxClear" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickMonyBoxManager.MoneyBoxClear,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="EmptyTickOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TicketBoxManager.EmptyTickBoxCallOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickStorage" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickStoreAdjust,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TicketStorageManage" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TicketStorageManage,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TicketStorageQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickStoreQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TicketStorageHistoryQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickStoreHistoryQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="CashCallIn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashCallIn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashCallOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashCallOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashCheckOut" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashCheckOut,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashStoreAdjust" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashStoreAdjust,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashCheckIn" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashCheckIn,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="CashOperAdjust" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashCheckInAdjust,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="CashQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashStoreQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashStorageManage" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.CashStorageManage,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="ReportManagerMain" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.ReportManager.ReportManagerMain,AFC.WS.UI.UIPage" isCreateNew="false">
+
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="LookHistoryReport" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.ReportManager.LookHistoryReport,AFC.WS.UI.UIPage" isCreateNew="false">
+
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickStoreChangeQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickStoreChangeQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickDispatchInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickDispatchInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TickCheckInOutQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickCheckInOutQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="TvmSettleQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.LogQuery.TvmSettleBrowse,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="BomSettleQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.LogQuery.BomSettleBrowse,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="DataOperatorSettleQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.CashManager.DataOperatorSettleQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="DataFileDealQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.DataFileDealQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="DataFileUpQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.DataFileUpQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="DeviceInfoParamQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.Params.DeviceInfoParamQuery,AFC.WS.UI.Params" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="MaintainFaultRptStatusQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.MaintainFaultRptStatusQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+  
+  <Control id="MaintainRptTrackInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.MaintainAreaManager.MaintainRptTrackInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+  
+  <Control id="RunParamQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.RunParamInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TimeTaskExcute" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.TimeTaskExcute,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="OperContentQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.OperContentQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="DevResUseInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.RunManager.DevResUseInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="StationRunStatusInfo" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.RunManager.StationRunStatusInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashDateSettlementInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.CashDateSettlementInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashDateSettlement" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.OperClassSettleDate,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+  
+  <Control id="DoubleOperLogBrowse" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.LogQuery.OperDoubleLogBrowse,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="TicketTrackingQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TicketTrackingQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+  <Control id="CashBomShiftDateSettlementInfoQuery" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.DataManager.CashBomShiftDateSettlementInfoQuery,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+  <Control id="tickValuedManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.UIPage.TickStoreManager.TickValuedProductManager,AFC.WS.UI.UIPage" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+
+
+</BuinessControlCollection>

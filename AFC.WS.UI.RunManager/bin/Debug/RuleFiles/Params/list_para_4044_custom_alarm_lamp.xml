@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="false" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_para_4044_custom_alarm_lamp" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="发行商" BindingField="card_issue_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="产品类型" BindingField="tick_mana_type_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="灯处理方式" BindingField="lamp_control" ConvertoTypeName="AFC.WS.ModelView.Convetors.ConvertToLight,AFC.WS.ModelView" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="声音处理方式" BindingField="voice_control" ConvertoTypeName="AFC.WS.ModelView.Convetors.ConvertToSound,AFC.WS.ModelView" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+
+    <ColumnProperty IsVisbility="false" HeaderName="产品类型" BindingField="tick_product_type"  Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnAddedPara4044" Content="添加" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.Params.Param4044AlarmLamp,AFC.WS.UI.Params" />
+        <PropertyValue Key="Width" Value="500" />
+        <PropertyValue Key="Height" Value="600" />
+        <PropertyValue Key="Title" Value="添加4044参数" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
+      </PropertyValues>
+    </ActionProperty>
+
+    <ActionProperty ControlName="btnUpdate" Content="编辑" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.Params.Para4044AlarmLampUpdate,AFC.WS.UI.Params" />
+        <PropertyValue Key="Width" Value="500" />
+        <PropertyValue Key="Height" Value="600" />
+        <PropertyValue Key="Title" Value="更新4044参数" />
+        <PropertyValue Key="IsCheckNULL" Value="true" />
+      </PropertyValues>
+    </ActionProperty>
+
+    <ActionProperty ControlName="btnDel" Content="删除" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.DelPara4044AlarmLamp,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
+    </ActionProperty>
+  </ActionList>
+  
+</DataListRule>

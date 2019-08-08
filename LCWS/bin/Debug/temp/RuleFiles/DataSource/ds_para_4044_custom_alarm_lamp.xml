@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_4044_custom_alarm_lamp" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.tick_product_type,&#xA;       case t.card_issuer_id&#xA;         when '01' then&#xA;          'ACC'&#xA;         when '99' then&#xA;          '一卡通'&#xA;       end card_issue_id,&#xA;       t1.tick_mana_type_name,&#xA;       t.lamp_control,&#xA;       t.voice_control&#xA;  from para_4044_custom_alarm_lamp t&#xA;  left join basi_tick_mana_type_info t1 on t1.tick_mana_type=t.tick_product_type" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Value="" Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

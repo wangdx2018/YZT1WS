@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_4042_device_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="
+       select p4di.para_version,
+       blii.line_name,
+       bsi.station_cn_name,
+       p4di.station_map_name,
+       p4di.device_id,
+       p4di.device_name,
+       p4di.device_type,
+       p4di.device_sub_type,
+       p4di.device_serial_no,
+       bshi.station_hall_name,
+       p4di.device_group_id,
+       p4di.device_group_serial_no,
+       p4di.honri_index,
+       p4di.vertical_index,
+       p4di.display_angle,
+       p4di.device_ip,
+       p4di.start_flag
+       from para_4042_device_info p4di
+       left join basi_line_id_info blii on blii.line_id = p4di.line_id
+       left join basi_station_info bsi on bsi.station_id = bsi.station_id
+       left join basi_station_hall_id_info bshi on p4di.station_id = bshi.station_id and bshi.station_hall_id = p4di.station_hall_id 
+       " Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Value= "p4di.para_version='-1'" Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

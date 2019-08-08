@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_QueryOperatorInfoByRoleId" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select distinct oper.operator_id bb,t.role_id ,oper.* from priv_operator_role_info t left join priv_operator_info oper on t.operator_id=oper.operator_id and oper.validity_status&lt;&gt;6" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="oper.update_date desc,oper.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

@@ -1,0 +1,81 @@
+﻿<Window x:Class="AFC.WS.UI.CoreUI.AlarmWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:control="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+    xmlns:local="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+    Title="报警消息" Height="500" Width="550"  >
+    <Window.Resources>
+
+                        <Storyboard Name="myStoryBoardX" x:Key="myStoryBoardX">
+                            <DoubleAnimation Storyboard.TargetProperty="Top" From="1200" To="250" Duration="0:0:0.2" RepeatBehavior="1x" />
+                        </Storyboard>
+                  
+                        <Storyboard Name="myStoryBoardY" x:Key="storyBoardY">
+                          <DoubleAnimation Storyboard.TargetProperty="Top" From="250" To="1200" Duration="0:0:0.2" RepeatBehavior="1x" />
+                        </Storyboard>
+        
+        <!--<Storyboard x:Key="storyBoard">
+            <ObjectAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(Window.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:20" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>-->
+    </Window.Resources>
+    <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70*"></RowDefinition>
+                <RowDefinition Height="30*"></RowDefinition>
+           
+            </Grid.RowDefinitions>
+
+            <GroupBox Header="报警消息列表" Grid.Row="0" Grid.Column="0">
+                <control:DataListControl x:Name="dl" ></control:DataListControl>
+            </GroupBox>
+            
+            <GroupBox Grid.Row="1" Grid.Column="0" Header="报警详细信息">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"></RowDefinition>
+                        <RowDefinition Height="60*"></RowDefinition>
+                        <RowDefinition Height="10*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20*"></ColumnDefinition>
+                            <ColumnDefinition Width="20*"></ColumnDefinition>
+                            <ColumnDefinition Width="25*"></ColumnDefinition>
+                            <ColumnDefinition Width="40*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Name="label1" VerticalAlignment="Top" Width="50" HorizontalAlignment="Left">报警ID</Label>
+                        <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" x:Name="labAlarmId" HorizontalAlignment="Right"></Label>
+
+                        <Label Grid.Row="0" Grid.Column="1" Name="label2" VerticalAlignment="Top" HorizontalAlignment="Left" >报警值</Label>
+                        <Label Grid.Row="0" Grid.Column="1"  Name="labAlarmValue" VerticalAlignment="Top"  HorizontalAlignment="Right"></Label>
+
+                        <Label  Name="label4" Grid.Row="0" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Left" >消息来源</Label>
+                        <Label  Name="labAlarmSource" Grid.Row="0" Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right"></Label>
+
+                        <Label HorizontalAlignment="Left" Grid.Row="0" Grid.Column="3" Name="label6" VerticalAlignment="Top" >发生时间</Label>
+                        <Label HorizontalAlignment="Right" Grid.Row="0" Grid.Column="3" Name="labAlarmTime" VerticalAlignment="Top" ></Label>
+                    </Grid>
+                    
+                    
+                    
+                    
+                   
+                    
+                   
+                    
+                    <TextBox Grid.Row="1" Name="txtAlarmContent" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" />
+                    
+                   
+                </Grid>
+            </GroupBox>
+            
+       
+
+        </Grid>
+    </Border>
+</Window>
+    

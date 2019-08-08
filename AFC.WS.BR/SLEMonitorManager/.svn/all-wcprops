@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/9775/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager
+END
+DevStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/9769/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/DevStatus.cs
+END
+ImageCfg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/TJ_AFC/!svn/ver/3410/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/ImageCfg.cs
+END
+SleImageCfgCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/5328/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/SleImageCfgCollection.cs
+END
+AlarmMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/9882/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/AlarmMonitor.cs
+END
+ErrorAlarm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/9775/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/ErrorAlarm.cs
+END
+SLEMonitorManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/SLEMonitorManager.cs
+END
+PositionStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/9700/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/PositionStatus.cs
+END
+AGImageCfg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/3410/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/SLEMonitorManager/AGImageCfg.cs
+END

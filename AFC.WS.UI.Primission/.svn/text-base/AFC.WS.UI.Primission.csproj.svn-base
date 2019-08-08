@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F3136A3-A9FE-4899-90E5-891322259F77}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AFC.WS.UI.Primission</RootNamespace>
+    <AssemblyName>AFC.WS.UI.Primission</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AFC.BOM2.MessageDispacher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.MessageDispacher.dll</HintPath>
+    </Reference>
+    <Reference Include="AFC.BOM2.UIController, Version=0.1.1.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\AFC.BOM2.UIController.dll</HintPath>
+    </Reference>
+    <Reference Include="FabTab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=292626629a736ae0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FabTab.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FunctionAdded.xaml.cs">
+      <DependentUpon>FunctionAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionManager.xaml.cs">
+      <DependentUpon>FunctionManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OpeatorStationRelaction.xaml.cs">
+      <DependentUpon>OpeatorStationRelaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorAdded.xaml.cs">
+      <DependentUpon>OperatorAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorBasiInfo.xaml.cs">
+      <DependentUpon>OperatorBasiInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorChangePwd.xaml.cs">
+      <DependentUpon>OperatorChangePwd.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorDevTypeRelaction.xaml.cs">
+      <DependentUpon>OperatorDevTypeRelaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorEnable.xaml.cs">
+      <DependentUpon>OperatorEnable.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorForceLogOut.xaml.cs">
+      <DependentUpon>OperatorForceLogOut.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorFunctionInfo.xaml.cs">
+      <DependentUpon>OperatorFunctionInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorImport.xaml.cs">
+      <DependentUpon>OperatorImport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorInfoQuery.xaml.cs">
+      <DependentUpon>OperatorInfoQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorPrimissionAdjust.xaml.cs">
+      <DependentUpon>OperatorPrimissionAdjust.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorPrimissionQuery.xaml.cs">
+      <DependentUpon>OperatorPrimissionQuery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorRoles.xaml.cs">
+      <DependentUpon>OperatorRoles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorStatusInfo.xaml.cs">
+      <DependentUpon>OperatorStatusInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorToDevType.xaml.cs">
+      <DependentUpon>OperatorToDevType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorToRole.xaml.cs">
+      <DependentUpon>OperatorToRole.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorToWorkLocation.xaml.cs">
+      <DependentUpon>OperatorToWorkLocation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorUnLock.xaml.cs">
+      <DependentUpon>OperatorUnLock.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleAdded.xaml.cs">
+      <DependentUpon>RoleAdded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RoleManager.xaml.cs">
+      <DependentUpon>RoleManager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RoleToFunction.xaml.cs">
+      <DependentUpon>RoleToFunction.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="FunctionAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FunctionManager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OpeatorStationRelaction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorBasiInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorChangePwd.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorDevTypeRelaction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorEnable.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorForceLogOut.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorFunctionInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorImport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorInfoQuery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorPrimissionAdjust.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorPrimissionQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorRoles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorStatusInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorToDevType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="OperatorToRole.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorToWorkLocation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OperatorUnLock.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RoleAdded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RoleManager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="RoleToFunction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AFC.WS.BR\AFC.WS.BR.csproj">
+      <Project>{E28F43B6-5132-42D9-B196-519701DC11DA}</Project>
+      <Name>AFC.WS.BR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.ModelView\AFC.WS.ModelView.csproj">
+      <Project>{B791539B-155A-418D-95D8-5FA4470B40C7}</Project>
+      <Name>AFC.WS.ModelView</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.Module\AFC.WS.Model.csproj">
+      <Project>{6A225ED0-AA37-4C27-8912-9C8D0843B49F}</Project>
+      <Name>AFC.WS.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AFC.WS.UI.FC\AFC.WS.UI.FC.csproj">
+      <Project>{3EF79B35-5D62-4F20-B327-0C0768B61696}</Project>
+      <Name>AFC.WS.UI.FC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

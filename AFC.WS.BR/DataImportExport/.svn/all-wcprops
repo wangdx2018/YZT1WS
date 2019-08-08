@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport
+END
+DiskOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/DiskOperation.cs
+END
+SoftwareDataImport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/SoftwareDataImport.cs
+END
+MemIndexFileHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/MemIndexFileHandle.cs
+END
+TradeDataImport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/TradeDataImport.cs
+END
+MemIndexFileBody.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/MemIndexFileBody.cs
+END
+Function.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/Function.cs
+END
+MessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/MessageType.cs
+END
+ParaIndexFileHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ParaIndexFileHandle.cs
+END
+GetUSBPhysicalSN.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/GetUSBPhysicalSN.cs
+END
+Header.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/Header.cs
+END
+ParamDataExport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ParamDataExport.cs
+END
+BusiDataExport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/BusiDataExport.cs
+END
+AbstractDataExport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/AbstractDataExport.cs
+END
+OperateType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/OperateType.cs
+END
+ImportExportManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ImportExportManager.cs
+END
+ValidateAuthPhysicalSN.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ValidateAuthPhysicalSN.cs
+END
+ConditionClass.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ConditionClass.cs
+END
+HeaderExtern.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/HeaderExtern.cs
+END
+IIndexFileHandler.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/IIndexFileHandler.cs
+END
+ParamDataImport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ParamDataImport.cs
+END
+SoftwareDataExport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/SoftwareDataExport.cs
+END
+BusiDataImport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/BusiDataImport.cs
+END
+AbstractDataImport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/AbstractDataImport.cs
+END
+USB.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/USB.cs
+END
+AccessDatFile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/AccessDatFile.cs
+END
+TradeDataExport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/TradeDataExport.cs
+END
+Body.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/Body.cs
+END
+IndexFileData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/IndexFileData.cs
+END
+MessageSubscribeID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/MessageSubscribeID.cs
+END
+FTPInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/FTPInfo.cs
+END
+ParamIndexFileBody.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/TJ_AFC/!svn/ver/8925/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.BR/DataImportExport/ParamIndexFileBody.cs
+END

@@ -1,0 +1,12 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Primission.OperatorPrimissionAdjust"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController">
+    <Grid>
+        <TabControl x:Name="tabControl">
+            <TabItem Header="角色分配" x:Name="tabRole"></TabItem>
+            <TabItem Header="工作地点分配" x:Name="tabSation"></TabItem>
+            <TabItem Header="设备类型分配" x:Name="tabDeviceType"></TabItem>
+        </TabControl>
+    </Grid>
+</local:UserControlBase>

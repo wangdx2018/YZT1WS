@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_maintain_fault_rpt_status" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="故障单编号" BindingField="fault_doc_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障线路" BindingField="line_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="故障线路编号" BindingField="line_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障车站" BindingField="station_cn_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="故障车站编号" BindingField="station_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="维修等级" BindingField="maintenance_level" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+        <ColumnProperty IsVisbility="true" HeaderName="故障设备" BindingField="device_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障日期" BindingField="fault_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障时间" BindingField="fault_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName= "上报人" BindingField="input_operator_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName= "上报人名称" BindingField="input_operator_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+        <ColumnProperty IsVisbility="false" HeaderName="录入日期" BindingField="input_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="录入时间" BindingField="input_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="指派维修人员" BindingField="assign_operator_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName= "指派维修人名称" BindingField="assign_operator_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障状态" BindingField="fault_status" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+        <ColumnProperty IsVisbility="true" HeaderName="故障部件" BindingField="dev_part_cn_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="维修工区" BindingField="maintenance_area_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="故障描述" BindingField="remark" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnAdd" Content="录入" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.MaintainAreaManager.MaintainRptTrackInfoAdded,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="600" />
+        <PropertyValue Key="Height" Value="380" />
+        <PropertyValue Key="Title" Value="录入新的故障单" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnEdit" Content="指派" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.MaintainAreaManager.MaintainRptTrackInfoUpdate,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="600" />
+        <PropertyValue Key="Height" Value="380" />
+        <PropertyValue Key="Title" Value="将故障单指派给维修人员" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnClose" Content="关闭" ActionTypeName="AFC.WS.ModelView.Actions.MaintainAreaManager.CloseMaintainFaultRptStatus,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnPrint" Content="故障单打印" ActionTypeName="AFC.WS.UI.UIPage.MaintainAreaManager.DevFaultPrintAction,AFC.WS.UI.UIPage" ComboBoxAction="DbAction">
+    </ActionProperty>
+  </ActionList>
+</DataListRule>

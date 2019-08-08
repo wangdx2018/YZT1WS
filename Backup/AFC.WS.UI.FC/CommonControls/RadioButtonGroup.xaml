@@ -1,0 +1,4 @@
+﻿<UserControl x:Class="AFC.WS.UI.CommonControls.RadioButtonGroup"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="382" Width="669" Loaded="UserControl_Loaded"></UserControl>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="AFC.WS.UI.CommonControls.ShowDetailsDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:local="clr-namespace:AFC.WS.UI.CommonControls"
+    >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel x:Name="rootLayout">
+                
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</Window>

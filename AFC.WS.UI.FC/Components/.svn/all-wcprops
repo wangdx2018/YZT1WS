@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components
+END
+ControlInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/ControlInfo.cs
+END
+ISysConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/ISysConfig.cs
+END
+UIHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TJ_AFC/!svn/ver/7201/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/UIHelper.cs
+END
+ChartControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/ChartControl.xaml
+END
+InteractiveControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/7503/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/InteractiveControl.xaml.cs
+END
+ChartControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/ChartControl.xaml.cs
+END
+DataListControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/DataListControl.xaml
+END
+DataListControl.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/7196/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/DataListControl.xaml.cs
+END
+ActionManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/ActionManager.cs
+END
+InteractiveControl.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Components/InteractiveControl.xaml
+END

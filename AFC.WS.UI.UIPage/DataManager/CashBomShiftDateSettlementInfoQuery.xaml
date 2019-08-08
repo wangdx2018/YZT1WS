@@ -1,0 +1,41 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.DataManager.CashBomShiftDateSettlementInfoQuery"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+   xmlns:commonControl="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+   xmlns:control="clr-namespace:AFC.WS.UI.UIPage.DataManager"
+   Background="{DynamicResource MainBackgroundBrush}" Style="{DynamicResource ucStyle}"
+>
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <TabControl>
+                <TabItem Header="班次结算查询" Name="tbClassQuery">
+                    <DockPanel>
+                        <Grid x:Name="rootLayout">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="3"></RowDefinition>
+                                <RowDefinition Height="18*"></RowDefinition>
+                                <RowDefinition Height="82*"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <GroupBox x:Name="fileBackUpQueryInfo" Grid.Row="1" Header="查询条件">
+                                <commonControl:InteractiveControl x:Name="icControl" />
+                            </GroupBox>
+                            <GroupBox x:Name="fileBackUpInfo" Grid.Row="2" Header="查询结果">
+                                <commonControl:DataListControl x:Name="dataList"/>
+                            </GroupBox>
+                        </Grid>
+                    </DockPanel>
+
+                </TabItem>
+                <TabItem Header="运营日结算查询" Name="tbRunSettleQuery">
+                    <control:CashDateSettlementInfoQuery x:Name="shiftSettlement"/>
+                </TabItem>
+                <TabItem Header="运营日结算历史查询" Name="tbRunSettleQueryHis">
+                    <control:CashDateSettlementHisQuery x:Name="DateSettlementHis"/>
+                </TabItem>
+            </TabControl>
+        
+
+        </Border>
+    </DockPanel>
+    </local:UserControlBase>

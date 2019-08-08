@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ChartRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+           CanDynamicRefurbish="true" CanScroll="false" 
+           AxisXLabel="txn_time" Title="九号线客流统计图" 
+           AxisXTitle="客流" AxisYTitle="单位：个数" Style="Theme1" 
+           ScaleValue="10" IntervalType="Auto" CanView3D="true" 
+           CanRefurbish="true" CanSaveImage="true" Interval="3" 
+           ChartValueType="Auto"  
+           ChartLocation="Bottom" AutoRefreshTime="10" ButtonLocation="Center">
+  <ChartList>
+    <ChartProperty Name="折线图" ChartType="Line" />
+    <ChartProperty Name="柱状图" ChartType="Column" />
+    <ChartProperty Name="饼状图" ChartType="Pie" />
+    <ChartProperty Name="条形图" ChartType="Bar" />
+    <ChartProperty Name="区域图" ChartType="Area" />
+    <ChartProperty Name="圆环图" ChartType="Doughnut" />
+    <ChartProperty Name="StackedColumn" ChartType="StackedColumn" />
+    <ChartProperty Name="StackedBar" ChartType="StackedBar" />
+    <ChartProperty Name="StackedArea" ChartType="StackedArea" />
+    <ChartProperty Name="泡沫图" ChartType="Bubble" />
+    <ChartProperty Name="点形图" ChartType="Point" />
+  </ChartList>
+  <DataSeriesList >
+    <DataSeriesProperty AxisYValue="" LegnedName="进站客流" />
+    <DataSeriesProperty AxisYValue="" LegnedName="出站客流" />
+  </DataSeriesList>
+</ChartRule>

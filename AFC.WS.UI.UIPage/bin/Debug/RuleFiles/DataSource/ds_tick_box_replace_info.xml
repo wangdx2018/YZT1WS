@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_tick_box_replace_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select tbri.ticket_box_id,subStr(tbri.ticket_box_id,1,4) tick_box_type,
+       blii.line_name,
+       bsi.station_cn_name,
+       bsi.station_id,
+       tbri.device_id,
+       tbri.replace_sn,
+       case tbri.replace_type
+         when '01' then
+          '安装'
+         when '02' then
+          '卸下'
+         when '03' then
+          '清点'
+         when '04' then
+          '补充'
+         when '05' then
+          '领用'
+         when '06' then
+          '归还'
+         when '07' then
+          'RFID初始化'
+         when '08' then
+          '票箱登记'
+         when '09' then
+          '票箱调出'
+       end replace_type,
+       case tbri.install_status
+         when '01' then
+          '正常安装'
+         when '02' then
+          '非法安装'
+         when '03' then
+          '正常卸下'
+         when '04' then
+          '非法卸下'
+       end install_status,
+       tbri.position_in_dev,
+       btmt.tick_mana_type_name,
+       tbri.tickets_num,
+       tbri.before_operation_num,
+       tbri.operator_id,
+       poi.operator_name,
+       tbri.occur_date,
+       tbri.occur_time,
+       tbri.update_date,
+       tbri.update_time
+  from tick_box_replace_info tbri
+  left join basi_line_id_info blii on blii.line_id = tbri.line_id
+  left join basi_station_info bsi on bsi.station_id = tbri.station_id
+  left join basi_tick_mana_type_info btmt on btmt.tick_mana_type =
+                                             tbri.tick_mana_type
+  left join priv_operator_info poi on poi.operator_id = tbri.operator_id" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="station_id,tbri.update_date desc,tbri.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

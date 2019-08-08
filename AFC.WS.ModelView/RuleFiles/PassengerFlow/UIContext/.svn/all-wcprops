@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext
+END
+UIMessageHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext/UIMessageHandle.cs
+END
+UIOperation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext/UIOperation.cs
+END
+MessageCfg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext/MessageCfg.cs
+END
+FunctionCfg.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext/FunctionCfg.cs
+END
+AutoLogoutTrigger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext/AutoLogoutTrigger.cs
+END
+MessageConfig.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/UIContext/MessageConfig.cs
+END

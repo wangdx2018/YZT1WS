@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_QueryOperatorInfoByRoleId" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty HeaderName="所属单位" BindingField="company_name" ConvertoTypeName="AFC.WS.ModelView.Convertors.StationCovert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="OperatorCompanyConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="角色编码" BindingField="role_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>   
+    <ColumnProperty HeaderName="操作员编码" BindingField="oper.operator_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="操作员姓名" BindingField="operator_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="多台设备登录许可" BindingField="is_multyly_login" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorCanMulLogInConvert,AFC.WS.ModelView" Width="150" ComboBoxConvertor="OperatorCanMulLogInConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="操作员状态" BindingField="validity_status" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorStatusConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="OperatorStatusConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="登录状态" BindingField="login_status" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorLogInConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="OperatorLogInConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="锁定状态" BindingField="lock_status" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorLockStatusConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="OperatorLockStatusConvert">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList />
+</DataListRule>

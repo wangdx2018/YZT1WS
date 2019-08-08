@@ -1,0 +1,61 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.ParamsAGMLightErrorHandleEdit"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:my="clr-namespace:AFC.WS.UI.Params">
+    <GroupBox Header="AG警告灯参数编辑" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--<Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>-->
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <my:ParamAGMLightEdit Grid.Row="0" Grid.Column="0" x:Name="ctr1"/>
+                <my:ParamAGMSoundEdit Grid.Row="0" Grid.Column="1" x:Name="ctrl4"/>
+            </Grid>
+            <!--<my:ParamAGMLightEdit Grid.Row="0" Grid.Column="0" x:Name="ctr1"/>-->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <my:ParamAGMLightEdit Grid.Row="1" Grid.Column="0" x:Name="ctr2"/>
+                <my:ParamAGMSoundEdit Grid.Row="1" Grid.Column="1" x:Name="ctrl5" Loaded="ctrl5_Loaded" />
+            </Grid>
+            <!--<my:ParamAGMLightEdit Grid.Row="1" Grid.Column="0" x:Name="ctr2"/>-->
+            <!--<my:ParamAGMLightEdit Grid.Row="2" Grid.Column="0" x:Name="ctr3" Loaded="ctr3_Loaded" />-->
+
+            <!--<my:ParamAGMSoundEdit Grid.Row="0" Grid.Column="1" x:Name="ctrl4"/>-->
+            <!--<my:ParamAGMSoundEdit Grid.Row="1" Grid.Column="1" x:Name="ctrl5" Loaded="ctrl5_Loaded" />-->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                    <ColumnDefinition Width="50*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <my:ParamAGMLightEdit Grid.Row="2" Grid.Column="0" x:Name="ctr3" Loaded="ctr3_Loaded" />
+                <my:ParamAGMSoundEdit Grid.Row="2" Grid.Column="1" x:Name="ctrl6"/>
+                
+            </Grid>
+            <!--<my:ParamAGMSoundEdit Grid.Row="2" Grid.Column="1" x:Name="ctrl6"/>-->
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="btnUpdate" Content="修改" HorizontalAlignment="Center" Grid.Row="3" Width="90" Height="22.5" Click="btnUpdate_Click"></Button>
+            </Grid>
+        </Grid>
+    </GroupBox>
+</local:UserControlBase>

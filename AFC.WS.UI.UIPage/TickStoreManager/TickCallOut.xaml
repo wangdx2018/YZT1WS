@@ -1,0 +1,128 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.TickStoreManager.TickCallOut"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:control="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+                        Background="{DynamicResource MainBackgroundBrush}" >
+    
+    <local:UserControlBase.Resources>
+        
+        <Style TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        
+    </local:UserControlBase.Resources>
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <GroupBox Header="散票调出" Width="700" Height="550" >
+                    <Grid x:Name="rootLayout">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2"></RowDefinition>
+                            <RowDefinition Height="30*"></RowDefinition>
+                            <RowDefinition Height="50*"></RowDefinition>
+                            <RowDefinition Height="2"></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2"></ColumnDefinition>
+                            <ColumnDefinition Width="50*"></ColumnDefinition>
+                          
+                            <ColumnDefinition Width="5"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <GroupBox Header="当前票务室库存" Grid.Row="1" Grid.Column="1" >
+                            <Grid >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="10*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    <RowDefinition Height="40*"></RowDefinition>
+                                    
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="10"></ColumnDefinition>
+                                    <ColumnDefinition Width="35*"></ColumnDefinition>
+                                    <ColumnDefinition Width="70*"></ColumnDefinition>
+                                    <ColumnDefinition Width="10"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Content="票卡种类" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" Width="65" />
+                                <ComboBox  x:Name="cmbTickStoreType" Grid.Row="1" Grid.Column="2" Height="25" Width="180" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                                <Label Content="在库张数" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top" Width="65"/>
+                                <TextBox  x:Name="txtTickNo" Grid.Row="3" Grid.Column="2" Width="180" Height="25" IsEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                           
+
+                                <Label Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Top" Width="65">实出张数</Label>
+                                <TextBox Grid.Column="2" Grid.Row="4" IsEnabled="True" Margin="0,1,0,5.242" Name="txtReaNum" HorizontalAlignment="Left" Width="180" />
+
+
+                                <Label Content="票卡状态" Grid.Row="2" Width="65" Grid.Column="1" HorizontalAlignment="Right"  VerticalAlignment="Top"/>
+                                <ComboBox  x:Name="cmbTickStatus" Grid.Row="2" Grid.Column="2" Height="25" Width="180" HorizontalAlignment="Left" VerticalAlignment="Top" SelectedIndex="0">
+                                    <ComboBox.Items>
+                                        <ComboBoxItem Tag="00">正常票</ComboBoxItem>
+                                        <ComboBoxItem Tag="01">废票</ComboBoxItem>
+                                    </ComboBox.Items>
+                                </ComboBox>
+                                
+                                <Button x:Name="btnAdd" Content="添加明细" Grid.Row="5"  Grid.Column="2" HorizontalAlignment="Right" Width="88" Margin="0,3,121,3" />
+
+                            </Grid>
+                        </GroupBox>
+
+                        <GroupBox Header="调出散票明细" Grid.Column="1" Grid.Row="2">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="0*"></RowDefinition>
+                                    <RowDefinition Height="60*"></RowDefinition>
+                                    <RowDefinition Height="15*"></RowDefinition>
+                                    <RowDefinition Height="10*"></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <ListView  Name="listView1" Grid.Row="1" Grid.RowSpan="2" >
+                                    <ListView.View>
+                                        <GridView>
+                                            <GridViewColumn Header="选择" Width="40" >
+                                                <GridViewColumn.CellTemplate>
+                                                    <DataTemplate>
+                                                        <CheckBox IsChecked="{Binding Path=IsChecked }" x:Name="cb"/>
+                                                    </DataTemplate>
+                                                </GridViewColumn.CellTemplate>
+                                            </GridViewColumn>
+                                            <GridViewColumn Header ="调出人" DisplayMemberBinding="{Binding OperatorId}" Width="80"  ></GridViewColumn>
+                                            <GridViewColumn Header ="库存管理类型" DisplayMemberBinding="{Binding TickStoreTypeName}" Width="100"  ></GridViewColumn>
+                                            <GridViewColumn Header ="票卡状态" DisplayMemberBinding="{Binding TickStatus}" Width="100" ></GridViewColumn>
+                                            <GridViewColumn Header ="操作日期" DisplayMemberBinding="{Binding UpdateDate}" Width="100" ></GridViewColumn>
+                                            <GridViewColumn Header ="操作时间" DisplayMemberBinding="{Binding UpdateTime}" Width="100" ></GridViewColumn>
+                                            <GridViewColumn Header ="张数" DisplayMemberBinding="{Binding TickNum}" Width="50" ></GridViewColumn>
+                                        </GridView>
+                                    </ListView.View>
+                                </ListView>
+
+
+                                <StackPanel Grid.Row="3" Orientation="Horizontal">
+                                    <Button x:Name="btnDelete" Content="删除明细"  VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10,5,0,0"  Width="65" Height="23" />
+                                    <Label x:Name="labTotalTip" Content="张数合计"  Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="70"/>
+                                    <Label x:Name="labTotal" Content=""  Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="60"/>
+                                    <Label  HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10,5,0,0">目的车站</Label>
+                                    <ComboBox  Margin="0,5,0,8" Name="cmbOutStation" HorizontalAlignment="Left" Width="180" Height="25"/>
+                                    <Button x:Name="btnCallOut" Content="调出"  Margin="10,5,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"  Width="64" Height="24" />
+                                    <CheckBox x:Name="cbIsPrint" Content="打印单据" IsChecked="False" Margin="10,5,0,0" Height="25" />
+                                </StackPanel>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </GroupBox>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

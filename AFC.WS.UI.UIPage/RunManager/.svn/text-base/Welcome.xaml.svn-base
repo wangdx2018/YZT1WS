@@ -1,0 +1,45 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.RunManager.Welcome"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:toolKit="http://schemas.microsoft.com/wpf/2008/toolkit"
+      Background="{DynamicResource MainBackgroundBrush}" >
+    <local:UserControlBase.Resources>
+        <Storyboard  x:Key="storyBoard"  >
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(UIElement.Opacity)">
+                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <SplineDoubleKeyFrame KeyTime="00:00:01.6000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames BeginTime="00:00:00"  Storyboard.TargetProperty="(UIElement.Visibility)">
+                <DiscreteObjectKeyFrame KeyTime="00:00:00" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="00:00:01.6000000" Value="{x:Static Visibility.Visible}"/>
+            </ObjectAnimationUsingKeyFrames>
+        </Storyboard>
+    </local:UserControlBase.Resources>
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid x:Name="rootLayout" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*"></RowDefinition>
+                        <RowDefinition Height="85*"></RowDefinition>
+                    </Grid.RowDefinitions>
+               
+                    <TextBlock Text="欢迎使用天津AFC WS系统..." Grid.Row="0" FontStretch="Normal" FontWeight="Light" FontSize="30"  VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="_text">
+                            <TextBlock.Foreground>
+                             <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                             <GradientStop Color="#FF009D00" Offset="0" />
+                             <GradientStop Color="#FF3FB49F" Offset="1" />
+                             </LinearGradientBrush>
+                           </TextBlock.Foreground>
+                     </TextBlock>
+                    <GroupBox Header="本站今日重要操作"  Foreground="Black" Grid.Row="1" x:Name="gbImportant">
+                        <toolKit:DataGrid Grid.Column="0" Name="dpOperation" AutoGenerateColumns="True" CanUserAddRows="False" CanUserDeleteRows="True" CanUserResizeRows="True" IsReadOnly="True">
+
+                        </toolKit:DataGrid>
+                    </GroupBox>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>

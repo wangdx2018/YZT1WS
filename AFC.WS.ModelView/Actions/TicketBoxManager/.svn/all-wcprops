@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/9381/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager
+END
+UpdateShowTickValuedAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/9381/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/UpdateShowTickValuedAction.cs
+END
+UpdateTickValuedProductAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TJ_AFC/!svn/ver/9381/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/UpdateTickValuedProductAction.cs
+END
+TickStoreAdjustAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/9261/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/TickStoreAdjustAction.cs
+END
+TickBoxPutInAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9304/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/TickBoxPutInAction.cs
+END
+AddTickValuedProductAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/9381/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/AddTickValuedProductAction.cs
+END
+EmptyTickBoxCallOutAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/9055/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/EmptyTickBoxCallOutAction.cs
+END
+RFIDInitAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/RFIDInitAction.cs
+END
+TickBoxCheckInAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/TickBoxCheckInAction.cs
+END
+TickBoxRegisterAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/TickBoxRegisterAction.cs
+END
+TickBoxCheckOutAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/TickBoxCheckOutAction.cs
+END
+TickBoxClearAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/9304/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/TicketBoxManager/TickBoxClearAction.cs
+END

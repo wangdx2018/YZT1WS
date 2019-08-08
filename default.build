@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<project name="Test" default="run" basedir=".">
+
+     <target name="run">
+
+         <call target="msbuild"/>
+
+     </target>
+
+     <target name="msbuild">
+
+       <exec program="msbuild.bat"/> 
+
+     </target>
+
+</project>

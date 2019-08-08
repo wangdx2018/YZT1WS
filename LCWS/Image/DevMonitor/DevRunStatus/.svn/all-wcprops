@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/5358/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus
+END
+server_imergencey.gif
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/server_imergencey.gif
+END
+service_pause.gif
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_pause.gif
+END
+service_maintance.gif
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_maintance.gif
+END
+service_TroubleClose.gif
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_TroubleClose.gif
+END
+service_failed.gif
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_failed.gif
+END
+service_Stop.gif
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_Stop.gif
+END
+service_warning.gif
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_warning.gif
+END
+service_Sleep.gif
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_Sleep.gif
+END
+service_normal.gif
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/5357/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/LCWS/Image/DevMonitor/DevRunStatus/service_normal.gif
+END

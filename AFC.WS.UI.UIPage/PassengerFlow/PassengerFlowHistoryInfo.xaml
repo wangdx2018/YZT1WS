@@ -1,0 +1,150 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.PassengerFlow.PassengerFlowHistoryInfo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:FC="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC"
+    xmlns:CC="clr-namespace:AFC.WS.UI.Components;assembly=AFC.WS.UI.FC"
+    xmlns:TC="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    Background="{DynamicResource MainBackgroundBrush}">
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="查询条件" Grid.Column="0" Grid.Row="0">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30"/>
+                                <RowDefinition Height="30"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="220"/>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="110"/>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="70"/>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <FC:LabelExtend Grid.Row="1" Grid.Column="0" Height="26" Width="70" Content="结束时间：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+                            <FC:LabelExtend Grid.Row="0" Grid.Column="2" Height="26" Width="70" Content="设备类型：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+                            <FC:LabelExtend Grid.Row="0" Grid.Column="4" Height="26" Width="70" Content="车站：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+                            <FC:LabelExtend Grid.Row="0" Grid.Column="6" Height="26" Width="70" Content="站厅名称：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+                            <FC:LabelExtend Grid.Row="0" Grid.Column="0" Height="26" Width="70" Content="开始时间：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+                            <FC:LabelExtend Grid.Row="1" Grid.Column="2" Height="26" Width="70" Content="客流类型：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+                            <FC:LabelExtend Grid.Row="1" Grid.Column="4" Height="26" Width="70" Content="时间间隔：" VerticalContentAlignment="Center"  HorizontalContentAlignment="Right" HorizontalAlignment="Right" />
+
+                            <FC:DateTimePickerExtend Grid.Row="1" Grid.Column="1"  Height="26" Width="120" Name="dtpEnd" DatePickerFormat="Long" HorizontalAlignment="Left" />
+                            <FC:TimePicker Grid.Row="1" Grid.Column="1"  Height="26" Width="100" Name="timeEnd"  HorizontalAlignment="Right"/>
+                            <FC:ComboBoxExtend Grid.Row="0" Grid.Column="3" Height="26" Width="110" Name="cbbDeviceType" HorizontalAlignment="Left" />
+                            <FC:ComboBoxExtend Grid.Row="0" Grid.Column="5" Height="26" Width="100" Name="cbbStationCode" SelectionChanged="cbbStationCode_SelectionChanged" HorizontalAlignment="Left" />
+                            <FC:ComboBoxExtend Grid.Row="0" Grid.Column="7" Height="26" Width="80" Name="cbbStationHall" HorizontalAlignment="Left" />
+                            <FC:DateTimePickerExtend Grid.Row="0" Grid.Column="1"  Height="26" Width="120" Name="dtpBegin" DatePickerFormat="Long" HorizontalAlignment="Left" />
+                            <FC:TimePicker Grid.Row="0"  Grid.Column="1"  Height="26" Width="100" Name="timeBegin" HorizontalAlignment="Right" />
+                            <FC:ComboBoxExtend Grid.Row="1" Grid.Column="3" Height="26" Width="110" Name="cbbPassengerFlowType" HorizontalAlignment="Left" />
+                            <FC:ComboBoxExtend Grid.Row="1" Grid.Column="5" Height="26" Width="100" Name="cbbTimeInterval">
+                                <ComboBoxItem Content="15"/>
+                                <ComboBoxItem Content="20"/>
+                                <ComboBoxItem Content="25"/>
+                                <ComboBoxItem IsSelected="True" Content="30"/>
+                                <ComboBoxItem Content="60"/>
+                                <ComboBoxItem Content="120"/>
+                            </FC:ComboBoxExtend>
+                            <Button Grid.Row="0" Grid.Column="8" Grid.RowSpan="2" Content="确  定" Name="btnOK"  Width="70" Height="28" Click="btnOK_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <TabControl Grid.Column="0" Grid.Row="1">
+                        <TabItem Header="按客流类型统计" Name="tiLine" IsSelected="True" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="23"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="180"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0" Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition Width="70"/>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="50"/>
+                                        <ColumnDefinition Width="55"/>
+                                        <ColumnDefinition Width="55"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <FC:LabelExtend Grid.Column="3" Grid.Row="0" Width="70" Height="23" Content="总共几页" Name="lblTotalPageNumber"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                    <FC:LabelExtend Grid.Column="4" Grid.Row="0" Width="80" Height="23" Content="当前第几页" Name="lblCurrentPageIndex"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                                    <Button Grid.Column="5" Grid.Row="0" Width="50" Height="23" Content="上一页" Name="btnPrevious" Click="btnPrevious_Click" />
+                                    <Button Grid.Column="6" Grid.Row="0" Width="50" Height="23" Content="下一页" Name="btnLastPage" Click="btnLastPage_Click" />
+                                    <Button Grid.Column="7" Grid.Row="0" Width="55" Height="23" Content="参数设置" Name="btnSetParameter" Click="btnSetParameter_Click" />
+                                    <Button Grid.Column="8" Grid.Row="0" Width="55" Height="23" Content="数据导出" Name="btnExportData" Click="btnExportData_Click" />
+                                </Grid>
+                                <DockPanel Grid.Column="0" Grid.Row="1" x:Name="dpPassengerFlowType" />
+                                <Grid Grid.Row="2" >
+                                    <GroupBox Name="gbPFStat" Header="客流统计">
+                                        <TC:DataGrid Name="dgMonitorTotal" >
+                                            <TC:DataGrid.Columns>
+                                                <TC:DataGridTextColumn Header="客流类型" Binding="{Binding Path=PassengerFlowTypeName}" />
+                                                <TC:DataGridTextColumn Header="当前数量" Binding="{Binding Path=CurrentPagePassengerFlowNumber}"/>
+                                                <TC:DataGridTextColumn Header="总数量" Binding="{Binding Path=PassengerFlowTotal}"/>
+                                                <TC:DataGridTextColumn Header="客流类型" Binding="{Binding Path=PassengerFlowTypeName1}" />
+                                                <TC:DataGridTextColumn Header="当前数量" Binding="{Binding Path=CurrentPagePassengerFlowNumber1}"/>
+                                                <TC:DataGridTextColumn Header="总数量" Binding="{Binding Path=PassengerFlowTotal1}"/>
+                                                <TC:DataGridTextColumn Header="客流类型" Binding="{Binding Path=PassengerFlowTypeName2}" />
+                                                <TC:DataGridTextColumn Header="当前数量" Binding="{Binding Path=CurrentPagePassengerFlowNumber2}"/>
+                                                <TC:DataGridTextColumn Header="总数量" Binding="{Binding Path=PassengerFlowTotal2}"/>
+                                            </TC:DataGrid.Columns>
+
+                                        </TC:DataGrid>
+
+                                        <!--<ListBox Name="lvMonitorTotal" SelectionMode="Single"                                              
+                                              ItemTemplate="{DynamicResource MonitorTemplate}"
+                                             HorizontalContentAlignment="Stretch"
+                                             />-->
+                                    </GroupBox>
+                                </Grid>
+                                <!--<GroupBox Grid.Column="0" Grid.Row="2" Name="gbPFStat" Header="客流统计">
+                                    <TC:DataGrid Name="dgMonitorTotal" AutoGenerateColumns="False" IsReadOnly="True" >
+                                        <TC:DataGrid.Columns>
+                                            <TC:DataGridTextColumn Header="客流类型" Binding="{Binding Path=PassengerFlowTypeName}" />
+                                            <TC:DataGridTextColumn Header="数量" Binding="{Binding Path=CurrentPagePassengerFlowNumber}"/>
+                                            <TC:DataGridTextColumn Header="总数量" Binding="{Binding Path=PassengerFlowTotal}"/>
+                                            <TC:DataGridTextColumn Header="客流类型" Binding="{Binding Path=PassengerFlowTypeName1}" />
+                                            <TC:DataGridTextColumn Header="数量" Binding="{Binding Path=CurrentPagePassengerFlowNumber1}"/>
+                                            <TC:DataGridTextColumn Header="总数量" Binding="{Binding Path=PassengerFlowTotal1}"/>
+                                            <TC:DataGridTextColumn Header="客流类型" Binding="{Binding Path=PassengerFlowTypeName2}" />
+                                            <TC:DataGridTextColumn Header="数量" Binding="{Binding Path=CurrentPagePassengerFlowNumber2}"/>
+                                            <TC:DataGridTextColumn Header="总数量" Binding="{Binding Path=PassengerFlowTotal2}"/>
+                                        </TC:DataGrid.Columns>
+
+                                    </TC:DataGrid>
+                                </GroupBox>-->
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="按票种进站统计" Name="tiEntry" >
+                            <DockPanel x:Name="dpEntryCounter"/>
+                        </TabItem>
+                        <TabItem Header="按票种出站统计" Name="tiExit" >
+                            <DockPanel x:Name="dpExitCounter"/>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+    </local:UserControlBase>

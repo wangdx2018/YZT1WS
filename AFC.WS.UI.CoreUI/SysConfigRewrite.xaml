@@ -1,0 +1,58 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.CoreUI.SysConfigRewrite"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController" 
+    xmlns:toolKit="http://schemas.microsoft.com/wpf/2008/toolkit"
+    xmlns:my="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" Background="{DynamicResource MainBackgroundBrush}" >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Border   Background="{DynamicResource local:UserControlBase}"  BorderThickness="0,0,0,1" Style="{DynamicResource BorderStyle}">
+                    <GroupBox Header="系统配置设置"   Height="350" Width="420">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40*"></ColumnDefinition>
+                                <ColumnDefinition Width="60*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Label Content="车站编号:" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                            <my:TextBoxExtend  x:Name="StationCode" Grid.Row="0" Grid.Column="1" Width="160" Height="28" HorizontalAlignment="Left" TextBoxValidate="AllNumbers"  RegMaxLength="4"/>
+
+                            <Label Content="本机代码:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                            <my:TextBoxExtend  x:Name="DeviceCode" Grid.Row="1" Grid.Column="1"  Width="160" Height="28" HorizontalAlignment="Left" TextBoxValidate="None"  RegMaxLength="9"/>
+
+                            <Label Content="本机IP:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                            <my:TextBoxExtend  x:Name="LocalIPaddress" Grid.Row="2" Grid.Column="1" Width="160" Height="28" HorizontalAlignment="Left" RegMaxLength="20" TextBoxValidate="IPAddress"/>
+
+                            <Label Content="SC服务器IP:" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                            <my:TextBoxExtend  x:Name="ScIpAddress" Grid.Row="3" Grid.Column="1" Width="160" Height="28" HorizontalAlignment="Left" RegMaxLength="20"  TextBoxValidate="IPAddress"/>
+
+                            <Label Content="SC端口号:" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                            <my:TextBoxExtend  x:Name="ScPort" Grid.Row="4" Grid.Column="1" Width="160" Height="28" HorizontalAlignment="Left" RegMaxLength="4"/>
+
+                            <Label Content="数据库连接:" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"></Label>
+                            <my:TextBoxExtend  x:Name="DbConnectionString" Grid.Row="5" Grid.Column="1" Width="230" Height="28" HorizontalAlignment="Left" TextBoxValidate="None"  RegMaxLength="70"/>
+
+                            <Label x:Name="labTip" Content="配置修改完成后重启生效！" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Foreground="Red"></Label>
+                            <DockPanel Grid.Row="10" Grid.Column="1">
+                                <Button x:Name="btnClose" Content="关闭" Width="70" Click="btnClose_Click"></Button>
+                            </DockPanel>
+                            <Button x:Name="btnSave" Content="保存" HorizontalAlignment="Right" Width="70" Click="btnSave_Click" Grid.Row="7"></Button>
+                        </Grid>
+                    </GroupBox>
+                </Border>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+  
+   
+ </local:UserControlBase>

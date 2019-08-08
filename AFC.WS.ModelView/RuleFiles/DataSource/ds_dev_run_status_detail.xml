@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_dev_run_status_detail" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.line_id,
+       t.station_id,
+       bsi.station_cn_name,
+       t.device_id,
+       t.status_value,
+       decode(t.status_value,
+              '00',
+              '运营开始成功',
+              '01',
+              '运营开始中',
+              '02',
+              '运营开始失败',
+              '03',
+              '运营结束成功',
+              '04',
+              '运营结束中',
+              '05',
+              '运营结束失败') as status_value_name,
+       t.operator_id,
+       poi.operator_name,
+       t.update_date,
+       t.update_time
+  from dev_run_status_detail t
+  left join basi_station_info bsi on bsi.station_id = t.station_id
+  left join priv_operator_info poi on poi.operator_id = t.operator_id" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Value="t.status_id = '0A01' and substr(t.device_id, 5, 2) = '11'" Key="WhereParams" />
+    <PropertyValue Value="t.update_date desc,t.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

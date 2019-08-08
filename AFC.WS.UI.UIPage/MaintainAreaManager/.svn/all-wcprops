@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/8523/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager
+END
+MaintainFaultRptStatusQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/TJ_AFC/!svn/ver/7084/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainFaultRptStatusQuery.xaml.cs
+END
+DevPartIdInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevPartIdInfoQuery.xaml
+END
+basimaintainareainfoAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/basimaintainareainfoAdded.xaml
+END
+DevPartIdInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevPartIdInfoQuery.xaml.cs
+END
+BasiDevPartIdInfoManager.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiDevPartIdInfoManager.xaml
+END
+DelBasiMaintainAreaInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DelBasiMaintainAreaInfo.xaml
+END
+basimaintainareainfoAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/4619/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/basimaintainareainfoAdded.xaml.cs
+END
+BasiProviderInfoAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiProviderInfoAdded.xaml.cs
+END
+BasiDevPartIdInfoManager.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiDevPartIdInfoManager.xaml.cs
+END
+DevPartIdAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevPartIdAdded.xaml
+END
+basimaintainareainfoUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/basimaintainareainfoUpdate.xaml
+END
+BasiProviderInfoUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiProviderInfoUpdate.xaml
+END
+DevPartIdAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevPartIdAdded.xaml.cs
+END
+MaintainAreaStationInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/4675/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainAreaStationInfo.xaml.cs
+END
+BasiProviderInfoUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiProviderInfoUpdate.xaml.cs
+END
+MaintainRptTrackInfoAdded.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/7203/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainRptTrackInfoAdded.xaml.cs
+END
+MaintainRptTrackInfoQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/7084/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainRptTrackInfoQuery.xaml.cs
+END
+DevPartIdNameUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevPartIdNameUpdate.xaml
+END
+BasiProviderInfoAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiProviderInfoAdded.xaml
+END
+CrystalMaintainFaultRptStatusReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TJ_AFC/!svn/ver/7083/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/CrystalMaintainFaultRptStatusReport.cs
+END
+CrystalMaintainFaultRptStatusReport.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/TJ_AFC/!svn/ver/7083/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/CrystalMaintainFaultRptStatusReport.rpt
+END
+DevFaultPrintAction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/7083/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevFaultPrintAction.cs
+END
+MaintainRptTrackInfoUpdate.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/8523/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainRptTrackInfoUpdate.xaml
+END
+DevPartIdNameUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DevPartIdNameUpdate.xaml.cs
+END
+MaintainAreaStationRelaction.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/4675/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainAreaStationRelaction.xaml
+END
+DelBasiMaintainAreaInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/4622/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/DelBasiMaintainAreaInfo.xaml.cs
+END
+MaintainRptTrackInfoUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/7203/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainRptTrackInfoUpdate.xaml.cs
+END
+MaintainAreaStationRelaction.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainAreaStationRelaction.xaml.cs
+END
+MaintainAreaInfoManager.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainAreaInfoManager.xaml
+END
+BasiProviderInfoManager.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiProviderInfoManager.xaml
+END
+MaintainAreaInfoManager.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/4623/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainAreaInfoManager.xaml.cs
+END
+BasiProviderInfoManager.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/TJ_AFC/!svn/ver/4556/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/BasiProviderInfoManager.xaml.cs
+END
+MaintainAreaStationInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainAreaStationInfo.xaml
+END
+MaintainRptTrackInfoAdded.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8210/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainRptTrackInfoAdded.xaml
+END
+basimaintainareainfoUpdate.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/4620/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/basimaintainareainfoUpdate.xaml.cs
+END
+MaintainFaultRptStatusQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainFaultRptStatusQuery.xaml
+END
+MaintainRptTrackInfoQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/7206/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/MaintainAreaManager/MaintainRptTrackInfoQuery.xaml
+END

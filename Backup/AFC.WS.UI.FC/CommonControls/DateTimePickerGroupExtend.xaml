@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="AFC.WS.UI.CommonControls.DateTimePickerGroupExtend"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:my="http://schemas.microsoft.com/wpf/2008/toolkit">
+    <UserControl.Resources>
+    </UserControl.Resources>
+    <Grid Name="gridLayout">
+        <Grid.ColumnDefinitions>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label  Grid.Column="0"  Name="labelStart" Content="日期范围："   HorizontalContentAlignment="Left" VerticalContentAlignment="Center" />
+        <my:DatePicker  Grid.Column="1" Name="datePickerStart" SelectedDateFormat="Long"  />
+        <Label   Grid.Column="2"  Name="labelEnd"  Content=" 至 " HorizontalContentAlignment="Right" VerticalContentAlignment="Center"/>
+        <my:DatePicker  Grid.Column="3"    Name="datePickerEnd" SelectedDateFormat="Long" />
+    </Grid>
+</UserControl>
+

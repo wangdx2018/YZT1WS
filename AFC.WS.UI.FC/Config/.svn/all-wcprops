@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/TJ_AFC/!svn/ver/8567/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Config
+END
+ComboBoxTypeConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Config/ComboBoxTypeConvert.cs
+END
+TypeConvertPropertyGrid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Config/TypeConvertPropertyGrid.cs
+END
+SqlSentenceEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Config/SqlSentenceEventArgs.cs
+END
+PropertyHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Config/PropertyHelper.cs
+END
+Common.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/TJ_AFC/!svn/ver/6661/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Config/Common.cs
+END

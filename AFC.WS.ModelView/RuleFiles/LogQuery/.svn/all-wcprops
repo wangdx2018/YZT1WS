@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/TJ_AFC/!svn/ver/9863/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery
+END
+list_devCurrentErrorStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/9852/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_devCurrentErrorStatusQuery.xml
+END
+ui_devCurrentErrorStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_devCurrentErrorStatusQuery.xml
+END
+ui_UpdateAgUpsStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/9823/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_UpdateAgUpsStatus.xml
+END
+list_failLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_failLogInfo.xml
+END
+ui_failLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_failLogInfo.xml
+END
+list_devLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_devLogInfo.xml
+END
+ui_devLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_devLogInfo.xml
+END
+list_dev_current_status_alarm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/TJ_AFC/!svn/ver/9862/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_dev_current_status_alarm.xml
+END
+ui_dev_current_status_alarm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/9863/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_dev_current_status_alarm.xml
+END
+list_tvmSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_tvmSettleInfo.xml
+END
+list_AgUpsMapQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9839/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_AgUpsMapQuery.xml
+END
+ui_tvmSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_tvmSettleInfo.xml
+END
+ui_addAgUpsInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/9840/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_addAgUpsInfo.xml
+END
+list_devStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9818/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_devStatusQuery.xml
+END
+list_AgUpsStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9843/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_AgUpsStatusQuery.xml
+END
+ui_devStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_devStatusQuery.xml
+END
+list_bomSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/9147/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_bomSettleInfo.xml
+END
+list_devSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/8797/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_devSettleInfo.xml
+END
+ui_AgUpsStatusQuery.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9825/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_AgUpsStatusQuery.xml
+END
+ui_bomSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_bomSettleInfo.xml
+END
+ui_devSettleInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_devSettleInfo.xml
+END
+list_devOperDoubleLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/9018/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_devOperDoubleLogInfo.xml
+END
+ui_devOperDoubleLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/TJ_AFC/!svn/ver/8694/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_devOperDoubleLogInfo.xml
+END
+list_ctrlLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8202/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/list_ctrlLogInfo.xml
+END
+ui_ctrlLogInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9772/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/LogQuery/ui_ctrlLogInfo.xml
+END

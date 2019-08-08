@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_switch_busi_data" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select &#xA;       sta.station_cn_name,&#xA;       devType.Device_Name,&#xA;       t.device_id,&#xA;       t1.para_desc,&#xA;       t.para_master_type,&#xA;       t.run_before_para_version ,&#xA;      t.run_after_para_version,&#xA;      t.run_before_master_para_versio,&#xA;      t.run_after_master_para_version,&#xA;       case t.switch_result  when '0' then '成功' &#xA;       when '1' then '失败' end switch_result,&#xA;       t.update_date,&#xA;       t.update_time&#xA;  from para_switch_busi_data t left join basi_station_info sta on sta.station_id=t.station_id&#xA;  left join basi_dev_type_info devType on devType.Device_Type=subStr(t.device_id,5,2)   left join basi_para_type_info t1 on t1.para_type = t.para_type" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="t.update_date desc,t.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

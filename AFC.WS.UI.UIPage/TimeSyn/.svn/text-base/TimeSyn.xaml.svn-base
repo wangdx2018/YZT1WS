@@ -1,0 +1,59 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.UIPage.TimeSyn.TimeSyn"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController" 
+    xmlns:my="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" Background="{DynamicResource MainBackgroundBrush}" 
+    xmlns:toolKit="http://schemas.microsoft.com/wpf/2008/toolkit"
+  >
+    <Grid >
+        <DockPanel>
+            <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder" >
+                <GroupBox Header="时钟同步信息"  Width="500" Height="290">
+                    <DockPanel>
+                        <Grid x:Name="rootLayout"  >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100*" />
+                                <RowDefinition Height="23*" />
+                            </Grid.RowDefinitions>
+                            <Grid Margin="32,16.357,32,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="10" />
+                                    <RowDefinition Height="23" />
+                                    <RowDefinition Height="20"/>
+                                    <RowDefinition Height="26" />
+                                    <RowDefinition Height="20" />
+                                    <RowDefinition Height="26" />
+                                    <RowDefinition Height="20"/>
+                                    <RowDefinition Height="26" />
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="150" />
+                                    <ColumnDefinition Width="175" />
+
+                                </Grid.ColumnDefinitions>
+                                <my:RiadioButtonExtend x:Name="radioTimeSys" Grid.Row="1" Grid.Column="0" Content="强制时钟同步"></my:RiadioButtonExtend>
+                                <my:RiadioButtonExtend x:Name="radionHandTimeSys"  Grid.Row="1" Grid.Column="1" Content="手动时钟同步"></my:RiadioButtonExtend>
+                                <Label Content="手动设置日期" HorizontalAlignment="Left" Grid.Row="3" Grid.Column="0"></Label>
+                                <my:DateTimePickerExtend x:Name="dateTime" Grid.Row="3" DatePickerFormat="Long" Grid.ColumnSpan="2" Margin="110,0,40,0"></my:DateTimePickerExtend>
+                                <Label Content="手动设置时间" HorizontalAlignment="Left" Grid.Row="5" Grid.Column="0"></Label>
+                                <my:TimePicker x:Name="timePicker" Width="180" Grid.Row="5"  Grid.ColumnSpan="2" Margin="110,0,40,0"></my:TimePicker>
+                           
+                                <!--<Button Content="登录界面" Click="Button_Click"/>-->
+                            </Grid>
+                            <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="20*" />
+                                </Grid.RowDefinitions>
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                    <Button Content="时钟同步"  FontSize="9pt" Name="OK"  Click="OK_Click"/>
+                                </StackPanel>
+                            </Grid>
+                        </Grid>
+                    </DockPanel>
+                </GroupBox>
+            </Border>
+        </DockPanel>
+    </Grid>
+
+</local:UserControlBase>

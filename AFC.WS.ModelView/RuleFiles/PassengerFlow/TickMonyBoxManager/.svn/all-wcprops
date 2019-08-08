@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager
+END
+list_tickOperatorInOut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_tickOperatorInOut.xml
+END
+list_tickDispatchInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_tickDispatchInfo.xml
+END
+list_dispatch_log_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_dispatch_log_in.xml
+END
+ui_tickOperatorInOut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_tickOperatorInOut.xml
+END
+list_tick_dispatch_log_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_tick_dispatch_log_out.xml
+END
+list_data_ykt_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_data_ykt_his.xml
+END
+UI_TicketboxRegister.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/UI_TicketboxRegister.xml
+END
+ui_tick_dispatch_log_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_tick_dispatch_log_out.xml
+END
+ui_tickDispachInfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_tickDispachInfo.xml
+END
+ui_data_ykt_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_data_ykt_his.xml
+END
+list_cash_money_box_reg_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_cash_money_box_reg_info.xml
+END
+list_data_ypt_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_data_ypt_his.xml
+END
+ui_data_ypt_his.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_data_ypt_his.xml
+END
+list_tick_box_reg_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_tick_box_reg_info.xml
+END
+list_tickStoreChangeLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/list_tickStoreChangeLog.xml
+END
+ui_tickStoreChangeLog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_tickStoreChangeLog.xml
+END
+ui_tick_dis_log_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/TJ_AFC/!svn/ver/7723/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/RuleFiles/PassengerFlow/TickMonyBoxManager/ui_tick_dis_log_in.xml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager
+END
+DevPartIdAdd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/DevPartIdAdd.cs
+END
+CloseMaintainFaultRptStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/CloseMaintainFaultRptStatus.cs
+END
+BasiMaintainAreaInfoAdd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/BasiMaintainAreaInfoAdd.cs
+END
+BasiProviderInfoAdd.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/BasiProviderInfoAdd.cs
+END
+AddMaintainFaultRptStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/AddMaintainFaultRptStatus.cs
+END
+DevPartIdNameUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/DevPartIdNameUpdate.cs
+END
+BasiMaintainAreaInfoUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/BasiMaintainAreaInfoUpdate.cs
+END
+BasiProviderInfoUpdate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/BasiProviderInfoUpdate.cs
+END
+DelBasiMaintainAreaInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/TJ_AFC/!svn/ver/8205/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/DelBasiMaintainAreaInfo.cs
+END
+UpdateMaintainFaultRptStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/TJ_AFC/!svn/ver/8207/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.ModelView/Actions/MaintainAreaManager/UpdateMaintainFaultRptStatus.cs
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/TJ_AFC/!svn/ver/2412/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/UIRuleFileCreator/DBInfo
+END
+TableColumnComments.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/TJ_AFC/!svn/ver/295/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/UIRuleFileCreator/DBInfo/TableColumnComments.cs
+END
+TableFieldProperty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/295/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/UIRuleFileCreator/DBInfo/TableFieldProperty.cs
+END
+TablespaceAndOwner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/295/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/UIRuleFileCreator/DBInfo/TablespaceAndOwner.cs
+END
+TableList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/295/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/UIRuleFileCreator/DBInfo/TableList.cs
+END
+DbHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/2412/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/UIRuleFileCreator/DBInfo/DbHelper.cs
+END

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_param_syn_failed" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select sta.station_cn_name,&#xA;       devType.Device_Name,&#xA;       t1.device_id,&#xA;       t1. para_type,&#xA;       case t1.edition_type&#xA;         when '0' then&#xA;          '当前版'&#xA;         when '1' then&#xA;          '将来版'&#xA;         when '4' then&#xA;          '历史版本'&#xA;       end edition_type,&#xA;       t1.para_master_type,&#xA;       t1.para_version dev_version,&#xA;       t.para_version local_version,&#xA;       t1.update_date,&#xA;       t1.update_time&#xA;  from para_local_full_ver_info t&#xA; right join para_dev_full_ver_info t1 on t.para_type = t1.para_type and t1.edition_type=t.edition_type &#xA;  left join basi_station_info sta on sta.station_id =&#xA;                                     subStr(t1.device_id, 0, 4)&#xA;  left join basi_dev_type_info devType on devType.Device_Type =&#xA;                                          subStr(t1.device_id, 5, 2)" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Value="t.para_version &lt;&gt; t1.para_version" Key="WhereParams" />
+    <PropertyValue Value="t1.update_date desc,t1.update_time desc" Key="OrderByParams"  />
+  </PropertyValues>
+</DataSourceRule>

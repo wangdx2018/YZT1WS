@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/TJ_AFC/!svn/ver/7703/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors
+END
+DateTimeConvert.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/319/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors/DateTimeConvert.cs
+END
+ParamsHeaderConvertor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors/ParamsHeaderConvertor.cs
+END
+CommBRConvetor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TJ_AFC/!svn/ver/7703/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors/CommBRConvetor.cs
+END
+ComplexDataConvetor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors/ComplexDataConvetor.cs
+END
+SimpleObjectConvertor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors/SimpleObjectConvertor.cs
+END
+ListObjectConvertor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/TJ_AFC/!svn/ver/257/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.FC/Convertors/ListObjectConvertor.cs
+END

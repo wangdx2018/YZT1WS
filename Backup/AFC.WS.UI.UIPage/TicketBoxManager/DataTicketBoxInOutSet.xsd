@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataTicketBoxInOutSet" targetNamespace="http://tempuri.org/DataTicketBoxInOutSet.xsd" xmlns:mstns="http://tempuri.org/DataTicketBoxInOutSet.xsd" xmlns="http://tempuri.org/DataTicketBoxInOutSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataTicketBoxInOutSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DataTicketBoxInOutSet" msprop:Generator_UserDSName="DataTicketBoxInOutSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TicketBoxInOut" msprop:Generator_UserTableName="TicketBoxInOut" msprop:Generator_RowDeletedName="TicketBoxInOutRowDeleted" msprop:Generator_TableClassName="TicketBoxInOutDataTable" msprop:Generator_RowChangedName="TicketBoxInOutRowChanged" msprop:Generator_RowClassName="TicketBoxInOutRow" msprop:Generator_RowChangingName="TicketBoxInOutRowChanging" msprop:Generator_RowEvArgName="TicketBoxInOutRowChangeEvent" msprop:Generator_RowEvHandlerName="TicketBoxInOutRowChangeEventHandler" msprop:Generator_TablePropName="TicketBoxInOut" msprop:Generator_TableVarName="tableTicketBoxInOut" msprop:Generator_RowDeletingName="TicketBoxInOutRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TicketBoxType" msprop:Generator_UserColumnName="TicketBoxType" msprop:Generator_ColumnPropNameInRow="TicketBoxType" msprop:Generator_ColumnVarNameInTable="columnTicketBoxType" msprop:Generator_ColumnPropNameInTable="TicketBoxTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TicketBoxId" msprop:Generator_UserColumnName="TicketBoxId" msprop:Generator_ColumnPropNameInRow="TicketBoxId" msprop:Generator_ColumnVarNameInTable="columnTicketBoxId" msprop:Generator_ColumnPropNameInTable="TicketBoxIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DispatchWay" msprop:Generator_UserColumnName="DispatchWay" msprop:Generator_ColumnPropNameInRow="DispatchWay" msprop:Generator_ColumnVarNameInTable="columnDispatchWay" msprop:Generator_ColumnPropNameInTable="DispatchWayColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

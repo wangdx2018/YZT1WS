@@ -1,0 +1,23 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Primission.OperatorPrimissionQuery"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+   xmlns:tab="http://fabtab.codeplex.com"
+                       Background="{DynamicResource MainBackgroundBrush}" >
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <Grid>
+                <TabControl>
+                    <TabItem Header="基本信息" x:Name="tabBasiInfo"/>
+                    <TabItem Header="状态信息" x:Name="tabStatusInfo"/>
+                    <TabItem Header="所有角色" x:Name="tabRole"/>
+                    <TabItem Header="所有功能" x:Name="tabFunction"/>
+                    <TabItem Header="所有工作地点" x:Name="tabSation"/>
+                    <TabItem Header="能操作的设备类型" x:Name="tabDeviceType"/>
+                </TabControl>
+            </Grid>
+        </Border>
+    </DockPanel>
+</local:UserControlBase>
+
+           

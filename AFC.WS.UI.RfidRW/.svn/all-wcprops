@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/TJ_AFC/!svn/ver/9791/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW
+END
+RFIDSimulator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/RFIDSimulator.cs
+END
+AFC.WS.UI.RfidRW.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/AFC.WS.UI.RfidRW.csproj
+END
+RFIDOperatorEnum.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/RFIDOperatorEnum.cs
+END
+RfidReadAsynHandle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TJ_AFC/!svn/ver/9309/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/RfidReadAsynHandle.cs
+END
+Header.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/Header.cs
+END
+PackUnPackCommon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/TJ_AFC/!svn/ver/9791/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/PackUnPackCommon.cs
+END
+OperatorResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/OperatorResult.cs
+END
+RfidRW.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/TJ_AFC/!svn/ver/9791/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/RfidRW.cs
+END
+RFIDCommon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/RFIDCommon.cs
+END
+BlockParams.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/BlockParams.cs
+END
+TicketBoxRfid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/8214/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/TicketBoxRfid.cs
+END
+PCAStyleRFIDRW.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/PCAStyleRFIDRW.cs
+END
+SerialOperatorCommon.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/TJ_AFC/!svn/ver/9301/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/SerialOperatorCommon.cs
+END
+MoneyBoxRfid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/TJ_AFC/!svn/ver/8214/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/MoneyBoxRfid.cs
+END
+IRfidRW.cs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/TJ_AFC/!svn/ver/2461/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.RfidRW/IRfidRW.cs
+END

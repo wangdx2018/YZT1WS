@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single"  DataSourceName="ds_runParamInfo" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="参数编码" BindingField="param_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="参数名称" BindingField="param_name" Width="300">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="参数值" BindingField="param_value" Width="400">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnAddedPara4314" Content="添加" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.DataManager.RunParamInfoAdd,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="500" />
+        <PropertyValue Key="Height" Value="400" />
+        <PropertyValue Key="Title" Value="添加参数" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
+      </PropertyValues>
+    </ActionProperty>
+
+    <ActionProperty ControlName="btnUpdate" Content="编辑" ActionTypeName="AFC.WS.ModelView.Actions.DataManager.UpdateRunParamAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
+    </ActionProperty>
+
+    <ActionProperty ControlName="btnDel" Content="删除" ActionTypeName="AFC.WS.ModelView.Actions.DataManager.DelRunParamAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
+    </ActionProperty>
+  </ActionList>
+</DataListRule>

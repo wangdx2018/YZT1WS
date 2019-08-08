@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/TJ_AFC/!svn/ver/9689/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager
+END
+TickBoxReplaceInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/TJ_AFC/!svn/ver/8661/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxReplaceInfo.xaml.cs
+END
+TicketBoxRfidInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/9271/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxRfidInfo.xaml.cs
+END
+TicketBoxQuery.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/9689/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxQuery.xaml
+END
+TicketBoxIn.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/TJ_AFC/!svn/ver/8494/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxIn.xaml
+END
+TickBoxPutIn.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/8957/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxPutIn.xaml
+END
+DataTicketBoxInOutSet.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/TJ_AFC/!svn/ver/4965/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/DataTicketBoxInOutSet.Designer.cs
+END
+DataTicketBoxInOutSet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/4965/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/DataTicketBoxInOutSet.cs
+END
+TicketBoxQuery.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxQuery.xaml.cs
+END
+TicketBoxIn.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/TJ_AFC/!svn/ver/5153/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxIn.xaml.cs
+END
+TickBoxPutIn.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9303/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxPutIn.xaml.cs
+END
+DataTicketBoxInOutSet.xss
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/4965/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/DataTicketBoxInOutSet.xss
+END
+RFIDConnectTest.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/2605/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/RFIDConnectTest.xaml
+END
+TickBoxOperatorInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/3922/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxOperatorInfo.cs
+END
+TicketBoxRegister.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8655/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxRegister.xaml
+END
+RFIDConnectTest.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/2605/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/RFIDConnectTest.xaml.cs
+END
+TickBoxInDevInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/9689/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxInDevInfo.xaml
+END
+TicketBoxRegister.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/8655/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxRegister.xaml.cs
+END
+EmptyTickBoxCallOut.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/6728/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/EmptyTickBoxCallOut.xaml
+END
+RfidLabelInit.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/TJ_AFC/!svn/ver/8222/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/RfidLabelInit.xaml
+END
+TickBoxInDevInfo.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/TJ_AFC/!svn/ver/7701/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxInDevInfo.xaml.cs
+END
+TickBoxClear.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/TJ_AFC/!svn/ver/8521/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxClear.xaml
+END
+EmptyTickBoxCallOut.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/TJ_AFC/!svn/ver/9496/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/EmptyTickBoxCallOut.xaml.cs
+END
+TickBoxReplaceInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/TJ_AFC/!svn/ver/9689/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxReplaceInfo.xaml
+END
+RfidLabelInit.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/TJ_AFC/!svn/ver/9271/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/RfidLabelInit.xaml.cs
+END
+DataTicketBoxInOutSet.xsc
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/4965/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/DataTicketBoxInOutSet.xsc
+END
+CrystalTicketBoxInOutReport.rpt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/TJ_AFC/!svn/ver/6931/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/CrystalTicketBoxInOutReport.rpt
+END
+CrystalTicketBoxInOutReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/TJ_AFC/!svn/ver/6923/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/CrystalTicketBoxInOutReport.cs
+END
+TicketBoxRfidInfo.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/TJ_AFC/!svn/ver/8216/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TicketBoxRfidInfo.xaml
+END
+TickBoxClear.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/TJ_AFC/!svn/ver/9303/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/TickBoxClear.xaml.cs
+END
+DataTicketBoxInOutSet.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/TJ_AFC/!svn/ver/4965/TJL3/TJWS1.0/Develop/Trunk/src/TJWS/AFC.WS.UI.UIPage/TicketBoxManager/DataTicketBoxInOutSet.xsd
+END

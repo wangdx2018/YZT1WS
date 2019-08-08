@@ -1,0 +1,90 @@
+﻿<local:UserControlBase x:Class="AFC.WS.UI.Params.SpecialParamsVersionDownLoadNotify"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:AFC.BOM2.UIController;assembly=AFC.BOM2.UIController"
+    xmlns:commControl="clr-namespace:AFC.WS.UI.CommonControls;assembly=AFC.WS.UI.FC" Width="900" Height="600"  Background="{DynamicResource MainBackgroundBrush}">
+
+    <local:UserControlBase.Resources>
+
+        <Style TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="ListViewItem">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+    </local:UserControlBase.Resources>
+
+    <DockPanel>
+        <Border Background="{DynamicResource DiagramGradientBrush}" Style="{DynamicResource BorderStyle}" x:Name="DiagramBorder">
+            <DockPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="选择车站设备" Width="400" Height="600" Grid.Column="1">
+                        <Grid>
+                            <Label Height="27" HorizontalAlignment="Left" Margin="37,114,0,0" Name="label1" VerticalAlignment="Top" Width="36" >车站</Label>
+                            <ComboBox Height="27" Margin="95,114,165,0" Name="cmbStationInfo" SelectedIndex="0" VerticalAlignment="Top">
+
+                            </ComboBox>
+                            <Label Height="27" HorizontalAlignment="Left" Margin="21,167,0,0" Name="label2" VerticalAlignment="Top" Width="62">设备类型</Label>
+                            <ComboBox Height="27" Margin="95,167,165,0" Name="cmbDevType" SelectedIndex="0" VerticalAlignment="Top">
+
+                            </ComboBox>
+                            <ListBox Margin="31,0,15,66" Name="listBox1" Height="210" VerticalAlignment="Bottom">
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Vertical">
+                                            <CheckBox Content="{Binding Path=Text}" Tag="{Binding Path=ID}" IsChecked="{Binding Path=IsChecked}" ></CheckBox>
+                                            <TextBlock Height="10"/>
+                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+
+                            <Label HorizontalAlignment="Left" Margin="23,259,0,0" Name="label3" Width="69" Height="29.163" VerticalAlignment="Top">选择设备</Label>
+                            <Button Height="30" Margin="170,0,141,15" Name="btnAdd" VerticalAlignment="Bottom" Click="btnAdd_Click">添加</Button>
+                            <GroupBox Header="通知方式" Height="55" Margin="13,15,19,0" Name="groupBox1" VerticalAlignment="Top">
+                                <Grid>
+                                    <RadioButton Height="16" VerticalAlignment="Center" Name="rbStation" Width="76" GroupName="setStyle" HorizontalAlignment="Center">特定车站</RadioButton>
+                                    <RadioButton Height="16" HorizontalAlignment="Left" Name="rbLine" VerticalAlignment="Center" Width="64" GroupName="setStyle">全线路</RadioButton>
+                                    <RadioButton Height="16" Name="rbSelfDef" VerticalAlignment="Center" HorizontalAlignment="Right" Width="66" GroupName="setStyle">自定义</RadioButton>
+                                </Grid>
+                            </GroupBox>
+                        </Grid>
+                    </GroupBox>
+
+                    <GroupBox Header="发送设备列表" Grid.Column="0">
+                        <ListView Height="499" Name="listView1" VerticalAlignment="Top" >
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="选择" >
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <CheckBox IsChecked="{Binding Path=IsChecked }" x:Name="cb"/>
+                                            </DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                    <GridViewColumn Header ="车站ID" DisplayMemberBinding="{Binding StationId}" Width="100"></GridViewColumn>
+                                    <GridViewColumn Header ="设备ID" DisplayMemberBinding="{Binding DeviceId}" Width="100"></GridViewColumn>
+                                    <GridViewColumn Header ="车站" DisplayMemberBinding="{Binding StationName}" Width="100"></GridViewColumn>
+                                    <GridViewColumn Header ="设备类型" DisplayMemberBinding="{Binding DevTypeName}" Width="100"></GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+
+                    </GroupBox>
+                    <Button Height="30" Margin="0,0,47,21" Name="btnParamsDownLoad" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="77" Grid.Column="1" Click="btnParamsDownLoad_Click">参数下发</Button>
+                    <Button Height="30" Margin="77,0,0,21" Name="btnDel" VerticalAlignment="Bottom" Grid.Column="1" Click="btnDel_Click" HorizontalAlignment="Left" Width="77">删除</Button>
+                    <CheckBox Height="16" HorizontalAlignment="Left" Margin="6,0,0,61" Name="cbAll" VerticalAlignment="Bottom" Width="120">全选</CheckBox>
+                </Grid>
+            </DockPanel>
+        </Border>
+    </DockPanel>
+   
+
+
+</local:UserControlBase>
