@@ -35,7 +35,6 @@ namespace TJWS
             operation.SwitchUI("SysStartAndCheck");
             //Button btn = new Button();
             //btn.IsEnabled
-            //test
         }
         
     }
