@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LCWS", "LCWS\LCWS.csproj", "{DAF1F96C-1EE4-45D3-B692-E81382ADABCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.WS.BR", "AFC.WS.BR\AFC.WS.BR.csproj", "{E28F43B6-5132-42D9-B196-519701DC11DA}"
@@ -34,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.WS.UI.UIPage", "AFC.WS.UI.UIPage\AFC.WS.UI.UIPage.csproj", "{43931580-3E37-4D9B-9D64-AB40E7488F6B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.WS.UI.Params", "AFC.WS.UI.Params\AFC.WS.UI.Params.csproj", "{BCA49F47-6BEF-4B4A-9EEB-204F9586704C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuinessRuleTest", "BuinessRuleTest\BuinessRuleTest.csproj", "{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +105,10 @@ Global
 		{BCA49F47-6BEF-4B4A-9EEB-204F9586704C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCA49F47-6BEF-4B4A-9EEB-204F9586704C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCA49F47-6BEF-4B4A-9EEB-204F9586704C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

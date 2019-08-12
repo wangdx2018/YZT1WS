@@ -17,7 +17,7 @@
     <DeviceCode>030B1217</DeviceCode>
     <DeviceType>12</DeviceType>
     <DataSourceDirectory>.\RuleFiles\DataSource</DataSourceDirectory>
-    <DBConnectionString>user=tjsc20db;data source=TJSC20;password=tjsc20db</DBConnectionString>
+    <DBConnectionString>Server=localhost;Database=yzt1;Uid=root;Pwd=123456</DBConnectionString>
     <SkinPath>\Style\黄色主题.xaml</SkinPath>
     <Language>CN</Language>
     <StatusValueName>0</StatusValueName>

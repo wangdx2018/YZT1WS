@@ -45,7 +45,7 @@
     </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CommonLib\log4net.dll</HintPath>
+      <HintPath>..\Lib\log4net.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore">
       <RequiredTargetFramework>3.0</RequiredTargetFramework>
@@ -81,9 +81,8 @@
     <Reference Include="WPFToolkit">
       <HintPath>..\Lib\WPFToolkit.dll</HintPath>
     </Reference>
-    <Reference Include="WPFVisifire.Charts, Version=2.2.0.0, Culture=neutral, PublicKeyToken=99d724542e4db593, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CommonLib\WPFVisifire.Charts.dll</HintPath>
+    <Reference Include="WPFVisifire.Charts">
+      <HintPath>..\Lib\WPFVisifire.Charts.dll</HintPath>
     </Reference>
     <Reference Include="WS.DBO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -154,12 +153,17 @@
     </None>
     <None Include="Config\SysConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <Content Include="DLL\TerminalUnitLogDll.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AFC.WS.BR\AFC.WS.BR.csproj">
+      <Project>{e28f43b6-5132-42d9-b196-519701dc11da}</Project>
+      <Name>AFC.WS.BR</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AFC.WS.UI.FC\AFC.WS.UI.FC.csproj">
       <Project>{3EF79B35-5D62-4F20-B327-0C0768B61696}</Project>
       <Name>AFC.WS.UI.FC</Name>

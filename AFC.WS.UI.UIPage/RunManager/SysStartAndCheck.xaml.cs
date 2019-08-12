@@ -99,7 +99,7 @@ namespace AFC.WS.UI.UIPage.RunManager
 
             System.Windows.Forms.Application.DoEvents();
             res = 0;
-             res = BuinessRule.GetInstace().tsm.TimeSyn();
+          //   res = BuinessRule.GetInstace().tsm.TimeSyn();
            // todo: syn time
             this.SetStatusLabel(res, this.labTimeSynResult);
 

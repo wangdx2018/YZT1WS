@@ -376,66 +376,66 @@ namespace AFC.WS.BR.Primission
           PrivOperatorInfo info = GetOperatorInfoByOperatorId(operatorId);
           if (info.operator_id==null)
               return -1;// not exist
-          if (info.validity_status != "00")
-          {
-              return -2;//operator status not valid
-          }
+          //if (info.validity_status != "00")
+          //{
+          //    return -2;//operator status not valid
+          //}
 
-          if (string.IsNullOrEmpty(info.validity_end_date))
-          {
-              return -8;
-          }
+          //if (string.IsNullOrEmpty(info.validity_end_date))
+          //{
+          //    return -8;
+          //}
 
-          DateTime pwdEndDate = DateTime.ParseExact(info.validity_end_date, "yyyyMMdd", null);
+          //DateTime pwdEndDate = DateTime.ParseExact(info.validity_end_date, "yyyyMMdd", null);
 
-          if (DateTime.Now.Subtract(pwdEndDate).TotalDays >= 0)
-          {
-              return -8; //操作员密码已到期
-          }
+          //if (DateTime.Now.Subtract(pwdEndDate).TotalDays >= 0)
+          //{
+          //    return -8; //操作员密码已到期
+          //}
 
-          DateTime dtStart = DateTime.ParseExact(info.validity_start_date, "yyyyMMdd", null);
+          //DateTime dtStart = DateTime.ParseExact(info.validity_start_date, "yyyyMMdd", null);
 
-          if (DateTime.Now.Subtract(dtStart).TotalDays < 0)
-          {
-              return -9; //操作员未到启用时间
-          }
+          //if (DateTime.Now.Subtract(dtStart).TotalDays < 0)
+          //{
+          //    return -9; //操作员未到启用时间
+          //}
 
 
     
               
-          DateTime dtLast = DateTime.ParseExact(info.validity_end_date, "yyyyMMdd", null);
-          if (DateTime.Now.Subtract(dtLast).TotalDays >= 0)
-          {
-              return -3;//操作员有效期已到达
-          }
+          //DateTime dtLast = DateTime.ParseExact(info.validity_end_date, "yyyyMMdd", null);
+          //if (DateTime.Now.Subtract(dtLast).TotalDays >= 0)
+          //{
+          //    return -3;//操作员有效期已到达
+          //}
 
 
        
 
-          if (!this.CheckStationPrimission(operatorId, SysConfig.GetSysConfig().LocalParamsConfig.StationCode))
-          {
-              return -4;//不能在改车站登录
-          }
-          if (!this.CheckCanAccessDeviceType(operatorId, SysConfig.GetSysConfig().LocalParamsConfig.DeviceType))
-          {
-              return -5;//不能操作该设
-          }
-          if (info.lock_status == "01")
-          {
-              return -6; //操作员已锁定
-          }
+          //if (!this.CheckStationPrimission(operatorId, SysConfig.GetSysConfig().LocalParamsConfig.StationCode))
+          //{
+          //    return -4;//不能在改车站登录
+          //}
+          //if (!this.CheckCanAccessDeviceType(operatorId, SysConfig.GetSysConfig().LocalParamsConfig.DeviceType))
+          //{
+          //    return -5;//不能操作该设
+          //}
+          //if (info.lock_status == "01")
+          //{
+          //    return -6; //操作员已锁定
+          //}
 
           
 
-          if (!PassWordEncryptDecrypt.EncrptPassWord(pwd).Equals(info.current_password))
-          {
-              return -7;//操作员密码错误
-          }
+          //if (!PassWordEncryptDecrypt.EncrptPassWord(pwd).Equals(info.current_password))
+          //{
+          //    return -7;//操作员密码错误
+          //}
 
-          if (DateTime.Now.Subtract(dtLast).TotalDays >= -15) //密码即将过期
-          {
-              return 1;
-          }
+          //if (DateTime.Now.Subtract(dtLast).TotalDays >= -15) //密码即将过期
+          //{
+          //    return 1;
+          //}
           
           return 0;
           
