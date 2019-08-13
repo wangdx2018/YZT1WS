@@ -14,7 +14,7 @@ namespace AFC.WS.ModelView.ColorSettiing
 
         public void SetCurrentDataGridRow(Microsoft.Windows.Controls.DataGridRow dgr, System.Data.DataRow dr)
         {
-            string validEndDate = dr["validity_end_date"].ToString();
+            string validEndDate = dr["validity_date_end"].ToString();
             try
             {
                 DateTime dt = DateTime.ParseExact(validEndDate, "yyyyMMdd", null);
@@ -24,24 +24,24 @@ namespace AFC.WS.ModelView.ColorSettiing
                     dgr.ToolTip = "操作员已过期";
                     return;
                 }
-                if (dr["validity_status"].ToString() == "01")
-                {
-                    dgr.Background = System.Windows.Media.Brushes.Brown;
-                    dgr.ToolTip = "操作员密码已终止";
-                    return;
-                }
-                if (dr["validity_status"].ToString() == "04")
-                {
-                    dgr.Background = System.Windows.Media.Brushes.SeaGreen;
-                    dgr.ToolTip = "操作员被强制修改密码";
-                    return;
-                }
-                if (dr["lock_status"].ToString() == "01")
-                {
-                    dgr.Background = System.Windows.Media.Brushes.Brown;
-                    dgr.ToolTip = "操作员已锁定";
-                    return;
-                }
+                //if (dr["validity_status"].ToString() == "01")
+                //{
+                //    dgr.Background = System.Windows.Media.Brushes.Brown;
+                //    dgr.ToolTip = "操作员密码已终止";
+                //    return;
+                //}
+                //if (dr["validity_status"].ToString() == "04")
+                //{
+                //    dgr.Background = System.Windows.Media.Brushes.SeaGreen;
+                //    dgr.ToolTip = "操作员被强制修改密码";
+                //    return;
+                //}
+                //if (dr["lock_status"].ToString() == "01")
+                //{
+                //    dgr.Background = System.Windows.Media.Brushes.Brown;
+                //    dgr.ToolTip = "操作员已锁定";
+                //    return;
+                //}
                 else
                 {
                     dgr.Background = System.Windows.Media.Brushes.AliceBlue as System.Windows.Media.Brush;

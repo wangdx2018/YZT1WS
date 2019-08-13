@@ -4,6 +4,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using AFC.WS.UI.Config;
 using AFC.BOM2.Common;
+using log4net;
 
 namespace AFC.WS.UI.Common
 {
@@ -12,6 +13,8 @@ namespace AFC.WS.UI.Common
     /// </summary>
     public class WriteLog
     {
+
+        private static log4net.ILog log = LogManager.GetLogger("Common Log");
 
         // ---> 初始化日志模块
         /// <summary>
@@ -24,7 +27,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.InitLogInstance(lpFileName, strInstanceName);
+                log = LogManager.GetLogger("Common Log"); 
                 return true;
             }
             catch (Exception ex)
@@ -44,7 +47,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_Debug(message);
+               log.Debug(message);
             }
             catch
             {
@@ -62,7 +65,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_DebugFormat(LogCode, LogSubCode, message);
+                log.DebugFormat(string.Format("{0},{1},{2}", LogCode, LogSubCode, message));
             }
             catch
             {
@@ -78,7 +81,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_Info(message);
+                log.Info(message);
             }
             catch (Exception ex)
             {
@@ -97,7 +100,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_InfoFormat(LogCode, LogSubCode, message);
+                log.InfoFormat(string.Format("{0},{1},{2}", LogCode, LogSubCode, message));
             }
             catch
             {
@@ -113,7 +116,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_Warn(message);
+                log.Warn(message);
             }
             catch
             { }
@@ -130,7 +133,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_WarnFormat(LogCode, LogSubCode, message);
+                log.WarnFormat(string.Format("{0},{1},{2}", LogCode, LogSubCode, message));
             }
             catch { }
         }
@@ -144,7 +147,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_Error(message);
+                log.Error(message);
             }
             catch (Exception ex)
             {
@@ -163,7 +166,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_ErrorFormat(LogCode, LogSubCode, message);
+                log.ErrorFormat(string.Format("{0},{1},{2}", LogCode, LogSubCode, message));
             }
             catch { }
         }
@@ -177,7 +180,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_Fatal(message);
+               log.Fatal(message);
             }
             catch
             { }
@@ -194,7 +197,7 @@ namespace AFC.WS.UI.Common
         {
             try
             {
-                AFC.BOM2.Common.WriteLog.Log_FatalFormat(LogCode, LogSubCode, message);
+                log.FatalFormat(string.Format("{0},{1},{2}", LogCode, LogSubCode, message));
             }
             catch { }
         }
@@ -208,7 +211,8 @@ namespace AFC.WS.UI.Common
             StringBuilder sb = new StringBuilder();
             //sb.Append("Message: ").Append(ex.Message).Append(",StackTrace: ").Append(ex.StackTrace).Append(",Source: ").Append(ex.Source).Append(",InnerException: ").Append(ex.InnerException);
             sb.Append("Message: ").Append(ex.Message).Append("\n StackTrace: ").Append(ex.StackTrace).Append("\n Source: ").Append(ex.Source).Append("\n InnerException: ").Append(ex.InnerException);
-            AFC.BOM2.Common.WriteLog.Log_Error(sb.ToString());
+
+            log.Error(sb.ToString(), ex);
             //System.Windows.MessageBox.Show(sb.ToString());
         }
 

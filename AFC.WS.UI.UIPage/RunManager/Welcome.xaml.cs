@@ -35,7 +35,7 @@ namespace AFC.WS.UI.UIPage.RunManager
         public override void InitControls()
         {
             StartStoryBoard();
-            this.dpOperation.ItemsSource = BuinessRule.GetInstace().rm.GetDoublePrimissionOperation().DefaultView;
+            this.dpOperation.ItemsSource = null;//BuinessRule.GetInstace().rm.GetDoublePrimissionOperation().DefaultView;
         }
 
         public override void UnLoadControls()

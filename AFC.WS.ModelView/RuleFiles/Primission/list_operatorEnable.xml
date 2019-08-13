@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="false" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_operatorStatus" ActionLocation="Bottom" ActionAlign="Middle">
   <ColumnList>
-    <ColumnProperty HeaderName="车站" BindingField="company_name" ConvertoTypeName="AFC.WS.ModelView.Convertors.StationCovert,AFC.WS.ModelView" Width="100">
+    <!--<ColumnProperty HeaderName="车站" BindingField="company_name" ConvertoTypeName="AFC.WS.ModelView.Convertors.StationCovert,AFC.WS.ModelView" Width="100">
       <PropertyValues />
-    </ColumnProperty>
+    </ColumnProperty>-->
     <ColumnProperty HeaderName="操作员编码" BindingField="operator_id" Width="100">
       <PropertyValues />
     </ColumnProperty>
@@ -12,25 +12,20 @@
       <PropertyValues />
     </ColumnProperty>
 
-    <ColumnProperty HeaderName="有效开始日期" BindingField="validity_start_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
+    <ColumnProperty HeaderName="有效开始日期" BindingField="validity_date_start" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
       <PropertyValues/>
     </ColumnProperty>
-    <ColumnProperty HeaderName="有效结束日期" BindingField="validity_end_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
+    <ColumnProperty HeaderName="有效结束日期" BindingField="validity_date_end" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
       <PropertyValues/>
     </ColumnProperty>
-    <ColumnProperty HeaderName="密码失效日期" BindingField="password_invalidity_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView"  ComboBoxConvertor="DateTimeConvert">
+    <ColumnProperty HeaderName="密码失效日期" BindingField="pwd_invalidity_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView"  ComboBoxConvertor="DateTimeConvert">
       <PropertyValues/>
     </ColumnProperty>
-    <ColumnProperty HeaderName="状态" BindingField="validity_status" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorStatusConvert,AFC.WS.ModelView">
+    <ColumnProperty HeaderName="状态" BindingField="operator_status" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorStatusConvert,AFC.WS.ModelView">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty HeaderName="登录状态" BindingField="login_status" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorLogInConvert,AFC.WS.ModelView">
-      <PropertyValues />
-    </ColumnProperty>
-    <ColumnProperty HeaderName="锁定状态" BindingField="lock_status" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorLockStatusConvert,AFC.WS.ModelView" >
-      <PropertyValues />
-    </ColumnProperty>
-    <ColumnProperty HeaderName="多重登录" BindingField="is_multyly_login" Width="200" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorCanMulLogInConvert,AFC.WS.ModelView" >
+   
+    <ColumnProperty HeaderName="多重登录" BindingField="is_multi_login" Width="200" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorCanMulLogInConvert,AFC.WS.ModelView" >
       <PropertyValues />
     </ColumnProperty>
   </ColumnList>

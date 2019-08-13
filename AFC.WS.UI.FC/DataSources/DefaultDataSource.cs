@@ -298,7 +298,7 @@ namespace AFC.WS.UI.DataSources
             //if (string.IsNullOrEmpty(sqlCmd))
             //{
                 sqlCmd = CreateQueryString();
-                string cmd = string.Format("select count(*) from ({0})", sqlCmd);
+                string cmd = string.Format("select count(*) from ({0}) t2", sqlCmd);
                 InitliaizeDBConnectionString();
                 DBO dbo = new DBO(this.DBConnectionString);
                 DataTable dt = null;
@@ -355,7 +355,10 @@ namespace AFC.WS.UI.DataSources
         {
             string cmd= CreateQueryString();
 
-            string finalCmd = string.Format("select * from (select a.*, rownum rd from ({0}) a where rownum<={2} ) where rd>={1}", cmd, pageSize * (pageIndex - 1) + 1, pageIndex * pageSize);
+            //select * from (select * from (SELECT @rowno:=@rowno+1 as rowno,r.* from (select* from priv_operator_info) r,(select @rowno:=0) t) a where a.rowno<=2) b where b.rowno>=1
+           // string finalCmd = string.Format("select * from (select a.*, rownum rd from ({0}) a where rownum<={2} ) where rd>={1}", cmd, pageSize * (pageIndex - 1) + 1, pageIndex * pageSize);
+
+            string finalCmd = string.Format("select * from (select * from (SELECT @rowno:=@rowno+1 as rownum,r.* from ({0}) r,(select @rowno:=0) t) a where a.rownum>={1}) b where b.rownum<={2}", cmd, pageSize * (pageIndex - 1) + 1, pageIndex * pageSize);
 
             WriteLog.Log_Info("sql cmd is :" + finalCmd);
 

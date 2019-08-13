@@ -49,7 +49,7 @@
             <Border Height="45"  Grid.Row="1"  BorderBrush="{DynamicResource BorderBrush}" BorderThickness="0,0,0,0" x:Name="HeaderBorder" Padding="10,0,10,0" >
                 <DockPanel x:Name="Header" >
                     <Image Source="{Binding Path=Content,ElementName=labMode,Converter={StaticResource imageConvert }}" Height="40" VerticalAlignment="Bottom" ToolTip="{Binding Path=Content,ElementName=labMode}" x:Name="imageMode"></Image>
-                    <TextBlock xml:space="preserve"  Opacity="1" FontFamily="Segoe" FontSize="24" FontStretch="Normal" FontWeight="Light" TextWrapping="Wrap" Foreground="{DynamicResource HeaderFontColor}" VerticalAlignment="Bottom" Margin="0,0,0,5" Text="天津地铁3号线" x:Name="_text"/>
+                    <TextBlock xml:space="preserve"  Opacity="1" FontFamily="Segoe" FontSize="24" FontStretch="Normal" FontWeight="Light" TextWrapping="Wrap" Foreground="{DynamicResource HeaderFontColor}" VerticalAlignment="Bottom" Margin="0,0,0,5" Text="亦庄T1线" x:Name="_text"/>
                 </DockPanel>                  
             </Border>
             <Border   Background="{DynamicResource DiagramGradientBrush}"  BorderThickness="0,0,0,1" Style="{DynamicResource BorderStyle}"></Border>

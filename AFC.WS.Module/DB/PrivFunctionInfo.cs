@@ -73,7 +73,7 @@ namespace AFC.WS.Model.DB
         /// <summary>
         /// 更新操作员id
         /// </summary>
-        private string _updating_operator_id;
+        private string _operator_id;
         
         /// <summary>
         /// 唯一，aabbccdd：
@@ -207,15 +207,15 @@ namespace AFC.WS.Model.DB
         /// <summary>
         /// 更新操作员id
         /// </summary>
-        public string updating_operator_id
+        public string operator_id
         {
             get
             {
-                return this._updating_operator_id;
+                return this._operator_id;
             }
             set
             {
-                this._updating_operator_id = value;
+                this._operator_id = value;
             }
         }
     }

@@ -30,7 +30,7 @@ namespace AFC.WS.BR.Primission
             ri.role_status = "03";
             ri.update_date = DateTime.Now.ToString("yyyyMMdd");
             ri.update_time = DateTime.Now.ToString("HHmmss");
-            ri.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            ri.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             try
             {
                 int res = 0;
@@ -70,7 +70,7 @@ namespace AFC.WS.BR.Primission
                 int res = 0;
                 ri.update_date = DateTime.Now.ToString("yyyyMMdd");
                 ri.update_time = DateTime.Now.ToString("HHmmss");
-                ri.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+                ri.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
                 res = DBCommon.Instance.InsertTable(ri, "priv_role_info");
                 if (res != 1)
                 {
@@ -147,7 +147,7 @@ namespace AFC.WS.BR.Primission
                 return -1;
             ri.update_date = DateTime.Now.ToString("yyyyMMdd");
             ri.update_time = DateTime.Now.ToString("HHmmss");
-            ri.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            ri.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             ri.role_status = Convert.ToInt16(status).ToString("X2");
             try
             {
@@ -190,7 +190,7 @@ namespace AFC.WS.BR.Primission
                 int res = 0;
                 ri.update_date = DateTime.Now.ToString("yyyyMMdd");
                 ri.update_time = DateTime.Now.ToString("HHmmss");
-                ri.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+                ri.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
                 res = DBCommon.Instance.UpdateTable(ri, "priv_role_info", new KeyValuePair<string, string>("role_id", ri.role_id));
                 if (res != 1)
                 {
@@ -230,7 +230,7 @@ namespace AFC.WS.BR.Primission
             ri.role_name = roleName;
             ri.update_date = DateTime.Now.ToString("yyyyMMdd");
             ri.update_time = DateTime.Now.ToString("HHmmss");
-            ri.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            ri.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             try
             {
                 int res = 0;

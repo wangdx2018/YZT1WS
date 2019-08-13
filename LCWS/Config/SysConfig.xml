@@ -12,12 +12,12 @@
     <LocalIPaddress>10.15.121.117</LocalIPaddress>
     <CityCode>022</CityCode>
     <SystemName>LCWS</SystemName>
-    <LineCode>03</LineCode>
-    <StationCode>0300</StationCode>
-    <DeviceCode>03001217</DeviceCode>
+    <LineCode>01</LineCode>
+    <StationCode>0120</StationCode>
+    <DeviceCode>01201217</DeviceCode>
     <DeviceType>12</DeviceType>
     <DataSourceDirectory>.\RuleFiles\DataSource</DataSourceDirectory>
-    <DBConnectionString>Server=localhost;Database=yzt1;Uid=root;Pwd=123456</DBConnectionString>
+    <DBConnectionString>Server=localhost;Database=yzt1;Uid=root;Pwd=123456;Allow User Variables=True</DBConnectionString>
     <SkinPath>\Style\黄色主题.xaml</SkinPath>
     <Language>CN</Language>
     <StatusValueName>0</StatusValueName>

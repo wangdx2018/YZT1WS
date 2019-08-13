@@ -5,7 +5,7 @@
     <PropertyValue Value="select * from priv_operator_info" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
-    <PropertyValue Value="validity_status&lt;&gt;6 " Key="WhereParams" />
+    <PropertyValue Value="" Key="WhereParams" />
     <PropertyValue Key="OrderByParams" />
   </PropertyValues>
 </DataSourceRule>

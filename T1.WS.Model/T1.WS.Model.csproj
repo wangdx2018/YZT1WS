@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10D6CD80-3FEA-4B70-AB75-8B5B259E2983}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>T1.WS.Model</RootNamespace>
+    <AssemblyName>T1.WS.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DB\BankCashOperateLog.cs" />
+    <Compile Include="DB\BasiBackupDeleteList.cs" />
+    <Compile Include="DB\BasiCashBoxTypeInfo.cs" />
+    <Compile Include="DB\BasiChangeStationInfo.cs" />
+    <Compile Include="DB\BasiCompanyInfo.cs" />
+    <Compile Include="DB\BasiCtlCmdCodeInfo.cs" />
+    <Compile Include="DB\BasiCtlCmdDevTypeInfo.cs" />
+    <Compile Include="DB\BasiDepotInfo.cs" />
+    <Compile Include="DB\BasiDevAcpRelationInfo.cs" />
+    <Compile Include="DB\BasiDevFailCodeInfo.cs" />
+    <Compile Include="DB\BasiDevInfo.cs" />
+    <Compile Include="DB\BasiDevParaMapInfo.cs" />
+    <Compile Include="DB\BasiDevPartDetailInfo.cs" />
+    <Compile Include="DB\BasiDevPartsTypeInfo.cs" />
+    <Compile Include="DB\BasiDevPartTypeInfo.cs" />
+    <Compile Include="DB\BasiDevSamTypeInfo.cs" />
+    <Compile Include="DB\BasiDevTypeInfo.cs" />
+    <Compile Include="DB\BasiEventIdInfo.cs" />
+    <Compile Include="DB\BasiFareConfigurationTable.cs" />
+    <Compile Include="DB\BasiFareTable.cs" />
+    <Compile Include="DB\BasiFareZoneTable.cs" />
+    <Compile Include="DB\BasiFileTypeInfo.cs" />
+    <Compile Include="DB\BasiFineCodeInfo.cs" />
+    <Compile Include="DB\BasiFlowSpan.cs" />
+    <Compile Include="DB\BasiHolidayTable.cs" />
+    <Compile Include="DB\BasiLineIdInfo.cs" />
+    <Compile Include="DB\BasiMaintainAreaInfo.cs" />
+    <Compile Include="DB\BasiModeCodeInfo.cs" />
+    <Compile Include="DB\BasiMoneyTypeInfo.cs" />
+    <Compile Include="DB\BasiOffPeakHoursTable.cs" />
+    <Compile Include="DB\BasiOperCodeInfo.cs" />
+    <Compile Include="DB\BasiParaTypeInfo.cs" />
+    <Compile Include="DB\BasiProviderInfo.cs" />
+    <Compile Include="DB\BasiReportInfo.cs" />
+    <Compile Include="DB\BasiReportSubTypeInfo.cs" />
+    <Compile Include="DB\BasiReportTypeInfo.cs" />
+    <Compile Include="DB\BasiRunParamInfo.cs" />
+    <Compile Include="DB\BasiStationHallIdInfo.cs" />
+    <Compile Include="DB\BasiStationInfo.cs" />
+    <Compile Include="DB\BasiStatusIdInfo.cs" />
+    <Compile Include="DB\BasiStatusLevelInfo.cs" />
+    <Compile Include="DB\BasiTickCategoryInfo.cs" />
+    <Compile Include="DB\BasiTickIssuerInfo.cs" />
+    <Compile Include="DB\BasiTickManaTypeInfo.cs" />
+    <Compile Include="DB\BasiTickTypeInfo.cs" />
+    <Compile Include="DB\BasiTickUseMarkInfo.cs" />
+    <Compile Include="DB\BasiTranTypeInfo.cs" />
+    <Compile Include="DB\BasiTvmStopTimeConfInfo.cs" />
+    <Compile Include="DB\BasiTvmStopTimeDetailInfo.cs" />
+    <Compile Include="DB\BasiUpdateReasonCodeInfo.cs" />
+    <Compile Include="DB\BasiWorkLocationInfo.cs" />
+    <Compile Include="DB\BomOperateDetailLog.cs" />
+    <Compile Include="DB\BomOperateLog.cs" />
+    <Compile Include="DB\CashBoxInDevInfo.cs" />
+    <Compile Include="DB\CashBoxLifeCycle.cs" />
+    <Compile Include="DB\CashBoxOperDetail.cs" />
+    <Compile Include="DB\CashBoxOperInfo.cs" />
+    <Compile Include="DB\CashBoxRegisterInfo.cs" />
+    <Compile Include="DB\CashBoxStatusInfo.cs" />
+    <Compile Include="DB\CashBoxStorageInfo.cs" />
+    <Compile Include="DB\CashInOperatorInfo.cs" />
+    <Compile Include="DB\CashOperatorReturnLog.cs" />
+    <Compile Include="DB\CashStorageChgLog.cs" />
+    <Compile Include="DB\CashStorageHistoryInfo.cs" />
+    <Compile Include="DB\CashStorageInfo.cs" />
+    <Compile Include="DB\DataAdministrativeHandling.cs" />
+    <Compile Include="DB\DataAgRegInfo.cs" />
+    <Compile Include="DB\DataBomFailRefondInfo.cs" />
+    <Compile Include="DB\DataBomNonBusiIncomeInfo.cs" />
+    <Compile Include="DB\DataBomRegInfo.cs" />
+    <Compile Include="DB\DataBomSettlementInfo.cs" />
+    <Compile Include="DB\DataDeferredRefundApply.cs" />
+    <Compile Include="DB\DataEventTran.cs" />
+    <Compile Include="DB\DataFileDealAbnormalInfo.cs" />
+    <Compile Include="DB\DataFileDealInfo.cs" />
+    <Compile Include="DB\DataFileDealInfoHis.cs" />
+    <Compile Include="DB\DataFileUpInfo.cs" />
+    <Compile Include="DB\DataFileUpInfoHis.cs" />
+    <Compile Include="DB\DataFileUpSpecify.cs" />
+    <Compile Include="DB\DataPersonalTickApplyInfo.cs" />
+    <Compile Include="DB\DataRegisterRecords.cs" />
+    <Compile Include="DB\DataRequestReupload.cs" />
+    <Compile Include="DB\DataSamPurseInfo.cs" />
+    <Compile Include="DB\DataTranDaily.cs" />
+    <Compile Include="DB\DataTvmFailTranInfo.cs" />
+    <Compile Include="DB\DataTvmRegInfo.cs" />
+    <Compile Include="DB\DataTvmSettlementInfo.cs" />
+    <Compile Include="DB\DataUploadRecords.cs" />
+    <Compile Include="DB\DataYktTran.cs" />
+    <Compile Include="DB\DataYktTranHis.cs" />
+    <Compile Include="DB\DataYptTran.cs" />
+    <Compile Include="DB\DataYptTranHis.cs" />
+    <Compile Include="DB\DevAcpStatusHis.cs" />
+    <Compile Include="DB\DevAcpStatusInfo.cs" />
+    <Compile Include="DB\DevAutoCmdDetail.cs" />
+    <Compile Include="DB\DevAutoCmdGroup.cs" />
+    <Compile Include="DB\DevAutoCmdSchedule.cs" />
+    <Compile Include="DB\DevChangeInfo.cs" />
+    <Compile Include="DB\DevFailLogInfo.cs" />
+    <Compile Include="DB\DevModbusAgStatus.cs" />
+    <Compile Include="DB\DevModbusBomStatus.cs" />
+    <Compile Include="DB\DevModbusScStatus.cs" />
+    <Compile Include="DB\DevModbusStatus.cs" />
+    <Compile Include="DB\DevModbusTvmStatus.cs" />
+    <Compile Include="DB\DevMsgSendLog.cs" />
+    <Compile Include="DB\DevOperLogInfo.cs" />
+    <Compile Include="DB\DevPartsVersionInfo.cs" />
+    <Compile Include="DB\DevPsamChangeInfo.cs" />
+    <Compile Include="DB\DevRunStatusInfo.cs" />
+    <Compile Include="DB\DevSamIdInfo.cs" />
+    <Compile Include="DB\DevStatusAlarmCfgInfo.cs" />
+    <Compile Include="DB\DevStatusAlarmInfo.cs" />
+    <Compile Include="DB\DevStatusChangeLog.cs" />
+    <Compile Include="DB\DevSysResourceReport.cs" />
+    <Compile Include="DB\DevTpuVersionInfo.cs" />
+    <Compile Include="DB\MaintainAreaInfo.cs" />
+    <Compile Include="DB\MaintainAreaStationInfo.cs" />
+    <Compile Include="DB\MaintainDevPartInfo.cs" />
+    <Compile Include="DB\MaintainFaultRptStatus.cs" />
+    <Compile Include="DB\MaintainPartOperLog.cs" />
+    <Compile Include="DB\MaintainPartRegInfo.cs" />
+    <Compile Include="DB\MaintainPartStoreChgLog.cs" />
+    <Compile Include="DB\MaintainPartStoreInfo.cs" />
+    <Compile Include="DB\MaintainProviderCompanyInfo.cs" />
+    <Compile Include="DB\MaintainRptTrackInfo.cs" />
+    <Compile Include="DB\ModeLogInfo.cs" />
+    <Compile Include="DB\ModeStatusInfo.cs" />
+    <Compile Include="DB\OperContentLogInfo.cs" />
+    <Compile Include="DB\ParaCitytransBlacklist.cs" />
+    <Compile Include="DB\ParaDevOperInfo.cs" />
+    <Compile Include="DB\ParaDevPartsVerInfo.cs" />
+    <Compile Include="DB\ParaDevTpuVerInfo.cs" />
+    <Compile Include="DB\ParaDevTypeRelationInfo.cs" />
+    <Compile Include="DB\ParaDevVersionInfo.cs" />
+    <Compile Include="DB\ParaVersionInfo.cs" />
+    <Compile Include="DB\ParaVersionInfoHis.cs" />
+    <Compile Include="DB\ParaVersionSeqInfo.cs" />
+    <Compile Include="DB\ParaYktBlacklist.cs" />
+    <Compile Include="DB\ParaYptFullBlackList.cs" />
+    <Compile Include="DB\ParaYptRangeBlacklist.cs" />
+    <Compile Include="DB\PassFlowDaily.cs" />
+    <Compile Include="DB\PassFlowInfo.cs" />
+    <Compile Include="DB\PassFlowInfoHis.cs" />
+    <Compile Include="DB\PassMonitorTypeInfo.cs" />
+    <Compile Include="DB\PcaOperDetail.cs" />
+    <Compile Include="DB\PcaOperSeq.cs" />
+    <Compile Include="DB\PcaStatusInfo.cs" />
+    <Compile Include="DB\PrivFunctionInfo.cs" />
+    <Compile Include="DB\PrivOperatorDeviceInfo.cs" />
+    <Compile Include="DB\PrivOperatorInfo.cs" />
+    <Compile Include="DB\PrivOperatorRoleInfo.cs" />
+    <Compile Include="DB\PrivOperatorStationInfo.cs" />
+    <Compile Include="DB\PrivRoleFunctionInfo.cs" />
+    <Compile Include="DB\PrivRoleInfo.cs" />
+    <Compile Include="DB\RecoClearResult.cs" />
+    <Compile Include="DB\RecoLcStatInfo.cs" />
+    <Compile Include="DB\RecoPkl.cs" />
+    <Compile Include="DB\RecoTranDetailTotal.cs" />
+    <Compile Include="DB\RunExecuteInfo.cs" />
+    <Compile Include="DB\Sequence.cs" />
+    <Compile Include="DB\TaskManage.cs" />
+    <Compile Include="DB\TickBoxInDevInfo.cs" />
+    <Compile Include="DB\TickBoxOperInfo.cs" />
+    <Compile Include="DB\TickBoxRegisterInfo.cs" />
+    <Compile Include="DB\TickBoxStatusInfo.cs" />
+    <Compile Include="DB\TickDeferredReplaceRefound.cs" />
+    <Compile Include="DB\TickDispatchDetailLog.cs" />
+    <Compile Include="DB\TickDispatchLog.cs" />
+    <Compile Include="DB\TickInOperatorInfo.cs" />
+    <Compile Include="DB\TickOperatorReturnLog.cs" />
+    <Compile Include="DB\TickRecycleInfo.cs" />
+    <Compile Include="DB\TickSaleStorageInfo.cs" />
+    <Compile Include="DB\TickStationHandInInfo.cs" />
+    <Compile Include="DB\TickStorageChangeLog.cs" />
+    <Compile Include="DB\TickStorageHistoryInfo.cs" />
+    <Compile Include="DB\TickStorageInfo.cs" />
+    <Compile Include="DB\TickValuedProductInfo.cs" />
+    <Compile Include="DB\TvmAgOperateDetailLog.cs" />
+    <Compile Include="DB\TvmAgOperateLog.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

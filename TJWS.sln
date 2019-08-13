@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFC.WS.UI.Params", "AFC.WS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuinessRuleTest", "BuinessRuleTest\BuinessRuleTest.csproj", "{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1.WS.Model", "T1.WS.Model\T1.WS.Model.csproj", "{10D6CD80-3FEA-4B70-AB75-8B5B259E2983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1.WS.BR", "T1.WS.BR\T1.WS.BR.csproj", "{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +113,14 @@ Global
 		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DBC2D0-19CB-4857-8452-3B7F1A7CBB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D6CD80-3FEA-4B70-AB75-8B5B259E2983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D6CD80-3FEA-4B70-AB75-8B5B259E2983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D6CD80-3FEA-4B70-AB75-8B5B259E2983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D6CD80-3FEA-4B70-AB75-8B5B259E2983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -102,8 +102,8 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     ConvertToTime time = new ConvertToTime();
                     cp.InitValue =time.Convert(ri.update_time,null,null,null).ToString();
                     break;
-                case "updating_operator_id":
-                    cp.InitValue = ri.updating_operator_id;
+                case "operator_id":
+                    cp.InitValue = ri.operator_id;
                     break;
             }
         }
