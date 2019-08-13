@@ -462,6 +462,7 @@
   <ItemGroup>
     <None Include="Config\SysConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>

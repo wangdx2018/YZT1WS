@@ -152,6 +152,9 @@
     <Compile Include="RoleToFunction.xaml.cs">
       <DependentUpon>RoleToFunction.xaml</DependentUpon>
     </Compile>
+    <Compile Include="T1RoleMangerment.xaml.cs">
+      <DependentUpon>T1RoleMangerment.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="说明.txt" />
@@ -252,6 +255,10 @@
     <Page Include="RoleToFunction.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="T1RoleMangerment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

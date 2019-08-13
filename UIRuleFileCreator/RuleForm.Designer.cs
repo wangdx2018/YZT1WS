@@ -77,10 +77,10 @@
             // 
             this.listBoxTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listBoxTable.FormattingEnabled = true;
-            this.listBoxTable.ItemHeight = 12;
-            this.listBoxTable.Location = new System.Drawing.Point(3, 17);
+            this.listBoxTable.ItemHeight = 18;
+            this.listBoxTable.Location = new System.Drawing.Point(3, 24);
             this.listBoxTable.Name = "listBoxTable";
-            this.listBoxTable.Size = new System.Drawing.Size(272, 376);
+            this.listBoxTable.Size = new System.Drawing.Size(272, 375);
             this.listBoxTable.TabIndex = 1;
             this.listBoxTable.SelectedIndexChanged += new System.EventHandler(this.listBoxTable_SelectedIndexChanged);
             // 
@@ -88,7 +88,7 @@
             // 
             this.rtbSqlSentence.Dock = System.Windows.Forms.DockStyle.Top;
             this.rtbSqlSentence.Font = new System.Drawing.Font("宋体", 12F);
-            this.rtbSqlSentence.Location = new System.Drawing.Point(3, 17);
+            this.rtbSqlSentence.Location = new System.Drawing.Point(3, 24);
             this.rtbSqlSentence.Name = "rtbSqlSentence";
             this.rtbSqlSentence.Size = new System.Drawing.Size(711, 102);
             this.rtbSqlSentence.TabIndex = 11;
@@ -104,7 +104,7 @@
             this.C_Comments,
             this.C_BindingField});
             this.dgvTableField.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dgvTableField.Location = new System.Drawing.Point(3, 17);
+            this.dgvTableField.Location = new System.Drawing.Point(3, 24);
             this.dgvTableField.Name = "dgvTableField";
             this.dgvTableField.RowTemplate.Height = 23;
             this.dgvTableField.Size = new System.Drawing.Size(711, 199);
@@ -212,7 +212,7 @@
             this.lblSqlSentenceMessage.AutoSize = true;
             this.lblSqlSentenceMessage.Location = new System.Drawing.Point(300, 127);
             this.lblSqlSentenceMessage.Name = "lblSqlSentenceMessage";
-            this.lblSqlSentenceMessage.Size = new System.Drawing.Size(0, 12);
+            this.lblSqlSentenceMessage.Size = new System.Drawing.Size(0, 18);
             this.lblSqlSentenceMessage.TabIndex = 5;
             // 
             // btnQuerySentence
@@ -240,10 +240,10 @@
             // listBoxDll
             // 
             this.listBoxDll.FormattingEnabled = true;
-            this.listBoxDll.ItemHeight = 12;
+            this.listBoxDll.ItemHeight = 18;
             this.listBoxDll.Location = new System.Drawing.Point(11, 20);
             this.listBoxDll.Name = "listBoxDll";
-            this.listBoxDll.Size = new System.Drawing.Size(194, 88);
+            this.listBoxDll.Size = new System.Drawing.Size(194, 76);
             this.listBoxDll.TabIndex = 21;
             // 
             // btnImportDll
@@ -260,7 +260,7 @@
             // 
             this.txtFileName.Location = new System.Drawing.Point(101, 48);
             this.txtFileName.Name = "txtFileName";
-            this.txtFileName.Size = new System.Drawing.Size(169, 21);
+            this.txtFileName.Size = new System.Drawing.Size(169, 28);
             this.txtFileName.TabIndex = 32;
             // 
             // label5
@@ -268,7 +268,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(7, 52);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 12);
+            this.label5.Size = new System.Drawing.Size(134, 18);
             this.label5.TabIndex = 5;
             this.label5.Text = "规则文件名称：";
             // 
@@ -287,7 +287,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 12);
+            this.label1.Size = new System.Drawing.Size(134, 18);
             this.label1.TabIndex = 3;
             this.label1.Text = "规则文件类型：";
             // 
@@ -297,7 +297,7 @@
             this.cbbRuleItem.FormattingEnabled = true;
             this.cbbRuleItem.Location = new System.Drawing.Point(101, 19);
             this.cbbRuleItem.Name = "cbbRuleItem";
-            this.cbbRuleItem.Size = new System.Drawing.Size(169, 20);
+            this.cbbRuleItem.Size = new System.Drawing.Size(169, 26);
             this.cbbRuleItem.TabIndex = 31;
             this.cbbRuleItem.SelectedIndexChanged += new System.EventHandler(this.cbbRuleItem_SelectedIndexChanged);
             // 
@@ -317,23 +317,24 @@
             this.txtRuleFilePath.Enabled = false;
             this.txtRuleFilePath.Location = new System.Drawing.Point(101, 82);
             this.txtRuleFilePath.Name = "txtRuleFilePath";
-            this.txtRuleFilePath.Size = new System.Drawing.Size(130, 21);
+            this.txtRuleFilePath.Size = new System.Drawing.Size(130, 28);
             this.txtRuleFilePath.TabIndex = 33;
             // 
             // pgRuleFile
             // 
             this.pgRuleFile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pgRuleFile.Location = new System.Drawing.Point(3, 17);
+            this.pgRuleFile.Location = new System.Drawing.Point(3, 24);
             this.pgRuleFile.Name = "pgRuleFile";
-            this.pgRuleFile.Size = new System.Drawing.Size(424, 308);
+            this.pgRuleFile.Size = new System.Drawing.Size(424, 301);
             this.pgRuleFile.TabIndex = 21;
             // 
             // groupBox5
             // 
             this.groupBox5.Font = new System.Drawing.Font("宋体", 9F);
             this.groupBox5.Location = new System.Drawing.Point(723, 408);
+            this.groupBox5.MaximumSize = new System.Drawing.Size(1000, 800);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(281, 328);
+            this.groupBox5.Size = new System.Drawing.Size(281, 0);
             this.groupBox5.TabIndex = 8;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "预览规则文件：";
@@ -401,7 +402,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(7, 88);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 12);
+            this.label6.Size = new System.Drawing.Size(134, 18);
             this.label6.TabIndex = 8;
             this.label6.Text = "选择规则文件：";
             // 
@@ -410,7 +411,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(31, 119);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 12);
+            this.label2.Size = new System.Drawing.Size(98, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "是否修改：";
             // 
@@ -419,7 +420,7 @@
             this.chbIsModify.AutoSize = true;
             this.chbIsModify.Location = new System.Drawing.Point(101, 119);
             this.chbIsModify.Name = "chbIsModify";
-            this.chbIsModify.Size = new System.Drawing.Size(15, 14);
+            this.chbIsModify.Size = new System.Drawing.Size(22, 21);
             this.chbIsModify.TabIndex = 17;
             this.chbIsModify.UseVisualStyleBackColor = true;
             this.chbIsModify.CheckedChanged += new System.EventHandler(this.chbIsModify_CheckedChanged);
@@ -430,9 +431,9 @@
             // 
             // RuleForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 741);
+            this.ClientSize = new System.Drawing.Size(1002, 712);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox1);

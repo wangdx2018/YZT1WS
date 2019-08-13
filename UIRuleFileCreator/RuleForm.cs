@@ -383,6 +383,8 @@ namespace AFC.WS.UI.UIRuleFileCreator
                 this.listBoxDll.DataSource = RuleHelper.Instance.ICList;// RuleHelper.Instance.DllPropertyList;
 
             }
+
+            
         }
         /// <summary>
         /// 生成规则文件事件

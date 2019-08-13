@@ -59,6 +59,12 @@
     <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
   </Control>
 
+  <Control id="T1RoleManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.T1RoleMangerment,AFC.WS.UI.Primission" isCreateNew="false">
+    <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+    <Control id="StatusBar" templateId="001" cellId="bottomArea" type="AFC.WS.UI.CoreUI.StatusBar,AFC.WS.UI.CoreUI" isCreateNew="false"/>
+  </Control>
+    
   <Control id="FunctionManager" templateId="001" cellId="rightArea" type="AFC.WS.UI.Primission.FunctionManager,AFC.WS.UI.Primission" isCreateNew="false">
     <Control id="CurrentFunction" templateId="001" cellId="leftArea" type="AFC.WS.UI.CoreUI.CurrentFunction,AFC.WS.UI.CoreUI" isCreateNew="false"/>
     <Control id="MenuControl" templateId="001" cellId="topArea" type="AFC.WS.UI.CoreUI.MenuControl,AFC.WS.UI.CoreUI" isCreateNew="false"/>

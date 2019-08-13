@@ -83,7 +83,7 @@ namespace AFC.WS.BR.Primission
                 return -1;
             fi.update_date = DateTime.Now.ToString("yyyyMMdd");
             fi.update_time = DateTime.Now.ToString("HHmmss");
-            fi.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            fi.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             fi.function_name = functionName;
 
             int res = 0;
@@ -128,7 +128,7 @@ namespace AFC.WS.BR.Primission
             fi.function_name = function_name;
             fi.update_date = DateTime.Now.ToString("yyyyMMdd");
             fi.update_time = DateTime.Now.ToString("HHmmss");
-            fi.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            fi.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             fi.function_status = "03";
             int res = 0;
             try
@@ -169,7 +169,7 @@ namespace AFC.WS.BR.Primission
             fi.function_status = Convert.ToInt16(status).ToString("X2");
             fi.update_date = DateTime.Now.ToString("yyyyMMdd");
             fi.update_time = DateTime.Now.ToString("HHmmss");
-            fi.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            fi.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             try
             {
                 int res = 0;

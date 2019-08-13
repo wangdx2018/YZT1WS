@@ -341,6 +341,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="RuleFiles\Primission\dl_t1_priv_roles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RuleFiles\Primission\ui_t1_priv_roles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="ReportDir\交易类报表\实时报表\BOM交易明细报表.xls">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1536,6 +1542,9 @@
     <None Include="RuleFiles\LogQuery\ui_devCurrentErrorStatusQuery.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Include="RuleFiles\DataSource\ds_t1_priv_roles.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="RuleFiles\LogQuery\list_AgUpsMapQuery.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
