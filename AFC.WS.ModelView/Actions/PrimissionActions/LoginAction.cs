@@ -186,7 +186,7 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
 
             #region Start Alarm Monitor
 
-            BuinessRule.GetInstace().alarmMonitor.StartAlarmMonitor();
+          //  BuinessRule.GetInstace().alarmMonitor.StartAlarmMonitor();
             #endregion
 
             #region send msg for ui change Tag
