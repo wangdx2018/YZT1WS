@@ -346,6 +346,7 @@
     </Content>
     <Content Include="RuleFiles\Primission\ui_t1_priv_roles.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="ReportDir\交易类报表\实时报表\BOM交易明细报表.xls">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

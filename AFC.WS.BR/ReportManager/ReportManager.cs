@@ -396,7 +396,7 @@ namespace AFC.WS.BR.ReportManager
             //}
                 //dusj modify end 业主要求同时打开多个报表
 
-            gen.xlapp = excel;
+           // gen.ex = excel;
 
             ReportPrintEventArgs e = new ReportPrintEventArgs();
 

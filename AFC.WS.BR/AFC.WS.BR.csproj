@@ -49,10 +49,13 @@
       <HintPath>..\Lib\AFC.BOM2.MessageDispacher.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
-    <Reference Include="Microsoft.Office.Tools.Excel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Excel">
+      <HintPath>..\Lib\Microsoft.Office.Tools.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="PresentationCore, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86" />
     <Reference Include="PresentationFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="Spire.XLS, Version=2.600.3.0, Culture=neutral, PublicKeyToken=7fdbc5e92357a8da, processorArchitecture=MSIL">
+    <Reference Include="Spire.XLS, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7fdbc5e92357a8da, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\Spire.XLS.dll</HintPath>
     </Reference>
@@ -84,8 +87,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\WS.DBO.dll</HintPath>
     </Reference>
-    <Reference Include="WS.ExcelReport, Version=1.1.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="WS.ExcelReport">
       <HintPath>..\Lib\WS.ExcelReport.dll</HintPath>
     </Reference>
   </ItemGroup>
