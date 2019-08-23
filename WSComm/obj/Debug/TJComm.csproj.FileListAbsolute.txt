@@ -1,9 +1,0 @@
-E:\WS\YZWS\WSComm\bin\Debug\TJComm.dll
-E:\WS\YZWS\WSComm\bin\Debug\TJComm.pdb
-E:\WS\YZWS\WSComm\bin\Debug\AFC.BJComm.dll
-E:\WS\YZWS\WSComm\bin\Debug\AFC.BOM2.Common.dll
-E:\WS\YZWS\WSComm\bin\Debug\AFC.BOM2.MessageDispacher.dll
-E:\WS\YZWS\WSComm\bin\Debug\AFC.BJComm.pdb
-E:\WS\YZWS\WSComm\obj\Debug\TJComm.dll
-E:\WS\YZWS\WSComm\obj\Debug\TJComm.pdb
-E:\WS\YZWS\WSComm\obj\Debug\TJComm.csprojResolveAssemblyReference.cache

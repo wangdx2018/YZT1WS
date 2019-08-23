@@ -1,8 +1,0 @@
-E:\WS\YZWS\AFC.WS.UI.RfidRW\bin\Debug\AFC.WS.UI.RfidRW.dll
-E:\WS\YZWS\AFC.WS.UI.RfidRW\bin\Debug\AFC.WS.UI.RfidRW.pdb
-E:\WS\YZWS\AFC.WS.UI.RfidRW\bin\Debug\AFC.BJComm.dll
-E:\WS\YZWS\AFC.WS.UI.RfidRW\bin\Debug\AFC.BOM2.Common.dll
-E:\WS\YZWS\AFC.WS.UI.RfidRW\bin\Debug\AFC.BOM2.MessageDispacher.dll
-E:\WS\YZWS\AFC.WS.UI.RfidRW\bin\Debug\AFC.BJComm.pdb
-E:\WS\YZWS\AFC.WS.UI.RfidRW\obj\Debug\AFC.WS.UI.RfidRW.dll
-E:\WS\YZWS\AFC.WS.UI.RfidRW\obj\Debug\AFC.WS.UI.RfidRW.pdb
