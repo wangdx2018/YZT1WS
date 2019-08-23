@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" LabWidthPercent="45" ActionHeight="20" RowHeight="26" TopSpace="10" ColumnCount="0" LayoutMode="Flow" ActionLocation="Left" ActionAlign="Left" CanRest="false">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_maintain_area_id" BindingField="maintain_area_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="工区编号" ComboBoxControl="TextBoxExtend" ConvertoTypeName="AFC.WS.UI.BR.Convertors.ConvertToDecimalMoneyCode,AFC.WS.UI.BR" ComboBoxConvertor="ConvertToDecimalMoneyCode">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Value="2" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_maintain_area_name" BindingField="maintain_area_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="工区地址" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select distinct t.maintain_area_name from basi_maintain_area_info t" Key="SqlContent" />
+        <PropertyValue Value="maintain_area_name" Key="BindDisplayField" />
+        <PropertyValue Value="maintain_area_name" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_phone" BindingField="phone" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="工区电话" ComboBoxControl="TextBoxExtend" ConvertoTypeName="AFC.WS.UI.BR.Convertors.ConvertToDecimalMoneyCode,AFC.WS.UI.BR" ComboBoxConvertor="ConvertToDecimalMoneyCode">
+      <PropertyValues>
+        <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Value="12" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="9999999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+        <PropertyValue Value="False" Key="IsNull" />
+        <PropertyValue Key="UserDefinedInfo" />
+        <PropertyValue Value="True" Key="CanEnabled" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_dute_person" BindingField="dute_person" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="工区负责人" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="SqlBindData" Key="BindType" />
+        <PropertyValue Value="select distinct t.dute_person from basi_maintain_area_info t" Key="SqlContent" />
+        <PropertyValue Value="dute_person" Key="BindDisplayField" />
+        <PropertyValue Value="dute_person" Key="BindHideField" />
+        <PropertyValue Key="DataString" />
+        <PropertyValue Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_status" BindingField="status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="工区使用状态" ComboBoxControl="ComboBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="DataString" Key="BindType" />
+        <PropertyValue Key="SqlContent" />
+        <PropertyValue Value="status" Key="BindDisplayField" />
+        <PropertyValue Value="status" Key="BindHideField" />
+        <PropertyValue Value="全部,正常,已删除" Key="DataString" />
+        <PropertyValue Value="99,00,01" Key="HideDataString" />
+        <PropertyValue Key="StartValue" />
+        <PropertyValue Key="ComboBoxStyle" />
+        <PropertyValue Value="100" Key="ControlWidth" />
+        <PropertyValue Value="25" Key="ControlHeight" />
+        <PropertyValue Key="BindControlName" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Value="True" Key="IsAll" />
+      </PropertyValues>
+      <TextConvertor />
+    </ControlProperty>
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnQuery"  Content="查询"   IsDefaultButton="true"  ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="ds_basi_maintain_area_info"  Key="DataSourceName" />
+        <PropertyValue Key="StartDateControlName" />
+        <PropertyValue Key="EndDateControlName" />
+        <PropertyValue Key="DateTimeFormat" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

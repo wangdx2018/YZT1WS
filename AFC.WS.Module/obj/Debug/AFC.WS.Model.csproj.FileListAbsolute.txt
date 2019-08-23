@@ -1,0 +1,12 @@
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\DB\BasiMaintainAreaInfo.cs
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\AFC.WS.Model.dll
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\AFC.WS.Model.pdb
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\AFC.BJComm.dll
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\TJComm.dll
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\AFC.BOM2.Common.dll
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\AFC.BOM2.MessageDispacher.dll
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\TJComm.pdb
+E:\WS\YZWS\AFC.WS.Module\bin\Debug\AFC.BJComm.pdb
+E:\WS\YZWS\AFC.WS.Module\obj\Debug\AFC.WS.Model.csprojResolveAssemblyReference.cache
+E:\WS\YZWS\AFC.WS.Module\obj\Debug\AFC.WS.Model.dll
+E:\WS\YZWS\AFC.WS.Module\obj\Debug\AFC.WS.Model.pdb

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_maintain_area_station_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="维修工区名称" BindingField="maintain_area_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="维修工区编号" BindingField="maintain_area_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站" BindingField="station_cn_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="车站" BindingField="station_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新操作员" BindingField="update_operator" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="update_date" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新时间" BindingField="update_time" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+  </ActionList>
+</DataListRule>

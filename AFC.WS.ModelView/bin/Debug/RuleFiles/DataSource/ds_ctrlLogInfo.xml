@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_ctrlLogInfo" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.line_id,t.station_id,t.device_id,t.key_fld2,t.remark,t.oper_id,t.oper_date,t.oper_time,decode(t.oper_status,'00000000','成功','00000001','失败','未知状态')as status_name, tt.oper_content,decode(tt.oper_class,'01','正常','02','警告','03','故障','其它') as  oper_class,ttt.device_name from dev_oper_log_info t left join  basi_oper_code_info tt on  t.busi_code = tt.oper_code left join basi_dev_type_info ttt on tt.device_type = ttt.device_type" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Value="t.busi_code='1706'" Key="WhereParams" />
+    <PropertyValue Value="oper_date desc,oper_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

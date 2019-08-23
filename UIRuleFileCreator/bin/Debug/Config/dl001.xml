@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<DataListRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" Style="a" PageRecordCount="200" SelectionMode="None" DataSourceName="ds001" ButtonStyle="a" ActionLocation="Top" ActionAlign="Left">
+  <ColumnList>
+    <ColumnProperty HeaderName="设备编码" BindingField="dev_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="线路 " BindingField="line_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="车站" BindingField="station_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备种类编码 " BindingField="dev_type_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="售检口号" BindingField="corner_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="岗位编码 " BindingField="pos_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备ip " BindingField="dev_ip" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备应用编号 " BindingField="dev_app_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备设置编号 " BindingField="dev_set_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备状态 " BindingField="dev_state" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="目的车站编号 " BindingField="dev_des_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备变更原因 " BindingField="dev_logout_res" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备变更日期" BindingField="dev_change_date" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备变更类型 " BindingField="dev_change_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="操作员名字 " BindingField="oprater_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备备注 " BindingField="dev_remark" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="通道编号" BindingField="gate_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备mac地址" BindingField="dev_mac_ip" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList />
+</DataListRule>

@@ -93,9 +93,9 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
             int curStatus = Convert.ToInt16(qc.value.ToString());
             switch (this.Status)
             {
-                case "0": //todo 启用为从 禁用状态或者未启用状态--->启用
+                case "0": //todo 启用为从 禁用状态或者未启用状态或者已删除状态--->启用
                     operationCode = OperationCode.Start_Using_Function;
-                    if (curStatus == 1 || curStatus == 3)
+                    if (curStatus == 1 || curStatus == 3 || curStatus == 2)
                         return true;
                     else
                         MessageDialog.Show("该功能已处于启用状态", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
@@ -112,6 +112,11 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     if (curStatus == 3)
                     {
                         MessageDialog.Show("该功能尚未启用,请先启用", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
+                        return false;
+                    }
+                    if (curStatus == 2)
+                    {
+                        MessageDialog.Show("该功能已删除,请先启用", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                         return false;
                     }
                     return false;

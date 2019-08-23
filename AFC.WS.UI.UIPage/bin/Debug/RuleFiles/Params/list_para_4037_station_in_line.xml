@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None" DataSourceName="ds_para_4037_station_in_line" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="版本号" BindingField="para_version" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站选择区域ID" BindingField="station_area_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="线路选择按钮ID" BindingField="line_select_button_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站选择区域左上角X坐标" BindingField="station_left_up_x_index" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站选择区域左上角Y坐标" BindingField="station_left_up_y_index" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站选择区域宽度" BindingField="station_area_wide" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站选择区域高度" BindingField="station_area_high" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站选择区域启用标志" BindingField="station_select_start_flag" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList />
+</DataListRule>

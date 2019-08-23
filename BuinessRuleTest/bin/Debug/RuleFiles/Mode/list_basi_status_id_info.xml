@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<DataListRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="false" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_basi_status_id_info" ActionLocation="Bottom" ActionAlign="Left" ButtonStyle="pageButtonStyle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="状态名称" BindingField="CSS_STATUS_ID_NAME" Width="280">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="所处状态" BindingField="CSS_STATUS_VALUE_NAME" Width="180">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="状态编码" BindingField="CSS_STATUS_ID" Width="180">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="false" HeaderName="状态值" BindingField="CSS_STATUS_VALUE" Width="180">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="报警状态" BindingField="ALARM_STYLE" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="是否记录日志" BindingField="LOG_FLAG" Width="110">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="状态级别" BindingField="STATUS_LEVEL" Width="80">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="BOM" BindingField="BOM" Width="50">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="TVM" BindingField="TVM" Width="50">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="AGM" BindingField="AGM" Width="50">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="EQM" BindingField="EQM" Width="50">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnLogOpen" Content="是否记录" ActionTypeName="AFC.WS.ModelView.Actions.AlarmActions.AlarmLogSettingAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnIsBOM" Content="应用于BOM" ActionTypeName="AFC.WS.ModelView.Actions.AlarmActions.BOMSettingAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnIsAGM" Content="应用于AGM" ActionTypeName="AFC.WS.ModelView.Actions.AlarmActions.AGMSettingAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnIsTVM" Content="应用于TVM" ActionTypeName="AFC.WS.ModelView.Actions.AlarmActions.TVMSettingAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnIsEQM" Content="应用于EQM" ActionTypeName="AFC.WS.ModelView.Actions.AlarmActions.EQMSettingAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnAdded" Content="报警设置" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.SLEMonitor.AlarmStyleModify,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="450" />
+        <PropertyValue Key="Height" Value="200" />
+        <PropertyValue Key="Title" Value="" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnStatusLevelSet" Content="级别设置" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction" Width="120">
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.SLEMonitor.StatusLevelModify,AFC.WS.UI.UIPage" />
+        <PropertyValue Key="Width" Value="350" />
+        <PropertyValue Key="Height" Value="200" />
+        <PropertyValue Key="Title" Value="" />
+      </PropertyValues>
+    </ActionProperty>
+  </ActionList>
+</DataListRule>

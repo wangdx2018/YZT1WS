@@ -20,22 +20,22 @@ namespace AFC.WS.Model.Const
         /// <summary>
         /// 密码终止
         /// </summary>
-        public const string PassWordEnd = "01";
+        public const string PassWordEnd = "02";
 
         /// <summary>
         /// 停用
         /// </summary>
-        public const string Disable = "02";
+        public const string Disable = "01";
         
        /// <summary>
        /// 锁定
        /// </summary>
-        public const string Locked = "03";
+        public const string Locked = "04";
 
         /// <summary>
         /// 强制修改密码
         /// </summary>
-        public const string ForceChangePwd = "04";
+        public const string ForceChangePwd = "03";
 
         /// <summary>
         /// 未启用

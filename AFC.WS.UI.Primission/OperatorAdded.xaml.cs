@@ -76,7 +76,7 @@ namespace AFC.WS.UI.Primission
                 RadioButton rb = sender as RadioButton;
                 if (rb.Name.Equals("rad_system"))
                 {
-                    PasswordExtend txtPwd = this.ic.GetCommonControlByName("btn_current_password") as PasswordExtend;
+                    PasswordExtend txtPwd = this.ic.GetCommonControlByName("btn_password") as PasswordExtend;
                     if (txtPwd != null)
                     {
                         OperatorManager pm = new OperatorManager();
@@ -87,7 +87,7 @@ namespace AFC.WS.UI.Primission
                 }
                 else
                 {
-                    PasswordExtend txtPwd = this.ic.GetCommonControlByName("btn_current_password") as PasswordExtend;
+                    PasswordExtend txtPwd = this.ic.GetCommonControlByName("btn_password") as PasswordExtend;
                     if (txtPwd != null)
                     {
 

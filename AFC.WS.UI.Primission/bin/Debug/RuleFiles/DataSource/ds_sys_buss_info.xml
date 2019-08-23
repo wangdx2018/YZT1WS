@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_sys_buss_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t2.line_id,
+       bli.line_name,
+       t2.station_id,
+       bsi.station_cn_name,
+       t2.run_date_tran,
+       nvl(t2.tran_value,0) as tran_value,
+       nvl(cdsi.today_cash_bank_total,0) as today_cash_bank_total,
+       (nvl(cdsi.today_cash_bank_total,0) - nvl(t2.tran_value,0)) as diff_value
+  from (select t1.line_id,
+               t1.station_id,
+               t1.run_date_tran,
+               sum(decode(t1.tick_card_type,
+                          '06',
+                          '0',
+                          '08',
+                          '0',
+                          '09',
+                          '0',
+                          t1.tran_value)) as tran_value
+          from (select t.line_id,
+                       t.station_id,
+                       t.run_date_tran,
+                       t.tick_card_type,
+                       decode(t.afc_type, '06', -t.tran_value, t.tran_value) as tran_value
+                  from rpt_tran_daily t where t.payment_means = '00' and substr(t.device_id,5,2) in ('01','02')) t1
+         group by t1.line_id, t1.station_id, t1.run_date_tran) t2
+  left join cash_date_settlement_info cdsi on cdsi.station_id =
+                                              t2.station_id and t2.run_date_tran = cdsi.run_date
+  left join basi_station_info bsi on bsi.station_id = t2.station_id
+  left join basi_line_id_info bli on bli.line_id = t2.line_id" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="t2.run_date_tran desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

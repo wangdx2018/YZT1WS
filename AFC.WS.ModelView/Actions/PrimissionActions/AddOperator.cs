@@ -33,7 +33,7 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                 return false;
             try
             {
-                if (actionParamsList.Single(temp => temp.bindingData.Equals("company_name")).value == null)
+                if (actionParamsList.Single(temp => temp.bindingData.Equals("company_id")).value == null)
                 {
                     MessageDialog.Show("请输入工作单位", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
@@ -61,25 +61,25 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     MessageDialog.Show("已经存在该操作员", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                string password = actionParamsList.Single(temp => temp.bindingData.Equals("current_password")).value.ToString();
+                string password = actionParamsList.Single(temp => temp.bindingData.Equals("password")).value.ToString();
                 if (string.IsNullOrEmpty(password))
                 {
                     MessageDialog.Show("请输入密码", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                Object  validityStartDate =actionParamsList.Single(temp => temp.bindingData.Equals("validity_start_date")).value;
+                Object validityStartDate = actionParamsList.Single(temp => temp.bindingData.Equals("validity_date_start")).value;
                 if (validityStartDate==null)
                 {
                     MessageDialog.Show("请输入有效开始日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                Object validityEndDate = actionParamsList.Single(temp => temp.bindingData.Equals("validity_end_date")).value;
+                Object validityEndDate = actionParamsList.Single(temp => temp.bindingData.Equals("validity_date_end")).value;
                 if (validityEndDate == null)
                 {
                     MessageDialog.Show("请输入有效结束日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                if (actionParamsList.Single(temp => temp.bindingData.Equals("password_invalidity_date")).value == null)
+                if (actionParamsList.Single(temp => temp.bindingData.Equals("pwd_invalidity_date")).value == null)
                 {
                     MessageDialog.Show("请输入密码失效日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
@@ -127,49 +127,51 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
         public ResultStatus DoAction(List<QueryCondition> actionParamsList)
         {
             PrivOperatorInfo operatorInfo = new PrivOperatorInfo();
-            operatorInfo.company_name = actionParamsList.Single(temp => temp.bindingData.Equals("company_name")).value.ToString();
+            operatorInfo.company_id = actionParamsList.Single(temp => temp.bindingData.Equals("company_id")).value.ToString();
             operatorInfo.operator_id = actionParamsList.Single(temp => temp.bindingData.Equals("operator_id")).value.ToString();
             operatorInfo.operator_name = actionParamsList.Single(temp => temp.bindingData.Equals("operator_name")).value.ToString();
             operatorInfo.operator_display_id = operatorInfo.operator_id;
-            operatorInfo.is_multyly_login = actionParamsList.Single(temp => temp.bindingData.Equals("is_multyly_login")).value.ToString();
-            operatorInfo.login_status = "01";
+            operatorInfo.is_multi_login = actionParamsList.Single(temp => temp.bindingData.Equals("is_multi_login")).value.ToString();
+            //operatorInfo.login_status = "01";
             operatorInfo.email_address = actionParamsList.Single(temp => temp.bindingData.Equals("email_address")).value.ToString();
-            operatorInfo.lock_status = "00";
-            if (actionParamsList.Single(temp => temp.bindingData.Equals("password_invalidity_date")).value == null)
+            //operatorInfo.lock_status = "00";
+            if (actionParamsList.Single(temp => temp.bindingData.Equals("pwd_invalidity_date")).value == null)
             {
-                operatorInfo.password_invalidity_date = "";
+                operatorInfo.pwd_invalidity_date = "";
             }
             else
             {
-                operatorInfo.password_invalidity_date = actionParamsList.Single(temp => temp.bindingData.Equals("password_invalidity_date")).value.ToString().Replace("-", "");
+                operatorInfo.pwd_invalidity_date = actionParamsList.Single(temp => temp.bindingData.Equals("pwd_invalidity_date")).value.ToString().Replace("-", "");
             }
-            operatorInfo.validity_status = "05";
-            if (actionParamsList.Single(temp => temp.bindingData.Equals("validity_start_date")).value == null)
+            operatorInfo.operator_status = "05";
+            if (actionParamsList.Single(temp => temp.bindingData.Equals("validity_date_start")).value == null)
             {
-                operatorInfo.validity_start_date = "";
+                operatorInfo.validity_date_start = "";
             }
             else
             {
 
-                operatorInfo.validity_start_date = actionParamsList.Single(temp => temp.bindingData.Equals("validity_start_date")).value.ToString().Replace("-", "");
+                operatorInfo.validity_date_start = actionParamsList.Single(temp => temp.bindingData.Equals("validity_date_start")).value.ToString().Replace("-", "");
             }
-            operatorInfo.current_password = actionParamsList.Single(temp => temp.bindingData.Equals("current_password")).value.ToString();
-            operatorInfo.history_password_one = operatorInfo.current_password;
-            operatorInfo.history_password_two = operatorInfo.current_password;
-            if (actionParamsList.Single(temp => temp.bindingData.Equals("validity_end_date")).value == null)
+            operatorInfo.password = actionParamsList.Single(temp => temp.bindingData.Equals("password")).value.ToString();
+            operatorInfo.password_his1 = operatorInfo.password;
+            operatorInfo.password_his2 = operatorInfo.password;
+            if (actionParamsList.Single(temp => temp.bindingData.Equals("validity_date_end")).value == null)
             {
-                operatorInfo.validity_end_date = "";
+                operatorInfo.validity_date_end = "";
             }
             else
             {
-                operatorInfo.validity_end_date = actionParamsList.Single(temp => temp.bindingData.Equals("validity_end_date")).value.ToString().Replace("-", "");
+                operatorInfo.validity_date_end = actionParamsList.Single(temp => temp.bindingData.Equals("validity_date_end")).value.ToString().Replace("-", "");
             }
-            operatorInfo.contact_info_one = actionParamsList.Single(temp => temp.bindingData.Equals("contact_info_one")).value.ToString();
-            operatorInfo.contact_info_two = actionParamsList.Single(temp => temp.bindingData.Equals("contact_info_two")).value.ToString();
+            operatorInfo.contact_info1 = actionParamsList.Single(temp => temp.bindingData.Equals("contact_info1")).value.ToString();
+            operatorInfo.contact_info2 = actionParamsList.Single(temp => temp.bindingData.Equals("contact_info2")).value.ToString();
             operatorInfo.contact_address = actionParamsList.Single(temp => temp.bindingData.Equals("contact_address")).value.ToString();
-            operatorInfo.validity_first_login_date = DateTime.Now.ToString("yyyyMMdd");
-            operatorInfo.pass_set_mode_flag = OperationCode.passwordSetMode;
- 
+            operatorInfo.validity_date_first_login = DateTime.Now.ToString("yyyyMMdd");
+            operatorInfo.pwd_set_mode = OperationCode.passwordSetMode;
+            operatorInfo.update_date = DateTime.Now.ToString("yyyyMMdd");
+            operatorInfo.update_time = DateTime.Now.ToString("HHmmss");
+            operatorInfo.upd_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             OperatorManager operatorManger = new OperatorManager();
             int res = operatorManger.AddNewOperator(operatorInfo);
             BuinessRule.GetInstace().logManager.AddLogInfo(OperationCode.Create_New_Operator, res.ToString());

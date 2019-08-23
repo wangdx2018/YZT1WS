@@ -236,6 +236,7 @@
     <Compile Include="DB\PrivOperatorOperHistory.cs" />
     <Compile Include="DB\PrivOperatorOperType.cs" />
     <Compile Include="DB\PrivOperatorRoleInfo.cs" />
+    <Compile Include="DB\PrivOperatorStationInfo.cs" />
     <Compile Include="DB\PrivOperDeviceTypeInfo.cs" />
     <Compile Include="DB\PrivRoleFunctionInfo.cs" />
     <Compile Include="DB\PrivRoleInfo.cs" />

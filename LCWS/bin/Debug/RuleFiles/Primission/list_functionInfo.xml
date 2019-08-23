@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_functionInfo" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty HeaderName="功能编号" BindingField="function_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="功能名称" BindingField="function_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="设备类型" BindingField="device_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DeviceTypeConvert,AFC.WS.ModelView">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="功能状态" BindingField="function_status" ConvertoTypeName="AFC.WS.ModelView.Convertors.RoleStatusConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="RoleStatusConvert">
+      <PropertyValues />
+    </ColumnProperty>   
+    <ColumnProperty HeaderName="更新日期" BindingField="update_date"   Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView"  ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues/>
+    </ColumnProperty> 
+    <ColumnProperty HeaderName="更新时间" BindingField="update_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty HeaderName="更新操作员编码" BindingField="operator_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+
+    <ActionProperty ControlName="btnAdded" Content="新增功能" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+
+      <PropertyValues>
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.Primission.FunctionAdded,AFC.WS.UI.Primission" />
+        <PropertyValue Key="Width" Value="400" />
+        <PropertyValue Key="Height" Value="400" />
+        <PropertyValue Key="Title" Value="新增功能" />
+      </PropertyValues>
+    </ActionProperty>
+    
+    <ActionProperty ControlName="btnUpdate" Content="修改" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.UpdateShowFunctionAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="0" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnEnable" Content="启用" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.FunctionManagerAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="0" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnDisable" Content="停用" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.FunctionManagerAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="Status"  Value="1"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnDelete" Content="删除" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.FunctionManagerAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Key="Status" Value="2"/>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnRoleRelaction" Content="所属角色查询" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.ShowRoleInfoByFunctionIdAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+      </PropertyValues>
+    </ActionProperty>
+
+   
+  </ActionList>
+</DataListRule>

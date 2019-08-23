@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="40" TopSpace="10" ColumnCount="1" LayoutMode="Stack" ActionLocation="Bottom" ActionAlign="Right" CanRest="false">
+  <ControlList>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_role_id" BindingField="role_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="角色编号" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="false" Key="CanEnabled" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_role_status" BindingField="role_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="角色状态" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="false" Key="CanEnabled" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_role_name" BindingField="role_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="角色名称" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="16" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="False" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <!--<ControlProperty Space="5" Symbols="Equal" ControlName="btn_update_date" BindingField="update_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="更新日期" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_update_time" BindingField="update_time" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="更新时间" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_updating_operator_id" BindingField="updating_operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="更新操作员编码" ComboBoxControl="TextBoxExtend">
+      <PropertyValues>
+        <PropertyValue Value="None" Key="TextBoxValidate" />
+        <PropertyValue Value="0" Key="ControlWidth" />
+        <PropertyValue Value="0" Key="ControlHeight" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
+        <PropertyValue Value="1" Key="RegMinLength" />
+        <PropertyValue Value="99999999" Key="MaxValue" />
+        <PropertyValue Value="0" Key="MinValue" />
+        <PropertyValue Key="RegularExpression" />
+        <PropertyValue Key="TextBoxStyle" />
+        <PropertyValue Key="BorderStyle" />
+        <PropertyValue Value="" Key="Text" />
+        <PropertyValue Value="True" Key="CanReadOnly" />
+        <PropertyValue Value="Visible" Key="CanVisibility" />
+        <PropertyValue Key="UserControlClassName" />
+        <PropertyValue Value="NoWrap" Key="TextWrap" />
+        <PropertyValue Value="False" Key="AcceptReturn" />
+        <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
+      </PropertyValues>
+    </ControlProperty>-->
+  </ControlList>
+  <ActionList>
+    <ActionProperty ControlName="btnUpdate" Content="修改" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.UpdateRoleAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+    </ActionProperty>
+  </ActionList>
+</InteractiveControlRule>

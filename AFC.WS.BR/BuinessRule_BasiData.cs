@@ -255,7 +255,7 @@ namespace AFC.WS.BR
         /// <returns></returns>
         public List<BasiDevTypeInfo> GetOperatorDevType(string operatorId)
         {
-            return DBCommon.Instance.GetTModelValue<BasiDevTypeInfo>(string.Format("select t.* from basi_dev_type_info t left join priv_oper_device_type_info tt on tt.dev_type=t.device_type where tt.user_id='{0}'", operatorId));
+            return DBCommon.Instance.GetTModelValue<BasiDevTypeInfo>(string.Format("select t.* from basi_dev_type_info t left join priv_operation_device_info tt on tt.dev_type=t.device_type where tt.operator_id='{0}'", operatorId));
         }
 
         /// <summary>

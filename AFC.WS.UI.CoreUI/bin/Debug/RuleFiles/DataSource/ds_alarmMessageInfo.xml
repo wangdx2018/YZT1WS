@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_alarmMessageInfo" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select * from ws_alarm_message_info t " Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" Value="t.alarm_date desc,t.alarm_time desc" />
+  </PropertyValues>
+</DataSourceRule>-->
+
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_alarmMessageInfo" DataSourceTypeName="AFC.WS.UI.DataSources.ObjectDataSource,AFC.WS.UI.FC" ComboBoxDataSource="ObjectDataSource">
+  <PropertyValues>
+    <PropertyValue Value="AFC.WS.UI.Convertors.ListObjectConvertor,AFC.WS.UI.FC" Key="ObjectConvetorType" />
+    <PropertyValue Value="ds_alarmMessageInfo" Key="DataSourceName" />
+  </PropertyValues>
+</DataSourceRule>

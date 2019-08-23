@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_basi_tick_mana_type_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="库存管理类型" BindingField="tick_mana_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="库存管理类型名称" BindingField="tick_mana_type_name" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票卡物理类型" BindingField="ticket_phy_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票卡物理类型中文名称" BindingField="ticket_phy_type_name" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票种基本类型（大类分类）" BindingField="ticket_family_type" Width="150">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票种类型中文名称" BindingField="ticket_family_type_name" Width="300">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票卡发行商ID" BindingField="card_issue_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+
+  <ActionList>
+  <ActionProperty ControlName="btnAdded" Content="增加" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+
+    <PropertyValues>
+      <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.TickStoreManager.TiketTypeAdded,AFC.WS.UI.UIPage" />
+      <PropertyValue Key="Width" Value="450" />
+      <PropertyValue Key="Height" Value="500" />
+      <PropertyValue Key="Title" Value="新增库存管理类型" />
+      <PropertyValue Key="IsCheckNULL" Value="false" />
+    </PropertyValues>
+  </ActionProperty>
+
+  <ActionProperty ControlName="btnEdit" Content="编辑" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+
+    <PropertyValues>
+      <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.TickStoreManager.TiketTypeNameUpdate,AFC.WS.UI.UIPage" />
+      <PropertyValue Key="Width" Value="450" />
+      <PropertyValue Key="Height" Value="500" />
+      <PropertyValue Key="Title" Value="修改票卡库存名称" />
+      <PropertyValue Key="IsCheckNULL" Value="false" />
+    </PropertyValues>
+  </ActionProperty>
+    </ActionList>
+</DataListRule>

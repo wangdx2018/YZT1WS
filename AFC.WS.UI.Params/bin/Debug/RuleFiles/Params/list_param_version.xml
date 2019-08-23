@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_para_version_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="参数类型" BindingField="para_type" Width="100" ConvertoTypeName=""  ComboBoxConvertor="ParaTypeNameConvert">
+      <PropertyValues />
+    </ColumnProperty>
+
+    <ColumnProperty IsVisbility="true" HeaderName="参数描述" BindingField="  t1.para_desc" Width="200" ConvertoTypeName=""  ComboBoxConvertor="ParaTypeNameConvert">
+      <PropertyValues />
+    </ColumnProperty>
+   
+    <ColumnProperty IsVisbility="true" HeaderName="数据文件类型" BindingField="para_master_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="主控版本号" BindingField="master_para_version" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="版本号" BindingField="para_version" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="全路径名称" BindingField="para_file_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="参数生成日期" BindingField="occur_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView"  ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="参数生成时间" BindingField="occur_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView"  ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="参数的生效日期" BindingField="active_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView"  ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="参数的生效时间" BindingField="active_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView"  ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="update_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView"  ComboBoxConvertor="DateTimeConvert">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新时间" BindingField="update_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView"  ComboBoxConvertor="ConvertToTime">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+ 
+    <ActionProperty ControlName="btnDel" Content="删除草稿版" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.DelParaDraftVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnAdd4043" Content="增加TVM参数" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.AddHandleVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="4043" Key="ParaType" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnAdd4044" Content="增加AGM参数" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.AddHandleVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="4044" Key="ParaType" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnAdd4045" Content="增加BOM参数" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.AddHandleVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="4045" Key="ParaType" />
+      </PropertyValues>
+    </ActionProperty>
+    <ActionProperty ControlName="btnAdd4314" Content="增加自动运行参数" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.AddHandleVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="4314" Key="ParaType" />
+      </PropertyValues>
+    </ActionProperty>
+
+    <ActionProperty ControlName="btnAdd4042" Content="增加设备配置参数" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.AddHandleVersion,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues>
+        <PropertyValue Value="4042" Key="ParaType" />
+      </PropertyValues>
+    </ActionProperty>
+    
+  <ActionProperty ControlName="btnDevTypeQuery" Content="编辑参数" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+    <PropertyValues>
+      <PropertyValue Key="ControlType" Value="AFC.WS.UI.Params.ParamDetailQuery,AFC.WS.UI.Params" />
+      <PropertyValue Key="Width" Value="850" />
+      <PropertyValue Key="Height" Value="700" />
+      <PropertyValue Key="IsCheckNULL" Value="true" />
+      <PropertyValue Key="Title" Value="详细信息查询" />
+    </PropertyValues>
+  </ActionProperty>
+  </ActionList>
+</DataListRule>

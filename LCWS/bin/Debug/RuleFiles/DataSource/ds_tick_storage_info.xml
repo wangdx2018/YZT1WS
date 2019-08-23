@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_tick_storage_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select blii.line_name,bsi.station_cn_name,tsi.tick_mana_type,decode(btmt.tick_mana_type_name,null,tv.tick_mana_type_name,btmt.tick_mana_type_name)tick_mana_type_name,&#xA;case tsi.ticket_status&#xA;when '00' then '正常'&#xA;when '01' then '废票'&#xA;end ticket_status,&#xA;tsi.in_store_num,tsi.total_num,&#xA;tsi.update_date,&#xA;tsi.update_time &#xA;from tick_storage_info tsi&#xA;left join basi_line_id_info blii on blii.line_id = tsi.line_id&#xA;left join basi_station_info bsi on bsi.station_id = tsi.station_id&#xA;left join basi_tick_mana_type_info btmt on btmt.tick_mana_type = tsi.tick_mana_type  left join  tick_valued_product_info tv  on tv.tick_mana_type=tsi.Tick_Mana_Type" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="tsi.update_date desc, tsi.update_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

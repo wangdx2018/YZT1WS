@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_sys_buss_info" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="车站编号" BindingField="station_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车站名称" BindingField="station_cn_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="运营日期" BindingField="run_date_tran" Width="150" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="交易统计金额" BindingField="tran_value" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="今日待解行金额" BindingField="today_cash_bank_total" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />  
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="差异统计" BindingField="diff_value" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList>
+    <ActionProperty ControlName="btnEdit" Content="交易详细信息" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
+    <PropertyValues>
+      <PropertyValue Key="ControlType" Value="AFC.WS.UI.UIPage.DataManager.BussinessDetailInfoQuery,AFC.WS.UI.UIPage" />
+      <PropertyValue Key="Width" Value="700" />
+      <PropertyValue Key="Height" Value="700" />
+      <PropertyValue Key="Title" Value="交易详细信息" />
+      <PropertyValue Key="IsCheckNULL" Value="true" />
+    </PropertyValues>
+  </ActionProperty>
+  </ActionList>
+</DataListRule>

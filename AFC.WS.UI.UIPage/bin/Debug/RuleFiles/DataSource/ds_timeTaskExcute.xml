@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_timeTaskExcute" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.task_id,
+       t.task_name,
+       decode(t.task_execute_way,'1','任务以函数调用','2','任务以fork子进程执行') as task_execute_way, 
+       t.task_execute_funpro,  
+       decode(t.task_execute_method,'1','任务轮询执行','2','任务明天定点执行') as task_execute_method, 
+       t.task_start_executing_time, 
+       t.task_end_executing_time,
+       t.task_interval,
+       decode(t.task_source,'1','任务来源为系统内部','2','任务来源为ACC') as task_source,
+       decode(t.task_is_effect,'1','生效','2','未生效') as task_is_effect,
+       decode(t.task_is_related_running_time,'1','任务与运行时间表有关','2','任务与运行时间表无关') as task_is_related_running_time,
+       t.task_remak from task_execute_schedule t" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="task_id" Key="OrderByParams"/>
+  </PropertyValues>
+</DataSourceRule>

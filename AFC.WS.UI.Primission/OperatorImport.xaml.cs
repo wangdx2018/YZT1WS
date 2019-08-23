@@ -108,29 +108,29 @@ namespace AFC.WS.UI.Primission
                 {
                     PrivOperatorInfo info = new PrivOperatorInfo();
                     info.operator_id = (compSheet.Cells[i + 2, operatorIdCell] as Range).Value2 == null ? "" : (compSheet.Cells[i + 2, operatorIdCell] as Range).Value2.ToString().Trim();
-                    info.company_name = (compSheet.Cells[i + 2, companyCell] as Range).Value2 == null ? "" : (compSheet.Cells[i + 2, companyCell] as Range).Value2.ToString().Trim();
+                    info.company_id = (compSheet.Cells[i + 2, companyCell] as Range).Value2 == null ? "" : (compSheet.Cells[i + 2, companyCell] as Range).Value2.ToString().Trim();
                     info.operator_name = (compSheet.Cells[i + 2, operatorNameCell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, operatorNameCell] as Range).Value2.ToString().Trim(), "[" + Regex.Escape(except_chars) + "]", "");
-                    info.contact_info_one = (compSheet.Cells[i + 2, contact1Cell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, contact1Cell] as Range).Value2.ToString().Trim(), "[" + Regex.Escape(except_chars) + "]", "");
-                    info.contact_info_two = (compSheet.Cells[i + 2, contact2Cell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, contact2Cell] as Range).Value2.ToString().Trim(),"[" + Regex.Escape(except_chars) + "]", "");
+                    info.contact_info1 = (compSheet.Cells[i + 2, contact1Cell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, contact1Cell] as Range).Value2.ToString().Trim(), "[" + Regex.Escape(except_chars) + "]", "");
+                    info.contact_info2 = (compSheet.Cells[i + 2, contact2Cell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, contact2Cell] as Range).Value2.ToString().Trim(),"[" + Regex.Escape(except_chars) + "]", "");
                     info.contact_address = (compSheet.Cells[i + 2, addressCell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, addressCell] as Range).Value2.ToString().Trim(),"[" + Regex.Escape(except_chars) + "]", "");
                     info.email_address = (compSheet.Cells[i + 2, emailCell] as Range).Value2 == null ? "" : Regex.Replace((compSheet.Cells[i + 2, emailCell] as Range).Value2.ToString().Trim(),"[" + Regex.Escape(except_chars) + "]", "");
-                    info.history_password_one = string.Empty;
-                    info.history_password_two = string.Empty;
-                    info.is_multyly_login = "01";
-                    info.lock_status = "00";
-                    info.login_status = "01";
-                    info.current_password = "000000";
-                    info.new_password = "000000";
+                    info.password_his1 = string.Empty;
+                    info.password_his2 = string.Empty;
+                    info.is_multi_login = "01";
+                    //info.lock_status = "00";
+                    //info.login_status = "01";
+                    info.password = "000000";
+                    info.password_new = "000000";
                     info.operator_display_id = string.Empty;
-                    info.pass_set_mode_flag = "01";
-                    info.password_invalidity_date = DateTime.Now.AddYears(2).ToString("yyyyMMdd");
+                    info.pwd_set_mode = "01";
+                    info.pwd_invalidity_date = DateTime.Now.AddYears(2).ToString("yyyyMMdd");
                     info.update_date = DateTime.Now.ToString("yyyyMMdd");
                     info.update_time = DateTime.Now.ToString("HHmmss");
-                    info.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
-                    info.validity_end_date = DateTime.Now.AddYears(2).ToString("yyyyMMdd");
-                    info.validity_first_login_date = DateTime.Now.AddMonths(6).ToString("yyyyMMdd");
-                    info.validity_start_date = DateTime.Now.ToString("yyyyMMdd");
-                    info.validity_status = "05";
+                    info.upd_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+                    info.validity_date_end = DateTime.Now.AddYears(2).ToString("yyyyMMdd");
+                    info.validity_date_first_login = DateTime.Now.AddMonths(6).ToString("yyyyMMdd");
+                    info.validity_date_start = DateTime.Now.ToString("yyyyMMdd");
+                    info.operator_status = "05";
 
                     int res = manager.AddNewOperator(info);
 

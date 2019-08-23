@@ -111,7 +111,7 @@ namespace AFC.WS.BR.Primission
                 }
                 else
                 {
-                    if (password == operatorInfo.current_password)
+                    if (password == operatorInfo.password)
                     {
                         return true;
                     }
@@ -194,13 +194,13 @@ namespace AFC.WS.BR.Primission
             {
                 return -1;
             }
-            if (operatorInfo.history_password_one == null)
-                operatorInfo.history_password_one = operatorInfo.current_password;
-            if (operatorInfo.history_password_two == null)
-                operatorInfo.history_password_two = operatorInfo.current_password;
+            if (operatorInfo.password_his1 == null)
+                operatorInfo.password_his1 = operatorInfo.password;
+            if (operatorInfo.password_his2 == null)
+                operatorInfo.password_his2 = operatorInfo.password;
             operatorInfo.update_time = DateTime.Now.ToString("HHmmss");
             operatorInfo.update_date = DateTime.Now.ToString("yyyyMMdd");
-            operatorInfo.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            operatorInfo.upd_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             try
             {
                 int res = 0;
@@ -248,15 +248,15 @@ namespace AFC.WS.BR.Primission
             }
             pi.update_date = DateTime.Now.ToString("yyyyMMdd");
             pi.update_time = DateTime.Now.ToString("HHmmss");
-            pi.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
-            pi.validity_status = status;
+            pi.upd_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            pi.operator_status = status;
             if (status == AFC.WS.Model.Const.OperatorStatus.ForceChangePwd)
             {
-                pi.validity_status = "00";
-                pi.history_password_two = pi.history_password_one;
-                pi.history_password_one = pi.current_password;
-                pi.current_password = "111111";
-                pi.new_password = "111111";
+                pi.operator_status = "00";
+                pi.password_his2 = pi.password_his1;
+                pi.password_his1 = pi.password;
+                pi.password = "111111";
+                pi.password_new = "111111";
             }
 
             int res = 0;
@@ -302,8 +302,8 @@ namespace AFC.WS.BR.Primission
           }
           pi.update_date = DateTime.Now.ToString("yyyyMMdd");
           pi.update_time = DateTime.Now.ToString("HHmmss");
-          pi.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
-          pi.lock_status = lockStatus;
+          pi.upd_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+          //pi.lock_status = lockStatus;//wangyzh new pri_operator_info no this column
 
           int res = 0;
           try
@@ -343,8 +343,8 @@ namespace AFC.WS.BR.Primission
         /// <returns>有权限返回true，否则返回false</returns>
       public bool CheckStationPrimission(string operatorId, string stationId)
       {
-          string cmd=string.Format("select * from priv_operator_location_info t where t.operator_id='{0}' and t.location_id='{1}'",operatorId,stationId);
-          PrivOperatorLocationInfo info = DBCommon.Instance.GetModelValue<PrivOperatorLocationInfo>(cmd);
+          string cmd=string.Format("select * from priv_operator_station_info t where t.operator_id='{0}' and t.location_id='{1}'",operatorId,stationId);
+          PrivOperatorStationInfo info = DBCommon.Instance.GetModelValue<PrivOperatorStationInfo>(cmd);
           return info.operator_id != null;
       }
 
@@ -361,7 +361,7 @@ namespace AFC.WS.BR.Primission
               WriteLog.Log_Error("function params error!");
               return false;
           }
-          PrivOperDeviceTypeInfo info = DBCommon.Instance.GetModelValue<PrivOperDeviceTypeInfo>(string.Format("select * from priv_oper_device_type_info t where t.user_id='{0}' and t.dev_type='{1}'", operatorId, devcieType));
+          PrivOperDeviceTypeInfo info = DBCommon.Instance.GetModelValue<PrivOperDeviceTypeInfo>(string.Format("select * from priv_oper_device_type_info t where t.operator_id='{0}' and t.dev_type='{1}'", operatorId, devcieType));
           return info.user_id != null;
       }
 
@@ -448,7 +448,7 @@ namespace AFC.WS.BR.Primission
       /// <returns>返回该操作员的所有车站信息</returns>
       public List<BasiStationInfo> GetOperatorStationInfos(string operatorId)
       {
-          List<BasiStationInfo> list = DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info t right join (select poli.location_id from priv_operator_info poi left join priv_operator_location_info poli on poi.operator_id =poli.operator_id where poi.operator_id = '{0}') t1 on t1.location_id =t.station_id where t.line_id='{1}'", operatorId,SysConfig.GetSysConfig().LocalParamsConfig.LineCode));
+          List<BasiStationInfo> list = DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info t right join (select poli.station_id from priv_operator_info poi left join priv_operator_station_info poli on poi.operator_id =poli.operator_id where poi.operator_id = '{0}') t1 on t1.station_id =t.station_id where t.line_id='{1}'", operatorId,SysConfig.GetSysConfig().LocalParamsConfig.LineCode));
           return list;
       }
 
@@ -463,20 +463,36 @@ namespace AFC.WS.BR.Primission
       {
           if (string.IsNullOrEmpty(operatorId))
               return null;
-          string cmd = string.Format("select distinct pfi.function_id"+
-  " from priv_function_info pfi"+
-  "  inner join"+
- "  (select prfi.function_id"+
-  "  from priv_role_function_info prfi"+
- "   left join (select pri.*"+
-    "            from priv_role_info pri"+
-     "           left join priv_operator_role_info pori on pori.role_id ="+
-          "                                                pri.role_id"+
-         "                                             and pri.role_status = '00'"+
-       "        where pori.operator_id = '{0}') t on t.role_id ="+
-       "                                                  prfi.role_id) tt"+
-"  on pfi.function_id = tt.function_id and pfi.function_status='00'"+
-"  where pfi.device_type = '12'", operatorId);
+//          string cmd = string.Format("select distinct pfi.function_id"+
+//  " from priv_function_info pfi"+
+//  "  inner join"+
+// "  (select prfi.function_id"+
+//  "  from priv_role_function_info prfi"+
+// "   left join (select pri.*"+
+//    "            from priv_role_info pri"+
+//     "           left join priv_operator_role_info pori on pori.role_id ="+
+//          "                                                pri.role_id"+
+//         "                                             and pri.role_status = '00'"+
+//       "        where pori.operator_id = '{0}') t on t.role_id ="+
+//       "                                                  prfi.role_id) tt"+
+//"  on pfi.function_id = tt.function_id and pfi.function_status='00'"+
+//"  where pfi.device_type = '21'", operatorId);
+          string cmd = string.Format("select distinct pfi.function_id" +
+ " from priv_function_info      pfi" +
+    "," +
+    " priv_role_function_info prfi" +
+    "," +
+    " priv_role_info          pri" +
+    "," +
+    " priv_operator_role_info pori" +
+    " where pfi.function_id = prfi.function_id" +
+    " and pori.role_id = pri.role_id" +
+    " and pri.role_id = prfi.role_id" +
+    " and pri.role_status = '00'" +
+    " and pori.operator_id = '{0}'" +
+    " and pfi.function_status = '00'" +
+    " and pfi.device_type = '21'", operatorId);
+
         
           DataTable ds = DBCommon.Instance.GetDatatable(cmd);
        

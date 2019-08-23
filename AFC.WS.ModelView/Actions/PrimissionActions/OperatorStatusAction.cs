@@ -103,7 +103,7 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
             }
         }
 
-        [Description("操作员的状态设置选择。Normal = 00 ,PassWordEnd = 01, Disable = 02,Locked = 03 ,ForceChangePwd = 04,NoYetUsing=05"),
+        [Description("操作员的状态设置选择。Normal = 00 ,Disable = 01, PassWordEnd = 02,ForceChangePwd = 03 ,Locked = 04, NoYetUsing=05， delOperaor=06"),
         DesignerSerializationVisibility(DesignerSerializationVisibility.Visible),
         Filter()]
         public string OperatorStatus
@@ -176,12 +176,12 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
         /// <returns>成功返回ture，否则返回false</returns>
         private bool CheckDisableOperatorAction(PrivOperatorInfo operatorInfo)
         {
-            if (operatorInfo.validity_status == AFC.WS.Model.Const.OperatorStatus.Disable)
+            if (operatorInfo.operator_status == AFC.WS.Model.Const.OperatorStatus.Disable)
             {
                 MessageDialog.Show("该操作员已处于禁用状态", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                 return false;
             }
-            if (operatorInfo.validity_status == AFC.WS.Model.Const.OperatorStatus.NoYetUsing)
+            if (operatorInfo.operator_status == AFC.WS.Model.Const.OperatorStatus.NoYetUsing)
             {
                 MessageDialog.Show("该操作员未启用，无法禁用，请先启用!", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                 return false;
@@ -202,7 +202,7 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
         /// <returns>成功返回true，否则返回false</returns>
         private bool CheckEnableOperationAction(PrivOperatorInfo operatorInfo)
         {
-            if (operatorInfo.validity_status != AFC.WS.Model.Const.OperatorStatus.Normal)
+            if (operatorInfo.operator_status != AFC.WS.Model.Const.OperatorStatus.Normal)
                 return true;
             else
             {
@@ -219,12 +219,12 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
         /// <returns>成功返回0，否则返回false</returns>
         private bool CheckPasswordEndAction(PrivOperatorInfo operatorInfo)
         {
-            if (operatorInfo.validity_status == AFC.WS.Model.Const.OperatorStatus.NoYetUsing)
+            if (operatorInfo.operator_status == AFC.WS.Model.Const.OperatorStatus.NoYetUsing)
             {
                 MessageDialog.Show("该操作员未启用,请先启用", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                 return false;
             }
-            if (operatorInfo.validity_status == AFC.WS.Model.Const.OperatorStatus.PassWordEnd)
+            if (operatorInfo.operator_status == AFC.WS.Model.Const.OperatorStatus.PassWordEnd)
             {
                 MessageDialog.Show("该操作员已是密码终止状态", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                 return false;
@@ -246,7 +246,7 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
         /// <returns>成功返回0，否则返回false</returns>
         private bool CheckPasswordResetAction(PrivOperatorInfo operatorInfo)
         {
-            if (operatorInfo.validity_status == AFC.WS.Model.Const.OperatorStatus.NoYetUsing)
+            if (operatorInfo.operator_status == AFC.WS.Model.Const.OperatorStatus.NoYetUsing)
             {
                 MessageDialog.Show("该操作员未启用,无法重置密码", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                 return false;

@@ -30,15 +30,17 @@ namespace AFC.WS.ModelView.Convertors
                 case 0:
                     return "正常";
                 case 1:
-                    return "密码终止";
-                case 2:
                     return "停用";
+                case 2:
+                    return "密码终止";
                 case 3:
-                    return "锁定";
-                case 4:
                     return "强制修改密码";
+                case 4:
+                    return "锁定";
                 case 5:
                     return "未启用";
+                case 6:
+                    return "已删除";
                 default:
                     return "未知状态";
             }

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_failLogInfo" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.line_id,t.station_id,t.device_id,t.fail_date,t.fail_time,decode(t.fail_type,'00','正常','01','警告','02','故障','其它')as oper_class ,tt.fail_content,t.key_fld1,t.key_fld2,ttt.device_name  from dev_fail_log_info t left join basi_dev_fail_code_info tt on t.fail_id = tt.fail_id left join basi_dev_type_info ttt on tt.device_type =ttt.device_type " Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="fail_date desc,fail_time desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None" DataSourceName="ds_tick_dispatch_log_in" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="线路" BindingField="line_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="目的车站" BindingField="des_station" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="起始车站" BindingField="in_station" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="出入库类型" BindingField="dispatch_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="库存管理类型" BindingField="tick_mana_type_name" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票卡状态" BindingField="tick_status" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="应入张数" BindingField="dispatch_in_sys_num" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="实际张数" BindingField="dispatch_in_real_num" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="入库操作员" BindingField="dispatch_in_oper_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="update_date"  ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="更新时间" BindingField="update_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList />
+</DataListRule>

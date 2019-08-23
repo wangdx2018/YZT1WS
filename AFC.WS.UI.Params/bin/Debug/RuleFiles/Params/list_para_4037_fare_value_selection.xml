@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None" DataSourceName="ds_para_4037_fare_value_selection" ActionLocation="Bottom" ActionAlign="Middle">
+  <ColumnList>
+    <ColumnProperty IsVisbility="true" HeaderName="版本号" BindingField="para_version" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="票价选择按钮ID" BindingField="fare_value_selection_id" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票金额按钮显示金额(元)" BindingField="fare_display_value" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票金额对应的费率等级" BindingField="fare_group_level" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票金额按钮左上角X坐标" BindingField="fare_left_up_x_index" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票金额按钮左上角Y坐标" BindingField="fare_left_up_y_value" Width="200">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票金额按钮宽度" BindingField="fare_button_wide" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="车票金额按钮高度" BindingField="fare_button_high" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+  </ColumnList>
+  <ActionList />
+</DataListRule>

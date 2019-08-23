@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_maintain_area_station_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select bmai.maintain_area_name,t.maintain_area_id,bsi.station_cn_name,bsi.station_id,t.update_operator,t.update_date,t.update_time from maintain_area_station_info t left join basi_maintain_area_info bmai on bmai.maintain_area_id = t.maintain_area_id left join basi_station_info bsi on bsi.station_id=t.station_id" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

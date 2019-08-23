@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_devStatusQuery" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t1.*
+  from (select t.station_id,
+               t.line_id,
+               t.device_id,
+               t.update_date || t.update_time as updatetime,
+               st.status_visiable,
+               st.css_status_id,
+               st.css_status_id_name,
+               st.css_status_value_name,
+               st.status_level,
+               decode(st.status_level,'00','正常','01','报警','02','故障','未知') as status_level_name,
+               st.bom,
+               st.tvm,
+               st.eqm,
+               st.agm,
+               t.update_date,
+               t.update_time
+          from dev_run_status_detail t
+          left join basi_status_id_info st on t.status_id = st.css_status_id
+                                          and t.status_value =
+                                              st.css_status_value
+         inner join BASI_DEV_STATUS_SHOW_CFG_INFO bdsci on bdsci.css_status_id =
+                                                           st.css_status_id
+                                                       and bdsci.dev_type_class =
+                                                           subStr(t.device_id,
+                                                                  5,
+                                                                  2))t1 " Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Value=" 
+                   (substr(t1.device_id,5,2)||t1.bom = '0200'
+                 or substr(t1.device_id,5,2)||t1.tvm = '0100'
+                 or substr(t1.device_id,5,2)||t1.agm = '0600'
+                 or substr(t1.device_id,5,2)||t1.eqm = '0400') 
+                 and t1.update_date = to_char(sysdate,'yyyyMMdd')
+                 and t1.status_visiable = '01'" Key="WhereParams" />
+    <PropertyValue Value="t1.status_level desc,t1.update_date desc,t1.updatetime desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

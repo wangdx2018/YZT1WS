@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_para_4037_station_in_line" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select para_4037_station_in_line.para_version,para_4037_station_in_line.station_area_id,para_4037_station_in_line.line_select_button_id,para_4037_station_in_line.station_left_up_x_index,para_4037_station_in_line.station_left_up_y_index,para_4037_station_in_line.station_area_wide,para_4037_station_in_line.station_area_high,para_4037_station_in_line.station_select_start_flag from para_4037_station_in_line" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

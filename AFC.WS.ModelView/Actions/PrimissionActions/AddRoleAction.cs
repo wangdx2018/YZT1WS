@@ -128,36 +128,44 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
             switch (roleClass)
             {
                 case "LCWS相关":
-                   return CheckValid(result, res,1001,roleClass);
+                   return CheckValid(result, res,1001,roleClass, roleId);
                 case "SCWS相关":
-                    return CheckValid(result, res,2001,roleClass);
+                   return CheckValid(result, res, 2001, roleClass, roleId);
                 case "MCWS相关":
-                    return CheckValid(result,res, 3001,roleClass);
+                   return CheckValid(result, res, 3001, roleClass, roleId);
                 case "TCWS相关":
-                   return CheckValid(result,res, 4001,roleClass);
+                   return CheckValid(result, res, 4001, roleClass, roleId);
                 case "AGM相关":
-                    return CheckValid(result,res, 5001,roleClass);
+                   return CheckValid(result, res, 5001, roleClass, roleId);
                 case "BOM相关":
-                    return CheckValid(result,res, 6001,roleClass);
+                   return CheckValid(result, res, 6001, roleClass, roleId);
                 case "TVM相关":
-                    return CheckValid(result, res, 7001, roleClass);
+                   return CheckValid(result, res, 7001, roleClass, roleId);
                 case "EQM相关":
-                    return CheckValid(result, res, 8001, roleClass);
+                   return CheckValid(result, res, 8001, roleClass, roleId);
                 case "PCA相关":
-                    return CheckValid(result, res, 9001, roleClass);
+                   return CheckValid(result, res, 9001, roleClass, roleId);
                 case "ES相关":
-                    return CheckValid(result, res, 10001, roleClass);
+                   return CheckValid(result, res, 10001, roleClass, roleId);
+                case "SDG相关":
+                   return CheckValid(result, res, 11001, roleClass, roleId);
                 default:
                     return false;
             }
         }
 
-        private bool CheckValid(bool result, int res,int compareValue,string content)
+        private bool CheckValid(bool result, int res, int compareValue, string content, string roleId)
         {
+
+            if (roleId.Length < 8)
+            {
+                MessageDialog.Show("请输入八位角色编号", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
+                return false;
+            }
             bool flag = result ? res >= (compareValue - 1000) && res < compareValue : result;
             if (!flag)
             {
-                MessageDialog.Show(content + "角色编号应该大于" + (compareValue - 1000).ToString() + "并且小于" + compareValue.ToString(), "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
+                MessageDialog.Show(content + "角色编号应该大于" + (compareValue - 1000).ToString("D8") + "并且小于" + compareValue.ToString("D8"), "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
             }
             return flag;
         }
