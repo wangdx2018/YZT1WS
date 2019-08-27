@@ -76,7 +76,7 @@ namespace AFC.WS.BR.Primission
             info.role_id = roleId;
             info.update_date = DateTime.Now.ToString("yyyyMMdd");
             info.update_time = DateTime.Now.ToString("HHmmss");
-            info.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            info.upd_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             try
             {
                 int res = 0;

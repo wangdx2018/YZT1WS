@@ -13,7 +13,7 @@
   left join priv_role_function_info prfi on prfi.role_id = pri.role_id
  right join priv_function_info pfi on pfi.function_id = prfi.function_id
                                   and pfi.function_status = '00'
-  left join priv_operator_info poi1 on pfi.updating_operator_id =
+  left join priv_operator_info poi1 on pfi.operator_id =
                                        poi1.operator_id" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />

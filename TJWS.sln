@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1.WS.Model", "T1.WS.Model\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1.WS.BR", "T1.WS.BR\T1.WS.BR.csproj", "{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelSpire", "WSReport\ExcelSpire.csproj", "{A78E4AC0-2C7A-4D68-955C-4DDC109C6F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A171CCD4-1FFF-4C8C-9BC3-2E7BE1DE7AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78E4AC0-2C7A-4D68-955C-4DDC109C6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78E4AC0-2C7A-4D68-955C-4DDC109C6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78E4AC0-2C7A-4D68-955C-4DDC109C6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78E4AC0-2C7A-4D68-955C-4DDC109C6F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

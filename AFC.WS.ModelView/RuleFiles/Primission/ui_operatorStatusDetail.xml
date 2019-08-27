@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="23" TopSpace="10" ColumnCount="2" LayoutMode="Stack" ActionLocation="Left" ActionAlign="Right" CanRest="false">
   <ControlList>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_company_name" BindingField="company_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="车站名" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_company_id" BindingField="company_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="车站名" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -93,7 +93,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_updating_operator_id" BindingField="updating_operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="更新操作员" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_upd_operator_id" BindingField="upd_operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="更新操作员" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -116,7 +116,7 @@
       </PropertyValues>
     </ControlProperty>
   
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_start_date" BindingField="validity_start_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="有效起始日期" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_date_start" BindingField="validity_date_start" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="有效起始日期" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -139,7 +139,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_end_date" BindingField="validity_end_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="有效结束日期" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_date_end" BindingField="validity_date_end" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="有效结束日期" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -162,7 +162,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_first_login_date" BindingField="validity_first_login_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="首次登录日期" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_date_first_login" BindingField="validity_date_first_login" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="首次登录日期" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -185,7 +185,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_password_invalidity_date" BindingField="password_invalidity_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="密码失效日期" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_pwd_invalidity_date" BindingField="pwd_invalidity_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="密码失效日期" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -208,7 +208,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_is_multyly_login" BindingField="is_multyly_login" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="多台登录" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_is_multi_login" BindingField="is_multi_login" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="多台登录" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -231,7 +231,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_status" BindingField="validity_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="状态" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_operator_status" BindingField="operator_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="状态" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -300,7 +300,7 @@
       </PropertyValues>
     </ControlProperty>
    
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_pass_set_mode_flag" BindingField="pass_set_mode_flag" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="密码设置方式" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_pwd_set_mode" BindingField="pwd_set_mode" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="密码设置方式" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />

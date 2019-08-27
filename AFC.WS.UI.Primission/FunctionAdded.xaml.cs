@@ -81,28 +81,31 @@ namespace AFC.WS.UI.Primission
                 switch (value)
                 {
                     case "LCWS":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为12");
+                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为21");
                         break;
-                    case "SCWS":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为12");
-                        break;
-                    case "MCWS":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为12");
-                        break;
-                    case "TCWS":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为12");
-                        break;
+                    //case "SCWS":
+                    //    (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为21");
+                    //    break;
+                    //case "MCWS":
+                    //    (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为21");
+                    //    break;
+                    //case "TCWS":
+                    //    (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为21");
+                    //    break;
                     case "AG":
                         (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为06");
                         break;
-                    case "BOM":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为02");
-                        break;
+                    //case "BOM":
+                    //    (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为08");
+                    //    break;
                     case "TVM":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为01");
+                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为07");
                         break;
-                    case "EQM":
-                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为04");
+                    case "PCA":
+                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为09");
+                        break;
+                    case "SDG":
+                        (labTip as ICommonEdit).SetControlValue(value + "功能编号:前两位为0C");
                         break;
 
                 }

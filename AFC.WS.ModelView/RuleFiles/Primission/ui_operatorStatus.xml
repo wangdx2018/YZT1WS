@@ -44,14 +44,14 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="cmbStatus" BindingField="validity_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="状态" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="cmbStatus" BindingField="operator_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="状态" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="DataString" Key="BindType" />
         <PropertyValue Key="SqlContent" />
-        <PropertyValue Value="validity_status" Key="BindDisplayField" />
-        <PropertyValue Value="validity_status" Key="BindHideField" />
-        <PropertyValue Value="全部,正常,密码终止,停用,强制修改密码,未启用" Key="DataString" />
-        <PropertyValue Value="99,00,01,02,04,05" Key="HideDataString" />
+        <PropertyValue Value="operator_status" Key="BindDisplayField" />
+        <PropertyValue Value="operator_status" Key="BindHideField" />
+        <PropertyValue Value="全部,正常,密码终止,锁定,未启用,已删除" Key="DataString" />
+        <PropertyValue Value="99,00,02,04,05,06" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="90" Key="ControlWidth" />

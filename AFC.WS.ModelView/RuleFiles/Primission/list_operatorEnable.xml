@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="false" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_operatorStatus" ActionLocation="Bottom" ActionAlign="Middle">
+<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_operatorStatus" ActionLocation="Bottom" ActionAlign="Middle">
   <ColumnList>
     <!--<ColumnProperty HeaderName="车站" BindingField="company_name" ConvertoTypeName="AFC.WS.ModelView.Convertors.StationCovert,AFC.WS.ModelView" Width="100">
       <PropertyValues />
@@ -70,14 +70,14 @@
 
     <ActionProperty ControlName="btnEndPwd" Content="密码终止" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.OperatorStatusAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
       <PropertyValues>
-        <PropertyValue Value="01" Key="OperatorStatus" />
+        <PropertyValue Value="02" Key="OperatorStatus" />
       </PropertyValues>
     </ActionProperty>
 
   
     <ActionProperty ControlName="btnPwdReset" Content="密码重置" ActionTypeName="AFC.WS.ModelView.Actions.PrimissionActions.OperatorStatusAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
       <PropertyValues>
-        <PropertyValue Value="04" Key="OperatorStatus" />
+        <PropertyValue Value="03" Key="OperatorStatus" />
       </PropertyValues>
     </ActionProperty>
 

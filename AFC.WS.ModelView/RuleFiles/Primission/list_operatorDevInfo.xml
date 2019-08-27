@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None"  DataSourceName="ds_operatorDevInfo" ActionLocation="Bottom" ActionAlign="Middle">
   <ColumnList>
-    <ColumnProperty IsVisbility="true" HeaderName="操作员ID" BindingField="user_id" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="操作员ID" BindingField="operator_id" Width="100">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="操作员姓名" BindingField="operator_name" Width="100">

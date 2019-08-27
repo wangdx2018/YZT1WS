@@ -5,7 +5,7 @@
     <PropertyValue Value="select * from priv_function_info t  " Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
-    <PropertyValue Value="t.function_status&lt;&gt;02 " Key="WhereParams" />
+    <PropertyValue Value="t.function_status&lt;&gt;04 " Key="WhereParams" />
     <PropertyValue Key="OrderByParams" />
   </PropertyValues>
 </DataSourceRule>

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="false" Paging="false" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_opeatorUnlocking" ActionLocation="Bottom" ActionAlign="Right">
   <ColumnList>
-    
-    <ColumnProperty HeaderName="编号" BindingField="rownum" Width="100">
+
+    <!--ColumnProperty HeaderName="编号" BindingField="rownum" Width="100">
       <PropertyValues />
-    </ColumnProperty>
+    </ColumnProperty-->
     
-    <ColumnProperty HeaderName="车站" BindingField="company_name" Width="100"  ConvertoTypeName="AFC.WS.ModelView.Convertors.StationCovert,AFC.WS.ModelView">
+    <ColumnProperty HeaderName="车站" BindingField="company_id" Width="100"  ConvertoTypeName="AFC.WS.ModelView.Convertors.StationCovert,AFC.WS.ModelView">
       <PropertyValues />
     </ColumnProperty>
     
@@ -18,7 +18,7 @@
       <PropertyValues />
     </ColumnProperty>
 
-    <ColumnProperty HeaderName="锁定状态" BindingField="lock_status" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorLockStatusConvert,AFC.WS.ModelView" >
+    <ColumnProperty HeaderName="操作员状态" BindingField="operator_status" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.OperatorStatusConvert,AFC.WS.ModelView" >
       <PropertyValues />
     </ColumnProperty>
     

@@ -120,9 +120,9 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     return;
                 switch (controlInfo.BindingField.Split('.')[1].ToUpper())
                 {
-                    case "COMPANY_NAME":
+                    case "COMPANY_ID":
                         AFC.WS.ModelView.Convertors.StationCovert convertLocation = new AFC.WS.ModelView.Convertors.StationCovert();
-                        controlInfo.InitValue = convertLocation.Convert(operatorInfo.company_name, null, null, null).ToString();
+                        controlInfo.InitValue = convertLocation.Convert(operatorInfo.company_id, null, null, null).ToString();
                         return;
                     case "OPERATOR_ID":
                         controlInfo.InitValue = operatorInfo.operator_id;
@@ -133,44 +133,44 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     case "UPDATE_TIME":
                         controlInfo.InitValue = operatorInfo.update_time;
                         return;
-                    case "UPDATING_OPERATOR_ID":
-                        controlInfo.InitValue = operatorInfo.updating_operator_id;
+                    case "UPD_OPERATOR_ID":
+                        controlInfo.InitValue = operatorInfo.upd_operator_id;
                         return;
-                    case "CURRENT_PASSWORD":
-                        controlInfo.InitValue = operatorInfo.current_password;
+                    case "PASSWORD":
+                        controlInfo.InitValue = operatorInfo.password;
                         return;
-                    case "VALIDITY_START_DATE":
-                        controlInfo.InitValue = convert.Convert(operatorInfo.validity_start_date, null, null, null).ToString();
+                    case "VALIDITY_DATE_START":
+                        controlInfo.InitValue = convert.Convert(operatorInfo.validity_date_start, null, null, null).ToString();
                         return;
-                    case "VALIDITY_END_DATE":
-                        controlInfo.InitValue = convert.Convert(operatorInfo.validity_end_date, null, null, null).ToString();
+                    case "VALIDITY_DATE_END":
+                        controlInfo.InitValue = convert.Convert(operatorInfo.validity_date_end, null, null, null).ToString();
                         return;
-                    case "VALIDITY_FIRST_LOGIN_DATE":
-                        controlInfo.InitValue = convert.Convert(operatorInfo.validity_first_login_date, null, null, null).ToString();
+                    case "VALIDITY_DATE_FIRST_LOGIN":
+                        controlInfo.InitValue = convert.Convert(operatorInfo.validity_date_first_login, null, null, null).ToString();
                         return;
-                    case "PASSWORD_INVALIDITY_DATE":
-                        controlInfo.InitValue = convert.Convert(operatorInfo.password_invalidity_date, null, null, null).ToString();
+                    case "PWD_INVALIDITY_DATE":
+                        controlInfo.InitValue = convert.Convert(operatorInfo.pwd_invalidity_date, null, null, null).ToString();
                         return;
-                    case "IS_MULTYLY_LOGIN":
-                        controlInfo.InitValue = canmulLogInConvert.Convert(operatorInfo.is_multyly_login, null, null, null).ToString();
+                    case "IS_MULTI_LOGIN":
+                        controlInfo.InitValue = canmulLogInConvert.Convert(operatorInfo.is_multi_login, null, null, null).ToString();
                         return;
-                    case "VALIDITY_STATUS":
-                        controlInfo.InitValue = currentStatusConvert.Convert(operatorInfo.validity_status, null, null, null).ToString();
+                    case "OPERATOR_STATUS":
+                        controlInfo.InitValue = currentStatusConvert.Convert(operatorInfo.operator_status, null, null, null).ToString();
                         return;
-                    case "LOGIN_STATUS":
-                        controlInfo.InitValue = logInConvert.Convert(operatorInfo.lock_status, null, null, null).ToString();
-                        return;
-                    case "LOCK_STATUS":
-                        controlInfo.InitValue = lockStatus.Convert(operatorInfo.lock_status, null, null, null).ToString();
-                        return;
+                    //case "LOGIN_STATUS":
+                    //    controlInfo.InitValue = logInConvert.Convert(operatorInfo.lock_status, null, null, null).ToString();
+                    //    return;
+                    //case "LOCK_STATUS":
+                    //    controlInfo.InitValue = lockStatus.Convert(operatorInfo.lock_status, null, null, null).ToString();
+                    //    return;
                     case "OPERATOR_NAME":
                         controlInfo.InitValue = operatorInfo.operator_name;
                         return;
-                    case "CONTACT_INFO_ONE":
-                        controlInfo.InitValue = operatorInfo.contact_info_one;
+                    case "CONTACT_INFO1":
+                        controlInfo.InitValue = operatorInfo.contact_info1;
                         return;
-                    case "CONTACT_INFO_TWO":
-                        controlInfo.InitValue = operatorInfo.contact_info_two;
+                    case "CONTACT_INFO2":
+                        controlInfo.InitValue = operatorInfo.contact_info2;
                         return;
                     case "CONTACT_ADDRESS":
                         controlInfo.InitValue = operatorInfo.contact_address;
@@ -181,14 +181,14 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     case "OPERATOR_DISPLAY_ID":
                         controlInfo.InitValue = operatorInfo.operator_display_id;
                         return;
-                    case "HISTORY_PASSWORD_ONE":
-                        controlInfo.InitValue = operatorInfo.history_password_one;
+                    case "PASSWORD_HIS1":
+                        controlInfo.InitValue = operatorInfo.password_his1;
                         return;
-                    case "HISTORY_PASSWORD_TWO":
-                        controlInfo.InitValue = operatorInfo.history_password_two;
+                    case "PASSWORD_HIS2":
+                        controlInfo.InitValue = operatorInfo.password_his2;
                         return;
-                    case "PASS_SET_MODE_FLAG":
-                        controlInfo.InitValue = passwordSet.Convert(operatorInfo.pass_set_mode_flag,null,null,null).ToString();
+                    case "PWD_SET_MODE":
+                        controlInfo.InitValue = passwordSet.Convert(operatorInfo.pwd_set_mode,null,null,null).ToString();
                         return;
                 }
             }

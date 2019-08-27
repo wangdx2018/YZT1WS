@@ -10,7 +10,7 @@
     <DeviceCode>03011202</DeviceCode>
     <DeviceType>12</DeviceType>
     <DataSourceDirectory>.\RuleFiles\DataSource</DataSourceDirectory>
-    <DBConnectionString>Server=localhost;Database=yzt1;Uid=root;Pwd=123456</DBConnectionString>
+    <DBConnectionString>Server=172.168.0.98;Database=lc;Uid=root;Pwd=qweQWE123!@#</DBConnectionString>
     <SkinPath>\Style\黑色主题.xaml</SkinPath>
     <Language>CN</Language>
   </LocalParamsConfig>

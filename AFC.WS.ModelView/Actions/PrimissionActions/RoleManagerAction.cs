@@ -94,9 +94,9 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
             {
                 case "0": //todo 启用为从 禁用状态或者未启用状态--->启用
                     operationCode = OperationCode.Start_Using_Role;
-                    if (curStatus == 1 || curStatus == 3)
+                    if (curStatus == 1 || curStatus == 3 || curStatus == 2)
                         return true;
-                    else
+                    else 
                         MessageDialog.Show("该角色已处于启用状态", "提示", MessageBoxIcon.Information,MessageBoxButtons.Ok);
                     return false;
                 case "1"://todo 禁用为 启用状态--->禁用状态

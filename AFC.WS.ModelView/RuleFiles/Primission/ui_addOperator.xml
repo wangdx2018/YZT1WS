@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="40" TopSpace="10" ColumnCount="2" LayoutMode="Stack" ActionLocation="Bottom" ActionAlign="Right" CanRest="false">
   <ControlList>
-    <ControlProperty Space="5" Symbols="Equal" InitValue="" ControlName="txtCompanyName" BindingField="company_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="" ControlName="txtCompanyName" BindingField="company_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select station_id,station_cn_name from basi_station_info t where t.line_id='03' and t.location_type=2 order by t.station_id " Key="SqlContent" />
+        <PropertyValue Value="select station_id,station_cn_name from basi_station_info t where t.line_id='01' and t.location_type=2 order by t.station_id " Key="SqlContent" />
         <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
         <PropertyValue Value="station_id" Key="BindHideField" />
         <PropertyValue Key="DataString" />
@@ -62,7 +62,7 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_current_password" BindingField="current_password" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.PasswordExtend,AFC.WS.UI.FC" Lable="密码" ComboBoxControl="PasswordExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_password" BindingField="password" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.PasswordExtend,AFC.WS.UI.FC" Lable="密码" ComboBoxControl="PasswordExtend">
       <PropertyValues>
         <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -83,7 +83,7 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" InitValue="系统设置" ControlName="rad_system" BindingField="pass_set_mode_flag" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.RiadioButtonExtend,AFC.WS.UI.FC" Lable="密码设置方式" ComboBoxControl="RiadioButtonExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="系统设置" ControlName="rad_system" BindingField="pwd_set_mode" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.RiadioButtonExtend,AFC.WS.UI.FC" Lable="密码设置方式" ComboBoxControl="RiadioButtonExtend">
       <PropertyValues>
         <PropertyValue Key="RadioButtonStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -93,7 +93,7 @@
         <PropertyValue Key="UserControlClassName" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" InitValue="手工设置" ControlName="rad_hand" BindingField="pass_set_mode_flag1" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.RiadioButtonExtend,AFC.WS.UI.FC" Lable="" ComboBoxControl="RiadioButtonExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="手工设置" ControlName="rad_hand" BindingField="pwd_set_mode1" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.RiadioButtonExtend,AFC.WS.UI.FC" Lable="" ComboBoxControl="RiadioButtonExtend">
       <PropertyValues>
         <PropertyValue Key="RadioButtonStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -103,7 +103,7 @@
         <PropertyValue Key="UserControlClassName" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_start_date" BindingField="validity_start_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="有效起始日期" ComboBoxControl="DateTimePickerExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_date_start" BindingField="validity_date_start" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="有效起始日期" ComboBoxControl="DateTimePickerExtend">
       <PropertyValues>
         <PropertyValue Value="Long" Key="DatePickerFormat" />
         <PropertyValue Key="DatePickerStyle" />
@@ -115,7 +115,7 @@
         <PropertyValue Key="FormatDateTime" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_end_date" BindingField="validity_end_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="有效结束日期" ComboBoxControl="DateTimePickerExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_validity_date_end" BindingField="validity_date_end" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="有效结束日期" ComboBoxControl="DateTimePickerExtend">
       <PropertyValues>
         <PropertyValue Value="Long" Key="DatePickerFormat" />
         <PropertyValue Key="DatePickerStyle" />
@@ -127,7 +127,7 @@
         <PropertyValue Key="FormatDateTime" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_password_invalidity_date" BindingField="password_invalidity_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="密码失效日期" ComboBoxControl="DateTimePickerExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_pwd_invalidity_date" BindingField="pwd_invalidity_date" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.DateTimePickerExtend,AFC.WS.UI.FC" Lable="密码失效日期" ComboBoxControl="DateTimePickerExtend">
       <PropertyValues>
         <PropertyValue Value="Long" Key="DatePickerFormat" />
         <PropertyValue Key="DatePickerStyle" />
@@ -139,7 +139,7 @@
         <PropertyValue Key="FormatDateTime" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" InitValue="允许" ControlName="btn_is_multyly_login" BindingField="is_multyly_login" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="允许多台登录" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="允许" ControlName="btn_is_multi_login" BindingField="is_multi_login" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="允许多台登录" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="DataString" Key="BindType" />
         <PropertyValue Key="SqlContent" />
@@ -157,7 +157,7 @@
         <PropertyValue Value="Visible" Key="CanVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info_one" BindingField="contact_info_one" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="家庭电话" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info1" BindingField="contact_info1" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="家庭电话" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -178,7 +178,7 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info_two" BindingField="contact_info_two" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="手机" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info2" BindingField="contact_info2" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="手机" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />

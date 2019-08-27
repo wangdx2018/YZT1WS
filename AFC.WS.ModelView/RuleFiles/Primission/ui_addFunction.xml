@@ -7,8 +7,8 @@
         <PropertyValue Value="" Key="SqlContent" />
         <PropertyValue Value="device_name" Key="BindDisplayField" />
         <PropertyValue Value="device_type" Key="BindHideField" />
-        <PropertyValue Value="LCWS,SCWS,TCWS,MCWS,BOM,TVM,AG,EQM" Key="DataString" />
-        <PropertyValue Value="12,12,12,12,02,01,06,04" Key="HideDataString" />
+        <PropertyValue Value="LCWS,TVM,AG,PCA,SDG" Key="DataString" />
+        <PropertyValue Value="21,07,06,09,0C" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -41,7 +41,7 @@
       </PropertyValues>
     </ControlProperty>
 
-    <ControlProperty Space="5" Symbols="Equal" InitValue="LCWS功能编号前两位为12" ControlName="labTip" BindingField="labTip" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.LabelExtend,AFC.WS.UI.FC" Lable="" ComboBoxControl="LabelExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="LCWS功能编号前两位为21" ControlName="labTip" BindingField="labTip" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.LabelExtend,AFC.WS.UI.FC" Lable="" ComboBoxControl="LabelExtend">
       <PropertyValues>
         <PropertyValue Key="LabelStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />

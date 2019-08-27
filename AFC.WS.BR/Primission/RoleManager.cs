@@ -313,13 +313,11 @@ namespace AFC.WS.BR.Primission
             string cmd = string.Format("select * "
  + "from priv_function_info tf "
  + "left join (select t.*, case "
- + "                    when t.role_id > 0 and t.role_id < =4000 then '12'"
+ + "                    when t.role_id > 0 and t.role_id <=1000 then '21'"
  + "                    when t.role_id >4000 and t.role_id <= 5000 then '06'"
- + "                    when t.role_id >5000 and t.role_id <=6000 then '02'"
- + "                    when t.role_id >6000 and t.role_id <=7000 then '01'"
- + "                    when t.role_id >7000 and t.role_id <=8000 then '04'"
- + "                    when t.role_id >8000 and t.role_id<=9000 then '05'"
- + "                    when t.role_id >9000 and t.role_id<=9000 then '0A' end  a"
+ + "                    when t.role_id >6000 and t.role_id <=7000 then '07'"
+ + "                    when t.role_id >8000 and t.role_id <=9000 then '09'"
+ + "                    when t.role_id >10000 and t.role_id<=11000 then '0C' end  a"
  + " from priv_role_info t)d on d.a = tf.device_type where d.role_id='{0}'", roleId);
                        
             try
@@ -343,7 +341,7 @@ namespace AFC.WS.BR.Primission
         public int DeleteRoleToFunctionRelaction(string roleId)
         {
             int res = 0;
-            string delSql = string.Format("delete priv_role_function_info t where t.role_id='{0}'", roleId);
+            string delSql = string.Format("delete from priv_role_function_info  where role_id='{0}'", roleId);
               try
             {
                Util.DataBase.SqlCommand(out res, delSql);
@@ -384,7 +382,7 @@ namespace AFC.WS.BR.Primission
             info.role_id = roleId;
             info.update_date = DateTime.Now.ToString("yyyyMMdd");
             info.update_time = DateTime.Now.ToString("HHmmss");
-            info.updating_operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
+            info.operator_id = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             try
             {
                 int res = 0;

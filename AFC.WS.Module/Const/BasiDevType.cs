@@ -10,12 +10,12 @@ namespace AFC.WS.Model.Const
         /// <summary>
         /// TVM
         /// </summary>
-        public const string DEV_TVM = "01";
+        public const string DEV_TVM = "07";
 
         /// <summary>
         /// BOM
         /// </summary>
-        public const string DEV_BOM = "02";
+        public const string DEV_BOM = "08";
 
         /// <summary>
         /// 个性化发卡器
@@ -25,12 +25,12 @@ namespace AFC.WS.Model.Const
         /// <summary>
         /// 自动查询机
         /// </summary>
-        public const string DEV_TCM = "04";
+        public const string DEV_TCM = "0A";
 
         /// <summary>
         /// PCA（手持式验票机）
         /// </summary>
-        public const string DEV_PCA = "05";
+        public const string DEV_PCA = "09";
 
         /// <summary>
         /// AGM（自动检票机）
@@ -40,17 +40,17 @@ namespace AFC.WS.Model.Const
         /// <summary>
         /// E/S（编码分拣机）
         /// </summary>
-        public const string DEV_ES = "0A";
+        public const string DEV_ES = "0B";
 
         /// <summary>
         /// 服务器 
         /// </summary>
-        public const string DEV_SERVER = "11";
+        public const string DEV_SERVER = "02";
 
         /// <summary>
         /// 12	工作站
         /// </summary>
-        public const string DEV_WS = "12";
+        public const string DEV_WS = "21";
 
         /// <summary>
         /// 13	网络设备

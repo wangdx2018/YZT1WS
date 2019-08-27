@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
-<InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="23" TopSpace="10" ColumnCount="3" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Right" CanRest="false">
+<InteractiveControlRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" LabWidthPercent="45" ActionHeight="20" RowHeight="23" TopSpace="10" ColumnCount="3" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Right" CanRest="false">
   <ControlList>
     <ControlProperty Space="5" Symbols="Equal" ControlName="btn_role_id" BindingField="role_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="角色编号" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select t.role_id from priv_role_info t where t.role_status&lt;&gt;2 " Key="SqlContent" />
+        <PropertyValue Value="select t.role_id from priv_role_info t where t.role_status&lt;&gt; 4 " Key="SqlContent" />
         <PropertyValue Value="role_id" Key="BindDisplayField" />
         <PropertyValue Value="role_id" Key="BindHideField" />
         <PropertyValue Key="DataString" />
@@ -18,6 +18,7 @@
         <PropertyValue Value="False" Key="CanReadOnly" />
         <PropertyValue Value="Visible" Key="CanVisibility" />
       </PropertyValues>
+      <TextConvertor />
     </ControlProperty>
     <ControlProperty Space="5" Symbols="Like" ControlName="btn_role_name" BindingField="role_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="角色名称" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
@@ -39,15 +40,16 @@
         <PropertyValue Value="False" Key="AcceptReturn" />
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
+      <TextConvertor />
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" InitValue="已启用" ControlName="btn_role_status" BindingField="role_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="角色状态" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="全部" ControlName="btn_role_status" BindingField="role_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="角色状态" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="DataString" Key="BindType" />
         <PropertyValue Value="" Key="SqlContent" />
         <PropertyValue Value="role_status" Key="BindDisplayField" />
         <PropertyValue Value="role_status" Key="BindHideField" />
-        <PropertyValue Value="全部,已启用,已禁用,未启用" Key="DataString" />
-        <PropertyValue Value="全部,00,01,03" Key="HideDataString" />
+        <PropertyValue Value="全部,已启用,已禁用,已删除,未启用" Key="DataString" />
+        <PropertyValue Value="全部,00,01,02,03" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -57,12 +59,16 @@
         <PropertyValue Value="False" Key="CanReadOnly" />
         <PropertyValue Value="Visible" Key="CanVisibility" />
       </PropertyValues>
+      <TextConvertor />
     </ControlProperty>
   </ControlList>
   <ActionList>
-    <ActionProperty ControlName="btnQuery"  Content="查询"   IsDefaultButton="true"  ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+    <ActionProperty ControlName="btnQuery" Content="查询" IsDefaultButton="true" ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
       <PropertyValues>
-        <PropertyValue Key="DataSourceName" Value="ds_roleInfo" />
+        <PropertyValue Value="ds_roleInfo" Key="DataSourceName" />
+        <PropertyValue Key="StartDateControlName" />
+        <PropertyValue Key="EndDateControlName" />
+        <PropertyValue Key="DateTimeFormat" />
       </PropertyValues>
     </ActionProperty>
   </ActionList>

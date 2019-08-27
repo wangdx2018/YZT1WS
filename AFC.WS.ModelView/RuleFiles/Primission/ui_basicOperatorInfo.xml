@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="23" TopSpace="10" ColumnCount="1" LayoutMode="Stack" ActionLocation="Left" ActionAlign="Left" CanRest="false">
   <ControlList>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_company_name" BindingField="company_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_company_id" BindingField="company_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -67,7 +67,7 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info_one" BindingField="contact_info_one" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="手机" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info1" BindingField="contact_info1" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="手机" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -89,7 +89,7 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info_two" BindingField="contact_info_two" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="家庭电话" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_contact_info2" BindingField="contact_info2" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="家庭电话" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />

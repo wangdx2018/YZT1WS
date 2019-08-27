@@ -7,13 +7,13 @@
        r.role_name,
        r.update_date,
        r.update_time,
-       r.updating_operator_id,
+       r.operator_id,
        poi.operator_name
   from priv_operator_role_info t
  inner join priv_role_info r on t.role_id = r.role_id
                             and r.role_status = '00'
                             left join priv_operator_info poi on poi.operator_id =
-		                                                      t.updating_operator_id" Key="Sql" />
+		                                                      t.upd_operator_id" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Value="" Key="WhereParams" />

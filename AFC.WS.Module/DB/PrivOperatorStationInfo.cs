@@ -16,20 +16,20 @@ namespace AFC.WS.Model.DB
     
     
     /// <summary>
-    /// 数据库表名称：priv_role_function_info
+    /// 数据库表名称：priv_operator_station_info
     /// </summary>
-    public class PrivRoleFunctionInfo
+    public class PrivOperatorStationInfo
     {
         
         /// <summary>
-        /// COLUMN: ROLE_ID
+        /// COLUMN: OPERATOR_ID
         /// </summary>
-        private string _role_id;
+        private string _operator_id;
         
         /// <summary>
-        /// COLUMN: FUNCTION_ID
+        /// COLUMN: STATION_ID
         /// </summary>
-        private string _function_id;
+        private string _station_id;
         
         /// <summary>
         /// COLUMN: UPDATE_DATE
@@ -42,37 +42,37 @@ namespace AFC.WS.Model.DB
         private string _update_time;
         
         /// <summary>
-        /// COLUMN: OPERATOR_ID
+        /// COLUMN: UPD_OPERATOR_ID
         /// </summary>
-        private string _operator_id;
+        private string _upd_operator_id;
         
         /// <summary>
-        /// COLUMN: ROLE_ID
+        /// COLUMN: OPERATOR_ID
         /// </summary>
-        public string role_id
+        public string operator_id
         {
             get
             {
-                return this._role_id;
+                return this._operator_id;
             }
             set
             {
-                this._role_id = value;
+                this._operator_id = value;
             }
         }
         
         /// <summary>
-        /// COLUMN: FUNCTION_ID
+        /// COLUMN: STATION_ID
         /// </summary>
-        public string function_id
+        public string station_id
         {
             get
             {
-                return this._function_id;
+                return this._station_id;
             }
             set
             {
-                this._function_id = value;
+                this._station_id = value;
             }
         }
         
@@ -107,17 +107,17 @@ namespace AFC.WS.Model.DB
         }
         
         /// <summary>
-        /// COLUMN: OPERATOR_ID
+        /// COLUMN: UPD_OPERATOR_ID
         /// </summary>
-        public string operator_id
+        public string upd_operator_id
         {
             get
             {
-                return this._operator_id;
+                return this._upd_operator_id;
             }
             set
             {
-                this._operator_id = value;
+                this._upd_operator_id = value;
             }
         }
     }

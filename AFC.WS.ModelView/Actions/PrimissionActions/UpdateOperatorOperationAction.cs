@@ -52,30 +52,30 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
                     MessageDialog.Show("请输入密码", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }*/
-                Object validityStartDate = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_start_date")).value;
+                Object validityStartDate = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_date_start")).value;
                 if (validityStartDate == null)
                 {
                     MessageDialog.Show("请输入有效开始日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                Object validityEndDate = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_end_date")).value;
+                Object validityEndDate = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_date_end")).value;
                 if (validityEndDate == null)
                 {
                     MessageDialog.Show("请输入有效结束日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                if (actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.password_invalidity_date")).value == null)
+                if (actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.pwd_invalidity_date")).value == null)
                 {
                     MessageDialog.Show("请输入密码失效日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
-                if (actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_first_login_date")).value == null)
+                if (actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_date_first_login")).value == null)
                 {
                     MessageDialog.Show("请输入首次登录日期", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
                 }
 
-                if (actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.is_multyly_login")).value == null)
+                if (actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.is_multi_login")).value == null)
                 {
                     MessageDialog.Show("请选择是否允许多重登录", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
@@ -121,14 +121,14 @@ namespace AFC.WS.ModelView.Actions.PrimissionActions
             string operatorId = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.operator_id")).value.ToString();
             OperatorManager operatorManger = new OperatorManager();
             PrivOperatorInfo operatorInfo = operatorManger.GetOperatorInfoByOperatorId(operatorId);
-            operatorInfo.company_name = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.company_name")).value.ToString();
-            operatorInfo.validity_start_date = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_start_date")).value.ToString().Replace("-", "");
-            operatorInfo.validity_end_date = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_end_date")).value.ToString().Replace("-", "");
-            operatorInfo.validity_first_login_date = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_first_login_date")).value.ToString().Replace("-", "");
-            operatorInfo.password_invalidity_date = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.password_invalidity_date")).value.ToString().Replace("-", "");
-            operatorInfo.is_multyly_login = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.is_multyly_login")).value.ToString();
+            operatorInfo.company_id = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.company_id")).value.ToString();
+            operatorInfo.validity_date_start = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_date_start")).value.ToString().Replace("-", "");
+            operatorInfo.validity_date_end = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_date_end")).value.ToString().Replace("-", "");
+            operatorInfo.validity_date_first_login = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.validity_date_first_login")).value.ToString().Replace("-", "");
+            operatorInfo.pwd_invalidity_date = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.pwd_invalidity_date")).value.ToString().Replace("-", "");
+            operatorInfo.is_multi_login = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.is_multi_login")).value.ToString();
             operatorInfo.operator_name = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.operator_name")).value.ToString();
-            operatorInfo.contact_info_one = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.contact_info_one")).value.ToString();
+            operatorInfo.contact_info1 = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.contact_info1")).value.ToString();
             operatorInfo.contact_address = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.contact_address")).value.ToString();
             operatorInfo.email_address = actionParamsList.Single(temp => temp.bindingData.Equals("priv_operator_info.email_address")).value.ToString();
 

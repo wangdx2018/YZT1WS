@@ -7,8 +7,8 @@
         <PropertyValue Key="SqlContent" />
         <PropertyValue Key="BindDisplayField" />
         <PropertyValue Key="BindHideField" />
-        <PropertyValue Value="LCWS相关,SCWS相关,MCWS相关,AGM相关,BOM相关,TVM相关,TCM相关" Key="DataString" />
-        <PropertyValue Key="HideDataString" value="0,1,2,4,5,6,7" />
+        <PropertyValue Value="LCWS相关,AGM相关,TVM相关,PCA相关,SDG相关" Key="DataString" />
+        <PropertyValue Key="HideDataString" value="0,4,6,8,10" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -24,7 +24,7 @@
         <PropertyValue Value="None" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
         <PropertyValue Value="0" Key="ControlHeight" />
-        <PropertyValue Value="5" Key="RegMaxLength" />
+        <PropertyValue Value="8" Key="RegMaxLength" />
         <PropertyValue Value="1" Key="RegMinLength" />
         <PropertyValue Value="99999999" Key="MaxValue" />
         <PropertyValue Value="0" Key="MinValue" />
@@ -41,7 +41,7 @@
       </PropertyValues>
     </ControlProperty>
 
-    <ControlProperty Space="5" Symbols="Equal" InitValue="LCWS角色编号在1到1000之间" ControlName="labTip" BindingField="labTip" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.LabelExtend,AFC.WS.UI.FC" Lable="" ComboBoxControl="LabelExtend">
+    <ControlProperty Space="5" Symbols="Equal" InitValue="LCWS角色编号在00000001到00001000之间" ControlName="labTip" BindingField="labTip" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.LabelExtend,AFC.WS.UI.FC" Lable="" ComboBoxControl="LabelExtend">
       <PropertyValues>
         <PropertyValue Key="LabelStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />
