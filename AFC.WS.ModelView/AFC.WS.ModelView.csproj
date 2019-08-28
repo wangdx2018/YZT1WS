@@ -846,6 +846,7 @@
     </None>
     <None Include="RuleFiles\DataSource\ds_operatorRoleInfo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="RuleFiles\DataSource\ds_OperatorStation.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
