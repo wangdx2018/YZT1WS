@@ -138,6 +138,8 @@
     <Compile Include="LogManager\Maintenance\DisplayParts.cs" />
     <Compile Include="LogManager\Maintenance\MaintenanceManager.cs" />
     <Compile Include="MessageConfig.cs" />
+    <Compile Include="ParamsManager\Draft0206Add.cs" />
+    <Compile Include="ParamsManager\Draft0206ParaDel.cs" />
     <Compile Include="ParamsManager\Draft4042Add.cs" />
     <Compile Include="ParamsManager\Draft4042ParaDel.cs" />
     <Compile Include="ParamsManager\Draft4043ParaAdd.cs" />
@@ -234,7 +236,7 @@
     <COMReference Include="Microsoft.Office.Core">
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
       <VersionMajor>2</VersionMajor>
-      <VersionMinor>8</VersionMinor>
+      <VersionMinor>4</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>
@@ -243,7 +245,7 @@
     <COMReference Include="Microsoft.Office.Interop.Excel">
       <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
       <VersionMajor>1</VersionMajor>
-      <VersionMinor>9</VersionMinor>
+      <VersionMinor>6</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>

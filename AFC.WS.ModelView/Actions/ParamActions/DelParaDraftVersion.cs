@@ -29,7 +29,7 @@ namespace AFC.WS.ModelView.Actions.ParamActions
                 string paraType = actionParamsList.Single(temp => temp.bindingData.Equals("para_type")).value.ToString();
                 string paraVersion = actionParamsList.Single(temp => temp.bindingData.Equals("para_version")).value.ToString();
 
-                if (paraVersion != "-1")
+                if (paraVersion != "0000")
                 {
                     MessageDialog.Show("请选择草稿版", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;
@@ -70,6 +70,9 @@ namespace AFC.WS.ModelView.Actions.ParamActions
                     break;
                 case "4314":
                     res = BuinessRule.GetInstace().paraManager.del4314DraftPara(info);
+                    break;
+                case "0206":
+                    res = BuinessRule.GetInstace().paraManager.del0206DraftPara(info);
                     break;
                 default:
                     break;

@@ -29,7 +29,7 @@ namespace AFC.WS.BR.ParamsManager
             try
             {
 
-                string cmd = string.Format("select t.* from para_version_info t where t.para_version='-1' and t.para_type='{0}'", paraType);
+                string cmd = string.Format("select t.* from para_version_info t where t.para_version='0000' and t.para_type='{0}'", paraType);
                 ParaVersionInfo fi = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
                 return fi;
             }
@@ -50,7 +50,7 @@ namespace AFC.WS.BR.ParamsManager
             try
             {
 
-                string cmd = string.Format("select t.* from para_version_info t where t.para_version!=-1 and t.para_type='{0}'", paraType);
+                string cmd = string.Format("select t.* from para_version_info t where t.para_version!='0000' and t.para_type='{0}'", paraType);
                 ParaVersionInfo fi = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
                 return fi;
             }
@@ -336,6 +336,30 @@ namespace AFC.WS.BR.ParamsManager
         }
 
 
+
+        public int add0206DraftPara(ParaVersionInfo info)
+        {
+            string paraType = info.para_type;
+            string paraVersion = info.para_version.ToString();
+            Util.DataBase.BeginTransaction();
+            Type tp = new Draft0206Add().GetType();
+            MethodInfo[] methodInfo = tp.GetMethods(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly);
+
+            for (int i = 0; i < methodInfo.Length; i++)
+            {
+                string result = methodInfo[i].Invoke(null, new string[2] { paraType, paraVersion }).ToString();
+                if (result != "0")
+                {
+                    Util.DataBase.Rollback();
+                    return -1;
+                }
+
+            }
+            Util.DataBase.Commit();
+            return 0;
+        }
+
+
         /// <summary>
         /// 删除4043参数类型草稿版
         /// </summary>
@@ -449,6 +473,36 @@ namespace AFC.WS.BR.ParamsManager
             Util.DataBase.Commit();
             return 0;
         }
+
+
+        /// <summary>
+        /// 删除0206参数类型草稿版
+        /// </summary>
+        /// <param name="info">参数版本实体类</param>
+        /// <returns></returns>
+        public int del0206DraftPara(ParaVersionInfo info)
+        {
+
+            string paraType = info.para_type;
+            string paraVersion = info.para_version.ToString();
+            Util.DataBase.BeginTransaction();
+            Type tp = new Draft0206ParaDel().GetType();
+            MethodInfo[] methodInfo = tp.GetMethods(BindingFlags.Public | BindingFlags.Static | BindingFlags.DeclaredOnly);
+
+            for (int i = 0; i < methodInfo.Length; i++)
+            {
+                string result = methodInfo[i].Invoke(null, new string[2] { paraType, paraVersion }).ToString();
+                if (result != "0")
+                {
+                    return -1;
+                }
+
+            }
+            Util.DataBase.Commit();
+            return 0;
+        }
+
+        
 
         /// <summary>
         /// 删除4042参数类型草稿版
@@ -774,8 +828,8 @@ namespace AFC.WS.BR.ParamsManager
            {
                ParaVersionInfo pvi = new ParaVersionInfo();
                pvi.para_type = paramType;
-               pvi.para_master_type = "4300";
-               pvi.para_sub_type = "0";
+               pvi.master_para_type = "4300";
+               //pvi.para_sub_type = "0";
                pvi.para_version = "-1";
                pvi.update_date = DateTime.Now.ToString("yyyyMMdd");
                pvi.update_time = DateTime.Now.ToString("HHmmss");
@@ -894,8 +948,8 @@ namespace AFC.WS.BR.ParamsManager
            paraVersionInfo.occur_date = DateTime.Now.ToString("yyyyMMdd");
            paraVersionInfo.occur_time = DateTime.Now.ToString("HHmmss");
            paraVersionInfo.para_file_name = paraFileName;
-           paraVersionInfo.para_master_type = paraMasterType;
-           paraVersionInfo.para_sub_type = string.Empty;
+           paraVersionInfo.master_para_type = paraMasterType;
+           //paraVersionInfo.para_sub_type = string.Empty;
            paraVersionInfo.para_type = paraType;
            paraVersionInfo.para_version = "-1";
            paraVersionInfo.update_date = DateTime.Now.ToString("yyyyMMdd");

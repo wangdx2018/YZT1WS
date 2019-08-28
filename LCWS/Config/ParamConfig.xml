@@ -76,11 +76,41 @@
     <Item ID="5" FileName="" Style="" Description="AGM警告灯参数" DataSourceName="" TableName="para_4044_alarm_lamp_data" ControlType="AFC.WS.UI.Params.ParamsAGMLightErrorHandleEdit,AFC.WS.UI.Params"/>
     <Item ID="6" FileName=".\RuleFiles\Params\list_para_4044_custom_alarm_lamp.xml" Style="List" Description="AGM警告灯个性参数" DataSourceName="ds_para_4044_custom_alarm_lamp" TableName="para_4044_custom_alarm_lamp" ControlType=""/>
     <Item ID="7" FileName=".\RuleFiles\Params\ui_para_4044_min_tran_query.xml" Style="Struct" Description="AGM最近可查最小交易数目" DataSourceName="" TableName="para_4044_min_tran_query" ControlType=""/>
+    <Item ID="7" FileName=".\RuleFiles\Params\ui_para_4044_min_tran_query.xml" Style="Struct" Description="AGM最近可查最小交易数目" DataSourceName="" TableName="para_4044_min_tran_query" ControlType=""/>
+  
   </ParamConfig>
 
   <ParamConfig  Type="4045" Description="BOM运营参数">
     <Item ID="1" FileName=".\RuleFiles\Params\ui_para_4045_tick_reader_data.xml" Style="Struct" Description="BOM票卡读写参数" DataSourceName="" TableName="para_4045_tick_reader_data" ControlType=""/>
     <Item ID="2" FileName=".\RuleFiles\Params\ui_para_4045_bom_main_login.xml" Style="Struct" Description="BOM维修登录相关参数" DataSourceName="" TableName="para_4045_bom_main_login" ControlType=""/>
     <Item ID="4" FileName=".\RuleFiles\Params\ui_para_4045_min_tran_query.xml" Style="Struct" Description="BOM最近可查最小交易数目" DataSourceName="" TableName="para_4045_min_tran_query" ControlType=""/>
+  </ParamConfig>
+
+  <ParamConfig  Type="0206" Description="车站配置参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\list_para_0206_station_cfg_ctrl.xml" Style="List" Description="车站配置参数" DataSourceName="ds_para_0206_station_cfg_ctrl" TableName="para_0206_station_cfg_ctrl" ControlType=""/>
+  </ParamConfig>
+  <ParamConfig  Type="0202" Description="设备运营参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\list_para_0202_sle_run_time.xml" Style="List" Description="设备运营参数" DataSourceName="ds_para_0202_sle_run_time" TableName="para_0202_sle_run_time" ControlType=""/>
+  </ParamConfig>
+  <ParamConfig  Type="0201" Description="线路系统参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_0201_line_system_ticket_handle_error_times.xml" Style="Struct" Description="车票处理参数" DataSourceName="" TableName="para_0201_line_system_ctrl" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_0201_line_system_oper_err_info.xml" Style="Struct" Description="人机操作参数" DataSourceName="" TableName="para_0201_line_system_ctrl" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\ui_para_0201_line_system_clock_sync.xml" Style="Struct" Description="时钟同步参数" DataSourceName="" TableName="para_0201_line_system_ctrl" ControlType=""/>
+    <Item ID="4" FileName=".\RuleFiles\Params\ui_para_0201_line_system_system_info.xml" Style="Struct" Description="系统信息参数" DataSourceName="" TableName="para_0201_line_system_ctrl" ControlType=""/>
+  </ParamConfig>
+  <ParamConfig  Type="0101" Description="线路AGM控制参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_0101_line_agm_ctrl_base_info.xml" Style="Struct" Description="AGM基础参数信息" DataSourceName="" TableName="para_0101_line_agm_ctrl" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_0101_line_agm_ctrl_upload_info.xml" Style="Struct" Description="AGM数据上传信息" DataSourceName="" TableName="para_0101_line_agm_ctrl" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\ui_para_0101_line_agm_ctrl_sle_ctrl_info.xml" Style="Struct" Description="AGM设备控制信息" DataSourceName="" TableName="para_0101_line_agm_ctrl" ControlType=""/>
+  </ParamConfig>
+  <ParamConfig  Type="0102" Description="线路TVM控制参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_0102_line_tvm_ctrl_base_info.xml" Style="Struct" Description="TVM基础参数信息" DataSourceName="" TableName="para_0102_line_tvm_ctrl" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_0102_line_tvm_ctrl_box_info.xml" Style="Struct" Description="TVM箱子信息" DataSourceName="" TableName="para_0102_line_tvm_ctrl" ControlType=""/>
+    <Item ID="3" FileName=".\RuleFiles\Params\ui_para_0102_line_tvm_ctrl_cash_info.xml" Style="Struct" Description="TVM现金配置" DataSourceName="" TableName="para_0102_line_tvm_ctrl" ControlType=""/>
+    <Item ID="4" FileName=".\RuleFiles\Params\ui_para_0102_line_tvm_ctrl_sle_other_info.xml" Style="Struct" Description="TVM其他配置" DataSourceName="" TableName="para_0102_line_tvm_ctrl" ControlType=""/>
+  </ParamConfig>
+  <ParamConfig  Type="0103" Description="线路PCA控制参数">
+    <Item ID="1" FileName=".\RuleFiles\Params\ui_para_0103_line_bom_ctrl_base_info.xml" Style="Struct" Description="PCA基础参数信息" DataSourceName="" TableName="para_0103_line_bom_ctrl" ControlType=""/>
+    <Item ID="2" FileName=".\RuleFiles\Params\ui_para_0103_line_bom_ctrl_alarm_info.xml" Style="Struct" Description="PCA报警信息" DataSourceName="" TableName="para_0103_line_bom_ctrl" ControlType=""/>
   </ParamConfig>
 </ParamConfigs>

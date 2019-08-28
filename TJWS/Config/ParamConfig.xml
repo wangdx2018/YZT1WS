@@ -76,6 +76,8 @@
     <Item ID="5" FileName="" Style="Struct" Description="AGM警告灯参数" DataSourceName="" TableName="para_4044_alarm_lamp_data" ControlType="AFC.WS.UI.Params.ParamsAGMLightErrorHandleEdit,AFC.WS.UI.Params"/>
     <Item ID="6" FileName=".\RuleFiles\Params\list_para_4044_custom_alarm_lamp.xml" Style="List" Description="AGM警告灯个性参数" DataSourceName="ds_para_4044_custom_alarm_lamp" TableName="para_4044_custom_alarm_lamp" ControlType=""/>
     <Item ID="7" FileName=".\RuleFiles\Params\ui_para_4044_min_tran_query.xml" Style="Struct" Description="AGM最近可查最小交易数目" DataSourceName="" TableName="para_4044_min_tran_query" ControlType=""/>
+    <Item ID="8" FileName=".\RuleFiles\Params\ui_para_4044_min_tran_query.xml" Style="Struct" Description="AGM线路控制控制参数" DataSourceName="" TableName="para_0101_line_agm_ctrl" ControlType=""/>
+
   </ParamConfig>
 
   <ParamConfig  Type="4045" Description="BOM运营参数">

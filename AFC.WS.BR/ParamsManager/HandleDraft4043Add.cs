@@ -21,7 +21,7 @@ namespace AFC.WS.BR.ParamsManager
             ParaVersionInfo info = new ParaVersionInfo();
             
             info.para_version = "-1";
-            info.para_master_type = ((uint)(AFC.WS.Model.Const.CssFileType_t.CssMT_LcEodMasterControl)).ToString("x2");
+            info.master_para_type = ((uint)(AFC.WS.Model.Const.CssFileType_t.CssMT_LcEodMasterControl)).ToString("x2");
             info.para_type = paraType;
             info.master_para_version = "-1";
             info.update_date = DateTime.Now.ToString("yyyyMMdd");

@@ -20,7 +20,7 @@ namespace AFC.WS.BR.ParamsManager
             string cmd = string.Format("select t.* from para_version_info t where t.para_type= '{0}' and t.para_version='{1}'", paraType, version);
             ParaVersionInfo info = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
             info.para_version = "-1";
-            info.para_master_type = AFC.WS.Model.Const.CssFileType_t.CssMT_LcEodMasterControl.ToString("x2");
+            info.master_para_type = AFC.WS.Model.Const.CssFileType_t.CssMT_LcEodMasterControl.ToString("x2");
         
          
             info.update_date = DateTime.Now.ToString("yyyyMMdd");

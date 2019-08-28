@@ -13,10 +13,7 @@
     <ColumnProperty IsVisbility="true" HeaderName="参数类型" BindingField="para_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="主控类型" BindingField="para_master_type" Width="100">
-      <PropertyValues />
-    </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="版本类型" BindingField="edition_type" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="版本类型" BindingField="para_version_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="设备版本号" BindingField="dev_version" Width="100">

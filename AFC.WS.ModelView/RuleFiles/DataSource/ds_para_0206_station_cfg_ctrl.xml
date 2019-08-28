@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DataSourceRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DataSourceName="ds_para_0206_station_cfg_ctrl" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
+  <PropertyValues>
+    <PropertyValue Key="DBConnectionString" />
+    <PropertyValue Value="select t.device_id,t.device_type,t.device_name,t.device_x_pos,t.device_y_pos,t.rotate_angle,t.ip_address,t.service_port,t.para_version from para_0206_station_cfg_ctrl t" Key="Sql" />
+    <PropertyValue Key="GroupParams" />
+    <PropertyValue Key="HavingParams" />
+    <PropertyValue Key="WhereParams" />
+    <PropertyValue Value="t.device_id desc" Key="OrderByParams" />
+  </PropertyValues>
+</DataSourceRule>

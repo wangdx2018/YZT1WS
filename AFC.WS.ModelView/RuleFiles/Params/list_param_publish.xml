@@ -8,11 +8,11 @@
     <ColumnProperty IsVisbility="true" HeaderName="参数说明" BindingField="t1.para_desc" Width="350">
       <PropertyValues />
     </ColumnProperty>
-    
-    <ColumnProperty IsVisbility="true" HeaderName="参数子类型" BindingField="para_sub_type" Width="100">
+
+    <!--ColumnProperty IsVisbility="true" HeaderName="参数子类型" BindingField="para_sub_type" Width="100">
       <PropertyValues />
-    </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="数据文件类型" BindingField="para_master_type" Width="100">
+    </ColumnProperty-->
+    <ColumnProperty IsVisbility="true" HeaderName="数据文件类型" BindingField="master_para_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
   

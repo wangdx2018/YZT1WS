@@ -341,6 +341,60 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="RuleFiles\DataSource\ds_para_0206_station_cfg_ctrl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_0206_station_cfg_ctrl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0206_station_cfg_ctrl.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\DataSource\ds_para_0202_sle_run_time.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\list_para_0202_sle_run_time.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0201_line_system_clock_sync.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0201_line_system_oper_err_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0201_line_system_system_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0201_line_system_ticket_handle_error_times.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0101_line_agm_ctrl_base_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0101_line_agm_ctrl_sle_ctrl_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0101_line_agm_ctrl_upload_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0102_line_tvm_ctrl_base_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0102_line_tvm_ctrl_box_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0102_line_tvm_ctrl_cash_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0102_line_tvm_ctrl_sle_other_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0103_line_bom_ctrl_alarm_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_para_0103_line_bom_ctrl_base_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="RuleFiles\Primission\dl_t1_priv_roles.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
