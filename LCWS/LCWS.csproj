@@ -222,6 +222,7 @@
     </Content>
     <None Include="Config\MonitorImageCfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <Content Include="DLL\serial_dll.dll" />
     <Content Include="Image\DevMonitor\BoxStatus\BoxH_empty.gif">
@@ -447,6 +448,7 @@
     </Resource>
     <None Include="Config\MessageConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Config\ParamConfig.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

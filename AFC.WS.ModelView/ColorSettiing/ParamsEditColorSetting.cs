@@ -14,15 +14,19 @@ namespace AFC.WS.ModelView.ColorSettiing
 
         public void SetCurrentDataGridRow(Microsoft.Windows.Controls.DataGridRow dgr, System.Data.DataRow dr)
         {
-           
-                
-            string editionType = dr["EDITON_TYPE"].ToString();
+
+
+            string editionType = dr["PARA_VERSION_TYPE"].ToString();
             
           
             try
             {
                 switch (editionType)
                 {
+                    case "草稿版本":
+                        dgr.Background = System.Windows.Media.Brushes.Gray;
+                        dgr.ToolTip = "草稿版本";
+                        break;
                     case "当前版本":
                         dgr.Background = System.Windows.Media.Brushes.Green;
                         dgr.ToolTip = "当前版本";
@@ -54,9 +58,9 @@ namespace AFC.WS.ModelView.ColorSettiing
 
         public void SetCurrentDataGridRow(Microsoft.Windows.Controls.DataGridRow dgr, System.Data.DataRow dr)
         {
-            
 
-            string editionType = dr["EDITION_TYPE"].ToString();
+
+            string editionType = dr["PARA_VERSION_TYPE"].ToString();
 
 
             try

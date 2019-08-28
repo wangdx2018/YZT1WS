@@ -72,7 +72,7 @@ namespace AFC.WS.UI.Params
                 AddQueryConditionToList("softwareType", value);
                 this.labTip.Content = string.Empty;
                 
-                if (value == "4306")
+                if (value == "0022")
                 {
                     this.labVersionNo.Visibility = Visibility.Visible;
                     this.txtParamVersionNo.Visibility = Visibility.Visible;

@@ -39,7 +39,8 @@ namespace AFC.WS.ModelView.Actions.ParamActions
         {
             ParaVersionInfo info = new ParaVersionInfo();
             info.para_type = ParaType;
-            info.para_version = "-1";
+            info.para_version = "0000";
+            info.para_version_type = "00";
             int res = 0;
             switch (ParaType)
             {
@@ -57,6 +58,9 @@ namespace AFC.WS.ModelView.Actions.ParamActions
                     break;
                 case "4314":
                     res = BuinessRule.GetInstace().paraManager.add4314DraftPara(info);
+                    break;
+                case "0206":
+                    res = BuinessRule.GetInstace().paraManager.add0206DraftPara(info);
                     break;
                 default:
                     break;

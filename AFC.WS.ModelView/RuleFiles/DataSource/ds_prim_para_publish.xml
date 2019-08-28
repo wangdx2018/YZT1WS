@@ -5,7 +5,7 @@
     <PropertyValue Value="select t.*,t1.para_desc from para_version_info t left join basi_para_type_info t1 on t1.para_type=t.para_type " Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
-    <PropertyValue Value= "t.para_version='-1' and t.para_type='4041'" Key="WhereParams" />
+    <PropertyValue Value= "t.para_version='0000' and t.para_type='0203'" Key="WhereParams" />
     <PropertyValue Value="t.update_date desc,t.update_time desc" Key="OrderByParams" />
   </PropertyValues>
 </DataSourceRule>

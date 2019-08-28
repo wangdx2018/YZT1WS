@@ -5,7 +5,7 @@
     <PropertyValue Value="select bpti.para_desc,t.* from para_version_info t left join basi_para_type_info bpti on bpti.para_type=t.para_type " Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
-    <PropertyValue Value="t.para_type in('4043','4044','4045','4042','4314') and t.para_version='-1'" Key="WhereParams" />
+    <PropertyValue Value="t.para_type in('0206') and t.para_version_type='00'" Key="WhereParams" />
     <PropertyValue Value="t.para_version" Key="OrderByParams" />
   </PropertyValues>
 </DataSourceRule>

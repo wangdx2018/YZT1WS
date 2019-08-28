@@ -224,6 +224,7 @@
     <Compile Include="DB\Para4045MinTranQuery.cs" />
     <Compile Include="DB\Para4045TickReaderData.cs" />
     <Compile Include="DB\Para4314AutorunTime.cs" />
+    <Compile Include="DB\ParaDevVersionInfo.cs" />
     <Compile Include="DB\ParaLocalFullVerInfo.cs" />
     <Compile Include="DB\ParaVersionInfo.cs" />
     <Compile Include="DB\PassengerData.cs" />

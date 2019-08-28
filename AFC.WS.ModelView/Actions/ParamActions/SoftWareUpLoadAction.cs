@@ -221,9 +221,9 @@ namespace AFC.WS.ModelView.Actions.ParamActions
                    pvi.master_para_version = "-1";
                    pvi.active_date = DateTime.Now.ToString("yyyyMMdd");
                    pvi.active_time = DateTime.Now.ToString("HHmmss");
-                   pvi.para_sub_type = "0";
+                   //pvi.para_sub_type = "0";
                    pvi.para_file_name = fileName;
-                   pvi.para_master_type = "-1";
+                   pvi.master_para_type = "-1";
                    pvi.occur_date = pvi.update_date;
                    pvi.occur_time = pvi.update_time;
                    result = DBCommon.Instance.InsertTable(pvi, "para_version_info");
@@ -306,30 +306,51 @@ namespace AFC.WS.ModelView.Actions.ParamActions
             string fileName = fileNameSplitArray[fileNameSplitArray.Length - 1];
             switch (softwareType)
             {
-                case "4301":
-                    keyWord = "TVMSoftware";
-                    return fileName.Contains("TVMSoftware");
-                case "4302":
-                    keyWord = "BOMSoftware";
-                    return fileName.Contains("BOMSoftware");
-                case "4303":
-                    keyWord = "AGSoftware";
-                    return fileName.Contains("AGSoftware");
-                case "4304":
-                    keyWord = "EQMSoftware";
-                    return fileName.Contains("EQMSoftware");
-                case "4305":
-                    keyWord = "Tpu1Software";
-                    return fileName.Contains("Tpu1Software");
-                case "4306":
-                    keyWord = "Tpu2Software";
-                    return fileName.Contains("Tpu2Software");
-                case "4310":
-                    keyWord = "SCWSSoftware";
-                    return fileName.Contains("SCWSSoftware");
+                //case "FF05":
+                //    keyWord = "TVMSoftware";
+                //    return fileName.Contains("TVMSoftware");
+                //case "4302":
+                //    keyWord = "BOMSoftware";
+                //    return fileName.Contains("BOMSoftware");
+                //case "4303":
+                //    keyWord = "AGSoftware";
+                //    return fileName.Contains("AGSoftware");
+                //case "4304":
+                //    keyWord = "EQMSoftware";
+                //    return fileName.Contains("EQMSoftware");
+                //case "4305":
+                //    keyWord = "Tpu1Software";
+                //    return fileName.Contains("Tpu1Software");
+                //case "4306":
+                //    keyWord = "Tpu2Software";
+                //    return fileName.Contains("Tpu2Software");
+                //case "4310":
+                //    keyWord = "SCWSSoftware";
+                //    return fileName.Contains("SCWSSoftware");
+                //case "4311":
+                //    keyWord = "LCWSSoftware";
+                //    return fileName.Contains("LCWSSoftware");
+                case "FF05":
+                    keyWord = "TVM";
+                    return fileName.Contains("TVM");
+                case "FF11":
+                    keyWord = "AGM";
+                    return fileName.Contains("AGM");
+                case "FF16":
+                    keyWord = "PCA";
+                    return fileName.Contains("PCA");
+                case "FF18":
+                    keyWord = "SDG";
+                    return fileName.Contains("SDG");
+                case "FF20":
+                    keyWord = "IC";
+                    return fileName.Contains("IC");
+                case "0022":
+                    keyWord = "TPU";
+                    return fileName.Contains("TPU");
                 case "4311":
-                    keyWord = "LCWSSoftware";
-                    return fileName.Contains("LCWSSoftware");
+                    keyWord = "LCWS";
+                    return fileName.Contains("LCWS");
                 default:
                     return false;
             }

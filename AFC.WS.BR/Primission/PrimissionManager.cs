@@ -315,9 +315,8 @@ namespace AFC.WS.BR.Primission
                 paraVerInfo.active_time = paraVerInfo.occur_time;
                 paraVerInfo.update_date = paraVerInfo.occur_date;
                 paraVerInfo.update_time = paraVerInfo.occur_time;
-                paraVerInfo.para_type = "4041";
-                paraVerInfo.para_sub_type = string.Empty;
-                paraVerInfo.para_master_type = "4300";
+                paraVerInfo.para_type = "0203";
+                paraVerInfo.master_para_type = "0203";
                res= DBCommon.Instance.InsertTable<ParaVersionInfo>(paraVerInfo, "para_version_info");
                return res == 1 ? 0 : -1;
             }

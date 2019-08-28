@@ -85,12 +85,12 @@ namespace AFC.WS.BR
         /// <returns>返回车站信息集合</returns>
         public List<BasiStationInfo> GetAllStationInfo(string lineId)
         {
-            return DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info where line_id='{0}' and location_type ='2'", lineId));
+            return DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info where line_id='{0}' and location_type ='02'", lineId));
         }
 
         public List<BasiStationInfo> GetAllStationAndLCInfo(string lineId)
         {
-            return DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info where line_id='{0}' and location_type <>3 order by station_id", lineId));
+            return DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info where line_id='{0}' and location_type <>03 order by station_id", lineId));
         }
 
         /// <summary>
@@ -99,7 +99,7 @@ namespace AFC.WS.BR
         /// <returns>返回车站信息集合</returns>
         public List<BasiStationInfo> GetAllStationInfo(string lineId,string stationId)
         {
-            return DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info where line_id='{0}' and location_type in ('1','2') and station_id <>'{1}' order by station_id", lineId, stationId));
+            return DBCommon.Instance.GetTModelValue<BasiStationInfo>(string.Format("select * from basi_station_info where line_id='{0}' and location_type in ('01','02') and station_id <>'{1}' order by station_id", lineId, stationId));
         }
         /// <summary>
         /// 根据车站ID得到车站信息

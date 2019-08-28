@@ -51,5 +51,8 @@ namespace AFC.WS.Model.Const
         CssMT_Tpu2Software = 0x4306,/*TPU软件          */
         CssMT_SCWSSoftware = 0x4310,/*SCWS软件          */
         CssMT_LCWSSoftware = 0x4311,   /*LCWS软件          */
+
+
+        CssMT_StationCfs = 0x0206,   /*车站配置文件          */
     };
 }

@@ -18,13 +18,13 @@
                         <Grid>
                             <ComboBox Height="23" Margin="140,48,115,0" Name="cmbDevSoftware" VerticalAlignment="Top" SelectedIndex="0">
                                 <ComboBoxItem Content="--请选择--" Tag="0"/>
-                                <ComboBoxItem Content="TVM软件" Tag="4301"/>
-                                <ComboBoxItem Content="AGM软件" Tag="4303"/>
-                                <ComboBoxItem Content="BOM软件" Tag="4302"/>
-                                <ComboBoxItem Content="TCM软件" Tag="4304"/>
-                                <ComboBoxItem Content="SCWS软件" Tag="4310"/>
+                                <ComboBoxItem Content="TVM软件" Tag="FF05"/>
+                                <ComboBoxItem Content="AGM软件" Tag="FF11"/>
+                                <ComboBoxItem Content="PCA软件" Tag="FF16"/>
+                                <ComboBoxItem Content="SDG软件" Tag="FF18"/>
+                                <ComboBoxItem Content="IC软件" Tag="FF20"/>
                                 <ComboBoxItem Content="LCWS软件" Tag="4311"/>
-                                <ComboBoxItem Content="TPU应用" Tag="4306"/>
+                                <ComboBoxItem Content="TPU应用" Tag="0022"/>
                             </ComboBox>
                             <Label Height="28" HorizontalAlignment="Left" Margin="17,47,0,0" Name="label1" VerticalAlignment="Top" Width="102.89">请选择软件类型</Label>
                             <TextBox Height="23" Margin="140,106,109,0" Name="txtFilePath" VerticalAlignment="Top" IsEnabled="False" />

@@ -7,7 +7,7 @@ using AFC.WS.UI.Common;
 
 namespace AFC.WS.BR.ParamsManager
 {
-   public class Draft4314Add
+    class Draft0206Add
     {
         /// <summary>
         /// 增加参数类型
@@ -19,11 +19,13 @@ namespace AFC.WS.BR.ParamsManager
         {
             string cmd = string.Format("select t.* from para_version_info t where t.para_type= '{0}' and t.para_version='{1}'", paraType, version);
             ParaVersionInfo info = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
-            info.para_version = "-1";
+            info.para_version = "0000";
             info.para_type = paraType;
-            info.master_para_type = ((uint)(AFC.WS.Model.Const.CssFileType_t.CssMT_LcEodMasterControl)).ToString("x2");
+            info.master_para_type = ((uint)(AFC.WS.Model.Const.CssFileType_t.CssMT_StationCfs)).ToString("x4");
+            info.para_version_type = "00";
+            info.para_or_soft_flag = "01";
 
-            info.master_para_version = "-1";
+            info.master_para_version = "0000";
             info.update_date = DateTime.Now.ToString("yyyyMMdd");
             info.update_time = DateTime.Now.ToString("HHmmss");
             try
@@ -43,6 +45,5 @@ namespace AFC.WS.BR.ParamsManager
                 return -1;
             }
         }
-
     }
 }
