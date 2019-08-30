@@ -35,14 +35,18 @@ namespace AFC.WS.ModelView.ColorSettiing
 
         public void SetCurrentDataGridRow(Microsoft.Windows.Controls.DataGridRow dgr, System.Data.DataRow dr)
         {
-            if (dr["down_result"].ToString() == "成功")
+            if (dr["para_active_or_load"].ToString() == "下载")
             {
                 dgr.ToolTip = "参数下载成功";
 
             }
+            else if (dr["para_active_or_load"].ToString() == "激活")
+            {
+                dgr.ToolTip = "参数激活成功";
+            }
             else
             {
-                dgr.ToolTip = "参数下载失败";
+                dgr.ToolTip = "参数状态未知";
                 dgr.Background = System.Windows.Media.Brushes.Red;
             }
         }

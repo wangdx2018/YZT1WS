@@ -27,13 +27,22 @@
     </ColumnProperty>
   </ColumnList>
   <ActionList>
-    <ActionProperty ControlName="Modify" Content="修改" IsDefaultButton="false" ActionTypeName="AFC.WS.UI.Actions.DbAction,AFC.WS.UI.FC" ComboBoxAction="DbAction">
+    <ActionProperty ControlName="btnAddedPara0206" Content="添加" ActionTypeName="AFC.WS.ModelView.Actions.CommonActions.ShowWindowAction,AFC.WS.ModelView" ComboBoxAction="DbAction">
       <PropertyValues>
-        <PropertyValue Key="DataSourceName" />
-        <PropertyValue Key="StartDateControlName" />
-        <PropertyValue Key="EndDateControlName" />
-        <PropertyValue Key="DateTimeFormat" />
+        <PropertyValue Key="ControlType" Value="AFC.WS.UI.Params.Para0206Add,AFC.WS.UI.Params" />
+        <PropertyValue Key="Width" Value="600" />
+        <PropertyValue Key="Height" Value="500" />
+        <PropertyValue Key="Title" Value="添加车站配置参数" />
+        <PropertyValue Key="IsCheckNULL" Value="false" />
       </PropertyValues>
+    </ActionProperty>
+
+    <ActionProperty ControlName="btnUpdate" Content="编辑" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.UpdatePara0206Action,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
+    </ActionProperty>
+    
+    <ActionProperty ControlName="btnDel" Content="删除" ActionTypeName="AFC.WS.ModelView.Actions.ParamActions.DelPara0206Action,AFC.WS.ModelView" ComboBoxAction="DbAction">
+      <PropertyValues/>
     </ActionProperty>
   </ActionList>
 </DataListRule>

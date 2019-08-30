@@ -27,6 +27,7 @@ namespace AFC.WS.ModelView.Actions.ParamActions
                 MessageDialog.Show("此参数类型已经存在草稿版", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                 return false;
             }
+            
             return true;
         }
 
@@ -35,10 +36,14 @@ namespace AFC.WS.ModelView.Actions.ParamActions
             return true;
         }
 
+        
+
         public ResultStatus DoAction(List<QueryCondition> actionParamsList)
         {
             ParaVersionInfo info = new ParaVersionInfo();
             info.para_type = ParaType;
+            //找到目前此类型的参数最大的参数版本将草稿版本增加1
+            ParaManager pa = BuinessRule.GetInstace().paraManager;
             info.para_version = "0000";
             info.para_version_type = "00";
             int res = 0;

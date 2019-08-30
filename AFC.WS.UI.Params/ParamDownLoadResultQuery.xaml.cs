@@ -44,14 +44,14 @@ namespace AFC.WS.UI.Params
                 this.list.Initliaize(dlr);
             }
 
-            paraSwitchQuery.InitControls();
+            //paraSwitchQuery.InitControls();
         }
 
         public override void UnLoadControls()
         {
             DataSourceManager.DisponseDataSource("ds_para_dload_busi_data");
 
-            paraSwitchQuery.UnLoadControls();
+            //paraSwitchQuery.UnLoadControls();
         }
 
         public override void InitlizeCompleteDone()
@@ -62,7 +62,7 @@ namespace AFC.WS.UI.Params
                 Util.Instance.SetInitQuery("btn_station_cn_name", staionName, "btnQuery", ic);
             }
 
-            paraSwitchQuery.InitlizeCompleteDone();
+            //paraSwitchQuery.InitlizeCompleteDone();
         }
     }
 }

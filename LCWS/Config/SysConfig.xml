@@ -14,10 +14,10 @@
     <SystemName>LCWS</SystemName>
     <LineCode>01</LineCode>
     <StationCode>0199</StationCode>
-    <DeviceCode>01992101</DeviceCode>
-    <DeviceType>21</DeviceType>
+    <DeviceCode>01993301</DeviceCode>
+    <DeviceType>33</DeviceType>
     <DataSourceDirectory>.\RuleFiles\DataSource</DataSourceDirectory>
-    <DBConnectionString>Server=localhost;Database=yzt1;Uid=root;Pwd=123456;Allow User Variables=True</DBConnectionString>
+    <DBConnectionString>Server=172.168.0.98;Database=lc;Uid=root;Pwd=qweQWE123!@#;Allow User Variables=True</DBConnectionString>
     <SkinPath>\Style\黄色主题.xaml</SkinPath>
     <Language>CN</Language>
     <StatusValueName>0</StatusValueName>

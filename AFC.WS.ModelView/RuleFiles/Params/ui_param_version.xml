@@ -7,8 +7,8 @@
         <PropertyValue Key="SqlContent" />
         <PropertyValue Value="param_name" Key="BindDisplayField" />
         <PropertyValue Value="para_type" Key="BindHideField" />
-        <PropertyValue Value="全部,TVM运行参数,AG运行参数,BOM运行参数,车站设备配置参数,自动运行参数" Key="DataString" />
-        <PropertyValue Value="99,4043,4044,4045,0206,4314" Key="HideDataString" />
+        <PropertyValue Value="全部,车站设备配置参数,自动运行参数" Key="DataString" />
+        <PropertyValue Value="99,0206,4314" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="150" Key="ControlWidth" />

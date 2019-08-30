@@ -27,9 +27,9 @@ namespace AFC.WS.ModelView.Actions.ParamActions
             try
             {
                 string paraType = actionParamsList.Single(temp => temp.bindingData.Equals("para_type")).value.ToString();
-                string paraVersion = actionParamsList.Single(temp => temp.bindingData.Equals("para_version")).value.ToString();
+                string paraVersionType = actionParamsList.Single(temp => temp.bindingData.Equals("para_version_type")).value.ToString();
 
-                if (paraVersion != "0000")
+                if (paraVersionType != "00")
                 {
                     MessageDialog.Show("请选择草稿版", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     return false;

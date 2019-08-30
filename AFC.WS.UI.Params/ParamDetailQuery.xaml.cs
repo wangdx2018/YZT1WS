@@ -50,6 +50,8 @@ namespace AFC.WS.UI.Params
         /// </summary>
         private string para_version;
 
+        
+
         /// <summary>
         /// 参数配置
         /// </summary>
@@ -72,6 +74,7 @@ namespace AFC.WS.UI.Params
             }
 
             para_version = list.Single(temp => temp.bindingData.Equals("para_version")).value.ToString();
+
 
             config = BuinessRule.GetInstace().paraManager.GetParamConfig(paramType);
 
@@ -131,9 +134,10 @@ namespace AFC.WS.UI.Params
                                 if (dataSource != null &&
                                     dataSource is DefaultDataSource)
                                 {
-                                    DefaultDataSource dds = dataSource as DefaultDataSource;
-                                    dds.WhereParams = string.Format("t.para_version='{0}'", para_version);
-                                    DataSourceManager.NotfiyDataSourceChange(dlr.DataSourceName);
+                                    
+                                        DefaultDataSource dds = dataSource as DefaultDataSource;
+                                        dds.WhereParams = string.Format("t.para_version='{0}'", para_version);
+                                        DataSourceManager.NotfiyDataSourceChange(dlr.DataSourceName);
                                 }
                                 item.Content = dlc;
                             }

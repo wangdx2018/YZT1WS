@@ -90,6 +90,9 @@
     <Compile Include="BlackListParamQuery.xaml.cs">
       <DependentUpon>BlackListParamQuery.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Para0206Add.xaml.cs">
+      <DependentUpon>Para0206Add.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Para4042DeviceInfoAdded.xaml.cs">
       <DependentUpon>Para4042DeviceInfoAdded.xaml</DependentUpon>
     </Compile>
@@ -183,6 +186,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="DeviceInfoParamQuery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Para0206Add.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
