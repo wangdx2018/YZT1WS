@@ -74,7 +74,7 @@ namespace AFC.WS.UI.UIPage.RunManager
                     {
                         List<TJComm.DeviceRange> list = new List<TJComm.DeviceRange>();
                         list.Add(new TJComm.DeviceRange { stationId = SysConfig.GetSysConfig().LocalParamsConfig.StationCode.ConvertHexStringToUshort(), special_flag = 1, deviceRange = new List<uint>() });
-                        BuinessRule.GetInstace().commProcess.ControlCmd(0x01, ControlCode.REMOTE_WEAK_UP, list);
+                        BuinessRule.GetInstace().commProcess.ControlCmd(0x01, ControlCode.NORMAL_SERVICE, list);
                     }
                     MessageDialog.Show("运营开始成功!", "提示", MessageBoxIcon.Information, MessageBoxButtons.Ok);
                     this.txtRunDate.Text = BuinessRule.GetInstace().rm.GetRunDate();
@@ -89,7 +89,7 @@ namespace AFC.WS.UI.UIPage.RunManager
                     {
                         List<TJComm.DeviceRange> list = new List<TJComm.DeviceRange>();
                         list.Add(new TJComm.DeviceRange { stationId = SysConfig.GetSysConfig().LocalParamsConfig.StationCode.ConvertHexStringToUshort(), special_flag = 1, deviceRange = new List<uint>() });
-                        BuinessRule.GetInstace().commProcess.ControlCmd(0x01, ControlCode.REMOTE_WEAK_UP, list);
+                        BuinessRule.GetInstace().commProcess.ControlCmd(0x01, ControlCode.NORMAL_SERVICE, list);
                     }
                     MessageDialog.Show("运营开始失败!", "错误", MessageBoxIcon.Error, MessageBoxButtons.Ok);
                   
