@@ -181,7 +181,7 @@ namespace AFC.WS.UI.UIPage.SLEMonitor
         /// <returns>服务模式的值</returns>
         private string GetServerMode()
         {
-            string cmd=string.Format("select t.status_value from dev_run_status_detail t where t.device_id='{0}' and t.status_id='{1}'", basiDevInfo.device_id,CSSStatusIDInfo.SERVER_MODE);
+            string cmd=string.Format("select t.status_value from dev_run_status_info t where t.device_id='{0}' and t.status_id='{1}'", basiDevInfo.device_id,CSSStatusIDInfo.SERVER_MODE);
             DataTable dt=DBCommon.Instance.GetDatatable(cmd);
             if (dt.Rows.Count == 0)
                 return string.Empty;
@@ -196,7 +196,7 @@ namespace AFC.WS.UI.UIPage.SLEMonitor
         /// <returns>服务模式的值</returns>
         private string GetConnectStatus()
         {
-            string cmd = string.Format("select t.status_value from dev_run_status_detail t where t.device_id='{0}' and t.status_id='{1}'", basiDevInfo.device_id, CSSStatusIDInfo.ON_LINE_STATUS);
+            string cmd = string.Format("select t.status_value from dev_run_status_info t where t.device_id='{0}' and t.status_id='{1}'", basiDevInfo.device_id, CSSStatusIDInfo.ON_LINE_STATUS);
             DataTable dt = DBCommon.Instance.GetDatatable(cmd);
             if (dt.Rows.Count == 0)
                 return string.Empty;
@@ -210,7 +210,7 @@ namespace AFC.WS.UI.UIPage.SLEMonitor
         /// <returns>返回通道模式的数据</returns>
         private string GetDoorServer()
         {
-            string cmd = string.Format("select t.status_value from dev_run_status_detail t where t.device_id='{0}' and t.status_id='{1}'", basiDevInfo.device_id,CSSStatusIDInfo.AG_DEV_TYPE);
+            string cmd = string.Format("select t.status_value from dev_run_status_info t where t.device_id='{0}' and t.status_id='{1}'", basiDevInfo.device_id,CSSStatusIDInfo.AG_DEV_TYPE);
             DataTable dt = DBCommon.Instance.GetDatatable(cmd);
             if (dt.Rows.Count == 0)
                 return string.Empty;

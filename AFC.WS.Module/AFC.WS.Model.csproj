@@ -253,6 +253,7 @@
     <Compile Include="DB\TaskExecuteSchedule.cs" />
     <Compile Include="DB\TaskExecuteState.cs" />
     <Compile Include="DB\TaskExecuteStateRec.cs" />
+    <Compile Include="DB\TaskManage.cs" />
     <Compile Include="DB\TickBoxInDevInfo.cs" />
     <Compile Include="DB\TickBoxRegistorInfo.cs" />
     <Compile Include="DB\TickBoxReplaceInfo.cs" />

@@ -2,7 +2,26 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_dataFileDealQuery" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select * from(select t.device_id,t.file_type,t.file_name,bt.file_type_name,t.deal_date,t.deal_time,decode(t.DEAL_RESULT,'0','成功','1','失败','2','检查失败','3','未处理')as status_name,t.DEAL_RESULT,decode(t.is_pack,'00','未打包','01','已打包','其它') as  is_pack from data_file_deal_info t left join basi_file_type_info bt on t.file_type = bt.file_type and t.file_sub_type = bt.file_sub_type)" Key="Sql" />
+    <PropertyValue Value="SELECT * 
+FROM  (SELECT t.device_id, 
+              t.file_type, 
+              t.file_name, 
+              bt.file_type_name, 
+              t.deal_date, 
+              t.deal_time, 
+              case t.deal_result when 0 then '成功' 
+                                 when 1 then '失败'
+                                 when 2 then '检查失败' 
+                                 when 3 then '未处理' 
+                                 else '其他' end AS status_name, 
+              t.deal_result, 
+              case t.is_pack when '00' then '未打包'
+                             when '01' then '已打包'
+                             else   '其它' end   AS is_pack 
+       FROM   data_file_deal_info t 
+              LEFT JOIN basi_file_type_info bt 
+                     ON t.file_type = bt.file_type 
+                        AND t.file_sub_type = bt.file_sub_type) as ttt " Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />

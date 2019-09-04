@@ -163,7 +163,7 @@ namespace AFC.WS.BR
         {
             BasiStationInfo staInfo = BuinessRule.GetInstace().GetStationInfoById(SysConfig.GetSysConfig().LocalParamsConfig.StationCode);
             string deviceId = staInfo.device_id;
-            string cmd = string.Format("select t.status_value from dev_run_status_detail t where t.status_id='0A01' and t.device_id='{0}'", deviceId);
+            string cmd = string.Format("select t.status_value from dev_run_status_info t where t.status_id='0A01' and t.device_id='{0}'", deviceId);
             try
             {
                 DataTable dt = DBCommon.Instance.GetDatatable(cmd);

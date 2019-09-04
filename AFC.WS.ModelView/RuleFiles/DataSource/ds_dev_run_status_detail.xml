@@ -29,7 +29,7 @@
   left join priv_operator_info poi on poi.operator_id = t.operator_id" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
-    <PropertyValue Value="t.status_id = '0A01' and substr(t.device_id, 5, 2) = '11'" Key="WhereParams" />
+    <PropertyValue Value="t.status_id = '0A01' and substr(t.device_id, 5, 2) = '21'" Key="WhereParams" />
     <PropertyValue Value="t.update_date desc,t.update_time desc" Key="OrderByParams" />
   </PropertyValues>
 </DataSourceRule>

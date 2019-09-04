@@ -10,13 +10,13 @@
     <ColumnProperty IsVisbility="true" HeaderName="设备ID" BindingField="device_id"  Width="80">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作内容" BindingField="t.key_fld1" Width="250">
+    <ColumnProperty IsVisbility="true" HeaderName="操作内容" BindingField="tt.fail_content" Width="250">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="故障部件" BindingField="device_name" Width="150">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="故障分类" BindingField="oper_class" Width="80">
+    <ColumnProperty IsVisbility="true" HeaderName="故障分类" BindingField="oper_class_name" Width="80">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="故障日期" BindingField="fail_date" ConvertoTypeName="AFC.WS.UI.Convertors.DateTimeConvert,AFC.WS.UI.FC">

@@ -31,65 +31,47 @@ namespace AFC.WS.UI.UIPage.DataManager
         public TimeTaskExcuteUpdate()
         {
             InitializeComponent();
-            this.task_execute_way.SelectionChanged += new SelectionChangedEventHandler(task_execute_way_SelectionChanged);
-            this.task_execute_method.SelectionChanged += new SelectionChangedEventHandler(task_execute_method_SelectionChanged);
-            this.task_source.SelectionChanged += new SelectionChangedEventHandler(task_source_SelectionChanged);
-            this.task_is_effect.SelectionChanged += new SelectionChangedEventHandler(task_is_effect_SelectionChanged);
-            this.task_is_related_running_time.SelectionChanged += new SelectionChangedEventHandler(task_is_related_running_time_SelectionChanged);
+            this.task_enable.SelectionChanged += new SelectionChangedEventHandler(task_is_effect_SelectionChanged);
+            this.exec_method.SelectionChanged += new SelectionChangedEventHandler(task_execute_method_SelectionChanged);
         }
 
         public override void InitControls()
         {
    
             List<QueryCondition> list1 = this.Tag as List<QueryCondition>;
-            this.task_id.Text = list1.Single(temp => temp.bindingData.Equals("task_id")).value.ToString();
-            this.task_name.Text = list1.Single(temp => temp.bindingData.Equals("task_name")).value.ToString();
+            this.task_name.Text = list1.Single(temp => temp.bindingData.Equals("t.task_name")).value.ToString();
 
-            string task_execute_way_name = list1.Single(temp => temp.bindingData.Equals("task_execute_way")).value.ToString();
-            if (task_execute_way_name == "任务以函数调用") { this.task_execute_way.Tag = "1"; this.task_execute_way.SelectedIndex = 0; }
-            else if (task_execute_way_name == "任务以fork子进程执行") { this.task_execute_way.Tag = "2"; this.task_execute_way.SelectedIndex = 1; }
+            string task_enable_name = list1.Single(temp => temp.bindingData.Equals("t.task_enable")).value.ToString();
+            if (task_enable_name == "不启用") { this.task_enable.Tag = "0"; this.task_enable.SelectedIndex = 0; }
+            else if (task_enable_name == "启用") { this.task_enable.Tag = "1"; this.task_enable.SelectedIndex = 1; }
 
-            this.task_execute_funpro.Text = list1.Single(temp => temp.bindingData.Equals("task_execute_funpro")).value.ToString();
-            
-            string task_execute_method_name = list1.Single(temp => temp.bindingData.Equals("task_execute_method")).value.ToString();
-            if (task_execute_method_name == "任务轮询执行") { this.task_execute_method.Tag = "1"; this.task_execute_method.SelectedIndex = 0; }
-            else if (task_execute_method_name == "任务明天定点执行") { this.task_execute_method.Tag = "2"; this.task_execute_method.SelectedIndex = 1; }
+            this.start_exec_date.Text = list1.Single(temp => temp.bindingData.Equals("t.start_exec_date")).value.ToString();
 
-            this.task_start_executing_time.Text = list1.Single(temp => temp.bindingData.Equals("task_start_executing_time")).value.ToString();
-            this.task_end_executing_time.Text = list1.Single(temp => temp.bindingData.Equals("task_end_executing_time")).value.ToString();
-            this.task_interval.Text = list1.Single(temp => temp.bindingData.Equals("task_interval")).value.ToString();
-            
-            string task_source_name = list1.Single(temp => temp.bindingData.Equals("task_source")).value.ToString();
-            if (task_source_name == "任务来源为系统内部") { this.task_source.Tag = "1"; this.task_source.SelectedIndex = 0; }
-            else if (task_source_name == "任务来源为ACC") { this.task_source.Tag = "2"; this.task_source.SelectedIndex = 1; }
-            
-            string task_is_effect_name = list1.Single(temp => temp.bindingData.Equals("task_is_effect")).value.ToString();
-            if (task_is_effect_name == "生效") { this.task_is_effect.Tag = "1"; this.task_is_effect.SelectedIndex = 0; }
-            else if (task_is_effect_name == "未生效") { this.task_is_effect.Tag = "2"; this.task_is_effect.SelectedIndex = 1; }
+            string exec_method_name = list1.Single(temp => temp.bindingData.Equals("t.exec_method")).value.ToString();
+            if (exec_method_name == "任务轮询执行") { this.exec_method.Tag = "1"; this.exec_method.SelectedIndex = 0; }
+            else if (exec_method_name == "每天执行一次") { this.exec_method.Tag = "2"; this.exec_method.SelectedIndex = 1; }
+            else if (exec_method_name == "每周执行一次") { this.exec_method.Tag = "3"; this.exec_method.SelectedIndex = 2; }
+            else if (exec_method_name == "每月执行一次") { this.exec_method.Tag = "4"; this.exec_method.SelectedIndex = 3; }
+            else if (exec_method_name == "每年执行一次") { this.exec_method.Tag = "5"; this.exec_method.SelectedIndex = 4; }
 
-            string task_is_related_running_time_name = list1.Single(temp => temp.bindingData.Equals("task_is_related_running_time")).value.ToString();
-            if (task_is_related_running_time_name == "任务与运行时间表有关") { this.task_is_related_running_time.Tag = "1"; this.task_is_related_running_time.SelectedIndex = 0; }
-            else if (task_is_related_running_time_name == "任务与运行时间表无关") { this.task_is_related_running_time.Tag = "2"; this.task_is_related_running_time.SelectedIndex = 1; }
+
+            this.start_exec_week.Text = list1.Single(temp => temp.bindingData.Equals("t.start_exec_week")).value.ToString();
+            this.start_exec_time.Text = list1.Single(temp => temp.bindingData.Equals("t.start_exec_time")).value.ToString();
+            this.exec_interval.Text = list1.Single(temp => temp.bindingData.Equals("t.exec_interval")).value.ToString();
             
-            this.task_remak.Text = list1.Single(temp => temp.bindingData.Equals("task_remak")).value.ToString();
-            //Wrapper.ComboBoxSelectedItem(this.start_flag, this.start_flag.Tag.ToString());
+           
         }
 
         private void btnUpdateProvider_Click(object sender, RoutedEventArgs e)
         {
             DoublePrimissionAction dpaction = new DoublePrimissionAction();
-            Wrapper.Instance.AddQueryConditionToList(list, "task_id", this.task_id.Text);
             Wrapper.Instance.AddQueryConditionToList(list, "task_name", this.task_name.Text);
-            Wrapper.Instance.AddQueryConditionToList(list, "task_execute_way", this.task_execute_way.Tag.ToString());
-            Wrapper.Instance.AddQueryConditionToList(list, "task_execute_funpro", this.task_execute_funpro.Text);
-            Wrapper.Instance.AddQueryConditionToList(list, "task_execute_method", this.task_execute_method.Tag.ToString());
-            Wrapper.Instance.AddQueryConditionToList(list, "task_start_executing_time", this.task_start_executing_time.Text);
-            Wrapper.Instance.AddQueryConditionToList(list, "task_end_executing_time", this.task_end_executing_time.Text);
-            Wrapper.Instance.AddQueryConditionToList(list, "task_interval", this.task_interval.Text);
-            Wrapper.Instance.AddQueryConditionToList(list, "task_source", this.task_source.Tag.ToString());
-            Wrapper.Instance.AddQueryConditionToList(list, "task_is_effect", this.task_is_effect.Tag.ToString());
-            Wrapper.Instance.AddQueryConditionToList(list, "task_is_related_running_time", this.task_is_related_running_time.Tag.ToString());
-            Wrapper.Instance.AddQueryConditionToList(list, "task_remak", this.task_remak.Text);
+            Wrapper.Instance.AddQueryConditionToList(list, "task_enable", this.task_enable.Tag.ToString());            
+            Wrapper.Instance.AddQueryConditionToList(list, "start_exec_date", this.start_exec_date.Text);
+            Wrapper.Instance.AddQueryConditionToList(list, "start_exec_week", this.start_exec_week.Text);
+            Wrapper.Instance.AddQueryConditionToList(list, "start_exec_time", this.start_exec_time.Text);
+            Wrapper.Instance.AddQueryConditionToList(list, "exec_interval", this.exec_interval.Text);
+            Wrapper.Instance.AddQueryConditionToList(list, "exec_method", this.exec_method.Tag.ToString());
             dpaction.subAction = new AFC.WS.ModelView.Actions.DataManager.UpdateTimeTaskExcute();
             dpaction.CurrentOperationId = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             //if (dpaction.CheckValid(list))
@@ -101,31 +83,12 @@ namespace AFC.WS.UI.UIPage.DataManager
         {
             //this.task_id.Text = string.Empty;
             this.task_name.Text = string.Empty;
-            this.task_execute_way.Text = string.Empty;
-            this.task_execute_funpro.Text = string.Empty;
-            this.task_execute_method.Text = string.Empty;
-            this.task_start_executing_time.Text = string.Empty;
-            this.task_end_executing_time.Text = string.Empty;
-            this.task_interval.Text = string.Empty;
-            this.task_source.Text = string.Empty;
-            this.task_is_effect.Text = string.Empty;
-            this.task_is_related_running_time.Text = string.Empty;
-            this.task_remak.Text = string.Empty;
-        }
-
-        private void task_execute_way_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            System.Windows.Controls.ComboBox cb = sender as System.Windows.Controls.ComboBox;
-            try
-            {
-                ComboBoxItem item = cb.SelectedItem as ComboBoxItem;
-                string value = item.Tag.ToString();
-                this.task_execute_way.Tag = value;
-            }
-            catch (Exception ex)
-            {
-
-            }
+            this.task_enable.Text = string.Empty;
+            this.exec_method.Text = string.Empty;
+            this.start_exec_date.Text = string.Empty;
+            this.start_exec_week.Text = string.Empty;
+            this.start_exec_time.Text = string.Empty;
+            this.exec_interval.Text = string.Empty;
         }
 
         private void task_execute_method_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -135,7 +98,7 @@ namespace AFC.WS.UI.UIPage.DataManager
             {
                 ComboBoxItem item = cb.SelectedItem as ComboBoxItem;
                 string value = item.Tag.ToString();
-                this.task_execute_method.Tag = value;
+                this.exec_method.Tag = value;
             }
             catch (Exception ex)
             {
@@ -143,20 +106,7 @@ namespace AFC.WS.UI.UIPage.DataManager
             }
         }
 
-        private void task_source_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            System.Windows.Controls.ComboBox cb = sender as System.Windows.Controls.ComboBox;
-            try
-            {
-                ComboBoxItem item = cb.SelectedItem as ComboBoxItem;
-                string value = item.Tag.ToString();
-                this.task_source.Tag = value;
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
+      
 
         private void task_is_effect_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -165,7 +115,7 @@ namespace AFC.WS.UI.UIPage.DataManager
             {
                 ComboBoxItem item = cb.SelectedItem as ComboBoxItem;
                 string value = item.Tag.ToString();
-                this.task_is_effect.Tag = value;
+                this.task_enable.Tag = value;
             }
             catch (Exception ex)
             {
@@ -173,20 +123,7 @@ namespace AFC.WS.UI.UIPage.DataManager
             }
         }
 
-        private void task_is_related_running_time_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            System.Windows.Controls.ComboBox cb = sender as System.Windows.Controls.ComboBox;
-            try
-            {
-                ComboBoxItem item = cb.SelectedItem as ComboBoxItem;
-                string value = item.Tag.ToString();
-                this.task_is_related_running_time.Tag = value;
-            }
-            catch (Exception ex)
-            {
-
-            }
-        }
+        
 
         /// <summary>
         /// 重写初始化控件

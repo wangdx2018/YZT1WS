@@ -29,7 +29,7 @@ namespace AFC.WS.ModelView.Actions.DataManager
         public ResultStatus DoAction(List<QueryCondition> actionParamsList)
         {
            string paramCode = actionParamsList.Single(temp => temp.bindingData.Equals("param_code")).value.ToString();
-           string delSql = string.Format("delete basi_run_param_info t  where t.param_code ='{0}' ", paramCode);
+           string delSql = string.Format("delete from basi_run_param_info   where param_code ='{0}' ", paramCode);
            try
            {
                int res = 0;
