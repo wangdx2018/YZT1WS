@@ -281,7 +281,7 @@ namespace AFC.WS.BR.CommBuiness
             list.Add(new DeviceRange { special_flag = 2, 
                 stationId = stationId, 
                  deviceRange=devList });
-            body.headerData.deviceRange = list;
+            //body.headerData.deviceRange = list;
             TJCommMessage sendMsg = TJCommMessage.CreateTJCommMsg(header, body);
             TJCommMessage receiveMsg = new TJCommMessage();
             int res = con.SendMsgAndReceive(sendMsg, out receiveMsg);
@@ -377,8 +377,8 @@ namespace AFC.WS.BR.CommBuiness
             CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Tick_UpdateNotify, CommandType.RESQUEST);    
             TickUpdateNotify_1361 info = AbstractCommBody.CreateCommBody(header,
                 BuinessRule.GetInstace().brConext.CurrentOperatorId.ConvertNumberStringToUint()) as TickUpdateNotify_1361;
-            info.headerData.deviceRange = new List<DeviceRange>();
-            info.headerData.deviceRange.Add(new DeviceRange { deviceRange = new List<uint>(), special_flag = 0 });
+            //info.headerData.deviceRange = new List<DeviceRange>();
+            //info.headerData.deviceRange.Add(new DeviceRange { deviceRange = new List<uint>(), special_flag = 0 });
             info.cardIssueID = tickInfo.card_issue_id.ToHexNumberByte();
             info.productType = tickInfo.product_flag.ToHexNumberByte();
             info.preStoreMoney = Convert.ToUInt32(tickInfo.pre_store_money);
@@ -421,7 +421,7 @@ namespace AFC.WS.BR.CommBuiness
             CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Param_Download_Notify, CommandType.RESQUEST);
             ParamsDownLoadNotify_1309 body = AbstractCommBody.CreateCommBody(header, BuinessRule.GetInstace().brConext.CurrentOperatorId.ConvertNumberStringToUint()) as ParamsDownLoadNotify_1309;
             body.paramType = paramType;
-            body.headerData.deviceRange = list;
+            //body.headerData.deviceRange = list;
             TJCommMessage sendMsg = TJCommMessage.CreateTJCommMsg(header, body);
             TJCommMessage receiveMsg = new TJCommMessage();
             int res = con.SendMsgAndReceive(sendMsg, out receiveMsg);
@@ -464,7 +464,7 @@ namespace AFC.WS.BR.CommBuiness
             CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Specail_Params_Download_Notify, CommandType.RESQUEST);
             SpecialParamsDownLoadNotify_1313 body = AbstractCommBody.CreateCommBody(header, BuinessRule.GetInstace().brConext.CurrentOperatorId.ConvertNumberStringToUint()) as SpecialParamsDownLoadNotify_1313;
             body.parmsData = paraList;
-            body.headerData.deviceRange = list;
+            //body.headerData.deviceRange = list;
             TJCommMessage sendMsg = TJCommMessage.CreateTJCommMsg(header, body);
             TJCommMessage receiveMsg = new TJCommMessage();
             int res = con.SendMsgAndReceive(sendMsg, out receiveMsg);
@@ -597,21 +597,39 @@ namespace AFC.WS.BR.CommBuiness
         public int ControlCmd(byte controlType, ushort controlCode, List<DeviceRange> list)
         {
             CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Control_CMD, CommandType.RESQUEST);
-            ControlCmd_1331 body = AbstractCommBody.CreateCommBody(header, BuinessRule.GetInstace().brConext.CurrentOperatorId.ConvertNumberStringToUint()) as ControlCmd_1331;
-            body.controlType = controlType;
+            ControlCmd_3000 body = AbstractCommBody.CreateCommBody(header, BuinessRule.GetInstace().brConext.CurrentOperatorId.ConvertNumberStringToUint()) as ControlCmd_3000;
+            //body.SendTime = BitConverter.GetBytes(DateTime.Now.ToBinary());
+            body.SendDeviceId = sysConfig.LocalParamsConfig.DeviceCode.ConvertHexStringToUint();
+
+            body.operatorId = BuinessRule.GetInstace().brConext.CurrentOperatorId;
             body.controlCode = controlCode;
-            body.headerData.deviceRange = list;
-            TJCommMessage sendMsg = TJCommMessage.CreateTJCommMsg(header, body);
-            TJCommMessage receiveMsg = new TJCommMessage();
-            int res = con.SendMsgAndReceive(sendMsg, out receiveMsg);
-            if (res == 0)
+
+            int res = 0;
+            for (int iIndex = 0; iIndex < list.Count; iIndex++)
             {
-                CommonResponseMsg msg1 = receiveMsg.packageBody as CommonResponseMsg;
-                if (msg1 == null) return -3;
-                if (msg1.resultCode == 0)
-                    return msg1.resultCode;
-                else
-                    return (int)msg1.resultStatusCode;
+                if(0 == list[iIndex].special_flag)
+                {
+                    body.DestDeviceId = 0x01000000; 
+                }
+                else if (1 == list[iIndex].special_flag)
+                {
+                    //body.DestDeviceId = list[iIndex].stationId;
+                }
+                else if (2 == list[iIndex].special_flag)
+                {
+                    
+                    //body.DestDeviceId = list[iIndex].stationId;
+                }
+
+                TJCommMessage sendMsg = TJCommMessage.CreateTJCommMsg(header, body);
+                TJCommMessage receiveMsg = new TJCommMessage();
+                res = con.SendMsgAndReceive(sendMsg, out receiveMsg);
+                if (0 != res)
+                { 
+                    //log 
+                    return res;
+                }
+                
             }
             return res;
         }
@@ -685,7 +703,7 @@ namespace AFC.WS.BR.CommBuiness
                 stationId = sysConfig.LocalParamsConfig.StationCode.ToHexNumberUShort(),
                 deviceRange = devList
             });
-            body.headerData.deviceRange = list;
+            //body.headerData.deviceRange = list;
             TJCommMessage sendMsg = TJCommMessage.CreateTJCommMsg(header, body);
             TJCommMessage receiveMsg = new TJCommMessage();
             int res = con.SendMsgAndReceive(sendMsg, out receiveMsg);

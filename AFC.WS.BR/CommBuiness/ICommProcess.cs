@@ -141,6 +141,11 @@ namespace AFC.WS.BR.CommBuiness
         /// 控制命令
         /// </summary>
         /// <param name="controlType">控制类型</param>
+        /// 0x01	通用设备控制
+        /// 0x02	AGM个性控制
+        /// 0x03	TVM个性控制
+        /// 0x04	BOM个性控制
+        ///  0X05	AVM个性控制
         /// <param name="controlCode">控制代码</param>
         /// <param name="list">设备范围列表</param>
         /// <returns>成功返回0，否则返回错误代码</returns>
