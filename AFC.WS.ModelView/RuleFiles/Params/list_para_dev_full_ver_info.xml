@@ -10,25 +10,30 @@
     <ColumnProperty IsVisbility="true" HeaderName="设备编码" BindingField="t.device_id" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="参数描述" BindingField="bpti.para_desc" Width="150">
+    <ColumnProperty IsVisbility="true" HeaderName="参数描述" BindingField="bpti.para_desc" Width="100">
       <PropertyValues />
     </ColumnProperty>
 
     <ColumnProperty IsVisbility="true" HeaderName="版本号" BindingField="t.para_version" Width="100">
       <PropertyValues />
     </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="下载/激活" BindingField="t.para_active_or_load" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
     
-    <ColumnProperty IsVisbility="true" HeaderName="文件路径" BindingField="t.para_file_name" Width="300">
+    <ColumnProperty IsVisbility="true" HeaderName="文件路径" BindingField="t.para_file_name" Width="350">
       <PropertyValues />
     </ColumnProperty>
    
     <ColumnProperty IsVisbility="true" HeaderName="版本类型" BindingField="t.para_version_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="生效日期" BindingField="t.active_date_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView">
+    <ColumnProperty IsVisbility="true" HeaderName="生效日期" BindingField="t.active_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView">
       <PropertyValues />
     </ColumnProperty>
- 
+    <ColumnProperty IsVisbility="true" HeaderName="生效时间" BindingField="t.active_time" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView">
+      <PropertyValues />
+    </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="t.update_date" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView">
       <PropertyValues />
     </ColumnProperty>

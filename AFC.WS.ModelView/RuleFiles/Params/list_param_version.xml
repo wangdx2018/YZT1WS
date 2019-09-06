@@ -18,6 +18,9 @@
     <ColumnProperty IsVisbility="true" HeaderName="版本号" BindingField="para_version" Width="50">
       <PropertyValues />
     </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="版本类型" BindingField="para_version_type" Width="80" ConvertoTypeName="AFC.WS.ModelView.Convertors.ParamVersionTypeConvert,AFC.WS.ModelView" ComboBoxConvertor="ParamVersionTypeConvert">
+      <PropertyValues />
+    </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="全路径名称" BindingField="para_file_name" Width="150">
       <PropertyValues />
     </ColumnProperty>

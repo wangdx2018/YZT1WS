@@ -30,9 +30,9 @@
 
                         </Grid>
                     </TabItem>
-                    <TabItem Header="参数切换果查询">
+                    <!--TabItem Header="参数切换果查询">
                         <control:ParamSwitchStatusQuery x:Name="paraSwitchQuery"/>
-                    </TabItem>
+                    </TabItem-->
                 </TabControl>
                
 

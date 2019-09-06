@@ -5,14 +5,18 @@
       <PropertyVal5ues />
     </ColumnProperty>
     
-    <ColumnProperty IsVisbility="true" HeaderName="参数说明" BindingField="t1.para_desc" Width="350">
+    <ColumnProperty IsVisbility="true" HeaderName="参数说明" BindingField="t1.para_desc" Width="150">
       <PropertyValues />
     </ColumnProperty>
 
-    <!--ColumnProperty IsVisbility="true" HeaderName="参数子类型" BindingField="para_sub_type" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="参数类型说明" BindingField="para_or_soft_flag" Width="100">
       <PropertyValues />
-    </ColumnProperty-->
+    </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="数据文件类型" BindingField="master_para_type" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+
+    <ColumnProperty IsVisbility="true" HeaderName="文件名字" BindingField="para_file_name" Width="350">
       <PropertyValues />
     </ColumnProperty>
   

@@ -192,7 +192,7 @@ namespace AFC.WS.ModelView.Actions.ParamActions
         {
             Util.DataBase.BeginTransaction();
 
-            ParaVersionInfo pvi = BuinessRule.GetInstace().paraManager.GetParaByVersion(this.softwareType, "-1");
+            ParaVersionInfo pvi = BuinessRule.GetInstace().paraManager.GetParaByVersion(this.softwareType, "0000");
             int result;
             string[] nameArray=filePath.Split('\\');
             string fileName=nameArray[nameArray.Length-1];
@@ -204,7 +204,7 @@ namespace AFC.WS.ModelView.Actions.ParamActions
                {
                    //001delete params
                    // 002 d 
-                   result = Draft4044ParaDel.DelParaVersionInfo(softwareType, "-1");
+                   result = Draft4044ParaDel.DelParaVersionInfo(softwareType, "0000");
                    if (res == 0)
                    {
                        MessageDialog.Show("删除草稿版失败！", "提示", MessageBoxIcon.Question, MessageBoxButtons.Ok);
@@ -215,17 +215,23 @@ namespace AFC.WS.ModelView.Actions.ParamActions
             }
                    pvi = new ParaVersionInfo();
                    pvi.para_type = this.softwareType;
-                   pvi.para_version = "-1";
+                   pvi.para_version = "0000";
                    pvi.update_date = DateTime.Now.ToString("yyyyMMdd");
                    pvi.update_time = DateTime.Now.ToString("HHmmss");
-                   pvi.master_para_version = "-1";
+                   pvi.master_para_version = "0000";
                    pvi.active_date = DateTime.Now.ToString("yyyyMMdd");
                    pvi.active_time = DateTime.Now.ToString("HHmmss");
+                   pvi.para_or_soft_flag = "02";
                    //pvi.para_sub_type = "0";
                    pvi.para_file_name = fileName;
-                   pvi.master_para_type = "-1";
+                   pvi.master_para_type = this.softwareType;
                    pvi.occur_date = pvi.update_date;
                    pvi.occur_time = pvi.update_time;
+                   pvi.para_version_type = "00";//草稿版 
+                   //获取当前版本的最高版本
+                   int iVersionNo = BuinessRule.GetInstace().paraManager.GetCurrentParamVersionNo(this.softwareType);
+                   //PRO.XXXX.AA.LLLL.VVVV. FILENAME .YYYYMMDDhh24mmss
+                   pvi.para_file_name = "PRO." + this.softwareType + "." + "99" + "." + "0199" + "." + (iVersionNo+1).ToString("D4") + "."+ fileName + "." + DateTime.Now.ToString("yyyyMMddHHmmss");
                    result = DBCommon.Instance.InsertTable(pvi, "para_version_info");
                    if (result != 1)
                    {

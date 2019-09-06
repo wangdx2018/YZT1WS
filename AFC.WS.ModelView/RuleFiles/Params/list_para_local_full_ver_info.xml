@@ -5,13 +5,13 @@
       <PropertyValues />
     </ColumnProperty>
 
-    <ColumnProperty IsVisbility="false" HeaderName="参数类型" BindingField="t.para_type" Width="200">
+    <ColumnProperty IsVisbility="false" HeaderName="参数类型" BindingField="t.para_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="版本号" BindingField="para_version" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="主控类型" BindingField="t.master_para_type" Width="150">
+    <ColumnProperty IsVisbility="true" HeaderName="主控类型" BindingField="t.master_para_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="主控版本号" BindingField="t.master_para_version" Width="100">
@@ -20,10 +20,10 @@
     <ColumnProperty IsVisbility="true" HeaderName="参数状态" BindingField="t.para_version_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <!--ColumnProperty IsVisbility="true" HeaderName="应用范围" BindingField="user_type_bit_map" ConvertoTypeName="AFC.WS.ModelView.Convetors.ParamsUseRange,AFC.WS.ModelView" Width="400">
+    <ColumnProperty IsVisbility="true" HeaderName="应用范围" BindingField="t.para_or_soft_flag" Width="100">
       <PropertyValues />
-    </ColumnProperty-->
-    <ColumnProperty IsVisbility="true" HeaderName="文件路径" BindingField="t.para_file_name" Width="300">
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="文件路径" BindingField="t.para_file_name" Width="350">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="生效日期" BindingField="t.active_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100">

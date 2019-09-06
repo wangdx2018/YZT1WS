@@ -30,7 +30,7 @@ namespace AFC.WS.BR
         /// <returns>返回车站信息集合</returns>
         public List<BasiStationInfo> GetAllStationInfo()
         {
-            return DBCommon.Instance.GetTModelValue<BasiStationInfo>("select * from basi_station_info where location_type ='2' and line_id='03' order by station_id");
+            return DBCommon.Instance.GetTModelValue<BasiStationInfo>("select * from basi_station_info where location_type ='02' and line_id='01' order by station_id");
         }
 
         /// <summary>
@@ -958,6 +958,11 @@ namespace AFC.WS.BR
         public Para4314AutorunTime GetPara4314AutorunTime(string deviceID,string ctrlCode)
         {
             return DBCommon.Instance.GetModelValue<Para4314AutorunTime>(string.Format("select t.* from para_4314_autorun_time t where t.device_id='{0}'  and t.control_code='{1}'  and t.para_version='-1'", deviceID, ctrlCode));
+        }
+
+        public Para0206StationCfgCtrl GetPara0206StationCfgCtrl(string deviceID)
+        {
+            return DBCommon.Instance.GetModelValue<Para0206StationCfgCtrl>(string.Format("select t.* from para_0206_station_cfg_ctrl t where t.device_id='{0}' ", deviceID));
         }
 
         public ParaLocalFullVerInfo GetCurrentVersionPara()

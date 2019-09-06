@@ -155,6 +155,7 @@
     </Compile>
     <Compile Include="Actions\MoneyStoreActions\CashStoreUpdate.cs">
     </Compile>
+    <Compile Include="Actions\ParamActions\AddPara0206.cs" />
     <Compile Include="Actions\ParamActions\AddPara4042DeviceInfo.cs" />
     <Compile Include="Actions\ParamActions\AddHandleVersion.cs" />
     <Compile Include="Actions\ParamActions\AddPara4044AlarmLamp.cs" />
@@ -162,6 +163,7 @@
     <Compile Include="Actions\ParamActions\AddParaDraftVersion.cs" />
     <Compile Include="Actions\ParamActions\BlackListQueryAction.cs" />
     <Compile Include="Actions\ParamActions\BuilderPrimissionParamAction.cs" />
+    <Compile Include="Actions\ParamActions\DelPara0206Action.cs" />
     <Compile Include="Actions\ParamActions\DelPara4042DeviceInfo.cs" />
     <Compile Include="Actions\ParamActions\DelPara4044AlarmLamp.cs" />
     <Compile Include="Actions\ParamActions\DelPara4314Action.cs" />
@@ -170,11 +172,13 @@
     <Compile Include="Actions\ParamActions\ParamsDownLoadNotify.cs" />
     <Compile Include="Actions\ParamActions\PublishParaDraftVersion.cs" />
     <Compile Include="Actions\ParamActions\SoftWareUpLoadAction.cs" />
+    <Compile Include="Actions\ParamActions\UpdatePara0206Action.cs" />
     <Compile Include="Actions\ParamActions\UpdatePara4042DeviceInfo.cs" />
     <Compile Include="Actions\ParamActions\UpdatePara4044AlarmLamp.cs" />
     <Compile Include="Actions\ParamActions\UpdatePara4314Action.cs" />
     <Compile Include="Actions\ParamActions\UpdateParaAutoTime.cs" />
     <Compile Include="Actions\ParamActions\UpdateParaDraftVersion.cs" />
+    <Compile Include="Actions\ParamActions\UpdateParaStationCfg.cs" />
     <Compile Include="Actions\PrimissionActions\AddFunction.cs" />
     <Compile Include="Actions\PrimissionActions\AddOperator.cs" />
     <Compile Include="Actions\PrimissionActions\AddRoleAction.cs" />
@@ -267,6 +271,7 @@
     <Compile Include="Convetors\OperatorLogInConvert.cs" />
     <Compile Include="Convetors\OperatorStatusConvert.cs" />
     <Compile Include="Convetors\ParamsUseRange.cs" />
+    <Compile Include="Convetors\ParamVersionTypeConvert.cs" />
     <Compile Include="Convetors\ParaTypeNameConvert.cs" />
     <Compile Include="Convetors\PartStatusConvert.cs" />
     <Compile Include="Convetors\PasswordSetModeConvert.cs" />
@@ -393,6 +398,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="RuleFiles\Params\ui_para_0103_line_bom_ctrl_base_info.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_add_para_0206.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="RuleFiles\Params\ui_updatePara0206.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Content Include="RuleFiles\Primission\dl_t1_priv_roles.xml">

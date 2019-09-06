@@ -29,7 +29,7 @@ namespace AFC.WS.BR.ParamsManager
             try
             {
 
-                string cmd = string.Format("select t.* from para_version_info t where t.para_version='0000' and t.para_type='{0}'", paraType);
+                string cmd = string.Format("select t.* from para_version_info t where t.para_version_type='00' and t.para_type='{0}'", paraType);
                 ParaVersionInfo fi = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
                 return fi;
             }
@@ -50,7 +50,7 @@ namespace AFC.WS.BR.ParamsManager
             try
             {
 
-                string cmd = string.Format("select t.* from para_version_info t where t.para_version!='0000' and t.para_type='{0}'", paraType);
+                string cmd = string.Format("select t.* from para_version_info t where t.para_version_type=='01' and t.para_type='{0}'", paraType);
                 ParaVersionInfo fi = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
                 return fi;
             }
@@ -799,7 +799,7 @@ namespace AFC.WS.BR.ParamsManager
                WriteLog.Log_Error("paramType is null or empty!");
                return -2;
            }
-           string cmd = string.Format("select t.para_type, max(t.para_version) from para_version_info t where t.para_type='{0}' and t.para_version<>'-1' group by t.para_type order by t.para_type", paramType);
+           string cmd = string.Format("select t.para_type, max(t.para_version) from para_version_info t where t.para_type='{0}' and t.para_version_type<>'00' group by t.para_type order by t.para_type", paramType);
 
          DataTable dt=DBCommon.Instance.GetDatatable(cmd);
          try

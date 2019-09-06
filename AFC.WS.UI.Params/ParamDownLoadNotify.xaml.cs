@@ -49,6 +49,7 @@ namespace AFC.WS.UI.Params
 
         public override void InitControls()
         {
+           this.rbSelfDef.IsChecked = true;
            List<BasiStationInfo> stationlist = BuinessRule.GetInstace().GetAllStationInfo(SysConfig.GetSysConfig().LocalParamsConfig.LineCode);
            BasiStationInfo info = new BasiStationInfo() { station_cn_name = "全部", station_id="03FF" };
            stationlist.Insert(0, info);

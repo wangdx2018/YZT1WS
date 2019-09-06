@@ -165,6 +165,7 @@
     <Compile Include="DB\MoneyBoxInOrOutBody.cs" />
     <Compile Include="DB\MoneyCashType.cs" />
     <Compile Include="DB\OperContentLogInfo.cs" />
+    <Compile Include="DB\Para0206StationCfgCtrl.cs" />
     <Compile Include="DB\Para4011YktBlacklist.cs" />
     <Compile Include="DB\Para4012YptFullBlackList.cs" />
     <Compile Include="DB\Para4013YptIncreBlackList.cs" />

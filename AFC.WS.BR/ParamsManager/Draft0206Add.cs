@@ -19,15 +19,18 @@ namespace AFC.WS.BR.ParamsManager
         {
             string cmd = string.Format("select t.* from para_version_info t where t.para_type= '{0}' and t.para_version='{1}'", paraType, version);
             ParaVersionInfo info = DBCommon.Instance.GetModelValue<ParaVersionInfo>(cmd);
-            info.para_version = "0000";
+            info.para_version = version;
             info.para_type = paraType;
             info.master_para_type = ((uint)(AFC.WS.Model.Const.CssFileType_t.CssMT_StationCfs)).ToString("x4");
             info.para_version_type = "00";
             info.para_or_soft_flag = "01";
 
-            info.master_para_version = "0000";
+            info.master_para_version = version;
             info.update_date = DateTime.Now.ToString("yyyyMMdd");
             info.update_time = DateTime.Now.ToString("HHmmss");
+            int iVersionNo = BuinessRule.GetInstace().paraManager.GetCurrentParamVersionNo(paraType);
+            //PRM.0001.9900. 0001
+            info.para_file_name = "PRM." + paraType + "." + "0199" + "." + (iVersionNo+1).ToString("D4");
             try
             {
                 int res = DBCommon.Instance.InsertTable(info, "para_version_info");
