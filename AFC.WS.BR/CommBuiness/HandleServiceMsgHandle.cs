@@ -29,7 +29,7 @@ namespace AFC.WS.BR.CommBuiness
                if (msg.header.messageType == CommMsgType.Dev_Status_Report)
                {
                    CommBuiness cb = BuinessRule.GetInstace().commProcess as CommBuiness;
-                   msg.header.sessionFlagMap = CommandType.MACK;
+                   //msg.header.sessionFlagMap = CommandType.MACK;
                    AbstractCommBody ack = AbstractCommBody.CreateCommBody(msg.header, BuinessRule.GetInstace().OperatorId.ConvertNumberStringToUint());
                    TJCommMessage ackMsg = new TJCommMessage();
                    ackMsg.header = msg.header;
