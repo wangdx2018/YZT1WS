@@ -223,11 +223,11 @@ namespace TJComm
 			try
 			{
 				//缓存包长度
-				byte[] lenBuffer = new byte[4];
+				byte[] lenBuffer = new byte[2];
 
 				//读取前4个字节，获取包长度。
                 
-		int readLen = _sock.Receive(lenBuffer, 0, 4, SocketFlags.None);
+		int readLen = _sock.Receive(lenBuffer, 0, 2, SocketFlags.None);
 				
 				if (readLen == 0)
 				{
@@ -244,33 +244,33 @@ namespace TJComm
 					
 					return ResultCode.NET_PACK_SIZE_ZERO;
 				}
-				if (readLen != 4)
+				if (readLen != 2)
 				{
 				   WriteLog.Log_Error("["+System.Threading.Thread.CurrentThread.Name+"]"+"Expect a 4 bytes length, but only " + readLen + " bytes!");	
 					return ResultCode.NET_PACK_SIZE_WRONG;
 				}
-				Array.Reverse(lenBuffer);
-				//lenBuffer为big-endian编码
-				int length = BitConverter.ToInt32 (lenBuffer, 0);
+                //Array.Reverse(lenBuffer);
+                ////lenBuffer为big-endian编码
+                int length = BitConverter.ToInt16(lenBuffer, 0);
 
 
-                WriteLog.Log_Debug("Read 4 bytes message length: " + length);
+                WriteLog.Log_Debug("Read 2 bytes message length: " + length);
 
-				if (length <= 4)
+				if (length <= 2)
 					return ResultCode.NET_PACK_SIZE_WRONG;
 				
 				//缓存含长度字段的包
-				message = new Byte[length+4];
+				message = new Byte[length+2];
 				
 				// recovery original byte order. 
-				Array.Reverse(lenBuffer);
+                //Array.Reverse(lenBuffer);
 				
 				lenBuffer.CopyTo (message, 0);
 
 				readLen = 0;
 				do
 				{
-					readLen += _sock.Receive (message, readLen + 4, length- readLen , SocketFlags.None);
+					readLen += _sock.Receive (message, readLen + 2, length- readLen , SocketFlags.None);
 				} while (readLen != length);
 
 				

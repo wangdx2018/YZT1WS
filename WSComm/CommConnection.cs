@@ -716,7 +716,7 @@ namespace TJComm
                     
                     // Judge sessionFlagMap 
                     // extends flag with 0, 1. btye[27]
-                    switch ((CommandType)buffer[27])
+                    switch ((CommandType)buffer[20])
                     {
                         case CommandType.RESPONSE: //服务器回复的应答
                         case CommandType.MACK:  //服务器回复的Mack
