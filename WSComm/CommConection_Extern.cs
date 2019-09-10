@@ -32,7 +32,7 @@ namespace TJComm
         /// <summary>
         /// 发送的超时时间,默认为10s,单位为毫秒
         /// </summary>
-        private int _sendTimeout=10*1000;
+        private int _sendTimeout=100*1000;
 
         /// <summary>
         /// 定时发送存活包线程
@@ -83,14 +83,16 @@ namespace TJComm
             if (DateTime.Now.Subtract(this.lastSendTime).TotalSeconds > this._sendHeartBeatMsgInterval)
             {
                 CommHeader header = TJCommMessage.CreateHeader(TJCommMessage.BeatHeartMsgType, TJCommMessage.localDeviceId, TJCommMessage.serverDeviceId, CommandType.RESQUEST);
+
                 BeartHeartData bhd = new BeartHeartData();
-                bhd.comPackageData = new CommBodyData(header);
-                bhd.selfDefPacketHeaderData = new CommHeaderData(0, 0, 0);
-                TJCommMessage tjMsg =TJCommMessage.CreateTJCommMsg(header,bhd);//TJCommMessage.CreateTJCommMsg(0, CommandType.RESQUEST, TJCommMessage.BeatHeartMsgType, new BeartHeartData());
-                
-                TJCommMessage outTjMsg=TJCommMessage.CreateTJCommMsg(header,bhd);
-               return SendMsgAndReceive(tjMsg, out tjMsg);
-               
+                bhd.receiveId = 0x01990101;
+                //bhd.comPackageData = new CommBodyData(header);
+                //bhd.selfDefPacketHeaderData = new CommHeaderData(0, 0, 0);
+                TJCommMessage tjMsg = TJCommMessage.CreateTJCommMsg(header, bhd);//TJCommMessage.CreateTJCommMsg(0, CommandType.RESQUEST, TJCommMessage.BeatHeartMsgType, new BeartHeartData());
+
+                TJCommMessage outTjMsg = TJCommMessage.CreateTJCommMsg(header, bhd);
+                return SendMsgAndReceive(tjMsg, out tjMsg);
+
             }
             return 0;
         }
@@ -121,7 +123,7 @@ namespace TJComm
         {
             if (sendData == null)
             {
-                  WriteLog.Log_Error("["+System.Threading.Thread.CurrentThread.Name+"]"+"input params error ! function [SendMsgAndReceive(TJCommMessage sendData, out TJCommMessage receiveData)] sendData is null");
+                WriteLog.Log_Error("["+System.Threading.Thread.CurrentThread.Name+"]"+"input params error ! function [SendMsgAndReceive(TJCommMessage sendData, out TJCommMessage receiveData)] sendData is null");
                 receiveData = null;
                 return -1;
             }
@@ -224,8 +226,8 @@ namespace TJComm
                 {
                     if (hasFound) //已经发现了匹配的消息
                         break;
-                    if (receiveMsg.header.messageType == senderMsgCollection[i].sendMsg.header.messageType &&   //检查分发消息是否需要删除
-                      receiveMsg.header.sessionId == senderMsgCollection[i].sendMsg.header.sessionId)
+                    if (receiveMsg.header.messageType == senderMsgCollection[i].sendMsg.header.messageType) //&&   //检查分发消息是否需要删除
+                      //receiveMsg.header.sessionId == senderMsgCollection[i].sendMsg.header.sessionId)
                     {
                         lock (senderMsgCollection[i])
                         {

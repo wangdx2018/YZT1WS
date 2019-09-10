@@ -14,17 +14,17 @@ namespace AFC.WS.Model.Comm
     /// </summary>
     public abstract class AbstractCommBody
     {
-        /// <summary>
-        /// 通用头
-        /// </summary>
-        [PackOrder(1), PackStruct(0, ByteOrder.Moto)]
-        public CommHeaderData headerData = new CommHeaderData();
+        ///// <summary>
+        ///// 通用头
+        ///// </summary>
+        //[PackOrder(1), PackStruct(0, ByteOrder.Moto)]
+        //public CommHeaderData headerData = new CommHeaderData();
 
-        /// <summary>
-        /// 通用Body
-        /// </summary>
-        [PackOrder(2), PackStruct(0, ByteOrder.Moto)]
-        public CommBodyData commBody = new CommBodyData();
+        ///// <summary>
+        ///// 通用Body
+        ///// </summary>
+        //[PackOrder(2), PackStruct(0, ByteOrder.Moto)]
+        //public CommBodyData commBody = new CommBodyData();
 
         /// <summary>
         /// 创建AbstractBody
@@ -101,8 +101,8 @@ namespace AFC.WS.Model.Comm
                     body= new ReUploadRecords_1363();
                     break;
             }
-            body.commBody = new CommBodyData(header);
-            body.headerData = new CommHeaderData(opeatorId);
+            //body.commBody = new CommBodyData(header);
+            //body.headerData = new CommHeaderData(opeatorId);
 
             return body;
 
