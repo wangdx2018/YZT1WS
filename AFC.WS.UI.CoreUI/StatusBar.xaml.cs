@@ -228,10 +228,10 @@ namespace AFC.WS.UI.CoreUI
                         {
                             alarmId = status.devStatusInfo[i].statusId.ToString(),
                             alarmValue = status.devStatusInfo[i].statusValue.ToString("x2"),
-                            alarmContent = status.headerData.deviceId.ToString("X8")+" "+bsi.css_status_id_name+":"+bsi.css_status_value_name+ "   报警级别:  " + statusLevel,
+                            //alarmContent = status.headerData.deviceId.ToString("X8")+" "+bsi.css_status_id_name+":"+bsi.css_status_value_name+ "   报警级别:  " + statusLevel,
                             date = DateTime.Now.ToString("yyyyMMdd"),
                             time = DateTime.Now.ToString("HHmmss"),
-                            messageSource = status.headerData.deviceId.ToString("X8")
+                            //messageSource = status.headerData.deviceId.ToString("X8")
                         };
 
                         ErrorAlarm ea = new ErrorAlarm();
