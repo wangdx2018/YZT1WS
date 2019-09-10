@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <InteractiveControlRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" ActionHeight="20" RowHeight="30" TopSpace="10" ColumnCount="4" LayoutMode="Stack" ActionLocation="Right" ActionAlign="Left" CanRest="true">
   <ControlList>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_line_name" BindingField="line_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="线路" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_line_name" BindingField="blii.line_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="线路" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
         <PropertyValue Value="select t.line_name from basi_line_id_info t order by t.line_name" Key="SqlContent" />
@@ -20,10 +20,10 @@
       </PropertyValues>
       <TextConvertor />
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_cn_name" BindingField="station_cn_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_cn_name" BindingField="bsi.station_cn_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select t.station_cn_name from basi_station_info t where t.line_id='03' and t.location_type in ('2')  order by t.station_id" Key="SqlContent" />
+        <PropertyValue Value="select t.station_cn_name from basi_station_info t where t.line_id='01' and t.location_type in (2)  order by t.station_id" Key="SqlContent" />
         <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
         <PropertyValue Value="station_cn_name" Key="BindHideField" />
         <PropertyValue Key="DataString" />
@@ -39,7 +39,7 @@
       </PropertyValues>
       <TextConvertor />
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_money_box_id" BindingField="cbri.money_box_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="钱箱编码" ComboBoxControl="TextBoxExtend"  ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToDecimalMoneyCode,AFC.WS.ModelView" ComboBoxConvertor="ConvertToDecimalMoneyCode">
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_money_box_id" BindingField="cbri.cash_box_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="钱箱编码" ComboBoxControl="TextBoxExtend"  ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToDecimalMoneyCode,AFC.WS.ModelView" ComboBoxConvertor="ConvertToDecimalMoneyCode">
       <PropertyValues>
         <PropertyValue Value="Hex" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -81,7 +81,7 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Like" ControlName="btn_operator_id" BindingField="poi.operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="操作员编码" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_operator_id" BindingField="cbri.operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="操作员编码" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="Hex" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -102,14 +102,14 @@
         <PropertyValue Value="Hidden" Key="VerticalScrollBarVisibility" />
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_replace_type" BindingField="replace_type" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="操作类型" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_replace_type" BindingField="cbri.oper_type" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="操作类型" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="DataString" Key="BindType" />
         <PropertyValue Key="SqlContent" />
-        <PropertyValue Value="replace_type" Key="BindDisplayField" />
-        <PropertyValue Value="replace_type" Key="BindHideField" />
+        <PropertyValue Value="oper_type" Key="BindDisplayField" />
+        <PropertyValue Value="oper_type" Key="BindHideField" />
         <PropertyValue Value="全部,安装,卸下,清点,补充,RFID初始化,钱箱登记" Key="DataString" />
-        <PropertyValue Value="99,01,02,03,04,07,08" Key="HideDataString" />
+        <PropertyValue Value="99,1,2,3,4,7,8" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />

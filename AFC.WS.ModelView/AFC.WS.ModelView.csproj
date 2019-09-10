@@ -863,6 +863,7 @@
     </None>
     <None Include="RuleFiles\DataSource\ds_devLogInfo.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </None>
     <None Include="ReportDir\其它类报表\员工统计\员工TVM补充找零金额统计报表.xls">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

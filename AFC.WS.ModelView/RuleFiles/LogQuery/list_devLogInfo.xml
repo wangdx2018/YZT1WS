@@ -19,6 +19,9 @@
     <ColumnProperty IsVisbility="true" HeaderName="操作状态" BindingField="oper_class_name" Width="100">
       <PropertyValues />
     </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="事件ID" BindingField="busi_code" Width="100">
+      <PropertyValues />
+    </ColumnProperty>    
     <ColumnProperty IsVisbility="true" HeaderName="操作数值" BindingField="oper_status" Width="80">
       <PropertyValues />
     </ColumnProperty>

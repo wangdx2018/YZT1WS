@@ -10,25 +10,20 @@
     <ColumnProperty IsVisbility="true" HeaderName="设备编号" BindingField="device_id" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="安装位置" BindingField="position_in_dev" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToCashBoxPosition,AFC.WS.ModelView" ComboBoxConvertor="ConvertToCashBoxPosition" >
+】
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱编号" BindingField="cash_box_id" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.TicketOrMoneyBoxIdConvetor,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="钱箱编号" BindingField="money_box_id" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.TicketOrMoneyBoxIdConvetor,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
-      <PropertyValues />
-    </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="钱箱类型" BindingField="money_box_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToBoxType,AFC.WS.ModelView" ComboBoxConvertor="ConvertToBoxType" >
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱类型" BindingField="box_location_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToBoxType,AFC.WS.ModelView" ComboBoxConvertor="ConvertToBoxType" >
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="安装状态" BindingField="install_status" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="存放状态" BindingField="currency_store_status" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="存放状态" BindingField="storage_status" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="钱币数量" BindingField="currency_num" Width="100">
-      <PropertyValues />
-    </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="钱币总值" BindingField="total_money_value" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+     <ColumnProperty IsVisbility="true" HeaderName="钱币总值" BindingField="total_money" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
       <PropertyValues />
     </ColumnProperty>
     <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="update_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">

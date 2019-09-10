@@ -1,52 +1,58 @@
 <?xml version="1.0"?>
 <DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="None" DataSourceName="ds_cash_box_replace_info" ActionLocation="Bottom" ActionAlign="Middle">
   <ColumnList>
-    <ColumnProperty IsVisbility="true" HeaderName="线路" BindingField="line_name" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="线路" BindingField="blii.line_name" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="车站" BindingField="station_cn_name" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="车站" BindingField="bsi.station_cn_name" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="设备编号" BindingField="device_id" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="设备编号" BindingField="cbri.device_id" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="钱箱编号" BindingField="money_box_id" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.TicketOrMoneyBoxIdConvetor,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱编号" BindingField="cbri.cash_box_id" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.TicketOrMoneyBoxIdConvetor,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor" >
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="钱箱类型" BindingField="box_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToBoxType,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor"  >
+    <ColumnProperty IsVisbility="true" HeaderName="钱箱类型" BindingField="cbri.data_type" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToBoxType,AFC.WS.ModelView" ComboBoxConvertor="TicketOrMoneyBoxIdConvetor"  >
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="更换流水号" BindingField="replace_sn" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="更换流水号" BindingField="cbri.oper_seq" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作类型" BindingField="replace_type" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="操作类型" BindingField="cbri.oper_type" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="安装类型" BindingField="install_status" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="安装类型" BindingField="cbri.install_status" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="安装位置" BindingField="position_in_dev" Width="100">
+    <!--ColumnProperty IsVisbility="true" HeaderName="安装位置" BindingField="position_in_dev" Width="100">
+      <PropertyValues />
+    </ColumnProperty-->
+    <ColumnProperty IsVisbility="true" HeaderName="币种代码" BindingField="bmti.currency_name" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="币种代码" BindingField="currency_name" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="当前金额" BindingField="cbri.total_money" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="币种当前数量" BindingField="currency_num" Width="100">
+    <!--ColumnProperty IsVisbility="true" HeaderName="操作前的金额(元)" BindingField="before_operation_money" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+      <PropertyValues />
+    </ColumnProperty-->
+    <ColumnProperty IsVisbility="true" HeaderName="操作员编号" BindingField="cbri.operator_id" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作前的金额(元)" BindingField="before_operation_money" Width="100" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertSimpleFenToYuan,AFC.WS.ModelView"  ComboBoxConvertor="ConvertSimpleFenToYuan">
+    <ColumnProperty IsVisbility="true" HeaderName="操作员名称" BindingField="poi.operator_name" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作员编号" BindingField="operator_id" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="安装时间" BindingField="cbri.occur_in_datetime" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作员名称" BindingField="operator_name" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="卸下时间" BindingField="cbri.occur_out_datetime" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作日期" BindingField="occur_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
+    <ColumnProperty IsVisbility="true" HeaderName="更新日期" BindingField="cbri.update_date" ConvertoTypeName="AFC.WS.ModelView.Convertors.DateTimeConvert,AFC.WS.ModelView" Width="100" ComboBoxConvertor="DateTimeConvert">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="操作时间" BindingField="occur_time" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" Width="100" ComboBoxConvertor="ConvertToTime">
+    <ColumnProperty IsVisbility="true" HeaderName="更新时间" BindingField="cbri.update_time" ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToTime,AFC.WS.ModelView" Width="100" ComboBoxConvertor="ConvertToTime">
       <PropertyValues />
     </ColumnProperty>
   </ColumnList>

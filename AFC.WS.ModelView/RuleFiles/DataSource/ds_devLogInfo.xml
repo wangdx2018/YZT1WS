@@ -7,8 +7,8 @@
        t.device_id, 
        t.oper_status, 
        tt.oper_content, 
-       case tt.oper_class when '00'then '正常'
-						  when '01'then '警告' 
+       case tt.oper_type  when '00'then '正常'
+						              when '01'then '警告' 
                           when '02'then '故障' 
                           else   '其它'
                           end AS oper_class_name, 
@@ -18,7 +18,8 @@
        t.oper_date, 
        t.oper_time, 
        t.key_fld1, 
-       t.key_fld2 
+       t.key_fld2,
+       t.busi_code
 FROM   dev_oper_log_info t 
        LEFT JOIN basi_oper_code_info tt 
               ON t.busi_code = tt.oper_code AND t.OPER_STATUS = tt.OPER_CLASS

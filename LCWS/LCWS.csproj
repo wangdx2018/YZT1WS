@@ -219,6 +219,7 @@
   <ItemGroup>
     <Content Include="Config\FunctionCfg.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <None Include="Config\MonitorImageCfg.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
