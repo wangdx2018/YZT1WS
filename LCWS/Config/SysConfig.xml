@@ -17,7 +17,7 @@
     <DeviceCode>01993301</DeviceCode>
     <DeviceType>33</DeviceType>
     <DataSourceDirectory>.\RuleFiles\DataSource</DataSourceDirectory>
-    <DBConnectionString>Server=172.168.0.98;Database=lc;Uid=root;Pwd=qweQWE123!@#;Allow User Variables=True</DBConnectionString>
+    <DBConnectionString>Server=localhost;Database=yzt10904;Uid=root;Pwd=123456;Allow User Variables=True</DBConnectionString>
     <SkinPath>\Style\黄色主题.xaml</SkinPath>
     <Language>CN</Language>
     <StatusValueName>0</StatusValueName>
