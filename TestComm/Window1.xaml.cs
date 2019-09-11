@@ -41,6 +41,8 @@ namespace TestComm
                 if (res)
                     con.ConnectionStateChanged += new EventHandler(con_ConnectionStateChanged);
             }
+
+            TJCommMessage.SetDevcieId(0x01210101,0x01990101,0x0121);
         }
         
 
@@ -55,8 +57,9 @@ namespace TestComm
 
 
 
-        private CommConnection con = new CommConnection("192.168.1.145", 7021,30);
+        private CommConnection con = new CommConnection("172.168.0.98", 52005,10);
 
+        
         private void button1_Click(object sender, RoutedEventArgs e)
         {
            int res= con.Connect(3);
@@ -64,6 +67,8 @@ namespace TestComm
                MessageBox.Show("connect successfully");
            else
                MessageBox.Show("failed");
+
+           
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
@@ -73,8 +78,8 @@ namespace TestComm
             OperatorLogInOut_1301 inOut = new OperatorLogInOut_1301();
             inOut.loginType = 0;
             inOut.password = "11111111";
-            inOut.commBody = new CommBodyData(header);
-            inOut.headerData = new CommHeaderData(0, 0, 0);
+            //inOut.commBody = new CommBodyData(header);
+            //inOut.headerData = new CommHeaderData(0, 0, 0);
 
             TJCommMessage msg = TJCommMessage.CreateTJCommMsg(header, inOut);
 
@@ -86,24 +91,30 @@ namespace TestComm
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Log_In_Out, 0, 0, CommandType.RESQUEST);
 
-            OperatorLogInOut_1301 inOut = new OperatorLogInOut_1301();
-            inOut.loginType = 0;
-            inOut.password = "2";
-            inOut.commBody = new CommBodyData(header);
-            inOut.headerData = new CommHeaderData(0, 0, 0);
+            ControlCmd(ControlCode.PAUSE_SERVICE);
 
-            TJCommMessage msg = TJCommMessage.CreateTJCommMsg(header, inOut);
 
-          //TJCommMessage outMsg = null;
+          //  CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Log_In_Out, 0, 0, CommandType.RESQUEST);
 
-            con.SendMsg(msg);
+          //  OperatorLogInOut_1301 inOut = new OperatorLogInOut_1301();
+          //  inOut.loginType = 0;
+          //  inOut.password = "2";
+          //  //inOut.commBody = new CommBodyData(header);
+          //  //inOut.headerData = new CommHeaderData(0, 0, 0);
+
+          //  TJCommMessage msg = TJCommMessage.CreateTJCommMsg(header, inOut);
+
+          ////TJCommMessage outMsg = null;
+
+          //  con.SendMsg(msg);
 
         }
 
         private void btn4_Click(object sender, RoutedEventArgs e)
         {
+
+            ControlCmd(ControlCode.NORMAL_SERVICE);
             //CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Unspecified, 11111111, 301, 12345678, 87654321, CommandType.RESQUEST);
 
             //TestMsgContent data = new TestMsgContent();
@@ -115,6 +126,32 @@ namespace TestComm
 
             //con.SendMsg(msg);
 
+        }
+
+        private void ControlCmd(ushort usCode)
+        {
+            CommHeader header = TJCommMessage.CreateHeader(CommMsgType.Control_CMD,0x01210101, 0x01230701, CommandType.RESQUEST);
+
+            ControlCmd_3000 cCmdObj = new ControlCmd_3000();
+            cCmdObj.SendTime = BitConverter.GetBytes(DateTime.Now.ToBinary());
+            //cCmdObj.SendTime[0] = 0x20;
+            //cCmdObj.SendTime[1] = 0x19;
+            //cCmdObj.SendTime[2] = 0x09;
+            //cCmdObj.SendTime[3] = 0x06;
+            //cCmdObj.SendTime[4] = 0x17;
+            //cCmdObj.SendTime[5] = 0x44;
+            //cCmdObj.SendTime[6] = 0x20;
+            cCmdObj.SendDeviceId = 0x01210101;
+            cCmdObj.DestDeviceId = 0x01230701;
+
+            cCmdObj.operatorId = "11111111";
+            cCmdObj.controlCode = usCode; // ControlCode.PAUSE_SERVICE;
+                    
+            TJCommMessage msg = TJCommMessage.CreateTJCommMsg(header, cCmdObj);
+
+            TJCommMessage outMsg = null;
+
+            con.SendMsgAndReceive(msg, out outMsg);
         }
     }
 }

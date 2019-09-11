@@ -14,8 +14,8 @@
     <SystemName>LCWS</SystemName>
     <LineCode>01</LineCode>
     <StationCode>0199</StationCode>
-    <DeviceCode>01993301</DeviceCode>
-    <DeviceType>33</DeviceType>
+    <DeviceCode>01992101</DeviceCode>
+    <DeviceType>21</DeviceType>
     <DataSourceDirectory>.\RuleFiles\DataSource</DataSourceDirectory>
     <DBConnectionString>Server=localhost;Database=yzt10904;Uid=root;Pwd=123456;Allow User Variables=True</DBConnectionString>
     <SkinPath>\Style\黄色主题.xaml</SkinPath>
@@ -64,7 +64,7 @@
     <AutoPrintReportPath>/Report/AutoSaverPath/</AutoPrintReportPath>
   </ReportCfg>
   <FtpDirectory>
-    <DealDataFilePath>/export/home/tjlc20/runs/data/tran_data/recv/</DealDataFilePath>
+    <DealDataFilePath>/AfcServer/Data/Transaction/Handled</DealDataFilePath>
     <UpDataFilePath>/export/home/tjsl20/runs/data/oper_data/send/</UpDataFilePath>
   </FtpDirectory>
 </SysConfig>

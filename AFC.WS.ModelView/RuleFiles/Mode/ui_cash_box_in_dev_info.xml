@@ -23,7 +23,7 @@
     <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_cn_name" BindingField="station_cn_name" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select t.station_cn_name from basi_station_info t where t.line_id='03' and t.location_type in ('2') order by t.station_id" Key="SqlContent" />
+        <PropertyValue Value="select t.station_cn_name from basi_station_info t where t.line_id='01' and t.location_type in (2) order by t.station_id" Key="SqlContent" />
         <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
         <PropertyValue Value="station_cn_name" Key="BindHideField" />
         <PropertyValue Key="DataString" />
@@ -39,7 +39,7 @@
       </PropertyValues>
       <TextConvertor />
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_money_box_id" BindingField="cbid.money_box_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="钱箱编码" ComboBoxControl="TextBoxExtend"  ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToDecimalMoneyCode,AFC.WS.ModelView" ComboBoxConvertor="ConvertToDecimalMoneyCode">
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_money_box_id" BindingField="cbid.cash_box_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="钱箱编码" ComboBoxControl="TextBoxExtend"  ConvertoTypeName="AFC.WS.ModelView.Convertors.ConvertToDecimalMoneyCode,AFC.WS.ModelView" ComboBoxConvertor="ConvertToDecimalMoneyCode">
       <PropertyValues>
         <PropertyValue Value="Hex" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -100,14 +100,14 @@
       </PropertyValues>
       <TextConvertor />
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_currency_store_status" BindingField="cbid.currency_store_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="存放状态" ComboBoxControl="ComboBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_currency_store_status" BindingField="cbid.storage_status" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="存放状态" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="DataString" Key="BindType" />
         <PropertyValue Key="SqlContent" />
         <PropertyValue Value="currency_store_status" Key="BindDisplayField" />
         <PropertyValue Value="currency_store_status" Key="BindHideField" />
-        <PropertyValue Value="全部,正常,将空,已空,将满,已满" Key="DataString" />
-        <PropertyValue Value="99,00,01,02,03,04" Key="HideDataString" />
+        <PropertyValue Value="全部,正常,将空,将满" Key="DataString" />
+        <PropertyValue Value="99,00,01,02" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />

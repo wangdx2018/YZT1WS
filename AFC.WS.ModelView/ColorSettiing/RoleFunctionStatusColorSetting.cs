@@ -82,7 +82,7 @@ namespace AFC.WS.ModelView.ColorSettiing
 
         public void SetCurrentDataGridRow(Microsoft.Windows.Controls.DataGridRow dgr, System.Data.DataRow dr)
         {
-            string status = dr["oper_class"].ToString();
+            string status = dr["oper_class_name"].ToString();
 
             switch (status)
             {
@@ -163,14 +163,14 @@ namespace AFC.WS.ModelView.ColorSettiing
 
         public void SetCurrentDataGridRow(Microsoft.Windows.Controls.DataGridRow dgr, System.Data.DataRow dr)
         {
-            string status = dr["task_is_effect"].ToString();
+            string status = dr["task_enable"].ToString();
 
             switch (status)
             {
 
-                case "未生效":
+                case "未启用":
                     dgr.Background = System.Windows.Media.Brushes.Red;
-                    dgr.ToolTip = "未生效";
+                    dgr.ToolTip = "未启用";
                     break;
                 default:
                     dgr.Background = System.Windows.Media.Brushes.AliceBlue as System.Windows.Media.Brush;

@@ -2,7 +2,7 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_cash_money_box_reg_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select blii.line_name,bsi.station_cn_name,t.money_box_id,poi.operator_name,t.update_date,t.update_time ,(case substr(t.money_box_id,3,2) when '11' then '硬币回收箱' when '21' then '纸币补充箱' when '22' then '纸币回收箱' else '未知' end) as regist_status from cash_box_registor_info t left join basi_line_id_info blii on blii.line_id = t.line_id  left join basi_station_info bsi on bsi.station_id = t.station_id  left join priv_operator_info poi on poi.operator_id = t.operator_id " Key="Sql" />
+    <PropertyValue Value="select blii.line_name,bsi.station_cn_name,t.cash_box_id,poi.operator_name,t.update_date,t.update_time ,(case substr(t.cash_box_id,3,2) when '11' then '硬币回收箱' when '21' then '纸币补充箱' when '22' then '纸币回收箱' else '未知' end) as regist_status from cash_box_register_info t left join basi_line_id_info blii on blii.line_id = t.line_id  left join basi_station_info bsi on bsi.station_id = t.station_id  left join priv_operator_info poi on poi.operator_id = t.operator_id " Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />

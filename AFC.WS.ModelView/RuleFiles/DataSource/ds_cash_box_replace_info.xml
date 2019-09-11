@@ -2,61 +2,58 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_cash_box_replace_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select blii.line_name,
-       bsi.station_cn_name,
-       cbri.device_id,
-       cbri.replace_sn,
-       case cbri.replace_type
-         when '01' then
-          '安装'
-         when '02' then
-          '卸下'
-         when '03' then
-          '清点'
-         when '04' then
-          '补充'
-         when '05' then
-          '领用'
-         when '06' then
-          '归还'
-         when '07' then
-          'RFID初始化'
-         when '08' then
-          '钱箱登记'
-          when '09' then
-          '钱箱调出'
-       end replace_type,
-       cbri.money_box_id,
-       case cbri.install_status
-         when '01' then
-          '正常安装'
-         when '02' then
-          '非法安装'
-         when '03' then
-          '正常卸下'
-         when '04' then
-          '非法卸下'
-       end install_status,
-       cbri.position_in_dev,
-       bmti.currency_name,
-       cbri.currency_num,
-       cbri.before_operation_money,
-       cbri.operator_id,
-       poi.operator_name,
-       cbri.occur_date,
-       cbri.occur_time,
-       cbri.update_date,
-       cbri.update_time,
-      subStr(cbri.money_box_id,1,4) box_type
-  from cash_box_replace_info cbri
-  left join basi_line_id_info blii on blii.line_id = cbri.line_id
-  left join basi_station_info bsi on bsi.station_id = cbri.station_id
-  left join basi_money_type_info bmti on bmti.currency_code =
-                                         cbri.currency_code
-  left join priv_operator_info poi on poi.operator_id = cbri.operator_id" Key="Sql" />
+    <PropertyValue Value="SELECT blii.line_name, 
+       bsi.station_cn_name, 
+       cbri.device_id, 
+       cbri.oper_seq, 
+       case cbri.data_type
+		when 1 then '硬币回收箱'
+		when 2 then '硬币找零箱'
+		when 3 then '纸币回收钱箱'
+		when 4 then '纸币找零钱箱'
+		when 5 then '废币回收钱箱'
+        end  data_type,
+         
+       case cbri.oper_type 
+         WHEN  1 THEN '安装' 
+         WHEN  2 THEN '卸下' 
+         WHEN  3 THEN '清点' 
+         WHEN  4 THEN '补充' 
+         WHEN  5 THEN '领用' 
+         WHEN  6 THEN '归还' 
+         WHEN  7 THEN 'RFID初始化' 
+         WHEN  8 THEN '钱箱登记' 
+         WHEN  9 THEN '钱箱调出' 
+       END                             oper_type, 
+       case cbri.install_status 
+         WHEN '01' THEN '正常安装' 
+         WHEN '02' THEN '非法安装' 
+         WHEN '03' THEN '正常卸下' 
+         WHEN '04' THEN '非法卸下' 
+       end                             install_status, 
+       cbri.occur_in_datetime ,
+       cbri.occur_out_datetime,
+       bmti.currency_name, 
+       cbri.total_money, 
+       cbri.operator_id, 
+       poi.operator_name, 
+       cbri.update_date, 
+       cbri.update_time, 
+       cbri.cash_box_id
+FROM   cash_box_oper_info cbri 
+       LEFT JOIN basi_line_id_info blii 
+              ON blii.line_id = cbri.line_id 
+       LEFT JOIN basi_station_info bsi 
+              ON bsi.station_id = cbri.station_id 
+	   LEFT JOIN cash_box_oper_detail cbod
+			 ON  cbod.oper_seq = cbri.oper_seq
+       LEFT JOIN basi_money_type_info bmti 
+              ON bmti.currency_code = cbod.currency_code 
+       LEFT JOIN priv_operator_info poi 
+              ON poi.operator_id = cbri.operator_id" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />
-    <PropertyValue Value="cbri.occur_date desc,cbri.occur_time desc,bsi.station_id" Key="OrderByParams" />
+    <PropertyValue Value="cbri.update_date desc,cbri.update_time desc,bsi.station_id" Key="OrderByParams" />
   </PropertyValues>
 </DataSourceRule>

@@ -49,10 +49,10 @@ namespace AFC.WS.BR.CommBuiness
                 case CommMsgType.Dev_Status_Report:
                     return new DevStatus_1325();
                 case CommMsgType.Mode_Change_CMD:
-                    if (msg.header.sessionFlagMap==CommandType.RESPONSE)
-                        return new CommonResponseMsg();
-                    else
-                        return new ModeChange_1341();
+                    //if (msg.header.sessionFlagMap==CommandType.RESPONSE)
+                    //    return new CommonResponseMsg();
+                    //else
+                    //    return new ModeChange_1341();
                 default:
                     return null;
             }

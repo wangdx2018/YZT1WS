@@ -2,7 +2,23 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_dataFileUpQuery" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select * from(select t.file_type,t.file_name,t.up_date,t.up_time,t.up_num,t.up_result,bt.file_type_name,decode(t.up_result,'0','成功','1','失败','2','检查失败','3','未处理') as status_name from data_file_up_info t left join basi_file_type_info bt on t.file_type = bt.file_type and t.file_sub_type = bt.file_sub_type)" Key="Sql" />
+    <PropertyValue Value="SELECT * 
+FROM  (SELECT t.file_type, 
+              t.file_name, 
+              t.up_date, 
+              t.up_time, 
+              t.up_num, 
+              t.up_result, 
+              bt.file_type_name, 
+              case t.up_result when '0' then '成功'
+                               when '1' then '失败' 
+                               when '2' then '检查失败'
+                               when '3' then '未处理'
+								else '未知' end AS status_name 
+       FROM   data_file_up_info t 
+              LEFT JOIN basi_file_type_info bt 
+                     ON t.file_type = bt.file_type 
+                        AND t.file_sub_type = bt.file_sub_type)  as ttt" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />

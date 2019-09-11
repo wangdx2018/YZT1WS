@@ -23,7 +23,7 @@ namespace AFC.WS.BR.RunManager
         /// <summary>
         /// Srv 轮询SQL
         /// </summary>
-        public const string LCTastRun = "select t.run_task_id as 任务ID,run_task_fun as 任务名称,t.remark_128 as 任务说明,case run_exec_phase when '00' then '运营开始' when '01' then '运营结束' end 运营状态，case run_exec_status  when '00' then '执行成功' when '01' then '正在执行' when '02' then '执行失败' when '03' then '未执行' end 执行状态，t.run_start_time as 开始时间,t.run_end_time as 结束时间 from run_execute_info t where t.run_task_effect_flag = '00'";
+        public const string LCTastRun = "select task_name as 任务名称,case task_name when 'TimingStartRun' then '运营开始' when 'TimingEndRun' then '运营结束' end 运营状态,case exec_status  when 0 then '执行成功' when 1 then '正在执行' when 2 then '执行失败' end 执行状态,t.start_exec_time as 开始时间,t.end_exec_time as 结束时间 from task_manage t where t.task_enable = '1'";
 
         /// <summary>
         /// 设备轮询SQL
@@ -122,12 +122,12 @@ namespace AFC.WS.BR.RunManager
                 //运营开始命令
                 if (messageType == AsynMessageType.RunStart)
                 {
-                    cmd = cmd + "and t.run_exec_phase ='00'";
+                    cmd = cmd + "and t.TASK_NAME ='TimingStartRun'";
                 }
                 //运营结束命令
                 if (messageType == AsynMessageType.RunEnd)
                 {
-                    cmd = cmd + "and t.run_exec_phase ='01'";
+                    cmd = cmd + "and t.TASK_NAME ='TimingEndRun'";
                 }
                 return DBCommon.Instance.GetDatatable(cmd);
             }

@@ -2,38 +2,35 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_devLogInfo" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select bli.line_name,
-       sti.station_cn_name,
-       t.device_id,
-       decode(t.oper_status,
-              '00000000',
-              '成功',
-              '00000001',
-              '失败',
-              '未知状态') as status_name,
-       tt.oper_content,
-       decode(tt.oper_class,
-              '01',
-              '正常',
-              '02',
-              '警告',
-              '03',
-              '故障',
-              '其它') as oper_class,
-       ttt.device_name,
-       t.oper_id,
-       poi.operator_name,
-       t.oper_date,
-       t.oper_time,
-       t.key_fld1,
-       t.key_fld2
-  from dev_oper_log_info t
-  left join basi_oper_code_info tt on t.busi_code = tt.oper_code
-  left join basi_dev_type_info ttt on tt.device_type = ttt.device_type
-  left join basi_line_id_info bli on bli.line_id = t.line_id
-  left join basi_station_info sti on sti.station_id = t.station_id
-  left join priv_operator_info poi on poi.operator_id =
-		                                                      t.oper_id" Key="Sql" />
+    <PropertyValue Value="SELECT bli.line_name, 
+       sti.station_cn_name, 
+       t.device_id, 
+       t.oper_status, 
+       tt.oper_content, 
+       case tt.oper_type  when '00'then '正常'
+						              when '01'then '警告' 
+                          when '02'then '故障' 
+                          else   '其它'
+                          end AS oper_class_name, 
+       ttt.device_name, 
+       t.operator_id, 
+       poi.operator_name, 
+       t.oper_date, 
+       t.oper_time, 
+       t.key_fld1, 
+       t.key_fld2,
+       t.busi_code
+FROM   dev_oper_log_info t 
+       LEFT JOIN basi_oper_code_info tt 
+              ON t.busi_code = tt.oper_code AND t.OPER_STATUS = tt.OPER_CLASS
+       LEFT JOIN basi_dev_type_info ttt 
+              ON subStr(t.device_id, 5,2) = ttt.device_type 
+       LEFT JOIN basi_line_id_info bli 
+              ON bli.line_id = t.line_id 
+       LEFT JOIN basi_station_info sti 
+              ON sti.station_id = t.station_id 
+       LEFT JOIN priv_operator_info poi 
+              ON poi.operator_id = t.operator_id  " Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />

@@ -42,7 +42,7 @@ namespace AFC.WS.ModelView.Actions.DataManager
                 switch (this.Status)
                 {
                     case "1":
-                        serverPath = SysConfig.GetSysConfig().FtpDirectory.DealDataFilePath;
+                        serverPath = SysConfig.GetSysConfig().FtpDirectory.DealDataFilePath;                        
                         break;
                     case "2":
                         serverPath = SysConfig.GetSysConfig().FtpDirectory.UpDataFilePath;
@@ -60,7 +60,6 @@ namespace AFC.WS.ModelView.Actions.DataManager
                         string currentFilename = collection[i].value.ToString();
                         ftpFileNames.Add(currentFilename);
                     }
-
                     dataManager.StartDataExportThread(serverPath, ftpDownPath, ftpFileNames);
                 }
             }else

@@ -23,7 +23,7 @@
     <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_id" BindingField="t.station_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select station_id,station_cn_name from basi_station_info t where t.line_id='03' and t.location_type in ('2') order by t.station_id " Key="SqlContent" />
+        <PropertyValue Value="select station_id,station_cn_name from basi_station_info t where t.line_id='01' and t.location_type in (2) order by t.station_id " Key="SqlContent" />
         <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
         <PropertyValue Value="station_id" Key="BindHideField" />
         <PropertyValue Key="DataString" />
@@ -39,7 +39,7 @@
         <PropertyValue Key="IsAll" Value="True"/>
       </PropertyValues>
     </ControlProperty>
-    <ControlProperty Space="5" Symbols="Like" ControlName="btn_operator_id" BindingField="oper_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="操作员编码" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Like" ControlName="btn_operator_id" BindingField="t.operator_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="操作员编码" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="AllNumbers" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -76,7 +76,7 @@
       </PropertyValues>
     </ControlProperty>
     
-    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_device_id" BindingField="device_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="设备编码" ComboBoxControl="TextBoxExtend">
+    <ControlProperty Space="5" Symbols="Equal" ControlName="btn_device_id" BindingField="t.device_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="设备编码" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="Hex" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />
@@ -105,7 +105,7 @@
         <PropertyValue Value="oper_class_name" Key="BindDisplayField" />
         <PropertyValue Value="oper_class" Key="BindHideField" />
         <PropertyValue Value="全部,正常,警告,故障" Key="DataString" />
-        <PropertyValue Value="99,01,02,03" Key="HideDataString" />
+        <PropertyValue Value="99,00,01,02" Key="HideDataString" />
         <PropertyValue Key="StartValue" />
         <PropertyValue Key="ComboBoxStyle" />
         <PropertyValue Value="0" Key="ControlWidth" />

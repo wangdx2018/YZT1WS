@@ -2,7 +2,36 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_cash_box_in_dev_info" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select blii.line_name,bsi.station_cn_name,cbid.device_id,cbid.position_in_dev,cbid.money_box_id,substr(cbid.money_box_id,1,4) as money_box_type,cbsi.currency_num,cbsi.total_money_value,&#xA;case cbid.install_status&#xA;when '01' then '正常安装'&#xA;when '02' then '非法安装'&#xA;when '03' then '正常卸下'&#xA;when '04' then '非法卸下'&#xA;end install_status,&#xA;case cbid.currency_store_status&#xA;when '00' then '正常'&#xA;when '01' then '将空'&#xA;when '02' then '已空'&#xA;when '03' then '将空'&#xA;when '04' then '已满'&#xA;end currency_store_status,&#xA;cbid.update_date,&#xA;cbid.update_time&#xA;from cash_box_in_dev_info cbid&#xA;left join basi_line_id_info blii on blii.line_id=cbid.line_id&#xA;left join basi_station_info bsi on bsi.station_id=cbid.station_id&#xA;left join cash_box_status_info cbsi on cbsi.money_box_id = cbid.money_box_id" Key="Sql" />
+    <PropertyValue Value="SELECT blii.line_name, 
+       bsi.station_cn_name, 
+       cbid.device_id, 
+       case cbid.box_location_type
+			  when '01' THEN '硬币钱箱找零箱1' 
+              WHEN '02' THEN '硬币钱箱2' 
+              WHEN '03' THEN '纸币钱箱' 
+              WHEN '04' THEN '硬币钱箱'  
+		end as box_location_type,
+       cbid.cash_box_id, 
+       cbid.total_money, 
+       CASE cbid.install_status 
+			  when '01' THEN '正常安装' 
+              WHEN '02' THEN '非法安装' 
+              WHEN '03' THEN '正常卸下' 
+              WHEN '04' THEN '非法卸下' 
+       END as install_status, 
+       CASE cbid.storage_status
+			  when '00' THEN '正常' 
+              WHEN '01' THEN '将空' 
+              WHEN '02' THEN '将满' 
+       END storage_status, 
+       cbid.update_date, 
+       cbid.update_time from cash_box_in_dev_info cbid 
+left JOIN   basi_line_id_info blii 
+ON     blii.line_id=cbid.line_id
+left JOIN   basi_station_info bsi 
+ON     bsi.station_id=cbid.station_id
+left JOIN   cash_box_status_info cbsi 
+ON     cbsi.cash_box_id = cbid.cash_box_id" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />

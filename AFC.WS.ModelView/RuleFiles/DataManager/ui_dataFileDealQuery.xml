@@ -4,9 +4,9 @@
       <ControlProperty Space="5" Symbols="Equal" ControlName="btn_file_type" BindingField="file_type" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="文件类型" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select t.file_type,t.file_type_name from  basi_file_type_info t " Key="SqlContent" />
+        <PropertyValue Value="select t.file_sub_type,t.file_type_name from  basi_file_type_info t " Key="SqlContent" />
         <PropertyValue Value="file_type_name" Key="BindDisplayField" />
-        <PropertyValue Value="file_type" Key="BindHideField" />
+        <PropertyValue Value="file_sub_type" Key="BindHideField" />
         <PropertyValue Key="DataString" />
         <PropertyValue Key="HideDataString" />
         <PropertyValue Key="StartValue" />
@@ -21,7 +21,7 @@
       </PropertyValues>
       <TextConvertor />
     </ControlProperty>
-      <ControlProperty Space="5" Symbols="Equal" ControlName="btn_device_id" BindingField="device_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="设备编码" ComboBoxControl="TextBoxExtend">
+      <ControlProperty Space="5" Symbols="Like" ControlName="btn_device_id" BindingField="ttt.device_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.TextBoxExtend,AFC.WS.UI.FC" Lable="设备编码" ComboBoxControl="TextBoxExtend">
       <PropertyValues>
         <PropertyValue Value="Hex" Key="TextBoxValidate" />
         <PropertyValue Value="0" Key="ControlWidth" />

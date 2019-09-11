@@ -23,7 +23,7 @@
     <ControlProperty Space="5" Symbols="Equal" ControlName="btn_station_id" BindingField="station_id" IsOccupancyRow="false" RowsCount="2" ControlTypeName="AFC.WS.UI.CommonControls.ComboBoxExtend,AFC.WS.UI.FC" Lable="车站" ComboBoxControl="ComboBoxExtend">
       <PropertyValues>
         <PropertyValue Value="SqlBindData" Key="BindType" />
-        <PropertyValue Value="select station_id,station_cn_name from basi_station_info where t.line_id='03' and t.location_type in ('2') order by t.station_id " Key="SqlContent" />
+        <PropertyValue Value="select station_id,station_cn_name from basi_station_info where t.line_id='01' and t.location_type in (2) order by t.station_id " Key="SqlContent" />
         <PropertyValue Value="station_cn_name" Key="BindDisplayField" />
         <PropertyValue Value="station_id" Key="BindHideField" />
         <PropertyValue Key="DataString" />

@@ -60,6 +60,7 @@
     <Compile Include="Comm\CheckIn_1390.cs" />
     <Compile Include="Comm\CommonResponseMsg.cs" />
     <Compile Include="Comm\ControlCmd_1331.cs" />
+    <Compile Include="Comm\ControlCmd_3000.cs" />
     <Compile Include="Comm\CreateParamsFile_1317.cs" />
     <Compile Include="Comm\DataImportNotify_1009.cs" />
     <Compile Include="Comm\DataImportResponse_1009.cs" />
@@ -253,6 +254,7 @@
     <Compile Include="DB\TaskExecuteSchedule.cs" />
     <Compile Include="DB\TaskExecuteState.cs" />
     <Compile Include="DB\TaskExecuteStateRec.cs" />
+    <Compile Include="DB\TaskManage.cs" />
     <Compile Include="DB\TickBoxInDevInfo.cs" />
     <Compile Include="DB\TickBoxRegistorInfo.cs" />
     <Compile Include="DB\TickBoxReplaceInfo.cs" />

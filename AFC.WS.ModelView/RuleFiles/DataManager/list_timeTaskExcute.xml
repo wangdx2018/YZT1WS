@@ -1,40 +1,46 @@
 <?xml version="1.0"?>
-<DataListRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_timeTaskExcute" ActionLocation="Bottom" ActionAlign="Middle">
+<DataListRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CanExportExcel="true" Paging="true" CanRefurbish="true" PageRecordCount="20" SelectionMode="Single" DataSourceName="ds_timeTaskExcute" ActionLocation="Bottom" ActionAlign="Middle">
   <ColumnList>
-    <ColumnProperty IsVisbility="true" HeaderName="任务编码" BindingField="task_id" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="任务名称" BindingField="t.task_name" Width="150">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="任务名称" BindingField="task_name" Width="300">
+    <ColumnProperty IsVisbility="true" HeaderName="启用标志" BindingField="t.task_enable" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="任务执行方式" BindingField="task_execute_way" Width="150">
+    <ColumnProperty IsVisbility="true" HeaderName="执行方式" BindingField="t.exec_method" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="程序绝对路径" BindingField="task_execute_funpro" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="执行状态" BindingField="t.exec_status" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="任务执行方法" BindingField="task_execute_method" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="轮询开始日期" BindingField="t.start_exec_date" Width="120">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="轮询开始时间" BindingField="task_start_executing_time" Width="100">
+     <ColumnProperty IsVisbility="true" HeaderName="轮询开始周" BindingField="t.start_exec_week" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="轮询结束时间" BindingField="task_end_executing_time" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="轮询开始时间" BindingField="t.start_exec_time" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="任务执行时间" BindingField="task_interval" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="轮询结束时间" BindingField="t.end_exec_time" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="任务来源" BindingField="task_source" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="任务执行时间间隔" BindingField="t.exec_interval" Width="150">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="生效状态" BindingField="task_is_effect" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="花费时间" BindingField="t.cost_time" Width="100">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="运行时间表相关" BindingField="task_is_related_running_time" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="上次执行的日期" BindingField="t.last_exec_date" Width="120">
       <PropertyValues />
     </ColumnProperty>
-    <ColumnProperty IsVisbility="true" HeaderName="任务评述" BindingField="task_remak" Width="100">
+    <ColumnProperty IsVisbility="true" HeaderName="上次执行的时间" BindingField="t.last_exec_time" Width="120">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="执行次数" BindingField="t.total_exec_timer" Width="100">
+      <PropertyValues />
+    </ColumnProperty>
+    <ColumnProperty IsVisbility="true" HeaderName="失败次数" BindingField="t.total_fail_timer" Width="100">
       <PropertyValues />
     </ColumnProperty>
   </ColumnList>

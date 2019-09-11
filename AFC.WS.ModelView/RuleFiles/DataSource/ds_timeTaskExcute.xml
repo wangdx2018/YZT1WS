@@ -2,21 +2,36 @@
 <DataSourceRule xmlnsxsi="http//www.w3.org/2001/XMLSchema-instance" xmlnsxsd="http//www.w3.org/2001/XMLSchema" DataSourceName="ds_timeTaskExcute" DataSourceTypeName="AFC.WS.UI.DataSources.DefaultDataSource,AFC.WS.UI.FC" ComboBoxDataSource="DefaultDataSource">
   <PropertyValues>
     <PropertyValue Key="DBConnectionString" />
-    <PropertyValue Value="select t.task_id,
-       t.task_name,
-       decode(t.task_execute_way,'1','任务以函数调用','2','任务以fork子进程执行') as task_execute_way, 
-       t.task_execute_funpro,  
-       decode(t.task_execute_method,'1','任务轮询执行','2','任务明天定点执行') as task_execute_method, 
-       t.task_start_executing_time, 
-       t.task_end_executing_time,
-       t.task_interval,
-       decode(t.task_source,'1','任务来源为系统内部','2','任务来源为ACC') as task_source,
-       decode(t.task_is_effect,'1','生效','2','未生效') as task_is_effect,
-       decode(t.task_is_related_running_time,'1','任务与运行时间表有关','2','任务与运行时间表无关') as task_is_related_running_time,
-       t.task_remak from task_execute_schedule t" Key="Sql" />
+    <PropertyValue Value="select t.task_name,
+       case t.task_enable when '1' then '启用'
+						  when '0' then '不启用'
+						  else '未知' end as task_enable,
+
+	   case t.exec_method when '1' then '任务轮询执行'
+						  when '2' then '每天执行一次'
+						  when '3' then '每周执行一次'
+						  when '4' then '每月执行一次'
+						  when '5' then '每年执行一次'
+						  else '未知' end as exec_method,
+	   case t.exec_status when '0' then '成功结束'
+						  when '1' then '已经开始'
+						  when '2' then '执行失败'
+						  else '未知' end as exec_status,
+       
+	   t.start_exec_date,
+	   t.start_exec_week,
+	   t.start_exec_time, 
+       t.end_exec_time,
+       t.exec_interval,
+	   t.cost_time,
+	   t.last_exec_date,
+     t.last_exec_time,
+	   t.total_exec_timer,
+	   t.total_fail_timer
+       from task_manage t" Key="Sql" />
     <PropertyValue Key="GroupParams" />
     <PropertyValue Key="HavingParams" />
     <PropertyValue Key="WhereParams" />
-    <PropertyValue Value="task_id" Key="OrderByParams"/>
+    <PropertyValue Key="OrderByParams"/>
   </PropertyValues>
 </DataSourceRule>

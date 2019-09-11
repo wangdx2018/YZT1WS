@@ -62,7 +62,7 @@ namespace AFC.WS.Model.Const
        /// <summary>
        /// 控制命令
        /// </summary>
-       public const ushort Control_CMD = 0x1331;
+       public const ushort Control_CMD = 0x3000;
 
        /// <summary>
        /// 模式变化指令

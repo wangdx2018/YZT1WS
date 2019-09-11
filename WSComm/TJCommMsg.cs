@@ -21,7 +21,7 @@ namespace TJComm
         /// <summary>
         /// 存活包消息类型
         /// </summary>
-        public const ushort BeatHeartMsgType = 0x1300;
+        public const ushort BeatHeartMsgType = 0x2001;
 
         /// <summary>
         /// 当前的SessionID
@@ -66,21 +66,21 @@ namespace TJComm
         /// 通讯头
         /// </summary>
         [PackOrder(1)]
-        [PackStruct(0, ByteOrder.Moto)]
+        [PackStruct(0, ByteOrder.Intel)]
         public CommHeader header=new CommHeader();
 
         /// <summary>
         ///  打包字段
         /// </summary>
         [PackOrder(2)]
-        [PackStruct(0, ByteOrder.Moto)]
+        [PackStruct(0, ByteOrder.Intel)]
         public object packageBody=new object();
 
         /// <summary>
         /// MD5
         /// </summary>
         [PackOrder(3)]
-        [PackArray(0, ByteOrder.Moto, 1, ByteOrder.Moto)]
+        [PackArray(0, ByteOrder.Intel, 1, ByteOrder.Intel)]
         public byte[] md5 = new byte[16];
 
         /// <summary>
@@ -113,12 +113,12 @@ namespace TJComm
                 return null;
             byte[] tranData = DataProcessor.PackObject(msg.packageBody); //1.packObject
             msg.header.sessionId = currentSessionId;
-            msg.header.packetLength =CommHeader.Head_LEN+16 + tranData.Length-4; //header+md5+commBody-4
+            msg.header.packetLength =CommHeader.Head_LEN+16 + tranData.Length-2; //header+md5+commBody-4
             byte[] headerBuf = DataProcessor.PackObject(msg.header);
             MD5CryptoServiceProvider provider = new MD5CryptoServiceProvider();
-            byte[] buffer = new byte[CommHeader.Head_LEN + tranData.Length]; //prepare md5 data md5 contains packageLenth
-            Array.Copy(headerBuf, 0, buffer, 0, headerBuf.Length);
-            Array.Copy(tranData, 0, buffer, headerBuf.Length, tranData.Length);
+            byte[] buffer = new byte[CommHeader.Head_LEN-2 + tranData.Length]; //prepare md5 data md5 contains packageLenth
+            Array.Copy(headerBuf, 2, buffer, 0, headerBuf.Length-2);
+            Array.Copy(tranData, 0, buffer, headerBuf.Length-2, tranData.Length);
             msg.md5 = provider.ComputeHash(buffer);//cal md5
             return DataProcessor.PackObject(msg);
        }
@@ -151,7 +151,7 @@ namespace TJComm
 
                 object tempHeader = tjMsg.header;
                 DataProcessor.UnpackStruct(ref tempHeader,
-                    new PackStructAttribute(0,ByteOrder.Moto),
+                    new PackStructAttribute(0, ByteOrder.Intel),
                     new System.IO.MemoryStream(headerBuffer));
 
                 byte[] packBody=new byte[buffer.Length-16-CommHeader.Head_LEN];
@@ -206,9 +206,14 @@ namespace TJComm
             header.messageType = messageType;
             header.senderId = localDeviceId;
             header.receiveId = serverDeviceId;
-            header.protocalVersion = PROTOCALVERSON;
-            header.sessionFlagMap = commType;
+            header.transmitId = serverDeviceId;
             header.sessionId = TJCommMessage.currentSessionId;
+            header.sessionFlagMap = (char)commType;
+            header.messageVer = (char)0x01;
+            header.msgAck = (char)0;
+            //header.protocalVersion = PROTOCALVERSON;
+           
+           
             return header;
         }
 
@@ -250,15 +255,15 @@ namespace TJComm
                  WriteLog.Log_Error("["+System.Threading.Thread.CurrentThread.Name+"]"+"CheckPackageMD5 Error function params error,buffer is null ");
                 return false;
             }
-            if (buffer.Length <= 16 + 28) //16:md5 lenth  40:header lenth
+            if (buffer.Length <= 16 + 21) //16:md5 lenth  21:header lenth
             {
                  WriteLog.Log_Error("["+System.Threading.Thread.CurrentThread.Name+"]"+"CheckPackageMD5 Error function params error,buffer's lenth <16+28. lenth is  [" + buffer.Length + "  ].");
                 return false;
             }
-            byte[] countData = new byte[buffer.Length - 16];
-            Array.Copy(buffer, 0, countData, 0, countData.Length);
+            byte[] countData = new byte[buffer.Length - 16 -2 ]; //MD5 outclude lenth field
+            Array.Copy(buffer, 2, countData, 0, countData.Length);
             byte[] lastMD5 = new byte[16];
-            Array.Copy(buffer, countData.Length, lastMD5, 0, 16);
+            Array.Copy(buffer, countData.Length+2, lastMD5, 0, 16);
             string lastMD5Str = PrintBufferData(lastMD5);
             WriteLog.Log_Info("receive Md5 is [" + lastMD5Str+"]");
             MD5CryptoServiceProvider provider = new MD5CryptoServiceProvider();
